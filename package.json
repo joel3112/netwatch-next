@@ -10,7 +10,7 @@
     "stylelint": "npx stylelint \"./**/*.{css,scss}\"",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,scss,md,json}' --config ./.prettierrc.json",
     "postinstall": "husky install",
-    "test": "jest --silent",
+    "test": "jest --silent --updateSnapshot",
     "test:watch": "jest --watch",
     "test:coverage": "jest --silent --coverage",
     "test:ci": "jest --ci"
@@ -33,6 +33,7 @@
     "@types/react-dom": "18.0.2",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "babel-jest": "27.4.5",
+    "classnames": "^2.3.1",
     "css-mediaquery": "^0.1.2",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
