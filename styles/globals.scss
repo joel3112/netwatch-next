@@ -1,16 +1,50 @@
-html,
+@import 'variables';
+@import 'animations';
+@import 'fonts';
+@import 'mixins';
+@import 'scrollbar';
+@import 'theme';
+
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: var(--font-text);
+  font-weight: 400;
+  padding: 0 !important;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  padding: 0 !important;
+  list-style-type: none;
+}
+
+input {
+  @include no-outline;
+
+  font-family: var(--font-text);
+}
+
+button {
+  @include no-outline(true);
+
+  cursor: pointer;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-}
+  @include no-outline(true);
 
-* {
-  box-sizing: border-box;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
 }

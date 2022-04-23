@@ -1,0 +1,28 @@
+/* stylelint-disable keyframes-name-pattern */
+@mixin keyframes($animation-name) {
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  animation: #{$str};
+}
+
+@include keyframes(fadeIn) {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInSlow {
+  @include animation('fadeIn linear 0.3s');
+}
+
+.fadeIn {
+  @include animation('fadeIn linear 1s');
+}

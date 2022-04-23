@@ -1,0 +1,138 @@
+@use 'sass:list';
+
+@mixin ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin flex($direction: row, $gap: false, $justify: false, $align: false, $wrap: false) {
+  display: flex;
+  flex-direction: $direction;
+  @if $gap {
+    gap: $gap;
+  }
+  @if $wrap {
+    flex-wrap: $wrap;
+  }
+  @if $justify {
+    justify-content: $justify;
+  }
+  @if $align {
+    align-items: $align;
+  }
+}
+
+@mixin no-outline($no-border: true) {
+  outline: none;
+  box-shadow: none;
+  @if $no-border {
+    border: none;
+  }
+}
+
+@mixin responsive-ratio($x, $y, $pseudo: false) {
+  $padding: ($y / $x) * 100 + '%';
+  @if $pseudo {
+    &::before {
+      position: relative;
+      content: '';
+      width: 100%;
+      padding-top: $padding;
+    }
+  } @else {
+    padding-top: $padding;
+  }
+}
+
+@mixin font($size: false, $color: false, $weight: false, $lh: false) {
+  $rem-size: $size / 16px;
+
+  @if $size {
+    font-size: $rem-size * 1rem;
+  }
+  @if $color {
+    color: $color;
+  }
+  @if $weight {
+    font-weight: $weight;
+  }
+  @if $lh {
+    line-height: $lh;
+  }
+}
+
+@mixin truncate($truncation-boundary) {
+  max-width: $truncation-boundary;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin max-lines($lines: '') {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important; /* stylelint-disable-line */
+  -webkit-box-orient: vertical;
+
+  @if $lines {
+    -webkit-line-clamp: $lines;
+  }
+}
+
+@mixin absolute-center($position) {
+  position: absolute;
+
+  @if $position == 'vertical' {
+    top: 50%;
+    transform: translateY(-50%);
+  } @else if $position == 'horizontal' {
+    left: 50%;
+    transform: translate(-50%);
+  } @else if $position == 'both' {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@mixin position($position, $args) {
+  position: $position;
+  @each $o in top right bottom left {
+    $i: index($args, $o);
+    @if $i and $i + 1 <= list.length($args) and type-of(list.nth($args, $i + 1)) == number {
+      #{$o}: nth($args, $i + 1);
+    }
+  }
+}
+
+@mixin absolute($args: '') {
+  @include position(absolute, $args);
+}
+
+@mixin fixed($args: '') {
+  @include position(fixed, $args);
+}
+
+@mixin background-image($url: '', $position: center, $size: cover) {
+  @if $url != '' {
+    background-image: url($url);
+  }
+
+  background-repeat: no-repeat;
+  background-position: $position;
+  background-size: $size;
+}
+
+@mixin box($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@function rem($value) {
+  @return #{strip-unit($value) / 16}rem;
+}

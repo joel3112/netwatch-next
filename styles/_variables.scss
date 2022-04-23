@@ -1,0 +1,62 @@
+$img-logo-light: url('/assets/images/logo-light.png');
+$img-logo-dark: url('/assets/images/logo-dark.png');
+
+$size-header: 58px;
+$size-max: 1300px;
+$size-header-action: 35px;
+$size-search-input: 200px;
+
+$padding-aside: 50px;
+$padding-aside-overlay: 20px;
+$border-radius-button: 8px;
+$border-radius-portal: 10px;
+
+$color-yellow: #f8ab00;
+$color-yellow-dark: #c08400;
+$color-gray: #b9bdcf;
+$color-gray-light: #e0e0e0;
+$color-disabled: #dbdbdb;
+$color-disabled-dark: #dbdbdb;
+$color-medium: #1d1f20;
+$color-dark: #000;
+$color-dark-light: #2f2f2f;
+$color-white: #fff;
+$color-white-rgb: 255 255 255;
+$color-dark-rgb: 0 0 0;
+$color-medium-rgb: 29 31 32;
+$color-border-rgb: 160 160 160;
+$color-gray-rgb: 240 240 240;
+$color-yellow-rgb: 248 171 0;
+$color-yellow-dark-rgb: 192 132 0;
+$color-clear-hover-light-rgb: 26 32 39;
+$color-clear-hover-dark-rgb: 255 255 255;
+$color-border-light: rgb(228 231 235);
+$color-border-dark: rgb(70 70 70);
+$color-input-light: #eee;
+$color-input-dark: #373737;
+$color-border-portal-light: 224 227 230;
+$color-border-portal-dark: 67 67 67;
+
+$box-shadow-light: rgb(231 235 250) 0 -1px 1px inset;
+$box-shadow-dark: rgb(67 67 67) 0 -1px 1px inset;
+$box-shadow-card-light: rgb(170 180 190 / 40%) 0 4px 20px;
+$box-shadow-card-dark: rgb(15 15 15 / 55%) 0 4px 20px;
+
+$background-modal-video: #010001;
+$background-tooltip-light: 20 20 20;
+$background-tooltip-dark: 140 140 140;
+$background-backdrop-light: 111 126 140 / 35%;
+$background-backdrop-dark: 0 0 0 / 50%;
+$background-scrollbar: $color-gray;
+$background-scrollbar-secondary: $color-gray-light;
+$background-scrollbar-thumb: $color-yellow;
+$background-skeleton-light: 0 0 0 / 8%;
+$background-skeleton-dark: 40 44 45 / 70%;
+
+// Breakpoint xs
+$size-header-xs: 50px;
+$padding-aside-xs: 20px;
+
+// Breakpoint sm
+$size-header-sm: 50px;
+$padding-aside-sm: 50px;

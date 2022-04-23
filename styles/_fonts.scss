@@ -1,0 +1,25 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url('/assets/fonts/bebas-neue/BebasNeue-Bold.otf');
+}
+
+@mixin font-face($font-name, $file-name, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $font-name;
+    src: url($file-name + '.otf');
+    src: url($file-name + '.woff2') format('woff2'), url($file-name + '.woff') format('woff');
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+@include font-face(UberMove, '/assets/fonts/uber-move/UberMove-Light', 200);
+@include font-face(UberMove, '/assets/fonts/uber-move/UberMove-Regular', 400);
+@include font-face(UberMove, '/assets/fonts/uber-move/UberMove-Medium', 500);
+@include font-face(UberMove, '/assets/fonts/uber-move/UberMove-Bold', 600);
+
+@include font-face(UberMoveText, '/assets/fonts/uber-move/UberMoveText-Light', 200);
+@include font-face(UberMoveText, '/assets/fonts/uber-move/UberMoveText-Regular', 400);
+@include font-face(UberMoveText, '/assets/fonts/uber-move/UberMoveText-Medium', 500);
+@include font-face(UberMoveText, '/assets/fonts/uber-move/UberMoveText-Bold', 600);

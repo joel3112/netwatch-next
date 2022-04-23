@@ -1,0 +1,79 @@
+@import 'variables';
+
+:root {
+  --font-logo: 'BebasNeue', system-ui, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --font-heading: 'UberMove', system-ui, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --font-text: 'UberMoveText', system-ui, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --size-header: #{$size-header};
+  --size-max: #{$size-max};
+  --size-header-action: #{$size-header-action};
+  --size-search-input: #{$size-search-input};
+  --padding-aside: #{$padding-aside};
+  --padding-aside-overlay: #{$padding-aside-overlay};
+  --border-radius-button: #{$border-radius-button};
+  --border-radius-portal: #{$border-radius-portal};
+  --background-color-modal-video: #{$background-modal-video};
+  --color-primary: #{$color-yellow};
+}
+
+@mixin dark-mode($enabled: false) {
+  @if $enabled == false {
+    --color-primary: #{$color-yellow};
+    --img-logo: #{$img-logo-light};
+    --color-primary-dark: #{$color-yellow-dark};
+    --color-secondary: #{$color-dark};
+    --color-dark: #{$color-dark};
+    --color-text: #{$color-dark};
+    --color-button-text: #{$color-white};
+    --color-link-text: #{$color-yellow};
+    --color-border: #{$color-border-light};
+    --color-disabled: #{$color-disabled};
+    --color-input: #{$color-input-light};
+    --color-placeholder-hover: #{$color-gray-light};
+    --background-color-primary: #{$color-white};
+    --background-input-header: #{$color-clear-hover-light-rgb};
+    --rgb-color-tooltip: #{$background-tooltip-light};
+    --rgb-color-backdrop: #{$background-backdrop-light};
+    --rgb-color-skeleton: #{$background-skeleton-light};
+    --rgb-color-primary: #{$color-yellow-rgb};
+    --rgb-color-dark: #{$color-dark-rgb};
+    --rgb-color-white: #{$color-white-rgb};
+    --rgb-background-color-primary-hover: #{$color-yellow-dark-rgb};
+    --rgb-background-color-secondary-hover: #{$background-tooltip-light};
+    --rgb-background-color-clear-hover: #{$color-clear-hover-light-rgb};
+    --rgb-background-color-primary: #{$color-white-rgb};
+    --rgb-background-color-action-hover: #{$color-clear-hover-dark-rgb};
+    --rgb-color-border-portal: #{$color-border-portal-light};
+    --box-shadow-primary: #{$box-shadow-light};
+    --box-shadow-card: #{$box-shadow-card-light};
+  } @else {
+    --img-logo: #{$img-logo-dark};
+    --color-primary: #{$color-yellow};
+    --color-primary-dark: #{$color-yellow-dark};
+    --color-secondary: #{$color-white};
+    --color-text: #{$color-white};
+    --color-dark: #{$color-dark};
+    --color-button-text: #{$color-white};
+    --color-link-text: #{$color-yellow};
+    --color-border: #{$color-border-dark};
+    --color-disabled: #{$color-disabled};
+    --color-input: #{$color-input-dark};
+    --color-placeholder-hover: #{$color-dark-light};
+    --background-color-primary: #{$color-medium};
+    --background-input-header: #{$color-clear-hover-dark-rgb};
+    --rgb-color-tooltip: #{$background-tooltip-dark};
+    --rgb-color-backdrop: #{$background-backdrop-dark};
+    --rgb-color-skeleton: #{$background-skeleton-dark};
+    --rgb-color-primary: #{$color-yellow-rgb};
+    --rgb-color-dark: #{$color-dark-rgb};
+    --rgb-color-white: #{$color-white-rgb};
+    --rgb-background-color-primary-hover: #{$color-yellow-dark-rgb};
+    --rgb-background-color-secondary-hover: #{$color-gray-rgb};
+    --rgb-background-color-clear-hover: #{$color-clear-hover-dark-rgb};
+    --rgb-background-color-primary: #{$color-medium-rgb};
+    --rgb-background-color-action-hover: #{$color-clear-hover-dark-rgb};
+    --rgb-color-border-portal: #{$color-border-portal-dark};
+    --box-shadow-primary: #{$box-shadow-dark};
+    --box-shadow-card: #{$box-shadow-card-dark};
+  }
+}
