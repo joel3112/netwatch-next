@@ -1,6 +1,6 @@
 read -p "- Enter hook name: " name
 
-path="src/hooks/$name"
+path="hooks/$name"
 type=$(sed '
        h;
        y/quvwxzdermatoglyphicsbfjkn/QUVWXZDERMATOGLYPHICSBFJKN/;

@@ -1,7 +1,7 @@
 read -p "- Enter page name: " name
 
-path="src/pages/$name"
-pathTest="src/__tests__/$name"
+path="pages/$name"
+pathTest="__tests__/$name"
 namePage=$(sed '
        h;
        y/QUVWXZDERMATOGLYPHICSBFJKN/quvwxzdermatoglyphicsbfjkn/;

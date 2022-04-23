@@ -1,6 +1,6 @@
 read -p "- Enter component name: " name
 
-path="src/components/$name"
+path="components/$name"
 classname=$(sed '
        h;
        y/QUVWXZDERMATOGLYPHICSBFJKN/quvwxzdermatoglyphicsbfjkn/;
