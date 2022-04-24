@@ -1,0 +1,14 @@
+.containerWrapper {
+  max-width: var(--size-max);
+  width: 100%;
+  padding: 0 var(--padding-aside);
+  margin: 0 auto;
+  background: transparent;
+  box-sizing: border-box;
+  display: block;
+}
+
+.hasMargins {
+  margin-top: 15px;
+  margin-bottom: 100px;
+}

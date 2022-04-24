@@ -3,9 +3,15 @@ import Space, { positions, DirectionSpace, PositionSpace } from '@/components/la
 
 describe('Tests Space component', () => {
   test('renders component correctly', () => {
+    const { container } = render(<Space>Test</Space>);
+
+    expect(container).toMatchSnapshot();
+  });
+
+  test('renders children correctly', () => {
     render(<Space>Test</Space>);
 
-    expect(screen.getByText('Test')).toMatchSnapshot();
+    expect(screen.getByText('Test')).toBeInTheDocument();
   });
 
   (['row', 'column'] as Array<DirectionSpace>).forEach((direction) => {

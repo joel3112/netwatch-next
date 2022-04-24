@@ -1,12 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tests Space component renders component correctly 1`] = `
-<div
-  class="spaceWrapper wrapper"
->
-  Test
-  <style>
-    
+<div>
+  <div
+    class="spaceWrapper wrapper"
+  >
+    Test
+    <style>
+      
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -16,6 +17,7 @@ exports[`Tests Space component renders component correctly 1`] = `
           
         }
       
-  </style>
+    </style>
+  </div>
 </div>
 `;
