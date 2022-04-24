@@ -28,7 +28,7 @@ const defaultProps: Partial<${name}Props> = {
 
 const $name = ({ className, name }: ${name}Props) => {
   return (
-    <div className={cn(styles.${classname}Wrapper, className)}>
+    <div className={cn(styles.${classname}Wrapper, className, 'wrapper')}>
       {name} component
     </div>
   );
