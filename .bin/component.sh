@@ -20,9 +20,9 @@ import styles from '@/components/$name/$name.module.scss';
 
 export type ${name}Props = ReactComponent<{
   name: string;
-}>;
+}> & typeof defaultProps;
 
-const defaultProps: Partial<${name}Props> = {
+const defaultProps = {
   name: '$name'
 };
 
@@ -47,10 +47,16 @@ import $name from '@/components/$name/$name';
 
 describe('Tests $name component', () => {
   test('renders component correctly', () => {
-    render(<$name />);
+    const { container } = render(<$name>Test</$name>);
 
-    expect(screen.getByText('$name component')).toBeInTheDocument();
-	});
+    expect(container).toMatchSnapshot();
+  });
+
+  test('renders children correctly', () => {
+    render(<$name>Test</$name>);
+
+    expect(screen.getByText('Test')).toBeInTheDocument();
+  });
 });" > "$path/$name.test.tsx"
 
 # ------------------------------------------------------------- #

@@ -5,6 +5,14 @@
 @import 'scrollbar';
 @import 'theme';
 
+.app {
+  @include box(100vw, 100vh);
+  @include fixed;
+
+  overflow: hidden;
+  margin: 0 auto;
+}
+
 html {
   box-sizing: border-box;
   font-size: 1rem;
@@ -17,6 +25,9 @@ html {
 }
 
 body {
+  @include theme;
+  @include dark-mode(false);
+
   font-family: var(--font-text);
   font-weight: 400;
   padding: 0 !important;
