@@ -2,13 +2,14 @@ import React from 'react';
 import cn from 'classnames';
 import styles from '@/components/layout/Container/Container.module.scss';
 
-export type ContainerProps = RCProps.WithChildren<
-  ReactComponent<{
-    margins?: boolean;
-  }>
->;
+export type ContainerProps = typeof defaultProps &
+  RCProps.WithChildren<
+    ReactComponent<{
+      margins?: boolean;
+    }>
+  >;
 
-const defaultProps: Partial<ContainerProps> = {
+const defaultProps = {
   margins: false
 };
 

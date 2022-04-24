@@ -5,15 +5,15 @@ import cn from 'classnames';
 import { Space } from '@/components/layout';
 import styles from '@/components/layout/Header/Header.module.scss';
 
-export type HeaderProps = RCProps.WithChildren<
-  ReactComponent<{
-    title: string;
-    href?: string;
-    logoUrl?: string;
-  }>,
-  JSX.Element | Array<JSX.Element>
-> &
-  typeof defaultProps;
+export type HeaderProps = typeof defaultProps &
+  RCProps.WithChildren<
+    ReactComponent<{
+      title: string;
+      href?: string;
+      logoUrl?: string;
+    }>,
+    JSX.Element | Array<JSX.Element>
+  >;
 
 const defaultProps = {
   href: '',

@@ -14,18 +14,19 @@ export type DirectionSpace = 'row' | 'column';
 
 export type PositionSpace = keyof typeof positions;
 
-export type SpaceProps = RCProps.WithChildren<
-  ReactComponent<{
-    direction?: DirectionSpace;
-    reverse?: boolean;
-    wrap?: boolean;
-    gap?: number | Array<number>;
-    justify?: PositionSpace;
-    align?: PositionSpace;
-  }>
->;
+export type SpaceProps = typeof defaultProps &
+  RCProps.WithChildren<
+    ReactComponent<{
+      direction?: DirectionSpace;
+      reverse?: boolean;
+      wrap?: boolean;
+      gap?: number | Array<number>;
+      justify?: PositionSpace;
+      align?: PositionSpace;
+    }>
+  >;
 
-const defaultProps: Partial<SpaceProps> = {
+const defaultProps = {
   direction: 'row'
 };
 
