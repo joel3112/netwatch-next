@@ -9,7 +9,7 @@ declare module '*module.scss' {
 }
 
 declare global {
-  type ReactComponent<T> = T & {
+  type ReactComponent<T = EmptyObject> = T & {
     className?: string;
     style?: CSSRules;
   };
@@ -17,6 +17,7 @@ declare global {
   namespace RCProps {
     type CSSRules = CSSProperties;
 
+    type EmptyObject = Record<never, unknown>;
     type Object<T = unknown> = { [key: string]: T };
     type ObjectKeyIn<T = unknown, U = JSX.Element> = { [key in U]: T };
 

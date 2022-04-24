@@ -20,15 +20,15 @@ import styles from '@/components/$name/$name.module.scss';
 
 export type ${name}Props = ReactComponent<{
   name: string;
-}>;
+}> & typeof defaultProps;
 
-const defaultProps: Partial<${name}Props> = {
+const defaultProps = {
   name: '$name'
 };
 
 const $name = ({ className, name }: ${name}Props) => {
   return (
-    <div className={cn(styles.${classname}Wrapper, className, 'wrapper')}>
+    <div className={cn(styles.${classname}Wrapper, className)}>
       {name} component
     </div>
   );
