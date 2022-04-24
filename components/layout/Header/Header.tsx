@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/Link';
-import Image from 'next/image';
+import Image from 'next/Image';
 import cn from 'classnames';
 import { Space } from '@/components/layout';
 import styles from '@/components/layout/Header/Header.module.scss';
