@@ -12,4 +12,6 @@ const mapValuesBy = (object: object, callback: (value: object) => unknown): obje
   return _.mapValues(object, callback);
 };
 
-export default { getPropValue, isEmpty, mapValuesBy };
+const helpers = { getPropValue, isEmpty, mapValuesBy };
+
+export default helpers;
