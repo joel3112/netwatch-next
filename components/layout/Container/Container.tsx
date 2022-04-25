@@ -15,9 +15,7 @@ const defaultProps = {
 
 const Container = ({ children, className, margins }: ContainerProps) => {
   return (
-    <div className={cn(styles.containerWrapper, className, margins && styles.hasMargins)}>
-      {children}
-    </div>
+    <div className={cn(styles.wrapper, className, margins && styles.hasMargins)}>{children}</div>
   );
 };
 

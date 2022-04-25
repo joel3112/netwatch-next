@@ -21,7 +21,7 @@ const defaultProps = {
 
 const Header = ({ children, title, href, logoUrl }: HeaderProps) => {
   return (
-    <Space justify="between" align="center" className={cn(styles.headerWrapper)}>
+    <Space justify="between" align="center" className={cn(styles.wrapper)}>
       <Link href={href}>
         <a role="link">
           <Space align="center">

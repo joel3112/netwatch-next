@@ -3,7 +3,7 @@
 exports[`Tests Space component renders component correctly 1`] = `
 <div>
   <div
-    class="spaceWrapper wrapper"
+    class="wrapper"
   >
     Test
     <style>

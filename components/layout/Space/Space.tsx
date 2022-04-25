@@ -53,11 +53,11 @@ const Space = ({
   );
 
   return (
-    <div className={cx(styles.spaceWrapper, className, 'wrapper')} style={style}>
+    <div className={cx(styles.wrapper, className)} style={style}>
       {children}
 
       <style jsx>{`
-        .wrapper {
+        .${styles.wrapper} {
           display: flex;
           flex-direction: ${reverse ? `${direction}-reverse` : direction};
           flex-wrap: ${wrap ? 'wrap' : 'nowrap'};

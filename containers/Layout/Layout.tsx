@@ -17,7 +17,7 @@ const Layout = ({ children }: LayoutProps) => {
   console.log(container);
 
   return (
-    <div className={cn(styles.layoutWrapper)} ref={setContainer}>
+    <div className={cn(styles.wrapper)} ref={setContainer}>
       <header className={styles.header}>
         <Container>
           <Header href="/" title={t('application.name')} logoUrl="/assets/images/logo-light.png" />

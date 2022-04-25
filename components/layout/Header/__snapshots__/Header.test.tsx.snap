@@ -3,14 +3,14 @@
 exports[`Tests Header component renders component correctly 1`] = `
 <div>
   <div
-    class="spaceWrapper headerWrapper wrapper"
+    class="wrapper wrapper"
   >
     <a
       href="/"
       role="link"
     >
       <div
-        class="spaceWrapper wrapper"
+        class="wrapper"
       >
         <span
           style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -55,7 +55,7 @@ exports[`Tests Header component renders component correctly 1`] = `
       </div>
     </a>
     <div
-      class="spaceWrapper wrapper"
+      class="wrapper"
     >
       <style>
         

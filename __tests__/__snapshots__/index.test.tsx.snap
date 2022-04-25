@@ -3,7 +3,7 @@
 exports[`Index page renders page correctly 1`] = `
 <div>
   <div
-    class="containerWrapper hasMargins"
+    class="wrapper hasMargins"
   >
     <h1
       class="wrapper"
@@ -18,7 +18,7 @@ exports[`Index page renders page correctly 1`] = `
       </a>
     </h1>
     <div
-      class="spaceWrapper wrapper"
+      class="wrapper"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ducimus id mollitia, perspiciatis quo repellendus! Alias, assumenda aut labore necessitatibus, neque non nulla placeat porro quos ratione sint tenetur vitae. Aliquam aperiam delectus dolorem, dolores est ex exercitationem facere minus, quam quasi quisquam quo quod voluptatum. Accusantium aperiam asperiores consequatur hic molestias natus neque nihil numquam, officiis praesentium repellat veniam! Ab aperiam autem beatae consectetur dolor dolorem doloremque eius error et expedita, ipsum iste laboriosam magni maiores nam necessitatibus porro qui quidem sapiente unde? Aspernatur optio placeat quasi repellendus totam. Aperiam asperiores cum delectus distinctio dolor doloribus eaque est excepturi explicabo facere fugiat incidunt, ipsam itaque iusto minus mollitia, obcaecati officia quidem repellat repellendus sequi suscipit ut veritatis vero voluptas? Accusamus aliquid consectetur, consequatur cumque deserunt dicta dolores, doloribus eaque fugit id incidunt nesciunt nihil obcaecati officiis optio recusandae reprehenderit sed soluta temporibus voluptatibus. Atque deleniti ipsam maxime molestiae sequi? Accusamus ad at consequatur corporis cumque distinctio, dolor eos fugit iste, maxime nesciunt odio quam qui quos reiciendis repellat sequi sunt! Accusamus commodi est hic id laudantium rerum similique vitae!

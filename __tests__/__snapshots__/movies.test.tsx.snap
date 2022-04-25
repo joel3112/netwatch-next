@@ -3,7 +3,7 @@
 exports[`Tests movies page renders page correctly 1`] = `
 <div>
   <div
-    class="containerWrapper hasMargins"
+    class="wrapper hasMargins"
   >
     <h1>
       movies page
