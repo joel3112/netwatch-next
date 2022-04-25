@@ -10,29 +10,7 @@ namePage=$(sed '
         ' <<<$name)
 
 mkdir -p $path
-
-# ------------------------------------------------------------- #
-# Page
-# ------------------------------------------------------------- #
-
-echo "import type { NextPage } from 'next';
-import Head from 'next/head';
-
-const $namePage: NextPage = () => {
-  return (
-    <>
-      <Head>
-        <title>$namePage - Netwatch</title>
-      </Head>      
-
-      <main>
-        $name page
-      </main>
-    </>
-  );
-};
-
-export default $namePage;" > "$path/index.tsx"
+mkdir -p $pathTest
 
 # ------------------------------------------------------------- #
 # Page test
@@ -40,6 +18,10 @@ export default $namePage;" > "$path/index.tsx"
 
 echo "import { render, screen } from '@testing-library/react';
 import $namePage from '@/pages/$name/$namePage';
+
+jest.mock('react-i18next', () => ({
+  useTranslation: () => ({ t: (key: string) => key })
+}));
 
 describe('Tests $name page', () => {
   test('renders page correctly', () => {

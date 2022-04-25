@@ -47,7 +47,7 @@ exports[`Tests Layout component renders component correctly 1`] = `
               <p
                 class="title"
               >
-                Netwatch
+                application.name
               </p>
               <style>
                 

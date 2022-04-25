@@ -8,12 +8,7 @@ exports[`Index page renders page correctly 1`] = `
     <h1
       class="wrapper"
     >
-      Welcome to 
-      <a
-        href="https://nextjs.org"
-      >
-        Next.js!
-      </a>
+      welcome.title
     </h1>
     <div
       class="spaceWrapper wrapper"
