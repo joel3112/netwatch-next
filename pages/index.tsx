@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
+import Link from 'next/link';
 import { Container, Space } from '@/components/layout';
 
 const Home: NextPage = () => {
@@ -15,6 +16,12 @@ const Home: NextPage = () => {
 
       <Container margins>
         <h1 className="wrapper">{t('welcome.title')}</h1>
+
+        <h1>
+          <Link href="/movies">
+            <a>Movies</a>
+          </Link>
+        </h1>
 
         <Space direction="column" gap={20}>
           <div>
@@ -75,12 +82,10 @@ const Home: NextPage = () => {
   );
 };
 
-export async function getStaticProps({ locale }: { locale: string }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ['common', 'home']))
-    }
-  };
-}
+export const getStaticProps = async ({ locale }: { locale: string }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ['common', 'home']))
+  }
+});
 
 export default Home;
