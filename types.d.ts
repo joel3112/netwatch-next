@@ -23,5 +23,7 @@ export type ElementSkeleton = {
 };
 
 export type EmptyObject = Record<never, unknown>;
-export type ObjectKey<T extends object> = { [key: string]: T };
-export type ObjectKeyIn<T extends object, U = JSX.Element> = { [key in U]: T };
+export type ObjectGeneric<T = unknown> = { [key: string]: T };
+export type ObjectKeyIn<T, U = JSX.Element> = { [key in U]: T };
+
+export type FunctionGeneric = (...arg: Array<unknown>) => unknown;

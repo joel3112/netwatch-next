@@ -23,7 +23,7 @@ export type $type = [
 
 export type $typeHook = (initialState: number) => $type;
 
-const $name: $typeHook = (initialState: number = 0) => {
+const $name: $typeHook = (initialState: number) => {
   const [state, setState] = useState<number>(initialState);
 
   return [state];
@@ -35,12 +35,14 @@ export default $name;" > "$path/$name.ts"
 # Hook test
 # ------------------------------------------------------------- #
 
-echo "import { renderHook, act } from '@testing-library/react-hooks';
-import $name from '@hooks/$name/$name';
+echo "import { renderHook, act } from '@testing-library/react';
+import $name from '@/hooks/$name/$name';
 
 describe('Tests $name hook', () => {
   test('works hook correctly', () => {
-    expect(true).toBeTruthy();
+    const { result } = renderHook(() => $name(0));
+
+    expect(result.current).not.toBeEmpty();
 	});
 });" > "$path/$name.test.ts"
 
