@@ -1,9 +1,10 @@
 import React from 'react';
 import cn from 'classnames';
+import { ElementChildren } from '@/types';
 import { Container, Header } from '@/components/layout';
 import styles from '@/containers/Layout/Layout.module.scss';
 
-export type LayoutProps = typeof defaultProps & RCProps.WithChildren<ReactComponent>;
+export type LayoutProps = typeof defaultProps & ElementChildren;
 
 const defaultProps = {};
 

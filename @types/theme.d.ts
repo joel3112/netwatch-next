@@ -1,5 +1,1 @@
-declare global {
-  namespace RCProps {
-    type ThemeMode = 'light' | 'dark' | 'auto';
-  }
-}
+export type ThemeMode = 'light' | 'dark' | 'auto';

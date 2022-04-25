@@ -1,5 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
+import { ElementChildren, ElementHTML } from '@/types';
 import styles from '@/components/layout/Space/Space.module.scss';
 
 export const positions = {
@@ -15,16 +16,15 @@ export type DirectionSpace = 'row' | 'column';
 export type PositionSpace = keyof typeof positions;
 
 export type SpaceProps = typeof defaultProps &
-  RCProps.WithChildren<
-    ReactComponent<{
-      direction?: DirectionSpace;
-      reverse?: boolean;
-      wrap?: boolean;
-      gap?: number | Array<number>;
-      justify?: PositionSpace;
-      align?: PositionSpace;
-    }>
-  >;
+  ElementHTML &
+  ElementChildren & {
+    direction?: DirectionSpace;
+    reverse?: boolean;
+    wrap?: boolean;
+    gap?: number | Array<number>;
+    justify?: PositionSpace;
+    align?: PositionSpace;
+  };
 
 const defaultProps = {
   direction: 'row'

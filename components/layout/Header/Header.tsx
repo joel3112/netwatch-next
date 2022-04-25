@@ -2,18 +2,17 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import cn from 'classnames';
+import { ElementChildren, ElementHTML } from '@/types';
 import { Space } from '@/components/layout';
 import styles from '@/components/layout/Header/Header.module.scss';
 
 export type HeaderProps = typeof defaultProps &
-  RCProps.WithChildren<
-    ReactComponent<{
-      title: string;
-      href?: string;
-      logoUrl?: string;
-    }>,
-    JSX.Element | Array<JSX.Element>
-  >;
+  ElementHTML &
+  ElementChildren<JSX.Element | Array<JSX.Element>> & {
+    title: string;
+    href?: string;
+    logoUrl?: string;
+  };
 
 const defaultProps = {
   href: '',

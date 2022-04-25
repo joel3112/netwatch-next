@@ -96,7 +96,9 @@ exports[`Tests Layout component renders component correctly 1`] = `
     </header>
     <main
       class="main"
-    />
+    >
+      Content
+    </main>
   </div>
 </div>
 `;

@@ -1,5 +1,4 @@
 import React from 'react';
-import { CSSProperties } from 'react';
 
 declare module '*module.scss' {
   const styles: {
@@ -8,21 +7,21 @@ declare module '*module.scss' {
   export default styles;
 }
 
-declare global {
-  type ReactComponent<T = EmptyObject> = T & {
-    className?: string;
-    style?: CSSRules;
-  };
+export * from '@types/index';
 
-  namespace RCProps {
-    type CSSRules = CSSProperties;
+export type ElementHTML = {
+  className?: string;
+  style?: React.CSSProperties;
+};
 
-    type EmptyObject = Record<never, unknown>;
-    type Object<T = unknown> = { [key: string]: T };
-    type ObjectKeyIn<T = unknown, U = JSX.Element> = { [key in U]: T };
+export type ElementChildren<T = React.ReactNode> = {
+  children?: T;
+};
 
-    type WithChildren<T, U = React.ReactNode> = T & { children?: U };
+export type ElementSkeleton = {
+  skeleton?: boolean;
+};
 
-    type WithSkeleton<T> = T & { skeleton?: boolean };
-  }
-}
+export type EmptyObject = Record<never, unknown>;
+export type Object<T = unknown> = { [key: string]: T };
+export type ObjectKeyIn<T = unknown, U = JSX.Element> = { [key in U]: T };
