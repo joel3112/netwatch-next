@@ -1,17 +1,26 @@
 import type { NextPage } from 'next';
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
+import Link from 'next/link';
 import { Container, Space } from '@/components/layout';
 
 const Home: NextPage = () => {
+  const { t } = useTranslation('home');
+
   return (
     <>
       <Head>
-        <title>Home - Netwatch</title>
+        <title>{t('head.title')}</title>
       </Head>
 
       <Container margins>
-        <h1 className="wrapper">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1 className="wrapper">{t('welcome.title')}</h1>
+
+        <h1>
+          <Link href="/movies">
+            <a>Movies</a>
+          </Link>
         </h1>
 
         <Space direction="column" gap={20}>
@@ -72,5 +81,11 @@ const Home: NextPage = () => {
     </>
   );
 };
+
+export const getStaticProps = async ({ locale }: { locale: string }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ['common', 'home']))
+  }
+});
 
 export default Home;

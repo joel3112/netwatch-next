@@ -1,13 +1,13 @@
 import { render } from '@testing-library/react';
-import Home from '@/pages/index';
+import Movies from '@/pages/movies';
 
 jest.mock('react-i18next', () => ({
   useTranslation: () => ({ t: (key: string) => key })
 }));
 
-describe('Index page', () => {
+describe('Tests movies page', () => {
   test('renders page correctly', () => {
-    const { container } = render(<Home />);
+    const { container } = render(<Movies />);
 
     expect(container).toMatchSnapshot();
   });

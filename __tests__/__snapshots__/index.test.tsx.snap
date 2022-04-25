@@ -8,11 +8,13 @@ exports[`Index page renders page correctly 1`] = `
     <h1
       class="wrapper"
     >
-      Welcome to 
+      welcome.title
+    </h1>
+    <h1>
       <a
-        href="https://nextjs.org"
+        href="/movies"
       >
-        Next.js!
+        Movies
       </a>
     </h1>
     <div
