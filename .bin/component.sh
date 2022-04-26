@@ -14,7 +14,7 @@ mkdir -p $path
 # Component
 # ------------------------------------------------------------- #
 
-echo "import React from 'react';
+echo "import { useState, useRef } from 'react';
 import cn from 'classnames';
 import { ElementChildren, ElementHTML } from '@/types';
 import styles from '@/components/$name/$name.module.scss';

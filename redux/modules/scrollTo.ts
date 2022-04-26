@@ -57,6 +57,6 @@ export const onChangeScrollToState = ({ scrollTo }: { scrollTo: ScrollToState })
   const { container, forceTop } = scrollTo;
 
   if (forceTop && container) {
-    container.scrollTo && container.scrollTo(0, 0);
+    container.scrollTo && container.scrollTo({ top: 0, behavior: 'smooth' });
   }
 };

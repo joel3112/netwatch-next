@@ -12,10 +12,17 @@ typeHook="${type}Hook"
 mkdir -p $path
 
 # ------------------------------------------------------------- #
+# Index
+# ------------------------------------------------------------- #
+
+echo "export { $name } from '@/hooks/$name/$name';" > "$path/index.ts"
+
+
+# ------------------------------------------------------------- #
 # Hook
 # ------------------------------------------------------------- #
 
-echo "import React, { useEffect, useState } from 'react';
+echo "import { useEffect, useState } from 'react';
 
 export type $type = [
   state: number
@@ -23,20 +30,18 @@ export type $type = [
 
 export type $typeHook = (initialState: number) => $type;
 
-const $name: $typeHook = (initialState: number) => {
+export const $name: $typeHook = (initialState: number) => {
   const [state, setState] = useState<number>(initialState);
 
   return [state];
-};
-
-export default $name;" > "$path/$name.ts"
+}; > "$path/$name.ts"
 
 # ------------------------------------------------------------- #
 # Hook test
 # ------------------------------------------------------------- #
 
-echo "import { renderHook, act } from '@testing-library/react';
-import $name from '@/hooks/$name/$name';
+echo "import { act, renderHook } from '@testing-library/react';
+import { $name } from '@/hooks/$name';
 
 describe('Tests $name hook', () => {
   test('works hook correctly', () => {
