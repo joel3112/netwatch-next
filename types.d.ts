@@ -1,4 +1,4 @@
-import React from 'react';
+import { CSSProperties, ReactNode } from 'react';
 
 declare module '*module.scss' {
   const styles: {
@@ -11,10 +11,10 @@ export * from '@types/index';
 
 export type ElementHTML = {
   className?: string;
-  style?: React.CSSProperties;
+  style?: CSSProperties;
 };
 
-export type ElementChildren<T = React.ReactNode> = {
+export type ElementChildren<T = ReactNode> = {
   children?: T;
 };
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import cn from 'classnames';
 import { ElementChildren, ElementHTML } from '@/types';
 import styles from '@/components/layout/Container/Container.module.scss';

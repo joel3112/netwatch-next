@@ -1,4 +1,4 @@
-import React from 'react';
+import { useMemo } from 'react';
 import cx from 'classnames';
 import { ElementChildren, ElementHTML } from '@/types';
 import styles from '@/components/layout/Space/Space.module.scss';
@@ -41,7 +41,7 @@ const Space = ({
   justify,
   align
 }: SpaceProps) => {
-  const spacing = React.useMemo(
+  const spacing = useMemo(
     () =>
       gap
         ? [gap]
