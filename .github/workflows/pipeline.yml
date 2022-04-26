@@ -14,3 +14,12 @@ jobs:
           node-version: '14'
       - name: Install dependencies
         run: yarn install
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Lint
+        run: yarn type-check && yarn stylelint && yarn lint

@@ -1,19 +1,23 @@
 import React from 'react';
 import cx from 'classnames';
 import { ElementChildren, ElementHTML } from '@/types';
-import styles from '@/components/layout/Space/Space.module.scss';
+import styles from "@/components/layout/Space/Space.module.scss";
 
 export const positions = {
   center: 'center',
   start: 'flex-start',
   end: 'flex-end',
   between: 'space-between',
-  baseline: 'baseline'
-};
+  baseline: 'baseline',
+}
 
-export type DirectionSpace = 'row' | 'column';
 
-export type PositionSpace = keyof typeof positions;
+
+
+
+export type DirectionSpace = 'row' | 'column'
+
+export type PositionSpace = keyof typeof positio ns;
 
 export type SpaceProps = typeof defaultProps &
   ElementHTML &
@@ -41,6 +45,8 @@ const Space = ({
   justify,
   align
 }: SpaceProps) => {
+  const abc = 123;
+
   const spacing = React.useMemo(
     () =>
       gap
