@@ -1,0 +1,10 @@
+name: Deployment Pipeline
+
+on: [push]
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo prueba
+        run: echo "prueba"
