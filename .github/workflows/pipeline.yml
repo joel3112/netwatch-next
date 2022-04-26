@@ -101,5 +101,3 @@ jobs:
           PRODUCTION: ${{ github.event_name != 'pull_request' }}
       - name: Show url
         run: echo "${{ steps.deploy.outputs }}"
-      - name: Show url 2
-        run: echo "${{ url }}"
