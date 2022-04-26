@@ -41,8 +41,6 @@ const Space = ({
   justify,
   align
 }: SpaceProps) => {
-  const abc = 123;
-
   const spacing = React.useMemo(
     () =>
       gap

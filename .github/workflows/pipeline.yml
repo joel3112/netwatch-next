@@ -33,3 +33,37 @@ jobs:
         run: yarn install
       - name: Lint
         run: yarn type-check && yarn stylelint && yarn lint
+
+  build:
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+          cache: 'yarn'
+          cache-dependency-path: '**/yarn.lock'
+      - name: Install dependencies
+        run: yarn install
+      - name: Build
+        run: yarn build
+
+  test:
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+          cache: 'yarn'
+          cache-dependency-path: '**/yarn.lock'
+      - name: Install dependencies
+        run: yarn install
+      - name: Test
+        run: yarn test
