@@ -63,10 +63,6 @@ echo "{
 echo "import { render, screen } from '@testing-library/react';
 import $namePage from '@/pages/$name';
 
-jest.mock('react-i18next', () => ({
-  useTranslation: () => ({ t: (key: string) => key })
-}));
-
 describe('Tests $name page', () => {
   test('renders page correctly', () => {
     const { container } = render(<$namePage />);
