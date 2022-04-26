@@ -2,9 +2,9 @@ name: Deployment Pipeline
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main]
   pull_request:
-    branches: [main, develop]
+    branches: [main]
     types: [opened, synchronize, reopened]
 
 jobs:
@@ -84,7 +84,9 @@ jobs:
   deploy:
     needs: [ test ]
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
+    environment:
+      name: ${{ github.event_name != 'pull_request' && 'Production' || 'Preview'}}
+      url: ${{ steps.deploy.outputs.url }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -96,4 +98,4 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-          PRODUCTION: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCTION: ${{ github.event_name != 'pull_request' }}
