@@ -3,8 +3,6 @@ import { act, renderHook } from '@testing-library/react';
 import { actions } from '@/redux/modules/scrollTo';
 import { useScroll } from '@/hooks/useScroll';
 
-jest.mock('next/router', () => require('next-router-mock'));
-
 const container = document.createElement('div');
 const mockStateValue = {
   scrollPosition: 0,
@@ -12,7 +10,7 @@ const mockStateValue = {
 };
 const mockDispatchValue = jest.fn();
 
-jest.mock('@/hooks/useRedux/useRedux', () => ({
+jest.mock('@/hooks/useRedux', () => ({
   useRedux: jest.fn().mockImplementation(() => ({
     state: mockStateValue,
     dispatch: mockDispatchValue

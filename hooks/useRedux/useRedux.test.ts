@@ -1,14 +1,9 @@
 import { renderHook } from '@testing-library/react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { FunctionGeneric } from '@/types';
 import { useRedux } from '@/hooks/useRedux';
 
 const mockUseDispatchValue = jest.fn();
-
-jest.mock('react-redux', () => ({
-  useSelector: jest.fn(),
-  useDispatch: jest.fn().mockImplementation(() => mockUseDispatchValue)
-}));
 
 describe('Tests useRedux hook', () => {
   test('returns state correctly', () => {
@@ -24,12 +19,15 @@ describe('Tests useRedux hook', () => {
     (useSelector as jest.Mock).mockImplementation((callback: FunctionGeneric) =>
       callback({ theme: { mode: 'dark' } })
     );
+
     const { result } = renderHook(() => useRedux('theme'));
 
     expect(result.current.state).toStrictEqual({ mode: 'dark' });
   });
 
   test('returns dispatch method correctly', () => {
+    (useDispatch as jest.Mock).mockImplementation(() => mockUseDispatchValue);
+
     const { result } = renderHook(() => useRedux());
 
     expect(result.current.dispatch).toStrictEqual(mockUseDispatchValue);

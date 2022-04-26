@@ -1,14 +1,11 @@
 import { MutableRefObject, useEffect, useState } from 'react';
-import { EmptyObject } from '@/types';
 
-type ClientRect = DOMRect | EmptyObject;
-
-export type UseResize = ClientRect;
+export type UseResize = DOMRect;
 
 export type UseResizeHook = (x: MutableRefObject<HTMLElement>) => UseResize;
 
 export const useResize: UseResizeHook = (elementRef: MutableRefObject<HTMLElement>) => {
-  const [sizes, setSizes] = useState<ClientRect>({});
+  const [sizes, setSizes] = useState<DOMRect>({} as DOMRect);
   const container = document.body;
 
   useEffect(() => {

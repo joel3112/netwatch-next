@@ -8,7 +8,7 @@ const mockStateValue = {
 };
 const mockDispatchValue = jest.fn();
 
-jest.mock('@/hooks/useRedux/useRedux', () => ({
+jest.mock('@/hooks/useRedux', () => ({
   useRedux: jest.fn().mockImplementation(() => ({
     state: mockStateValue,
     dispatch: mockDispatchValue
