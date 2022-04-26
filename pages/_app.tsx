@@ -1,8 +1,17 @@
 import type { AppProps } from 'next/app';
+import { appWithTranslation } from 'next-i18next';
+import { appWithRedux } from '@/hoc/appWithRedux';
+import { Layout } from '@/containers';
 import '@/styles/globals.scss';
 
 const App = ({ Component, pageProps }: AppProps) => {
-  return <Component {...pageProps} />;
+  return (
+    <div className="app">
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </div>
+  );
 };
 
-export default App;
+export default appWithTranslation(appWithRedux(App));

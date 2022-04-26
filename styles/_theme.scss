@@ -1,6 +1,6 @@
 @import 'variables';
 
-:root {
+@mixin theme() {
   --font-logo: 'BebasNeue', system-ui, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   --font-heading: 'UberMove', system-ui, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   --font-text: 'UberMoveText', system-ui, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;

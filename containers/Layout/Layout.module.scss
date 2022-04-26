@@ -1,0 +1,26 @@
+.wrapper {
+  display: block;
+  color: var(--color-text);
+  background-color: var(--background-color-primary);
+  height: 100%;
+  overflow: auto;
+}
+
+.header {
+  @include flex(row, $justify: center);
+  @include box(100%, var(--size-header));
+  @include position(sticky, top 0);
+
+  background-color: rgb(var(--rgb-background-color-primary) / 72%);
+  box-shadow: var(--box-shadow-primary);
+  transition: all 0.2s;
+  backdrop-filter: blur(20px);
+  z-index: 5;
+}
+
+.main {
+  @include box(100%, fit-content);
+  @include flex;
+
+  min-height: calc(100vh - #{var(--size-header)});
+}

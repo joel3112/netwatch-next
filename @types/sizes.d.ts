@@ -1,14 +1,6 @@
-import { Basic } from '@/types';
+export type Size = string | number;
 
-declare global {
-  namespace RCProps {
-    type Size = string | number;
-
-    interface Rectangle {
-      width?: Size;
-      height?: Size;
-    }
-
-    type WithSize<T> = T & Sizes.Rectangle & Basic;
-  }
+export interface Rectangle {
+  width?: Size;
+  height?: Size;
 }

@@ -14,22 +14,26 @@ mkdir -p $path
 # Component
 # ------------------------------------------------------------- #
 
-echo "import React from 'react';
+echo "import { useState, useRef } from 'react';
 import cn from 'classnames';
+import { ElementChildren, ElementHTML } from '@/types';
 import styles from '@/components/$name/$name.module.scss';
 
-export type ${name}Props = ReactComponent<{
-  name: string;
-}>;
+export type ${name}Props = typeof defaultProps &
+  ElementHTML &
+  ElementChildren & {
+    name: string;
+  };
 
-const defaultProps: Partial<${name}Props> = {
+const defaultProps = {
   name: '$name'
 };
 
-const $name = ({ className, name }: ${name}Props) => {
+const $name = ({ className, children, name }: ${name}Props) => {
   return (
     <div className={cn(styles.${classname}Wrapper, className)}>
       {name} component
+      {children}
     </div>
   );
 };
@@ -47,10 +51,16 @@ import $name from '@/components/$name/$name';
 
 describe('Tests $name component', () => {
   test('renders component correctly', () => {
-    render(<$name />);
+    const { container } = render(<$name>Test</$name>);
 
-    expect(screen.getByText('$name component')).toBeInTheDocument();
-	});
+    expect(container).toMatchSnapshot();
+  });
+
+  test('renders children correctly', () => {
+    render(<$name>Test</$name>);
+
+    expect(screen.getByText('Test')).toBeInTheDocument();
+  });
 });" > "$path/$name.test.tsx"
 
 # ------------------------------------------------------------- #
