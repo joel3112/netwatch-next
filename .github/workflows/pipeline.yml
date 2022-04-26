@@ -29,5 +29,7 @@ jobs:
           node-version: '14'
           cache: 'yarn'
           cache-dependency-path: '**/yarn.lock'
+      - name: Install dependencies
+        run: yarn install
       - name: Lint
         run: yarn type-check && yarn stylelint && yarn lint
