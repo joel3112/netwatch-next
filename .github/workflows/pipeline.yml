@@ -1,6 +1,11 @@
 name: Deployment Pipeline
 
-on: [push]
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+    types: [opened, synchronize, reopened]
 
 jobs:
   avoid_reduncy:
@@ -79,6 +84,7 @@ jobs:
   deploy:
     needs: [ test ]
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
     steps:
       - uses: actions/checkout@v3
         with:
