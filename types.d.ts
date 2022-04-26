@@ -27,3 +27,4 @@ export type ObjectGeneric<T = unknown> = { [key: string]: T };
 export type ObjectKeyIn<T, U = JSX.Element> = { [key in U]: T };
 
 export type FunctionGeneric = (...arg: Array<unknown>) => unknown;
+export type FunctionVoid<T> = (key: T) => void;
