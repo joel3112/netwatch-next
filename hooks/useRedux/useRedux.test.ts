@@ -1,7 +1,7 @@
 import { renderHook } from '@testing-library/react';
 import { useSelector } from 'react-redux';
 import { FunctionGeneric } from '@/types';
-import useRedux from '@/hooks/useRedux/useRedux';
+import { useRedux } from '@/hooks/useRedux';
 
 const mockUseDispatchValue = jest.fn();
 

@@ -9,14 +9,12 @@ export type UseRedux = {
 
 export type UseReduxHook = (selector?: ReduceSelector) => UseRedux;
 
-const useRedux: UseReduxHook = <T extends ReduceSelectorState>(selector?: ReduceSelector) => {
+export const useRedux: UseReduxHook = (selector?: ReduceSelector) => {
   const state = useSelector((storeState) => storeState) as ReduceSelectors;
   const dispatch = useDispatch();
 
   return {
-    state: selector ? (state[selector] as T) : state,
+    state: selector ? (state[selector] as ReduceSelectorState) : state,
     dispatch
   };
 };
-
-export default useRedux;
