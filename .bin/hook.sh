@@ -34,7 +34,7 @@ export const $name: $typeHook = (initialState: number) => {
   const [state, setState] = useState<number>(initialState);
 
   return [state];
-}; > "$path/$name.ts"
+};" > "$path/$name.ts"
 
 # ------------------------------------------------------------- #
 # Hook test
