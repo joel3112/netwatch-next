@@ -35,7 +35,7 @@ jobs:
         run: yarn type-check && yarn stylelint && yarn lint
 
   build:
-    needs: install
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -52,7 +52,7 @@ jobs:
         run: yarn build
 
   test:
-    needs: install
+    needs: [lint, build]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
