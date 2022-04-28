@@ -3,7 +3,7 @@ import Skeleton from '@/components/feedback/Skeleton/Skeleton';
 
 describe('Tests Skeleton component', () => {
   test('renders component correctly', () => {
-    const { container } = render(<Skeleton data-testid="skeleton" />);
+    const { container } = render(<Skeleton />);
 
     expect(container).toMatchSnapshot();
   });

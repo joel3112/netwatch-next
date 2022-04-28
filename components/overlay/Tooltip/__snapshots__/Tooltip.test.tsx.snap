@@ -6,7 +6,6 @@ exports[`Tests Tooltip component renders component correctly 1`] = `
     aria-label="Close"
     class="tooltipContent"
     data-mui-internal-clone-element="true"
-    role="tooltip"
   >
     <button>
       X

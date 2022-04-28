@@ -20,7 +20,6 @@ const Tooltip = ({ children, text }: TooltipProps) => {
 
   return (
     <TooltipMUI
-      role="tooltip"
       title={text}
       classes={{ tooltip: styles.tooltipWrapper }}
       onClose={() => handleTooltipChange(false)}

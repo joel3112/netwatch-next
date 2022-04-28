@@ -47,7 +47,6 @@ const ToggleButtonItem = ({ children, className, value, selected }: ToggleButton
 
   return (
     <button
-      aria-label="button"
       aria-pressed={activeButton === value}
       className={cn(
         styles.toggleButtonItemWrapper,

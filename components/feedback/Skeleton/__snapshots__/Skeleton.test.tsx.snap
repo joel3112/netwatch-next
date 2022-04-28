@@ -3,7 +3,6 @@
 exports[`Tests Skeleton component renders component correctly 1`] = `
 <div>
   <div
-    aria-label="skeleton"
     class="skeletonWrapper default"
     role="progressbar"
   >
