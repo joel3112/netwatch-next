@@ -22,7 +22,7 @@ const Header = ({ children, title, href, logoUrl }: HeaderProps) => {
   return (
     <Space justify="between" align="center" className={cn(styles.wrapper)}>
       <Link href={href}>
-        <a role="link">
+        <a>
           <Space align="center">
             <Image className={styles.logo} src={logoUrl} alt="logo" width={58} height={58} />
 

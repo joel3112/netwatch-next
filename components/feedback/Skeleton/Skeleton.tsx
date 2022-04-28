@@ -37,7 +37,6 @@ const Skeleton = ({
   return (
     <div
       role="progressbar"
-      aria-label="skeleton"
       className={cn(styles.skeletonWrapper, styles[variant], ratio && styles.ratio, className)}>
       {variant === 'paragraph' &&
         Array(numOfLines)

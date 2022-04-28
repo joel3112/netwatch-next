@@ -3,19 +3,17 @@
 exports[`Tests ToggleButton component renders component correctly 1`] = `
 <div>
   <div
-    class="wrapper toggleButtonWrapper"
+    class="wrapper wrapper"
   >
     <button
-      aria-label="button"
       aria-pressed="false"
-      class="toggleButtonItemWrapper"
+      class="itemWrapper"
     >
       Item 1
     </button>
     <button
-      aria-label="button"
       aria-pressed="false"
-      class="toggleButtonItemWrapper"
+      class="itemWrapper"
     >
       Item 2
     </button>

@@ -7,7 +7,6 @@ exports[`Tests Header component renders component correctly 1`] = `
   >
     <a
       href="/"
-      role="link"
     >
       <div
         class="wrapper"

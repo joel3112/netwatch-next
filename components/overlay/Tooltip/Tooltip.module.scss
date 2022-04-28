@@ -1,4 +1,4 @@
-.tooltipWrapper {
+.wrapper {
   font-family: var(--font-text) !important;
   background-color: rgb(var(--rgb-color-tooltip) / 85%) !important;
   font-size: 0.7rem !important;
@@ -14,6 +14,6 @@
   }
 }
 
-.tooltipContent {
+.content {
   width: fit-content;
 }
