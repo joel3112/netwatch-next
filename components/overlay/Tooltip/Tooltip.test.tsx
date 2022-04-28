@@ -3,6 +3,16 @@ import userEvent from '@testing-library/user-event';
 import Tooltip from '@/components/overlay/Tooltip/Tooltip';
 
 describe('Tests Tooltip component', () => {
+  test('renders component correctly', async () => {
+    const { container } = render(
+      <Tooltip text="Close">
+        <button>X</button>
+      </Tooltip>
+    );
+
+    expect(container).toMatchSnapshot();
+  });
+
   test('renders children correctly', () => {
     render(
       <Tooltip text="Close">
