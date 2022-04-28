@@ -92,7 +92,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Deploy to Vercel
-        uses: BetaHuhn/deploy-to-vercel-action@v1
+        uses: BetaHuhn/deploy-to-vercel-action@latest
         id: deploy-to-vercel
         with:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
