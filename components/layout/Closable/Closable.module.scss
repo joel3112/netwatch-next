@@ -1,0 +1,31 @@
+.closableWrapper {
+  color: var(--color-text);
+  height: 100%;
+}
+
+.header {
+  @include flex($align: center, $justify: space-between);
+  @include font($size: 17px, $color: var(--color-text), $weight: 500);
+
+  padding: 20px var(--padding-aside-overlay);
+  box-shadow: var(--box-shadow-primary);
+}
+
+.close {
+  @include absolute(top 8px right 8px);
+
+  z-index: 2;
+  font-size: 1.4rem !important;
+  height: auto !important;
+  padding: 5px !important;
+
+  .header ~ & {
+    @include absolute(top 15px right 8px);
+  }
+
+  .outside & {
+    top: -38px;
+    right: 0;
+    background-color: rgb(var(--rgb-background-color-primary) / 15%);
+  }
+}
