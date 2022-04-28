@@ -12,13 +12,10 @@ export enum Theme {
 export type ThemeState = {
   keyMode: ThemeMode;
   darkMode: boolean;
-  darkModeSystem: boolean;
-  syncSystemTheme: boolean;
 };
 
 export type ThemeAction = Action & {
   theme: ThemeMode;
-  darkModeSystem?: boolean;
 };
 
 // Constants
@@ -38,9 +35,7 @@ export const isDarkMode = (key: ThemeMode) =>
 
 export const initialValue: ThemeState = {
   keyMode: defaultTheme() as ThemeMode,
-  darkMode: isDarkMode(defaultTheme() as ThemeMode),
-  darkModeSystem: isDarkModeSystem(),
-  syncSystemTheme: true
+  darkMode: isDarkMode(defaultTheme() as ThemeMode)
 };
 
 // Actions
@@ -55,9 +50,7 @@ export default function reducer(state = initialValue, action: ThemeAction): Them
       return {
         ...state,
         keyMode: action.theme,
-        darkMode: isDarkMode(action.theme as ThemeMode),
-        darkModeSystem: Boolean(action.darkModeSystem),
-        syncSystemTheme: action.theme === Theme.AUTO
+        darkMode: isDarkMode(action.theme as ThemeMode)
       };
     default:
       return state;
@@ -66,8 +59,8 @@ export default function reducer(state = initialValue, action: ThemeAction): Them
 
 // Action creators
 export const actions = {
-  change(theme: ThemeMode, windowMatches?: boolean): ThemeAction {
-    return { type: actionTypes.CHANGE, theme, darkModeSystem: Boolean(windowMatches) };
+  change(theme: ThemeMode): ThemeAction {
+    return { type: actionTypes.CHANGE, theme };
   }
 };
 

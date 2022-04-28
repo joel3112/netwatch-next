@@ -2,15 +2,11 @@ import themeReducer, { actions, actionTypes, initialValue, Theme } from '@/redux
 
 const darkExpected = {
   darkMode: true,
-  keyMode: 'dark',
-  darkModeSystem: false,
-  syncSystemTheme: false
+  keyMode: 'dark'
 };
 const lightExpected = {
   darkMode: false,
-  keyMode: 'light',
-  darkModeSystem: false,
-  syncSystemTheme: false
+  keyMode: 'light'
 };
 
 describe('Test theme redux module', () => {

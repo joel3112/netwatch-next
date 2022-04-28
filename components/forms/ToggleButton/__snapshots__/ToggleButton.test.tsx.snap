@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests ToggleButton component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper toggleButtonWrapper"
+  >
+    <button
+      aria-label="button"
+      aria-pressed="false"
+      class="toggleButtonItemWrapper"
+    >
+      Item 1
+    </button>
+    <button
+      aria-label="button"
+      aria-pressed="false"
+      class="toggleButtonItemWrapper"
+    >
+      Item 2
+    </button>
+    <style>
+      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center
+        }
+      
+    </style>
+  </div>
+</div>
+`;
