@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Container, Space } from '@/components/layout';
 import { Button } from '@/components/forms';
 import { Heading, Text } from '@/components/typography';
+import { Drawer, Portal } from '@/components/overlay';
 
 const Home: NextPage = () => {
   const { t } = useTranslation('home');
@@ -34,6 +35,17 @@ const Home: NextPage = () => {
             </a>
           </Link>
         </h1>
+
+        <Portal>
+          <Portal.Handler>
+            <Button outline>Menu</Button>
+          </Portal.Handler>
+          <Portal.Paper>
+            <Drawer heading="Ajustes" position="right">
+              Hola
+            </Drawer>
+          </Portal.Paper>
+        </Portal>
       </Container>
     </>
   );
