@@ -31,7 +31,7 @@ const defaultProps = {
 
 const $name = ({ className, children, name }: ${name}Props) => {
   return (
-    <div className={cn(styles.${classname}Wrapper, className)}>
+    <div className={cn(styles.wrapper, className)}>
       {name} component
       {children}
     </div>
@@ -67,7 +67,7 @@ describe('Tests $name component', () => {
 # Component styles
 # ------------------------------------------------------------- #
 
-echo ".${classname}Wrapper {
+echo ".wrapper {
   display: block;
 }" > "$path/$name.module.scss"
 

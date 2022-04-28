@@ -3,7 +3,7 @@
 exports[`Tests Button component renders component correctly 1`] = `
 <div>
   <button
-    class="buttonWrapper medium"
+    class="wrapper medium"
   >
     Test
   </button>

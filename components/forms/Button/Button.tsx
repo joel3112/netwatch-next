@@ -43,7 +43,7 @@ const Button = ({
     <button
       aria-label={ariaLabel || tooltip}
       className={cn(
-        styles.buttonWrapper,
+        styles.wrapper,
         size && styles[size],
         secondary && styles.secondary,
         clear && styles.clear,

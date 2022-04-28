@@ -1,5 +1,5 @@
 /* stylelint-disable declaration-block-no-shorthand-property-overrides */
-.buttonWrapper {
+.wrapper {
   @include font($size: 16px, $color: var(--color-dark), $weight: 500);
   @include flex($align: center, $justify: center, $gap: 10px);
   @include box(fit-content, 44px);
@@ -44,10 +44,6 @@
     padding: 0 10px;
     height: 36px;
     font-size: 0.9rem;
-  }
-
-  &.medium {
-    border: 3px solid red !important;
   }
 
   &.large {

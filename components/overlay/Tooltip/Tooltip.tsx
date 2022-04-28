@@ -21,7 +21,7 @@ const Tooltip = ({ children, text }: TooltipProps) => {
   return (
     <TooltipMUI
       title={text}
-      classes={{ tooltip: styles.tooltipWrapper }}
+      classes={{ tooltip: styles.wrapper }}
       onClose={() => handleTooltipChange(false)}
       onOpen={() => handleTooltipChange(true)}
       onClick={() => handleTooltipChange(false)}
@@ -30,7 +30,7 @@ const Tooltip = ({ children, text }: TooltipProps) => {
         disablePortal: true
       }}
       arrow>
-      <div className={styles.tooltipContent}>{children}</div>
+      <div className={styles.content}>{children}</div>
     </TooltipMUI>
   );
 };

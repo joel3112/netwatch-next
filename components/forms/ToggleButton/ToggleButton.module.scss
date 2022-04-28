@@ -14,14 +14,14 @@ $button-border: $button-border-width solid var(--color-border);
 
 /** ToggleButton (main component) **/
 
-.toggleButtonWrapper {
+.wrapper {
   height: 48px;
   width: fit-content;
 }
 
 /** ToggleButtonItem (child component) **/
 
-.toggleButtonItemWrapper {
+.itemWrapper {
   @include font($size: 16px, $color: var(--color-text));
 
   background-color: transparent;

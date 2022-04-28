@@ -48,11 +48,7 @@ const ToggleButtonItem = ({ children, className, value, selected }: ToggleButton
   return (
     <button
       aria-pressed={activeButton === value}
-      className={cn(
-        styles.toggleButtonItemWrapper,
-        activeButton === value && styles.selected,
-        className
-      )}
+      className={cn(styles.itemWrapper, activeButton === value && styles.selected, className)}
       onClick={changeButton}>
       {children}
     </button>
@@ -86,7 +82,7 @@ const ToggleButton = ({ className, children, onChange }: ToggleButtonProps) => {
 
   return (
     <ToggleButtonContext.Provider value={{ activeButton, onChangeButton: handleChangeButton }}>
-      <Space align="center" className={cn(styles.toggleButtonWrapper, className)}>
+      <Space align="center" className={cn(styles.wrapper, className)}>
         {children}
       </Space>
     </ToggleButtonContext.Provider>
