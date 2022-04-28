@@ -1,10 +1,8 @@
 /* eslint-disable react/display-name */
 import { ComponentType, useEffect, useState } from 'react';
-import { FunctionGeneric, ObjectGeneric } from '@/types';
+import { ElementChildren, FunctionGeneric, ObjectGeneric } from '@/types';
 
-export interface WithChildrenFilteredProps {
-  children?: JSX.Element | Array<JSX.Element>;
-}
+type WithChildrenFilteredProps = ElementChildren<JSX.Element | Array<JSX.Element>>;
 
 const decorateHOCWithStaticProps = (hoc: FunctionGeneric) => {
   return function execHOC<T extends WithChildrenFilteredProps>(

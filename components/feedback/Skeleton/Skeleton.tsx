@@ -4,7 +4,7 @@ import { ElementChildren, ElementHTML, Rectangle } from '@/types';
 import { useSizeRatio } from '@/hooks/useSizeRatio';
 import styles from '@/components/feedback/Skeleton/Skeleton.module.scss';
 
-type SkeletonVariant = 'circular' | 'heading' | 'text' | 'button' | 'paragraph' | 'default';
+export type SkeletonVariant = 'circular' | 'heading' | 'text' | 'button' | 'paragraph' | 'default';
 
 export type SkeletonProps = typeof defaultProps &
   ElementHTML &
