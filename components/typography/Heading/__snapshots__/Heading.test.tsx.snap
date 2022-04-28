@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Heading component renders component correctly 1`] = `
+<div>
+  <h2
+    class="wrapper"
+  >
+    Test
+  </h2>
+</div>
+`;

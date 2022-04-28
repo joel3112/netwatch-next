@@ -1,0 +1,9 @@
+.wrapper {
+  color: var(--color-text);
+  display: block;
+  margin: 0;
+}
+
+.ellipsis {
+  @include ellipsis;
+}

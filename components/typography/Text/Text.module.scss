@@ -1,0 +1,103 @@
+$lh-base: 24px;
+
+.wrapper {
+  display: block;
+
+  &.xs {
+    $size-px: 12px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+
+  &.sm {
+    $size-px: 14px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+
+  &.md {
+    $size-px: 16px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+
+  &.lg {
+    $size-px: 18px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+
+  &.xl {
+    $size-px: 20px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+
+  &.\32xl {
+    $size-px: 24px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+
+  &.\33xl {
+    $size-px: 30px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+
+  &.\34xl {
+    $size-px: 36px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+
+  &.\35xl {
+    $size-px: 48px;
+    @include font(
+      $size: $size-px,
+      $lh: (
+        24px / $size-px
+      )
+    );
+  }
+}
+
+.ellipsis {
+  @include ellipsis;
+}
+
+.maxLines {
+  @include max-lines;
+}

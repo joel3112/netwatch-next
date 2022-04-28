@@ -5,11 +5,40 @@ exports[`Index page renders page correctly 1`] = `
   <div
     class="wrapper hasMargins"
   >
-    <h1
+    <div
       class="wrapper"
+      style="margin-top: 30px;"
     >
-      welcome.title
-    </h1>
+      <h2
+        class="wrapper"
+      >
+        welcome.title
+      </h2>
+      <span
+        class="wrapper md"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda dolore expedita harum ipsum labore laudantium libero molestias nam numquam odio omnis, quaerat quas rem repellendus similique tempore unde ut.
+        <style>
+          
+        wrapper {
+          
+        }
+      
+        </style>
+      </span>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 10px
+          
+          
+        }
+      
+      </style>
+    </div>
     <h1>
       <a
         href="/movies"
