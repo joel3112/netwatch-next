@@ -16,11 +16,11 @@ store.subscribe(() => {
 });
 
 if (typeof window !== 'undefined') {
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({ matches }) => {
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     const storeState = store.getState();
 
     if (storeState.theme.keyMode === Theme.AUTO) {
-      store.dispatch(themeActions.change(Theme.AUTO, matches));
+      store.dispatch(themeActions.change(Theme.AUTO));
     }
   });
 }
