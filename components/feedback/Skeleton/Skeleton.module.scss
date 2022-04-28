@@ -24,8 +24,6 @@
 }
 
 .skeleton {
-  @include absolute(top 0 left 0 right 0 bottom 0);
-
   height: inherit !important;
   transition: all 0.2s;
   transform: none !important;

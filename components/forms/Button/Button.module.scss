@@ -1,0 +1,93 @@
+/* stylelint-disable declaration-block-no-shorthand-property-overrides */
+.buttonWrapper {
+  @include font($size: 16px, $color: var(--color-dark), $weight: 500);
+  @include flex($align: center, $justify: center, $gap: 10px);
+  @include box(fit-content, 44px);
+  @include no-outline(true);
+
+  font-family: var(--font-text);
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius-button);
+  padding: 0 16px;
+  cursor: pointer;
+  transition-timing-function: cubic-bezier(0, 0, 1, 1);
+  transition-duration: 200ms;
+  transition-property: background;
+  white-space: nowrap;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+  &:not([disabled]):hover {
+    filter: brightness(87%);
+  }
+
+  &[disabled] {
+    background-color: var(--color-disabled);
+    color: rgb(var(--rgb-color-dark) / 50%) !important;
+    cursor: default !important;
+    pointer-events: none;
+
+    &.outline {
+      opacity: 0.8;
+      border-color: var(--color-disabled);
+      color: rgb(var(--rgb-color-tooltip) / 60%) !important;
+
+      &:hover {
+        background-color: rgb(var(--rgb-color-primary) / 8%) !important;
+      }
+    }
+  }
+
+  &.small {
+    padding: 0 10px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  &.medium {
+    border: 3px solid red !important;
+  }
+
+  &.large {
+    padding: 0 16px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  &.xlarge {
+    padding: 0 20px;
+    height: 56px;
+    font-size: 1.5rem;
+  }
+
+  &.secondary {
+    background-color: var(--color-secondary);
+    color: rgb(var(--rgb-background-color-primary));
+
+    &:hover {
+      background-color: rgb(var(--rgb-background-color-secondary-hover) / 80%);
+      filter: brightness(130%);
+    }
+  }
+
+  &.clear {
+    background-color: transparent;
+    color: var(--color-primary);
+
+    &:hover {
+      background-color: rgb(var(--rgb-background-color-clear-hover) / 8%) !important;
+    }
+  }
+
+  &.outline {
+    background-color: transparent !important;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+
+    &:hover {
+      background-color: rgb(var(--rgb-background-color-clear-hover) / 8%);
+    }
+  }
+}
