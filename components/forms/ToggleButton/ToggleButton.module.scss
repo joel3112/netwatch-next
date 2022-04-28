@@ -1,0 +1,52 @@
+$button-border-radius: 8px;
+$button-border-width: 1px;
+$button-border: $button-border-width solid var(--color-border);
+
+@mixin radius($key: 'left') {
+  @if $key == 'left' {
+    border-top-left-radius: $button-border-radius;
+    border-bottom-left-radius: $button-border-radius;
+  } @else {
+    border-top-right-radius: $button-border-radius;
+    border-bottom-right-radius: $button-border-radius;
+  }
+}
+
+/** ToggleButton (main component) **/
+
+.toggleButtonWrapper {
+  height: 48px;
+  width: fit-content;
+}
+
+/** ToggleButtonItem (child component) **/
+
+.toggleButtonItemWrapper {
+  @include font($size: 16px, $color: var(--color-text));
+
+  background-color: transparent;
+  cursor: pointer;
+  border: $button-border;
+  padding: 0 15px;
+  height: 100%;
+  transition: all 0.2s;
+  margin-left: calc(-1 * #{$button-border-width});
+
+  &:hover {
+    background-color: rgb(var(--rgb-background-color-clear-hover) / 8%);
+  }
+
+  &.selected {
+    border-color: var(--color-primary-dark) !important;
+    background-color: rgb(var(--rgb-background-color-primary-hover) / 70%);
+    z-index: 2;
+  }
+
+  &:first-child {
+    @include radius('left');
+  }
+
+  &:last-child {
+    @include radius('right');
+  }
+}
