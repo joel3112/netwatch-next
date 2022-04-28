@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Skeleton component renders component correctly 1`] = `
+<div>
+  <div
+    aria-label="skeleton"
+    class="skeletonWrapper default"
+    role="progressbar"
+  >
+    <span
+      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave skeleton css-1dk1h2u-MuiSkeleton-root"
+    />
+    <style>
+      
+        .skeletonWrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .skeletonWrapper::before {
+          padding-top: 0;
+        }
+      
+    </style>
+  </div>
+</div>
+`;

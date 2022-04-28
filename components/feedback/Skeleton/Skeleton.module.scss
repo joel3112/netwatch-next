@@ -1,0 +1,58 @@
+.skeletonWrapper {
+  display: block;
+  transition: all 0.2s ease-in;
+  overflow: hidden;
+  cursor: default !important;
+  position: relative;
+
+  &.circular {
+    border-radius: 50% !important;
+  }
+
+  &.heading {
+    height: 23px;
+  }
+
+  &.text {
+    height: 19px;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+  }
+}
+
+.skeleton {
+  @include absolute(top 0 left 0 right 0 bottom 0);
+
+  height: inherit !important;
+  transition: all 0.2s;
+  transform: none !important;
+  background-color: rgb(var(--rgb-color-skeleton)) !important;
+  border-radius: 3px !important;
+
+  .button & {
+    border-radius: var(--border-radius-button) !important;
+  }
+
+  .paragraph & {
+    height: 19px !important;
+  }
+
+  .ratio & {
+    border-radius: 0 !important;
+    position: absolute !important;
+    max-width: 100% !important;
+  }
+}
+
+.skeleton.paragraphLine {
+  &:last-child {
+    width: 50%;
+  }
+
+  & + & {
+    margin-top: 2px;
+  }
+}
