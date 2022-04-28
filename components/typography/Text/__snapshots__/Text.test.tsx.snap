@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Text component renders component correctly 1`] = `
+<div>
+  <span
+    class="wrapper md"
+  >
+    Test
+    <style>
+      
+        wrapper {
+          
+        }
+      
+    </style>
+  </span>
+</div>
+`;
