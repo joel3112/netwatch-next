@@ -1,5 +1,5 @@
-import { cloneElement, createContext, useContext } from 'react';
-import { BackdropProps as BackdropPropsMUI, PortalProps as PortalPropsMUI } from '@mui/material';
+import { cloneElement, ComponentPropsWithRef, createContext, useContext } from 'react';
+import { PortalProps as PortalPropsMUI } from '@mui/material';
 import cn from 'classnames';
 import { ElementChildren, ElementHTML, FunctionVoid } from '@/types';
 import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
@@ -42,9 +42,11 @@ const PortalHandler = ({ children: Child }: PortalHandlerProps) => {
 /** PortalPortal (child component) **/
 /* -------------------------------------------------------------------------- */
 
+export type PaperBackdropProps = ComponentPropsWithRef<'div'>;
+
 export type PaperModalProps = {
   container: PortalPropsMUI['container'];
-  BackdropProps?: Partial<BackdropPropsMUI>;
+  BackdropProps: Partial<PaperBackdropProps>;
 };
 
 type PortalPaperProps = ElementHTML & Required<ElementChildren<JSX.Element>>;

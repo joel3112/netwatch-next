@@ -1,7 +1,7 @@
 /* eslint-disable react/display-name */
 import { forwardRef } from 'react';
 import { ElementChildren } from '@/types';
-import Tooltip from '@/components/overlay/Tooltip/Tooltip';
+import { Tooltip } from '@/components/overlay';
 
 type WithTooltipProps = ElementChildren & {
   tooltip?: string;
