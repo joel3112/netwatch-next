@@ -50,6 +50,15 @@ exports[`Index page renders page correctly 1`] = `
         </button>
       </a>
     </h1>
+    <div
+      class="portalWrapper wrapper"
+    >
+      <button
+        class="wrapper medium outline"
+      >
+        Menu
+      </button>
+    </div>
   </div>
 </div>
 `;
