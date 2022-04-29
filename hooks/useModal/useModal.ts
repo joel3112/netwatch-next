@@ -1,17 +1,15 @@
 import { useEffect, useState } from 'react';
 import { FunctionVoid } from '@/types';
 
-type PortalOnChangeProp = FunctionVoid<boolean>;
-
 export type UseModal = {
   isOpened: boolean;
-  handleChange: PortalOnChangeProp;
+  handleChange: FunctionVoid<boolean>;
 };
 
-export type UseModalHook = (opened: boolean, onChange: PortalOnChangeProp) => UseModal;
+export type UseModalHook = (opened?: boolean, onChange?: FunctionVoid<boolean>) => UseModal;
 
-export const useModal: UseModalHook = (opened: boolean, onChange: PortalOnChangeProp) => {
-  const [isOpened, setIsOpened] = useState<boolean>(opened);
+export const useModal: UseModalHook = (opened?: boolean, onChange?: FunctionVoid<boolean>) => {
+  const [isOpened, setIsOpened] = useState<boolean | undefined>(opened);
 
   useEffect(() => {
     setIsOpened(opened);
@@ -23,7 +21,7 @@ export const useModal: UseModalHook = (opened: boolean, onChange: PortalOnChange
   };
 
   return {
-    isOpened,
+    isOpened: Boolean(isOpened),
     handleChange
   };
 };

@@ -1,0 +1,19 @@
+/** Portal (main component) **/
+
+.wrapper {
+  display: block;
+}
+
+/** PortalPaper (child component) **/
+
+.backdrop {
+  background-color: rgb(var(--rgb-color-backdrop)) !important;
+  backdrop-filter: blur(1px);
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-delay: 0.2s !important;
+}
+
+.paper {
+  box-shadow: none !important;
+  background-color: var(--background-color-primary) !important;
+}

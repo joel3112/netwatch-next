@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Portal component renders component correctly 1`] = `
+<div>
+  <div
+    class="portalWrapper wrapper"
+  >
+    <button
+      class="wrapper medium"
+    >
+      Open
+    </button>
+    <div>
+      <span>
+        Content
+      </span>
+    </div>
+  </div>
+</div>
+`;

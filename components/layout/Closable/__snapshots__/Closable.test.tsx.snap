@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Closable component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper wrapper wrapper"
+  >
+    <header
+      class="header"
+    >
+      heading
+    </header>
+    <button
+      aria-label="close"
+      class="wrapper medium clear close"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+    <main />
+    <style>
+      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          
+          
+          
+        }
+      
+    </style>
+  </div>
+</div>
+`;
