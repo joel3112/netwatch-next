@@ -1,6 +1,6 @@
-import cn from 'classnames';
 import { ElementChildren, ElementHTML, ElementSkeleton } from '@/types';
 import { withSkeleton } from '@/hoc/withSkeleton';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/typography/Text/Text.module.scss';
 
 type TextSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl' | '5xl';
@@ -22,7 +22,7 @@ const defaultProps = {
 const Text = ({ className, style, children, size, ellipsis, maxLines, truncateTo }: TextProps) => {
   return (
     <span
-      className={cn(
+      className={classes(
         styles.wrapper,
         className,
         size && styles[size],

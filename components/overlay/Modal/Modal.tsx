@@ -1,10 +1,10 @@
 import { Box, Fade } from '@mui/material';
 import ModalMUI from '@mui/material/Modal';
-import cn from 'classnames';
 import { ElementChildren, ElementHTML, FunctionVoid } from '@/types';
 import { useModal } from '@/hooks/useModal';
 import { Closable } from '@/components/layout';
 import { PaperBackdropProps, PaperModalProps } from '@/components/overlay/Portal/Portal';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/overlay/Modal/Modal.module.scss';
 
 export type ModalProps = typeof defaultProps &
@@ -31,7 +31,7 @@ const Modal = ({ className, children, heading, opened, onChange, modalConfig }: 
       container={container}
       BackdropProps={BackdropProps as PaperBackdropProps}>
       <Fade in={isOpened}>
-        <Box className={cn(styles.wrapper, className, 'wrapper')}>
+        <Box className={classes(styles.wrapper, className, 'wrapper')}>
           <Closable
             outside
             className={styles.close}

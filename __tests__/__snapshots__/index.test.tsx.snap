@@ -36,7 +36,7 @@ exports[`Index page renders page correctly 1`] = `
         </button>
       </a>
       <div
-        class="portalWrapper wrapper"
+        class="wrapper"
       >
         <button
           class="wrapper medium outline"
@@ -45,7 +45,7 @@ exports[`Index page renders page correctly 1`] = `
         </button>
       </div>
       <div
-        class="portalWrapper wrapper"
+        class="wrapper"
       >
         <button
           class="wrapper medium outline"

@@ -1,9 +1,9 @@
 import { cloneElement, ComponentPropsWithRef, createContext, useContext } from 'react';
 import { PortalProps as PortalPropsMUI } from '@mui/material';
-import cn from 'classnames';
 import { ElementChildren, ElementHTML, FunctionVoid } from '@/types';
 import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
 import { useModal } from '@/hooks/useModal';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/overlay/Portal/Portal.module.scss';
 
 /* -------------------------------------------------------------------------- */
@@ -63,7 +63,7 @@ const PortalPaper = ({ children: Child }: PortalPaperProps) => {
   };
 
   return cloneElement(Child, {
-    className: cn(styles.portalPaper, Child.props && Child.props.className),
+    className: classes(styles.paper, Child.props && Child.props.className),
     opened,
     onChange: () => onChange && onChange(false),
     modalConfig,
@@ -93,7 +93,7 @@ const Portal = ({ children, opened, onChange }: PortalProps) => {
         opened: isOpened,
         onChange: handleChange
       }}>
-      <div className={cn(styles.portalWrapper, 'wrapper')}>{children}</div>
+      <div className={classes(styles.wrapper)}>{children}</div>
     </PortalContext.Provider>
   );
 };

@@ -1,8 +1,8 @@
 import { MouseEvent, MouseEventHandler } from 'react';
-import cn from 'classnames';
 import { ElementChildren, ElementHTML, ElementSkeleton } from '@/types';
 import { withSkeleton } from '@/hoc/withSkeleton';
 import { withTooltip } from '@/hoc/withTooltip';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/forms/Button/Button.module.scss';
 
 export type ButtonProps = Partial<typeof defaultProps> &
@@ -42,7 +42,7 @@ const Button = ({
   return (
     <button
       aria-label={ariaLabel || tooltip}
-      className={cn(
+      className={classes(
         styles.wrapper,
         size && styles[size],
         secondary && styles.secondary,

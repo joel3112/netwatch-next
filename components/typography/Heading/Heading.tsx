@@ -1,7 +1,7 @@
 import { createElement, HTMLAttributes } from 'react';
-import cn from 'classnames';
 import { ElementChildren, ElementHTML, ElementSkeleton } from '@/types';
 import { withSkeleton } from '@/hoc/withSkeleton';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/typography/Heading/Heading.module.scss';
 
 export const HeadingSize = {
@@ -30,7 +30,7 @@ const Heading = ({ className, children, level, ellipsis }: HeadingProps) => {
     createElement(HeadingSize[level || 2], props, children);
 
   return (
-    <Element className={cn(styles.wrapper, className, ellipsis && styles.ellipsis)}>
+    <Element className={classes(styles.wrapper, className, ellipsis && styles.ellipsis)}>
       {children}
     </Element>
   );

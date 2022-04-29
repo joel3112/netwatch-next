@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import cn from 'classnames';
 import { useTranslation } from 'next-i18next';
 import { ElementChildren } from '@/types';
 import { useScroll } from '@/hooks/useScroll';
 import { Container, Header } from '@/components/layout';
+import { classes } from '@/utils/helpers';
 import styles from '@/containers/Layout/Layout.module.scss';
 
 export type LayoutProps = typeof defaultProps & ElementChildren;
@@ -16,7 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
   const { onScroll } = useScroll(container as HTMLDivElement);
 
   return (
-    <div className={cn(styles.wrapper)} ref={setContainer} onScroll={onScroll}>
+    <div className={classes(styles.wrapper)} ref={setContainer} onScroll={onScroll}>
       <header className={styles.header}>
         <Container>
           <Header href="/" title={t('application.name')} logoUrl="/assets/images/logo-light.png" />
