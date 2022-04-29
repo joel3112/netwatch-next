@@ -3,7 +3,7 @@ import Layout from '@/containers/Layout/Layout';
 import { renderRedux } from '@/utils/tests';
 
 describe('Tests Layout component', () => {
-  test('renders component correctly', () => {
+  test('renders container correctly', () => {
     const { container } = renderRedux(<Layout>Content</Layout>);
 
     expect(container).toMatchSnapshot();
