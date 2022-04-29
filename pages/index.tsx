@@ -3,10 +3,9 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
 import Link from 'next/link';
+import { Heading, Text } from '@/components/typography';
 import { Container, Space } from '@/components/layout';
 import { Button } from '@/components/forms';
-import { Heading, Text } from '@/components/typography';
-import { Drawer, Modal, Portal } from '@/components/overlay';
 
 const Home: NextPage = () => {
   const { t } = useTranslation('home');
@@ -32,26 +31,6 @@ const Home: NextPage = () => {
               <Button>Movies</Button>
             </a>
           </Link>
-
-          <Portal>
-            <Portal.Handler>
-              <Button outline>Drawer</Button>
-            </Portal.Handler>
-            <Portal.Paper>
-              <Drawer heading="Drawer" position="right">
-                Content
-              </Drawer>
-            </Portal.Paper>
-          </Portal>
-
-          <Portal>
-            <Portal.Handler>
-              <Button outline>Modal</Button>
-            </Portal.Handler>
-            <Portal.Paper>
-              <Modal heading="Modal">Content</Modal>
-            </Portal.Paper>
-          </Portal>
         </Space>
       </Container>
     </>

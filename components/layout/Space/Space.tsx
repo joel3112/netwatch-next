@@ -61,9 +61,9 @@ const Space = ({
           display: flex;
           flex-direction: ${reverse ? `${direction}-reverse` : direction};
           flex-wrap: ${wrap ? 'wrap' : 'nowrap'};
-          ${gap ? `gap: ${spacing}` : ''}
-          ${justify ? `justify-content: ${positions[justify]}` : ''}
-          ${align ? `align-items: ${positions[align]}` : ''}
+          ${gap ? `gap: ${spacing};` : ''}
+          ${justify ? `justify-content: ${positions[justify]};` : ''}
+          ${align ? `align-items: ${positions[align]};` : ''}
         }
       `}</style>
     </div>

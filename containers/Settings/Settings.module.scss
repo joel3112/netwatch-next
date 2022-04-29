@@ -1,0 +1,46 @@
+/** Container (main component) **/
+
+.wrapper {
+  display: block;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.heading {
+  @include font($size: 14px, $weight: 500);
+
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+}
+
+/** SettingsMode (child component) **/
+
+.settingsMode {
+  width: 100% !important;
+}
+
+.settingsModeItem {
+  flex-grow: 1;
+}
+
+.modeIcon {
+  @include font($size: 20px);
+
+  margin-top: 2px;
+
+  &.auto {
+    @include font($size: 24px);
+
+    margin-top: 5px;
+  }
+}
+
+.modeLabel {
+  @include font($size: 14px, $weight: 500);
+}

@@ -17,9 +17,7 @@ const defaultProps = {};
 
 const Closable = ({ className, children, heading, outside, onClose }: ClosableProps) => {
   return (
-    <Space
-      direction="column"
-      className={classes(styles.wrapper, outside && styles.outside, 'wrapper')}>
+    <Space direction="column" className={classes(styles.wrapper, outside && styles.outside)}>
       {heading && <header className={styles.header}>{heading}</header>}
 
       <Button

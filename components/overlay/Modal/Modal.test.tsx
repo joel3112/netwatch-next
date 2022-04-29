@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from '@testing-library/react';
+import { act, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import Modal from '@/components/overlay/Modal/Modal';
 
@@ -24,9 +24,12 @@ describe('Tests Modal component', () => {
 
     expect(screen.getByText(portalContent)).toBeInTheDocument();
 
-    userEvent.click(screen.getByLabelText('close'));
+    // eslint-disable-next-line testing-library/no-unnecessary-act
+    act(() => {
+      userEvent.click(screen.getByLabelText('close'));
+    });
 
-    await waitFor(() => {
+    await waitFor(async () => {
       expect(screen.queryByText(portalContent)).not.toBeInTheDocument();
     });
   });
