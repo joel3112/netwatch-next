@@ -23,6 +23,10 @@ export type ElementSkeleton = {
   skeleton?: boolean;
 };
 
+export type ElementLink = {
+  href?: string;
+};
+
 export type EmptyObject = Record<never, unknown>;
 export type ObjectGeneric<T = unknown> = { [key: string]: T };
 export type ObjectKeyIn<T, U = JSX.Element> = { [key in U]: T };

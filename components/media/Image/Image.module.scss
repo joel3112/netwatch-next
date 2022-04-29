@@ -1,0 +1,14 @@
+.wrapper {
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+  }
+}
+
+.image {
+  @include background-image;
+  @include absolute(top 0 left 0 right 0 bottom 0);
+}
