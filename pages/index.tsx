@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 
           <Link href="/movies">
             <a>
-              <Button>Movies</Button>
+              <Button>{t('type.movies')}</Button>
             </a>
           </Link>
         </Space>
