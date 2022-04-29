@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Image component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper"
+    role="img"
+  >
+    <div
+      aria-label="img"
+      class="image"
+    />
+    <style>
+      
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/4pCSBPHUPia93rppHF3UX4cLQ9M.jpg);
+        }
+      
+    </style>
+  </div>
+</div>
+`;
