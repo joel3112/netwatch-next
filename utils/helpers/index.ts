@@ -1,13 +1,9 @@
-import * as utilsArray from '@/utils/helpers/array';
-import * as utilsString from '@/utils/helpers/string';
-import utilsObject from '@/utils/helpers/object';
-import utilsSize from '@/utils/helpers/size';
+import { debounce, noop, throttle } from 'lodash';
+import classes from 'classnames';
 
-const helpers = {
-  ...utilsArray,
-  ...utilsString,
-  ...utilsObject,
-  ...utilsSize
-};
+export * from '@/utils/helpers/array';
+export * from '@/utils/helpers/string';
+export * from '@/utils/helpers/object';
+export * from '@/utils/helpers/size';
 
-export default helpers;
+export { classes, debounce, noop, throttle };

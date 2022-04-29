@@ -1,4 +1,4 @@
-import utils from '@/utils/helpers/object';
+import { getPropValue, isEmpty, mapValuesBy } from '@/utils/helpers/object';
 
 describe('Object helper methods', () => {
   let example: object;
@@ -13,10 +13,10 @@ describe('Object helper methods', () => {
 
   describe('isEmpty', () => {
     test('returns true in empty object', () => {
-      expect(utils.isEmpty({})).toBeTruthy();
+      expect(isEmpty({})).toBeTruthy();
     });
     test('returns false in not empty object', () => {
-      expect(utils.isEmpty(example)).toBeFalsy();
+      expect(isEmpty(example)).toBeFalsy();
     });
   });
 
@@ -28,7 +28,7 @@ describe('Object helper methods', () => {
       { path: 'c.c1.c12', result: 'cuatro' }
     ].forEach(({ path, result }) => {
       test(`returns "${result}" value in object with path "${path}"`, () => {
-        expect(utils.getPropValue(example, path)).toBe(result);
+        expect(getPropValue(example, path)).toBe(result);
       });
     });
   });
@@ -50,7 +50,7 @@ describe('Object helper methods', () => {
           }
         }
       ].forEach(({ iteratee, result }) => {
-        expect(utils.mapValuesBy(object, iteratee as (value: object) => unknown)).toEqual(result);
+        expect(mapValuesBy(object, iteratee as (value: object) => unknown)).toEqual(result);
       });
     });
   });
