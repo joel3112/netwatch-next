@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Video component renders component correctly 1`] = `
+<div>
+  <div
+    aria-label="video"
+    class="wrapper"
+  >
+    <iframe
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen=""
+      aria-label="video"
+      class="video"
+      src="https://www.youtube.com/embed/6Cl8PmVm3YE?autoplay=NaN"
+      title="video"
+    />
+    <style>
+      
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.25%;
+        }
+      
+    </style>
+  </div>
+</div>
+`;

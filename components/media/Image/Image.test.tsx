@@ -13,6 +13,7 @@ describe('Tests Image component', () => {
   test('renders with ratio correctly', () => {
     const width = 200;
     const ratio = 1.5;
+
     render(
       <Image
         alt="img"
