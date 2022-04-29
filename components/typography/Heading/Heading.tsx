@@ -1,6 +1,7 @@
 import { createElement, HTMLAttributes } from 'react';
-import { ElementChildren, ElementHTML, ElementSkeleton } from '@/types';
+import { ElementChildren, ElementHTML, ElementLink, ElementSkeleton } from '@/types';
 import { withSkeleton } from '@/hoc/withSkeleton';
+import { withNavigation } from '@/hoc/withNavigation';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/typography/Heading/Heading.module.scss';
 
@@ -16,7 +17,8 @@ export const HeadingSize = {
 export type HeadingProps = Partial<typeof defaultProps> &
   ElementHTML &
   ElementChildren<string> &
-  ElementSkeleton & {
+  ElementSkeleton &
+  ElementLink & {
     level?: keyof typeof HeadingSize;
     ellipsis?: boolean;
   };
@@ -38,6 +40,9 @@ const Heading = ({ className, children, level, ellipsis }: HeadingProps) => {
 
 Heading.defaultProps = defaultProps;
 
-const HeadingWithSkeleton = withSkeleton<HeadingProps>(Heading, { variant: 'heading' });
+const HeadingWithNavigation = withNavigation<HeadingProps>(Heading);
+const HeadingWithSkeleton = withSkeleton<HeadingProps>(HeadingWithNavigation, {
+  variant: 'heading'
+});
 
 export default HeadingWithSkeleton;

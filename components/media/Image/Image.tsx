@@ -1,5 +1,6 @@
-import { ElementChildren, ElementHTML, ElementSkeleton, Rectangle } from '@/types';
+import { ElementChildren, ElementHTML, ElementLink, ElementSkeleton, Rectangle } from '@/types';
 import { withSkeleton } from '@/hoc/withSkeleton';
+import { withNavigation } from '@/hoc/withNavigation';
 import { useSizeRatio } from '@/hooks/useSizeRatio';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/media/Image/Image.module.scss';
@@ -8,6 +9,7 @@ export type ImageProps = typeof defaultProps &
   ElementHTML &
   ElementChildren<JSX.Element> &
   ElementSkeleton &
+  ElementLink &
   Rectangle & {
     src: string;
     ratio?: number;
@@ -49,6 +51,7 @@ const Image = ({ className, children, src, width, height, ratio, lazy, alt }: Im
 
 Image.defaultProps = defaultProps;
 
-const ImageWithSkeleton = withSkeleton<ImageProps>(Image);
+const ImageWithNavigation = withNavigation<ImageProps>(Image);
+const ImageWithSkeleton = withSkeleton<ImageProps>(ImageWithNavigation);
 
 export default ImageWithSkeleton;
