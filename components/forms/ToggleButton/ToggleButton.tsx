@@ -1,8 +1,8 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
-import cn from 'classnames';
 import { ElementChildren, ElementHTML, FunctionVoid } from '@/types';
 import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
 import { Space } from '@/components/layout';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/forms/ToggleButton/ToggleButton.module.scss';
 
 /* -------------------------------------------------------------------------- */
@@ -48,7 +48,7 @@ const ToggleButtonItem = ({ children, className, value, selected }: ToggleButton
   return (
     <button
       aria-pressed={activeButton === value}
-      className={cn(styles.itemWrapper, activeButton === value && styles.selected, className)}
+      className={classes(styles.itemWrapper, activeButton === value && styles.selected, className)}
       onClick={changeButton}>
       {children}
     </button>
@@ -82,7 +82,7 @@ const ToggleButton = ({ className, children, onChange }: ToggleButtonProps) => {
 
   return (
     <ToggleButtonContext.Provider value={{ activeButton, onChangeButton: handleChangeButton }}>
-      <Space align="center" className={cn(styles.wrapper, className)}>
+      <Space align="center" className={classes(styles.wrapper, className)}>
         {children}
       </Space>
     </ToggleButtonContext.Provider>

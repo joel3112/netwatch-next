@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import cn from 'classnames';
 import { ElementChildren, ElementHTML } from '@/types';
 import { Space } from '@/components/layout';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/layout/Header/Header.module.scss';
 
 export type HeaderProps = typeof defaultProps &
@@ -20,7 +20,7 @@ const defaultProps = {
 
 const Header = ({ children, title, href, logoUrl }: HeaderProps) => {
   return (
-    <Space justify="between" align="center" className={cn(styles.wrapper)}>
+    <Space justify="between" align="center" className={classes(styles.wrapper)}>
       <Link href={href}>
         <a>
           <Space align="center">

@@ -3,7 +3,7 @@
 exports[`Tests Portal component renders component correctly 1`] = `
 <div>
   <div
-    class="portalWrapper wrapper"
+    class="wrapper"
   >
     <button
       class="wrapper medium"

@@ -1,8 +1,8 @@
 /* eslint-disable react/display-name */
 import { ComponentType, useEffect, useState } from 'react';
 import type { AppProps } from 'next/app';
-import cn from 'classnames';
 import { useTheme } from '@/hooks/useTheme';
+import { classes } from '@/utils/helpers';
 
 export const appWithTheme = (Component: ComponentType<AppProps>) => (appProps: AppProps) => {
   const { theme: aspectMode } = useTheme();
@@ -21,7 +21,7 @@ export const appWithTheme = (Component: ComponentType<AppProps>) => (appProps: A
   }
 
   return (
-    <div aria-label={aspectMode} className={cn(aspectMode, 'theme')}>
+    <div aria-label={aspectMode} className={classes(aspectMode, 'theme')}>
       <Component {...(appProps as AppProps)} />
     </div>
   );

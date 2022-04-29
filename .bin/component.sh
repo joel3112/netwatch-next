@@ -15,8 +15,8 @@ mkdir -p $path
 # ------------------------------------------------------------- #
 
 echo "import { useState, useRef } from 'react';
-import cn from 'classnames';
 import { ElementChildren, ElementHTML } from '@/types';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/$name/$name.module.scss';
 
 export type ${name}Props = typeof defaultProps &
@@ -31,7 +31,7 @@ const defaultProps = {
 
 const $name = ({ className, children, name }: ${name}Props) => {
   return (
-    <div className={cn(styles.wrapper, className)}>
+    <div className={classes(styles.wrapper, className)}>
       {name} component
       {children}
     </div>

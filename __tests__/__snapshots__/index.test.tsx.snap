@@ -26,20 +26,6 @@ exports[`Index page renders page correctly 1`] = `
       
         </style>
       </span>
-      <style>
-        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 10px
-          
-          
-        }
-      
-      </style>
-    </div>
-    <h1>
       <a
         href="/movies"
       >
@@ -49,15 +35,36 @@ exports[`Index page renders page correctly 1`] = `
           Movies
         </button>
       </a>
-    </h1>
-    <div
-      class="portalWrapper wrapper"
-    >
-      <button
-        class="wrapper medium outline"
+      <div
+        class="wrapper"
       >
-        Menu
-      </button>
+        <button
+          class="wrapper medium outline"
+        >
+          Drawer
+        </button>
+      </div>
+      <div
+        class="wrapper"
+      >
+        <button
+          class="wrapper medium outline"
+        >
+          Modal
+        </button>
+      </div>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px
+          
+          
+        }
+      
+      </style>
     </div>
   </div>
 </div>

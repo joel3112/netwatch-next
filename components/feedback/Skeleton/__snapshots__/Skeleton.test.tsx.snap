@@ -3,7 +3,7 @@
 exports[`Tests Skeleton component renders component correctly 1`] = `
 <div>
   <div
-    class="skeletonWrapper default"
+    class="wrapper default"
     role="progressbar"
   >
     <span
@@ -11,12 +11,12 @@ exports[`Tests Skeleton component renders component correctly 1`] = `
     />
     <style>
       
-        .skeletonWrapper {
+        .wrapper {
           width: auto;
           min-width: auto;
           height: auto;
         }
-        .skeletonWrapper::before {
+        .wrapper::before {
           padding-top: 0;
         }
       

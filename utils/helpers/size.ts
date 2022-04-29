@@ -6,7 +6,7 @@ const widthRatio = (size: Size, ratio: number): Size =>
 const heightRatio = (size: Size, ratio: number): Size =>
   typeof size === 'number' ? size * ratio : size;
 
-const modifierRatio = (type: 'width' | 'height', size: Size, ratio?: number): Size => {
+export const modifierRatio = (type: 'width' | 'height', size: Size, ratio?: number): Size => {
   if (ratio) {
     if (type === 'width') {
       return widthRatio(size, ratio);
@@ -20,17 +20,10 @@ const modifierRatio = (type: 'width' | 'height', size: Size, ratio?: number): Si
   return size;
 };
 
-const validateSize = (size: Size): Size => {
+export const validateSize = (size: Size): Size => {
   if (typeof size === 'number') {
     return `${size}px`;
   }
 
   return size;
 };
-
-const helpers = {
-  modifierRatio,
-  validateSize
-};
-
-export default helpers;

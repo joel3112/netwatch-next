@@ -1,10 +1,10 @@
-import cn from 'classnames';
 import DrawerMUI from '@mui/material/Drawer';
 import { ModalProps } from '@mui/material';
 import { ElementChildren, ElementHTML, FunctionVoid } from '@/types';
 import { useModal } from '@/hooks/useModal';
 import { Closable } from '@/components/layout';
 import { PaperModalProps } from '@/components/overlay/Portal/Portal';
+import { classes } from '@/utils/helpers';
 import styles from '@/components/overlay/Drawer/Drawer.module.scss';
 
 export type DrawerProps = Partial<typeof defaultProps> &
@@ -36,7 +36,7 @@ const Drawer = ({
     <DrawerMUI
       aria-labelledby="drawer"
       classes={{
-        paper: cn(styles.wrapper, position && styles[position], className)
+        paper: classes(styles.wrapper, position && styles[position], className)
       }}
       ModalProps={(modalConfig || {}) as Partial<ModalProps>}
       anchor={position}
