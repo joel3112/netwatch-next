@@ -32,7 +32,7 @@ exports[`Index page renders page correctly 1`] = `
         <button
           class="wrapper medium"
         >
-          Movies
+          type.movies
         </button>
       </a>
       <style>

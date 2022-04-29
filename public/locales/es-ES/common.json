@@ -4,5 +4,9 @@
   "settings.aspect.heading": "Aspecto",
   "settings.aspect.option.auto": "Sistema",
   "settings.aspect.option.light": "Claro",
-  "settings.aspect.option.dark": "Oscuro"
+  "settings.aspect.option.dark": "Oscuro",
+  "type.movies": "Películas",
+  "type.movie": "Película",
+  "type.series": "Series",
+  "type.serie": "Serie"
 }
