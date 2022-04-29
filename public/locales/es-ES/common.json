@@ -1,5 +1,6 @@
 {
   "application.name": "Netwatch",
+  "header.action.settings": "Ajustes",
   "settings.aspect.heading": "Aspecto",
   "settings.aspect.option.auto": "Sistema",
   "settings.aspect.option.light": "Claro",

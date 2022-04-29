@@ -3,7 +3,7 @@
 exports[`Tests Closable component renders component correctly 1`] = `
 <div>
   <div
-    class="wrapper wrapper wrapper"
+    class="wrapper wrapper"
   >
     <header
       class="header"

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tests Layout component renders component correctly 1`] = `
+exports[`Tests Layout component renders container correctly 1`] = `
 <div>
   <div
     class="wrapper"
@@ -43,11 +43,11 @@ exports[`Tests Layout component renders component correctly 1`] = `
                 />
                 <noscript />
               </span>
-              <p
-                class="title"
+              <h1
+                class="wrapper title"
               >
                 application.name
-              </p>
+              </h1>
               <style>
                 
         .wrapper {
@@ -56,7 +56,7 @@ exports[`Tests Layout component renders component correctly 1`] = `
           flex-wrap: nowrap;
           
           
-          align-items: center
+          align-items: center;
         }
       
               </style>
@@ -65,15 +65,66 @@ exports[`Tests Layout component renders component correctly 1`] = `
           <div
             class="wrapper"
           >
+            <div
+              class="wrapper headerActions"
+            >
+              <div
+                class="wrapper"
+              >
+                <div
+                  aria-label="header.action.settings"
+                  class="content"
+                  data-mui-internal-clone-element="true"
+                >
+                  <button
+                    aria-label="header.action.settings"
+                    class="wrapper medium outline headerAction"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="3"
+                      />
+                      <path
+                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
             <style>
               
         .wrapper {
           display: flex;
           flex-direction: row;
           flex-wrap: nowrap;
-          gap: 10px
+          gap: 10px;
           
-          align-items: center
+          align-items: center;
         }
       
             </style>
@@ -85,8 +136,8 @@ exports[`Tests Layout component renders component correctly 1`] = `
           flex-direction: row;
           flex-wrap: nowrap;
           
-          justify-content: space-between
-          align-items: center
+          justify-content: space-between;
+          align-items: center;
         }
       
           </style>

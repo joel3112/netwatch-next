@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-i18next';
 import { IconType } from 'react-icons';
 import { MdOutlineDarkMode, MdOutlineLightMode, MdSettingsBrightness } from 'react-icons/md';
 import { useTheme } from '@/hooks/useTheme';
@@ -39,17 +40,22 @@ export const defaultModes: Array<SettingMode> = [
 ];
 
 const SettingsMode = ({ modes = defaultModes }: SettingsModeProps) => {
+  const { t } = useTranslation();
   const { themeKey, onChangeTheme } = useTheme();
 
   return (
-    <ToggleButton className={styles.settingsMode} activeButton={themeKey} onChange={onChangeTheme}>
+    <ToggleButton className={styles.settingsMode} onChange={onChangeTheme}>
       {modes.map(({ key, label, Icon }) => (
-        <ToggleButton.Item key={key} value={key} className={styles.settingsModeItem}>
+        <ToggleButton.Item
+          key={key}
+          value={key}
+          selected={key === themeKey}
+          className={styles.settingsModeItem}>
           <Space align="center" gap={8}>
             <div className={classes(styles.modeIcon, styles[key])}>
               <Icon />
             </div>
-            <span className={styles.modeLabel}>{label}</span>
+            <span className={styles.modeLabel}>{t(label)}</span>
           </Space>
         </ToggleButton.Item>
       ))}
@@ -84,12 +90,14 @@ export const defaultProps = {
 };
 
 const Settings = ({ sections }: SettingsProps) => {
+  const { t } = useTranslation();
+
   return (
     <Space direction="column" gap={20} className={classes(styles.wrapper)}>
       {sections.map(({ heading, content: Content }) => {
         return (
           <Space key={heading} direction="column" gap={10} className={styles.section}>
-            {heading && <span className={styles.heading}>{heading}</span>}
+            {heading && <span className={styles.heading}>{t(heading)}</span>}
 
             <div className={styles.content}>
               <Content />

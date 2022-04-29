@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tests Settings component renders component correctly 1`] = `
+exports[`Tests Settings component renders container correctly 1`] = `
 <div>
   <div
     class="wrapper wrapper"
@@ -58,9 +58,9 @@ exports[`Tests Settings component renders component correctly 1`] = `
           display: flex;
           flex-direction: row;
           flex-wrap: nowrap;
-          gap: 8px
+          gap: 8px;
           
-          align-items: center
+          align-items: center;
         }
       
               </style>
@@ -105,9 +105,9 @@ exports[`Tests Settings component renders component correctly 1`] = `
           display: flex;
           flex-direction: row;
           flex-wrap: nowrap;
-          gap: 8px
+          gap: 8px;
           
-          align-items: center
+          align-items: center;
         }
       
               </style>
@@ -152,9 +152,9 @@ exports[`Tests Settings component renders component correctly 1`] = `
           display: flex;
           flex-direction: row;
           flex-wrap: nowrap;
-          gap: 8px
+          gap: 8px;
           
-          align-items: center
+          align-items: center;
         }
       
               </style>
@@ -168,7 +168,7 @@ exports[`Tests Settings component renders component correctly 1`] = `
           flex-wrap: nowrap;
           
           
-          align-items: center
+          align-items: center;
         }
       
           </style>
@@ -180,7 +180,7 @@ exports[`Tests Settings component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 10px
+          gap: 10px;
           
           
         }
@@ -193,7 +193,7 @@ exports[`Tests Settings component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 20px
+          gap: 20px;
           
           
         }

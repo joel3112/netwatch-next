@@ -1,0 +1,31 @@
+/** Container (main component) **/
+
+.wrapper {
+  @include box(100%, 100%);
+
+  position: relative;
+}
+
+.logo {
+  width: var(--size-header);
+  height: var(--size-header);
+  max-height: var(--size-header);
+  content: var(--img-logo);
+}
+
+.title {
+  color: var(--color-text);
+  font-family: var(--font-logo);
+  margin: 5px 15px 0 10px !important;
+}
+
+/** HeaderActions (child component) **/
+
+.headerAction {
+  @include box(var(--size-header-action), var(--size-header-action) !important);
+
+  border-color: var(--color-border) !important;
+  min-width: var(--size-header-action);
+  font-size: 20px !important;
+  padding: 0 !important;
+}
