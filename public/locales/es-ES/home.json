@@ -1,4 +1,8 @@
 {
   "head.title": "Inicio - Netwatch",
-  "welcome.title": "Bienvenid@, películas y series para ti"
+  "welcome.title": "Bienvenid@, películas y programas de televisión para ti",
+  "movies.title": "Películas",
+  "movie.title": "Película",
+  "tvs.title": "Programas de TV",
+  "tv.title": "Programa de TV"
 }

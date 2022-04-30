@@ -1,4 +1,4 @@
-export const mockMovies = [
+const movies = [
   {
     adult: false,
     backdrop_path: '/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg',
@@ -340,3 +340,5 @@ export const mockMovies = [
     vote_count: 215
   }
 ];
+
+export default movies;

@@ -67,6 +67,7 @@
   @include absolute(bottom 5px right 0);
 
   background-color: transparent;
+  z-index: 2;
   display: none !important;
   padding: 12px;
 

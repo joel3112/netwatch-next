@@ -23,6 +23,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -68,10 +79,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/osYbtvqjMUhEXgkuFJOsRYVpq6N.jpg);
         }
       
             </style>
@@ -96,6 +103,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -141,10 +159,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/A4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg);
         }
       
             </style>
@@ -169,6 +183,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -214,10 +239,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg);
         }
       
             </style>
@@ -242,6 +263,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -287,10 +319,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/noe4dNuEbqj7xIjgOFkTOohRsNC.jpg);
         }
       
             </style>
@@ -315,6 +343,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -360,10 +399,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/hME3AVfVT3dCaHgNSEAeLCORZBm.jpg);
         }
       
             </style>
@@ -388,6 +423,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -433,10 +479,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/k5waciRFMN5bwudDrgFLffoAorm.jpg);
         }
       
             </style>
@@ -461,6 +503,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -506,10 +559,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/wDpOsSN8mHL4iIxs9trPRFtekWx.jpg);
         }
       
             </style>
@@ -534,6 +583,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -579,10 +639,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/d0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg);
         }
       
             </style>
@@ -607,6 +663,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -652,10 +719,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/6bis845x7oW3yz0OqgA9cf2JnPf.jpg);
         }
       
             </style>
@@ -680,6 +743,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -725,10 +799,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/719jSFWaLStziGy17j5vGOWSz1V.jpg);
         }
       
             </style>
@@ -753,6 +823,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -798,10 +879,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/eOecgHEmiejyBQ5J2CjGmF8sDFF.jpg);
         }
       
             </style>
@@ -826,6 +903,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -871,10 +959,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/19rA9FjhwI4VEfaCXV7648XUInR.jpg);
         }
       
             </style>
@@ -899,6 +983,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -944,10 +1039,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/uGdm2pPF8V1MDjUvops49kcOk2Y.jpg);
         }
       
             </style>
@@ -972,6 +1063,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -1017,10 +1119,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/iDah4ZcDX3F316LcLlmNNAzsRqF.jpg);
         }
       
             </style>
@@ -1045,6 +1143,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -1090,10 +1199,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/rK25c71fYVi0Bv7RrTChK7NAQjC.jpg);
         }
       
             </style>
@@ -1118,6 +1223,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -1163,10 +1279,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/pwSlzCAynIF6aEP7oxWddo7Kng2.jpg);
         }
       
             </style>
@@ -1191,6 +1303,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -1236,10 +1359,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/wPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg);
         }
       
             </style>
@@ -1264,6 +1383,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -1309,10 +1439,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/lFu7pTdf4gXABogCmPE0cBkVQZu.jpg);
         }
       
             </style>
@@ -1337,6 +1463,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -1382,10 +1519,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/uvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg);
         }
       
             </style>
@@ -1410,6 +1543,17 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               aria-label="image"
               class="image image linkable"
             >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
               <div
                 class="wrapper actions"
               >
@@ -1455,10 +1599,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-
-        .image {
-          background-image: url(https://image.tmdb.org/t/p/w500/1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg);
         }
       
             </style>

@@ -8,6 +8,7 @@
     "start": "next start",
     "type-check": "tsc --pretty --noEmit",
     "lint": "next lint",
+    "lint:check": "tsc --pretty --noEmit && next lint",
     "stylelint": "npx stylelint \"./**/*.{css,scss}\"",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,scss,md,json}' --config ./.prettierrc.json",
     "postinstall": "husky install",

@@ -3,9 +3,7 @@ import Image from '@/components/media/Image/Image';
 
 describe('Tests Image component', () => {
   test('renders component correctly', () => {
-    const { container } = render(
-      <Image alt="img" src="https://image.tmdb.org/t/p/w500/4pCSBPHUPia93rppHF3UX4cLQ9M.jpg" />
-    );
+    const { container } = render(<Image alt="img" src="https://picsum.photos/200/300" />);
 
     expect(container).toMatchSnapshot();
   });
@@ -14,16 +12,9 @@ describe('Tests Image component', () => {
     const width = 200;
     const ratio = 1.5;
 
-    render(
-      <Image
-        alt="img"
-        src="https://image.tmdb.org/t/p/w500/4pCSBPHUPia93rppHF3UX4cLQ9M.jpg"
-        width={width}
-        ratio={ratio}
-      />
-    );
+    render(<Image alt="image" src="https://picsum.photos/200/300" width={width} ratio={ratio} />);
 
-    expect(screen.getByRole('img')).toHaveStyle(`width: ${width}px`);
-    expect(screen.getByRole('img')).toHaveStyle(`height: ${width * ratio}px`);
+    expect(screen.getByLabelText('image')).toHaveStyle(`width: ${width}px`);
+    expect(screen.getByLabelText('image')).toHaveStyle(`height: ${width * ratio}px`);
   });
 });
