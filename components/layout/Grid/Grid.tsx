@@ -75,7 +75,7 @@ const Grid = ({ children, className, spacing }: GridProps) => {
       <GridMUI
         role="grid"
         className={classes(styles.wrapper, className)}
-        columns={60}
+        columns={20}
         container
         rowSpacing={rowSpacing as ResponsiveStyleValue<GridSpacing>}
         columnSpacing={columnSpacing as ResponsiveStyleValue<GridSpacing>}>
