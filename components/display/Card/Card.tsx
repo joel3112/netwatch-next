@@ -132,7 +132,7 @@ const defaultProps = {
 const Card = ({ children, className, skeleton, href }: CardProps) => {
   return (
     <CardContext.Provider value={{ href, skeleton }}>
-      <div className={classes(styles.wrapper, className, 'wrapper')}>{children}</div>
+      <div className={classes(styles.wrapper, className)}>{children}</div>
     </CardContext.Provider>
   );
 };

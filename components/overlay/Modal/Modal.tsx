@@ -31,7 +31,7 @@ const Modal = ({ className, children, heading, opened, onChange, modalConfig }: 
       container={container}
       BackdropProps={BackdropProps as PaperBackdropProps}>
       <Fade in={isOpened}>
-        <Box className={classes(styles.wrapper, className, 'wrapper')}>
+        <Box className={classes(styles.wrapper, className)}>
           <Closable
             outside
             className={styles.close}
