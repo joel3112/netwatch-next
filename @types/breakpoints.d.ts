@@ -4,9 +4,9 @@ export type BreakpointValues = { [key in Breakpoint]: number };
 
 export interface BreakpointRules {
   name: Breakpoint;
-  width?: number;
-  items?: number;
-  spacing?: number;
+  width: number;
+  items: number;
+  spacing: number;
 }
 
 type BreakpointRule = keyof BreakpointRules;

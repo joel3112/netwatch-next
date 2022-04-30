@@ -26,9 +26,15 @@ const Home: NextPage = () => {
             quas rem repellendus similique tempore unde ut.
           </Text>
 
-          <Link href="/movies">
+          <Link href="/movie">
             <a>
-              <Button>Movies</Button>
+              <Button>{t('movie.title')}</Button>
+            </a>
+          </Link>
+
+          <Link href="/tv">
+            <a>
+              <Button>{t('tv.title')}</Button>
             </a>
           </Link>
         </Space>

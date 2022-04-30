@@ -9,7 +9,6 @@ exports[`Tests Video component renders component correctly 1`] = `
     <iframe
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen=""
-      aria-label="video"
       class="video"
       src="https://www.youtube.com/embed/6Cl8PmVm3YE?autoplay=NaN"
       title="video"

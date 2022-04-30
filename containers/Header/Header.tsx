@@ -61,13 +61,9 @@ const Header = ({}: HeaderProps) => {
       <Link href="/">
         <a>
           <Space align="center">
-            <Image
-              className={styles.logo}
-              src="/assets/images/logo-light.png"
-              alt="logo"
-              width={58}
-              height={58}
-            />
+            <div className={styles.logo}>
+              <Image src="/assets/images/logo-light.png" alt="logo" layout="fill" />
+            </div>
 
             <Heading level={1} className={styles.title}>
               {t('application.name')}

@@ -27,12 +27,21 @@ exports[`Index page renders page correctly 1`] = `
         </style>
       </span>
       <a
-        href="/movies"
+        href="/movie"
       >
         <button
           class="wrapper medium"
         >
-          Movies
+          movie.title
+        </button>
+      </a>
+      <a
+        href="/tv"
+      >
+        <button
+          class="wrapper medium"
+        >
+          tv.title
         </button>
       </a>
       <style>

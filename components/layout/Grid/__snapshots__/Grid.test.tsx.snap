@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Grid component renders component correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container wrapper css-125mmfg-MuiGrid-root"
+    role="grid"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item item css-13i4rnv-MuiGrid-root"
+    >
+      item $
+      1
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item item css-13i4rnv-MuiGrid-root"
+    >
+      item $
+      2
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item item css-13i4rnv-MuiGrid-root"
+    >
+      item $
+      3
+    </div>
+  </div>
+</div>
+`;
