@@ -5,9 +5,1493 @@ exports[`Tests movies page renders page correctly 1`] = `
   <div
     class="wrapper hasMargins"
   >
-    <h1>
-      movies page
-    </h1>
+    <div
+      class="wrapper"
+      style="margin-top: 30px;"
+    >
+      <h2
+        class="wrapper"
+      >
+        movies.title
+      </h2>
+      <div
+        class="MuiGrid-root MuiGrid-container wrapper grid css-1q1c91r-MuiGrid-root"
+        role="grid"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/osYbtvqjMUhEXgkuFJOsRYVpq6N.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/A4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/noe4dNuEbqj7xIjgOFkTOohRsNC.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/hME3AVfVT3dCaHgNSEAeLCORZBm.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/k5waciRFMN5bwudDrgFLffoAorm.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/wDpOsSN8mHL4iIxs9trPRFtekWx.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/d0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/6bis845x7oW3yz0OqgA9cf2JnPf.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/719jSFWaLStziGy17j5vGOWSz1V.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/eOecgHEmiejyBQ5J2CjGmF8sDFF.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/19rA9FjhwI4VEfaCXV7648XUInR.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/uGdm2pPF8V1MDjUvops49kcOk2Y.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/iDah4ZcDX3F316LcLlmNNAzsRqF.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/rK25c71fYVi0Bv7RrTChK7NAQjC.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/pwSlzCAynIF6aEP7oxWddo7Kng2.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/wPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/lFu7pTdf4gXABogCmPE0cBkVQZu.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/uvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        >
+          <div
+            class="wrapper card"
+          >
+            <a
+              href="/home"
+            >
+              <div
+                class="wrapper"
+                role="img"
+              >
+                <div
+                  aria-label="image"
+                  class="image image linkable"
+                >
+                  <div
+                    class="wrapper actions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                        />
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+                <style>
+                  
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+
+        .image {
+          background-image: url(https://image.tmdb.org/t/p/w500/1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg);
+        }
+      
+                </style>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+      </style>
+    </div>
   </div>
 </div>
 `;

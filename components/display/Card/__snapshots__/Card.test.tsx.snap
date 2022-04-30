@@ -3,7 +3,7 @@
 exports[`Tests Card component renders component correctly 1`] = `
 <div>
   <div
-    class="wrapper wrapper"
+    class="wrapper"
   >
     <div
       class="wrapper"
