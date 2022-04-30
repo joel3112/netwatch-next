@@ -5,7 +5,7 @@ import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { Grid } from '@/components/layout';
 import { Card } from '@/components/display';
 import { classes } from '@/utils/helpers';
-import { mockMedias } from '@/data';
+import { mockMedias } from '@/data/';
 import styles from '@/containers/MediaGrid/MediaGrid.module.scss';
 
 type MediaItem = {

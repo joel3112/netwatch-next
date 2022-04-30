@@ -12,6 +12,15 @@ const nextConfig = {
     additionalData: `
       @import "./styles/_mixins.scss";
     `
+  },
+  async redirects() {
+    return [
+      {
+        source: '/home',
+        destination: '/',
+        permanent: true
+      }
+    ];
   }
 };
 

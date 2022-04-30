@@ -6,8 +6,8 @@ import { Container, Space } from '@/components/layout';
 import { Heading } from '@/components/typography';
 import { MediaGrid } from '@/containers/';
 
-const Movies: NextPage = () => {
-  const { t } = useTranslation('movies');
+const Tv: NextPage = () => {
+  const { t } = useTranslation('tv');
 
   return (
     <>
@@ -17,9 +17,9 @@ const Movies: NextPage = () => {
 
       <Container margins>
         <Space direction="column" gap={20} style={{ marginTop: 30 }}>
-          <Heading level={2}>{t('movies.title')}</Heading>
+          <Heading level={2}>{t('tv.title')}</Heading>
 
-          <MediaGrid mediaKey="movie" />
+          <MediaGrid mediaKey="tv" />
         </Space>
       </Container>
     </>
@@ -28,8 +28,8 @@ const Movies: NextPage = () => {
 
 export const getStaticProps = async ({ locale }: { locale: string }) => ({
   props: {
-    ...(await serverSideTranslations(locale, ['common', 'movies']))
+    ...(await serverSideTranslations(locale, ['common', 'tv']))
   }
 });
 
-export default Movies;
+export default Tv;
