@@ -6,7 +6,7 @@ import { Container, Space } from '@/components/layout';
 import { Heading } from '@/components/typography';
 import { MediaGrid } from '@/containers/';
 
-const Movie: NextPage = () => {
+const MoviePage: NextPage = () => {
   const { t } = useTranslation('movie');
 
   return (
@@ -19,7 +19,7 @@ const Movie: NextPage = () => {
         <Space direction="column" gap={20} style={{ marginTop: 30 }}>
           <Heading level={2}>{t('movie.title')}</Heading>
 
-          <MediaGrid mediaKey="movie" />
+          <MediaGrid />
         </Space>
       </Container>
     </>
@@ -32,4 +32,4 @@ export const getStaticProps = async ({ locale }: { locale: string }) => ({
   }
 });
 
-export default Movie;
+export default MoviePage;

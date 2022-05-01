@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import Movie from '@/pages/movie';
+import MoviePage from '@/pages/movie';
 
 describe('Tests movies page', () => {
   test('renders page correctly', () => {
-    const { container } = render(<Movie />);
+    const { container } = render(<MoviePage />);
 
     expect(container).toMatchSnapshot();
   });

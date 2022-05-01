@@ -6,7 +6,7 @@ import { Container, Space } from '@/components/layout';
 import { Heading } from '@/components/typography';
 import { MediaGrid } from '@/containers/';
 
-const Tv: NextPage = () => {
+const TVPage: NextPage = () => {
   const { t } = useTranslation('tv');
 
   return (
@@ -19,7 +19,7 @@ const Tv: NextPage = () => {
         <Space direction="column" gap={20} style={{ marginTop: 30 }}>
           <Heading level={2}>{t('tv.title')}</Heading>
 
-          <MediaGrid mediaKey="tv" />
+          <MediaGrid />
         </Space>
       </Container>
     </>
@@ -32,4 +32,4 @@ export const getStaticProps = async ({ locale }: { locale: string }) => ({
   }
 });
 
-export default Tv;
+export default TVPage;

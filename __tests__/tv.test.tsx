@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import Tv from '@/pages/tv';
+import TVPage from '@/pages/tv';
 
 describe('Tests tvs page', () => {
   test('renders page correctly', () => {
-    const { container } = render(<Tv />);
+    const { container } = render(<TVPage />);
 
     expect(container).toMatchSnapshot();
   });

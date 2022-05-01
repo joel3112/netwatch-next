@@ -23,7 +23,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
 
-const $namePage: NextPage = () => {
+const ${namePage}Page: NextPage = () => {
   const { t } = useTranslation('$name');
 
   return (
@@ -45,7 +45,7 @@ export const getStaticProps = async ({ locale }: { locale: string }) => ({
   }
 });
 
-export default $namePage;" > "pages/$name.tsx"
+export default ${namePage}Page;" > "pages/$name.tsx"
 
 # ------------------------------------------------------------- #
 # Page i18n
@@ -61,11 +61,11 @@ echo "{
 # ------------------------------------------------------------- #
 
 echo "import { render, screen } from '@testing-library/react';
-import $namePage from '@/pages/$name';
+import ${namePage}Page from '@/pages/$name';
 
 describe('Tests $name page', () => {
   test('renders page correctly', () => {
-    const { container } = render(<$namePage />);
+    const { container } = render(<${namePage}Page />);
 
     expect(container).toMatchSnapshot();
 	});
