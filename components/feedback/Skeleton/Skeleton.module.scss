@@ -10,11 +10,11 @@
   }
 
   &.heading {
-    height: 23px;
+    height: 23px !important;
   }
 
   &.text {
-    height: 19px;
+    height: 19px !important;
   }
 
   &::before {
