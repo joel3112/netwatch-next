@@ -33,3 +33,4 @@ export type ObjectKeyIn<T, U = JSX.Element> = { [key in U]: T };
 
 export type FunctionGeneric = (...arg: Array<any>) => any;
 export type FunctionVoid<T> = (key: T) => void;
+export type FunctionPromiseVoid<T> = (key?: T) => Promise<void>;
