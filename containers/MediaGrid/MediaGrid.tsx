@@ -12,11 +12,9 @@ export type MediaGridProps = typeof defaultProps &
     items: Array<MediaData>;
   };
 
-const defaultProps = {
-  items: [] as Array<MediaData>
-};
+const defaultProps = {};
 
-const MediaGrid = ({ skeleton, items }: MediaGridProps) => {
+const MediaGrid = ({ items }: MediaGridProps) => {
   const { getBreakpointRuleBy } = useBreakpoint();
   const spacings = getBreakpointRuleBy('spacing');
   const breakpointsItems = getBreakpointRuleBy('items');
@@ -24,9 +22,9 @@ const MediaGrid = ({ skeleton, items }: MediaGridProps) => {
   return (
     <div className={styles.wrapper}>
       <Grid gap={5} spacing={spacings} className={classes(styles.grid)}>
-        {items.map(({ id, image, name, date }) => (
-          <Grid.Item key={id} {...breakpointsItems}>
-            <Card href="/home" className={styles.card} skeleton={skeleton}>
+        {items.map(({ id, image, name, date, type }, index) => (
+          <Grid.Item key={`${id}-${index}`} {...breakpointsItems}>
+            <Card href="/home" className={styles.card} skeleton={!type}>
               <Card.Image src={image} width="100%" ratio={1.5}>
                 <Card.Actions>
                   <Card.Actions.Item icon={IoMdAdd} />

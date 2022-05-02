@@ -1,5 +1,5 @@
 import { APIMovieData, APITVData, MediaCommonData } from '@/types';
-import { dateFromMedia, namesFromMedia } from '@/utils/api/helpers';
+import { dateFromMedia, namesFromMedia, typeFromMedia } from '@/utils/api/helpers';
 
 export const mediaMapper = (media: APIMovieData | APITVData): MediaCommonData => {
   const {
@@ -15,7 +15,7 @@ export const mediaMapper = (media: APIMovieData | APITVData): MediaCommonData =>
 
   return {
     id,
-    type: media_type,
+    type: media_type || typeFromMedia(media),
     description: overview,
     image: poster_path ? `${process.env.API_IMAGES_URL}${poster_path}` : '',
     backdrop: backdrop_path ? `${process.env.API_BACKDROP_URL}${backdrop_path}` : '',
