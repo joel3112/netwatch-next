@@ -1,7 +1,5 @@
-import axios from 'axios';
 import { IoMdAdd } from 'react-icons/io';
-import { ElementHTML, MediaData, MediaTypeKey } from '@/types';
-import { useFetch } from '@/hooks/useFetch';
+import { ElementHTML, ElementSkeleton, MediaData } from '@/types';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { Grid } from '@/components/layout';
 import { Card } from '@/components/display';
@@ -9,46 +7,36 @@ import { classes } from '@/utils/helpers';
 import styles from '@/containers/MediaGrid/MediaGrid.module.scss';
 
 export type MediaGridProps = typeof defaultProps &
-  ElementHTML & {
-    mediaKey: MediaTypeKey;
+  ElementHTML &
+  ElementSkeleton & {
+    items: Array<MediaData>;
   };
 
-const defaultProps = {};
-
-const itemPlaceholder = {
-  name: 'placeholder media name',
-  date: '9999-99-99'
+const defaultProps = {
+  items: [] as Array<MediaData>
 };
 
-const fetcher = (mediaKey: MediaTypeKey) => axios.get('/api/' + mediaKey).then((res) => res.data);
-
-const MediaGrid = ({ mediaKey }: MediaGridProps) => {
+const MediaGrid = ({ skeleton, items }: MediaGridProps) => {
   const { getBreakpointRuleBy } = useBreakpoint();
-  const { data: items, loading } = useFetch<Array<MediaData>>(
-    '/api/' + mediaKey,
-    () => fetcher(mediaKey),
-    20,
-    itemPlaceholder
-  );
+  const spacings = getBreakpointRuleBy('spacing');
+  const breakpointsItems = getBreakpointRuleBy('items');
 
   return (
     <div className={styles.wrapper}>
-      {items && !items.isEmpty() && (
-        <Grid gap={5} spacing={getBreakpointRuleBy('spacing')} className={classes(styles.grid)}>
-          {items.map(({ id, image, name, date }) => (
-            <Grid.Item key={id} {...getBreakpointRuleBy('items')}>
-              <Card href="/home" className={styles.card} skeleton={loading}>
-                <Card.Image src={image} width="100%" ratio={1.5}>
-                  <Card.Actions>
-                    <Card.Actions.Item icon={IoMdAdd} />
-                  </Card.Actions>
-                </Card.Image>
-                <Card.Body title={name} description={date} />
-              </Card>
-            </Grid.Item>
-          ))}
-        </Grid>
-      )}
+      <Grid gap={5} spacing={spacings} className={classes(styles.grid)}>
+        {items.map(({ id, image, name, date }) => (
+          <Grid.Item key={id} {...breakpointsItems}>
+            <Card href="/home" className={styles.card} skeleton={skeleton}>
+              <Card.Image src={image} width="100%" ratio={1.5}>
+                <Card.Actions>
+                  <Card.Actions.Item icon={IoMdAdd} />
+                </Card.Actions>
+              </Card.Image>
+              <Card.Body title={name} description={date} />
+            </Card>
+          </Grid.Item>
+        ))}
+      </Grid>
     </div>
   );
 };

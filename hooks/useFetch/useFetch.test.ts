@@ -36,18 +36,6 @@ describe('Tests useFetch hook', () => {
     });
   });
 
-  test('returns placeholder data correctly', async () => {
-    (axios.get as jest.Mock).mockResolvedValueOnce(null);
-
-    const size = 2;
-    const placeholder = { placeholder: true };
-    const { result } = renderHook(() => useFetch('/api/test3', fetcher, size, placeholder));
-
-    await waitFor(() => {
-      expect(result.current.data).toHaveLength(size);
-    });
-  });
-
   test('returns error correctly', async () => {
     (axios.get as jest.Mock).mockRejectedValue(mockError);
 
