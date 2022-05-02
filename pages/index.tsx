@@ -7,7 +7,7 @@ import { Heading, Text } from '@/components/typography';
 import { Container, Space } from '@/components/layout';
 import { Button } from '@/components/forms';
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   const { t } = useTranslation('home');
 
   return (
@@ -49,4 +49,4 @@ export const getStaticProps = async ({ locale }: { locale: string }) => ({
   }
 });
 
-export default Home;
+export default HomePage;

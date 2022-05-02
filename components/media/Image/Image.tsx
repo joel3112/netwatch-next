@@ -23,17 +23,29 @@ const defaultProps = {
   quality: 50
 };
 
-const Image = ({ className, children, src, width, height, ratio, alt, quality }: ImageProps) => {
+const Image = ({
+  className,
+  children,
+  skeleton,
+  src,
+  width,
+  height,
+  ratio,
+  alt,
+  quality
+}: ImageProps) => {
   const sizes = useSizeRatio({ width, height, ratio });
 
   return (
     <div role="img" aria-label={alt || 'image'} className={classes(styles.wrapper)}>
-      <ImageNext
-        src={src}
-        layout="fill"
-        className={classes(styles.image, className)}
-        quality={quality}
-      />
+      {!skeleton && (
+        <ImageNext
+          src={src}
+          layout="fill"
+          className={classes(styles.image, className)}
+          quality={quality}
+        />
+      )}
 
       <div className={classes(className, styles.content)}>{children}</div>
 
