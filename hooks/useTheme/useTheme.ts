@@ -9,9 +9,7 @@ export type UseTheme = {
   onChangeTheme: (key: ThemeMode) => void;
 };
 
-export type UseThemeHook = () => UseTheme;
-
-export const useTheme: UseThemeHook = () => {
+export const useTheme = (): UseTheme => {
   const { state, dispatch } = useRedux('theme');
   const { keyMode, darkMode } = state as ThemeState;
 

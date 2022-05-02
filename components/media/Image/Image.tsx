@@ -1,5 +1,11 @@
 import ImageNext from 'next/image';
-import { ElementChildren, ElementHTML, ElementLink, ElementSkeleton, Rectangle } from '@/types';
+import {
+  ElementChildren,
+  ElementHTML,
+  ElementLink,
+  ElementSkeleton,
+  RectangleRatio
+} from '@/types';
 import { withSkeleton } from '@/hoc/withSkeleton';
 import { withNavigation } from '@/hoc/withNavigation';
 import { useSizeRatio } from '@/hooks/useSizeRatio';
@@ -11,10 +17,9 @@ export type ImageProps = Partial<typeof defaultProps> &
   ElementChildren<JSX.Element> &
   ElementSkeleton &
   ElementLink &
-  Rectangle & {
+  RectangleRatio & {
     src: string;
     alt?: string;
-    ratio?: number;
     quality?: number;
   };
 

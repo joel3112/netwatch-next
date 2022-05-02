@@ -7,9 +7,7 @@ export type UseRedux = {
   dispatch: Dispatch<{ type: unknown }>;
 };
 
-export type UseReduxHook = (selector?: ReduceSelector) => UseRedux;
-
-export const useRedux: UseReduxHook = (selector?: ReduceSelector) => {
+export const useRedux = (selector?: ReduceSelector): UseRedux => {
   const state = useSelector((storeState) => storeState) as ReduceSelectors;
   const dispatch = useDispatch();
 

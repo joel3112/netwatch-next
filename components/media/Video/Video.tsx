@@ -1,13 +1,12 @@
-import { ElementHTML, Rectangle } from '@/types';
+import { ElementHTML, RectangleRatio } from '@/types';
+import { useSizeRatio } from '@/hooks/useSizeRatio';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/media/Video/Video.module.scss';
-import { useSizeRatio } from '@/hooks/useSizeRatio';
 
 export type VideoProps = typeof defaultProps &
   ElementHTML &
-  Rectangle & {
+  RectangleRatio & {
     id: string;
-    ratio?: number;
     autoplay?: boolean;
   };
 

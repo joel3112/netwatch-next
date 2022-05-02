@@ -1,12 +1,11 @@
 /* eslint-disable react/display-name */
-import { ElementChildren, Rectangle } from '@/types';
+import { ElementChildren, RectangleRatio } from '@/types';
 import { SkeletonVariant } from '@/components/feedback/Skeleton/Skeleton';
 import { Skeleton } from '@/components/feedback';
 
 type WithSkeletonProps = ElementChildren &
-  Rectangle & {
+  RectangleRatio & {
     skeleton?: boolean;
-    ratio?: number;
   };
 
 interface WithSkeletonConfig<T> {

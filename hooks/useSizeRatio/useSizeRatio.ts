@@ -1,14 +1,10 @@
 import { useEffect, useState } from 'react';
-import { Rectangle, Size } from '@/types';
+import { Rectangle, RectangleRatio, Size } from '@/types';
 import { modifierRatio, validateSize } from '@/utils/helpers';
 
-export type UseSizeRatio = Rectangle & {
-  ratio?: number;
-};
+export type UseSizeRatio = Required<Rectangle>;
 
-export type UseSizeRatioHook = (x: UseSizeRatio) => Required<Rectangle>;
-
-export const useSizeRatio: UseSizeRatioHook = ({ width, height, ratio }) => {
+export const useSizeRatio = ({ width, height, ratio }: RectangleRatio): UseSizeRatio => {
   const [sizes, setSizes] = useState<Rectangle>({});
 
   useEffect(() => {

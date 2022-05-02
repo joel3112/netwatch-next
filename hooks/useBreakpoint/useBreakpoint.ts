@@ -17,12 +17,10 @@ export type UseBreakpoint = {
   isLargeDesktop: boolean;
 };
 
-type UseBreakpointHook = () => UseBreakpoint;
-
 const getBreakpointRuleBy = (key: BreakpointRule) =>
   mapValuesBy(breakpointRules, (value) => (value as BreakpointRules)[key]);
 
-export const useBreakpoint: UseBreakpointHook = () => {
+export const useBreakpoint = (): UseBreakpoint => {
   const theme = createTheme({
     breakpoints: {
       values: getBreakpointRuleBy('width') as BreakpointValues

@@ -6,9 +6,7 @@ export type UseModal = {
   handleChange: FunctionVoid<boolean>;
 };
 
-export type UseModalHook = (opened?: boolean, onChange?: FunctionVoid<boolean>) => UseModal;
-
-export const useModal: UseModalHook = (opened?: boolean, onChange?: FunctionVoid<boolean>) => {
+export const useModal = (opened?: boolean, onChange?: FunctionVoid<boolean>): UseModal => {
   const [isOpened, setIsOpened] = useState<boolean | undefined>(opened);
 
   useEffect(() => {

@@ -10,9 +10,7 @@ export type UseScroll = {
   onResetScroll: () => void;
 };
 
-export type UseScrollHook = (container: HTMLDivElement) => UseScroll;
-
-export const useScroll: UseScrollHook = (container) => {
+export const useScroll = (container: HTMLDivElement): UseScroll => {
   const { events } = useRouter() || { events: {} };
   const { state, dispatch } = useRedux('scrollTo');
   const { scrollPosition, forceTop } = state as ScrollToState;
