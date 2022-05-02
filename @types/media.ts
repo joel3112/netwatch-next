@@ -30,8 +30,8 @@ export type MediaCommonData = {
 export type MovieData = MediaCommonData;
 
 export type TVData = MediaCommonData & {
-  number_seasons: number;
-  number_episodes: number;
+  number_seasons?: number;
+  number_episodes?: number;
 };
 
 export type MediaData = MovieData | TVData;
