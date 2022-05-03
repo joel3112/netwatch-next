@@ -4,7 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { IconType } from 'react-icons';
 import { FiSettings } from 'react-icons/fi';
 import { ElementHTML } from '@/types';
-import { Settings } from '@/containers/';
+import { Settings } from '@/containers/Settings';
 import { Space } from '@/components/layout';
 import { Button } from '@/components/forms';
 import { Heading } from '@/components/typography';

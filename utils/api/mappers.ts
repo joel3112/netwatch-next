@@ -1,5 +1,5 @@
 import { APIMovieData, APITVData, MediaCommonData } from '@/types';
-import { dateFromMedia, namesFromMedia, typeFromMedia } from '@/utils/api/helpers';
+import { dateFromMedia, namesFromMedia, typeFromMedia } from '@/utils/api';
 
 export const mediaMapper = (media: APIMovieData | APITVData): MediaCommonData => {
   const {

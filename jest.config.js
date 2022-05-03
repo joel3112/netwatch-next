@@ -10,6 +10,8 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js', '<rootDir>/utils/helpers/index.ts'],
   moduleNameMapper: {
+    '@/types': '<rootDir>/@types/media',
+    '@/data': '<rootDir>/data',
     '^@/types/(.*)$': '<rootDir>/@types/$1',
     '^@/(.*)/(.*)$': '<rootDir>/$1/$2'
   },

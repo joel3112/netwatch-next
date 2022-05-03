@@ -1,6 +1,5 @@
 import type { NextApiRequest } from 'next';
-import { APIMediaData, APIMediaDetail } from '@/types';
-import { MediaType, MediaTypeKey } from '@/types/media';
+import { APIMediaData, APIMediaDetail, MediaType, MediaTypeKey } from '@/types';
 
 export const nextAPIBaseURL = (req: NextApiRequest): string => {
   if (!req) return window.location.origin;

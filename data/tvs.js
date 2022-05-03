@@ -1,4 +1,4 @@
-const tvs = [
+export default [
   {
     backdrop_path: '/1uegR4uAxRxiMyX4nQnpzbXhrTw.jpg',
     first_air_date: '2022-03-30',
@@ -319,5 +319,3 @@ const tvs = [
     vote_count: 913
   }
 ];
-
-export default tvs;
