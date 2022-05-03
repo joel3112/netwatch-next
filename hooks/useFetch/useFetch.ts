@@ -1,5 +1,6 @@
 import useSWR, { BareFetcher, KeyedMutator } from 'swr';
-import { DataResponse, DataResponseError, ObjectGeneric } from '@/types';
+import { ObjectGeneric } from '@/types';
+import { DataResponse, DataResponseError } from '@/types/media';
 
 export type UseFetch<T> = {
   data: Array<ObjectGeneric> | DataResponse<T> | null;

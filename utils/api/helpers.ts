@@ -1,5 +1,5 @@
 import type { NextApiRequest } from 'next';
-import { APIMediaData, APIMediaDetail } from '@/types';
+import { APIMediaData, APIMediaDetail } from '@/types/api';
 import { MediaType, MediaTypeKey } from '@/types/media';
 
 export const nextAPIBaseURL = (req: NextApiRequest): string => {

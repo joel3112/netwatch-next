@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
-import { APIResponseError } from '@/types';
+import { APIResponseError } from '@/types/api';
 
 // Spanish Language - Spain
 const language = 'es-ES'; //  ISO 639-1

@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { MediaData } from '@/types';
+import { MediaData } from '@/types/media';
 import MediaGrid from '@/containers/MediaGrid/MediaGrid';
 import { mediaMapper } from '@/utils/api';
 import mockMovies from '@/data/movies';

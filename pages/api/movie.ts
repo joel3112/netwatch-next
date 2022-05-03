@@ -1,6 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import axios, { AxiosResponse } from 'axios';
-import { APIResponseListSuccess, APIMovieData, MovieData, DataListResponse } from '@/types';
+import { APIResponseListSuccess, APIMovieData } from '@/types/api';
+import { MovieData, DataListResponse } from '@/types/media';
 import { httpInterceptor, mediaMapper } from '@/utils/api';
 
 type Data = DataListResponse<MovieData>;

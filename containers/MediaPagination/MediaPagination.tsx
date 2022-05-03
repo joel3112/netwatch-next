@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useTranslation } from 'next-i18next';
-import { ElementChildren, ElementHTML, MediaData, MediaTypeKey } from '@/types';
+import { ElementChildren, ElementHTML } from '@/types';
+import { MediaData, MediaTypeKey } from '@/types/media';
 import { ScrollToState } from '@/redux/modules/scrollTo';
 import { useRedux } from '@/hooks/useRedux';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
