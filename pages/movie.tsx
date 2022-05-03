@@ -3,7 +3,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
 import { MediaType } from '@/types/media';
-import { MediaGrid } from '@/containers/';
+import { MediaPagination } from '@/containers/';
 import { Container, Space } from '@/components/layout';
 import { Heading } from '@/components/typography';
 
@@ -20,7 +20,7 @@ const MoviePage: NextPage = () => {
         <Space direction="column" gap={20} style={{ marginTop: 30 }}>
           <Heading level={2}>{t('movie.title')}</Heading>
 
-          <MediaGrid mediaKey={MediaType.MOVIE} />
+          <MediaPagination mediaKey={MediaType.MOVIE} />
         </Space>
       </Container>
     </>

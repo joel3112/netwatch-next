@@ -3,6 +3,7 @@ import { appWithTranslation } from 'next-i18next';
 import { appWithRedux } from '@/hoc/appWithRedux';
 import { appWithTheme } from '@/hoc/appWithTheme';
 import { appWithBreakpoints } from '@/hoc/appWithBreakpoints';
+import { appWithSWR } from '@/hoc/appWithSWR';
 import { Layout } from '@/containers/';
 import '@/styles/globals.scss';
 
@@ -16,4 +17,4 @@ const App = ({ Component, pageProps }: AppProps) => {
   );
 };
 
-export default appWithTranslation(appWithRedux(appWithBreakpoints(appWithTheme(App))));
+export default appWithTranslation(appWithSWR(appWithRedux(appWithBreakpoints(appWithTheme(App)))));

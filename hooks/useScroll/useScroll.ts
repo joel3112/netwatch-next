@@ -18,12 +18,14 @@ export const useScroll = (container: HTMLDivElement): UseScroll => {
   const handleReset = useCallback(() => dispatch(actions.reset(container)), [container, dispatch]);
 
   useEffect(() => {
+    dispatch(actions.scroll(container, 0));
+
     events.on('routeChangeComplete', () => {
       if (container) {
         handleReset();
       }
     });
-  }, [container, events, handleReset]);
+  }, [container, dispatch, events, handleReset]);
 
   const handleScroll = (e: UIEvent<HTMLDivElement>) => {
     dispatch(actions.scroll(container, e.currentTarget.scrollTop));

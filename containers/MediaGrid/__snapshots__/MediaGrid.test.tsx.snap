@@ -10,7 +10,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
       role="grid"
     >
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -128,7 +128,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -246,7 +246,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -364,7 +364,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -482,7 +482,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -600,7 +600,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -718,7 +718,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -836,7 +836,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -954,7 +954,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1072,7 +1072,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1190,7 +1190,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1308,7 +1308,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1426,7 +1426,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1544,7 +1544,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1662,7 +1662,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1780,7 +1780,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1898,7 +1898,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -2016,7 +2016,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -2134,7 +2134,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -2252,7 +2252,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-2 item css-1ms6mh1-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
       >
         <div
           class="wrapper card"

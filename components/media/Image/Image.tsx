@@ -10,9 +10,9 @@ import {
 import { withSkeleton } from '@/hoc/withSkeleton';
 import { withNavigation } from '@/hoc/withNavigation';
 import { useSizeRatio } from '@/hooks/useSizeRatio';
+import { Space } from '@/components/layout';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/media/Image/Image.module.scss';
-import { Space } from '@/components/layout';
 
 export type ImageProps = Partial<typeof defaultProps> &
   ElementHTML &

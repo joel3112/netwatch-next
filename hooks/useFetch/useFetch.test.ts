@@ -39,7 +39,7 @@ describe('Tests useFetch hook', () => {
   test('returns error correctly', async () => {
     (axios.get as jest.Mock).mockRejectedValue(mockError);
 
-    const { result } = renderHook(() => useFetch('/api/test4', fetcher));
+    const { result } = renderHook(() => useFetch('/api/test3', fetcher));
 
     await waitFor(() => {
       expect(result.current.error).toBe(mockError);
