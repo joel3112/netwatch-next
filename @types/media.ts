@@ -1,4 +1,10 @@
 export type DataResponse<T> = T;
+export type DataListResponse<T> = {
+  page: number;
+  results: Array<T>;
+  total_pages: number;
+  total_results: number;
+};
 export type DataResponseError = {
   status_code: number;
   status_message: string;
@@ -20,7 +26,7 @@ export type MediaCommonData = {
   original_name?: string;
   date?: string;
   description?: string;
-  image: string;
+  image?: string;
   backdrop?: string;
   popularity?: number;
   vote_count?: number;

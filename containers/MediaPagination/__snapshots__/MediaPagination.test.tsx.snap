@@ -1,0 +1,2769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests MediaPagination component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container wrapper css-1q1c91r-MuiGrid-root"
+      role="grid"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item item css-13i4rnv-MuiGrid-root"
+      >
+        <div
+          class="wrapper"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container wrapper grid css-1q1c91r-MuiGrid-root"
+            role="grid"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Caballero luna
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Pasión de gavilanes
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Pálpito
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Trivia Quest
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Peaky Blinders
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Heartstopper
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Anatomía de Grey
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          The Walking Dead
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          The Good Doctor
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Élite
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Lucifer
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          The Flash
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Estamos muertos
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Vikingos: Valhalla
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Conversaciones con asesinos: Las cintas de John Wayne Gacy
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Superman & Lois
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Los Simpson
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Euphoria
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          Crónicas vampíricas
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+            >
+              <div
+                class="wrapper card"
+              >
+                <div
+                  class="wrapper default ratio"
+                  role="progressbar"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                  >
+                    <a
+                      href="/home"
+                    >
+                      <div
+                        aria-label="image"
+                        class="wrapper"
+                        role="img"
+                      >
+                        <div
+                          class="image linkable content"
+                        >
+                          <div
+                            class="wrapper actions"
+                          >
+                            <button
+                              aria-label="action"
+                              class="wrapper medium clear action"
+                            >
+                              <svg
+                                class="actionIcon"
+                                fill="currentColor"
+                                height="1em"
+                                stroke="currentColor"
+                                stroke-width="0"
+                                viewBox="0 0 512 512"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                                />
+                              </svg>
+                            </button>
+                            <style>
+                              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                            </style>
+                          </div>
+                        </div>
+                        <style>
+                          
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                        </style>
+                      </div>
+                    </a>
+                  </span>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          min-width: 100%;
+          height: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+                <div
+                  class="wrapper body"
+                >
+                  <div
+                    class="wrapper heading"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <a
+                        href="/home"
+                      >
+                        <h2
+                          class="wrapper heading linkable"
+                        >
+                          S.W.A.T.
+                        </h2>
+                      </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 3px;
+          
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="wrapper more"
+    >
+      <button
+        class="wrapper medium"
+      >
+        list.load.more
+      </button>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          justify-content: center;
+          
+        }
+      
+      </style>
+    </div>
+  </div>
+</div>
+`;

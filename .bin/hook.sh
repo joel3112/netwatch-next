@@ -26,11 +26,9 @@ echo "import { useEffect, useState } from 'react';
 
 export type $type = [
   state: number
-]
+];
 
-export type $typeHook = (initialState: number) => $type;
-
-export const $name: $typeHook = (initialState: number) => {
+export const $name = (initialState: number): $type => {
   const [state, setState] = useState<number>(initialState);
 
   return [state];

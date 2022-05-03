@@ -16,10 +16,17 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@/types/*": ["./@types/*"]
+      "@/types/*": ["./@types/*"],
+      "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts", "/@types/*"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "types.d.ts",
+    "/@types/*.d.ts",
+    "/@types/*.ts"
+  ],
   "exclude": ["node_modules"]
 }

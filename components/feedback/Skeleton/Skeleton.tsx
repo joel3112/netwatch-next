@@ -1,5 +1,5 @@
 import { Skeleton as SkeletonMUI } from '@mui/material';
-import { ElementChildren, ElementHTML, Rectangle } from '@/types';
+import { ElementChildren, ElementHTML, RectangleRatio } from '@/types';
 import { useSizeRatio } from '@/hooks/useSizeRatio';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/feedback/Skeleton/Skeleton.module.scss';
@@ -9,8 +9,7 @@ export type SkeletonVariant = 'circular' | 'heading' | 'text' | 'button' | 'para
 export type SkeletonProps = typeof defaultProps &
   ElementHTML &
   ElementChildren &
-  Rectangle & {
-    ratio?: number;
+  RectangleRatio & {
     variant?: SkeletonVariant;
     numOfLines?: number;
   };

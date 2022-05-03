@@ -15,48 +15,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -66,103 +71,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Spider-Man: No Way Home
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2021-12-16
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -184,48 +133,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -235,103 +189,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Red
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-03-11
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -353,48 +251,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -404,103 +307,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Sonic 2: La Película
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-04-01
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -522,48 +369,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -573,103 +425,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Moonfall
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-02-04
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -691,48 +487,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -742,103 +543,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                The Batman
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-03-04
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -860,48 +605,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -911,103 +661,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                El Proyecto Adam
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-03-11
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -1029,48 +723,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -1080,103 +779,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Cangrejo Negro
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-03-18
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -1198,48 +841,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -1249,103 +897,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Encanto
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2021-11-26
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -1367,48 +959,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -1418,103 +1015,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                En la tormenta
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-02-25
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -1536,48 +1077,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -1587,103 +1133,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Las aventuras de Pil
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-04-13
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -1705,48 +1195,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -1756,103 +1251,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                La pasión de Cristo
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2004-04-02
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -1874,48 +1313,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -1925,103 +1369,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                La abuela
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-01-28
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -2043,48 +1431,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -2094,103 +1487,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Animales Fantásticos 3: Los Secretos de Dumbledore
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-04-08
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -2212,48 +1549,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -2263,103 +1605,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Ice Age: Las aventuras de Buck
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-03-25
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -2381,48 +1667,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -2432,103 +1723,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Sonic: La película
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2020-02-14
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -2550,48 +1785,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -2601,103 +1841,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Hotel Transilvania: Transformanía
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-01-14
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -2719,48 +1903,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -2770,103 +1959,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Eternals
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2021-11-05
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -2888,48 +2021,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -2939,103 +2077,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                The King's Man: La primera misión
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2021-12-29
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -3057,48 +2139,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -3108,103 +2195,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Kimi
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-02-10
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {
@@ -3226,48 +2257,53 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
         <div
           class="wrapper card"
         >
-          <div
-            class="wrapper default ratio"
-            role="progressbar"
+          <a
+            href="/home"
           >
-            <span
-              class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+            <div
+              aria-label="image"
+              class="wrapper"
+              role="img"
             >
-              <a
-                href="/home"
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image linkable"
+                  data-nimg="fill"
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                />
+                <noscript />
+              </span>
+              <div
+                class="image linkable content"
               >
                 <div
-                  aria-label="image"
-                  class="wrapper"
-                  role="img"
+                  class="wrapper actions"
                 >
-                  <div
-                    class="image linkable content"
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action"
                   >
-                    <div
-                      class="wrapper actions"
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
-                      >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
-                      <style>
-                        
+                      <path
+                        d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -3277,103 +2313,47 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           
         }
       
-                      </style>
-                    </div>
-                  </div>
-                  <style>
-                    
-        .wrapper {
-          width: 100%;
-          height: 100%;
-          min-width: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
                   </style>
                 </div>
-              </a>
-            </span>
-            <style>
-              
-        .wrapper {
-          width: 100%;
-          min-width: 100%;
-          height: 100%;
-        }
-        .wrapper::before {
-          padding-top: 150%;
-        }
-      
-            </style>
-          </div>
-          <div
-            class="wrapper body"
-          >
-            <div
-              class="wrapper heading"
-              role="progressbar"
-            >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-              >
-                <a
-                  href="/home"
-                >
-                  <h2
-                    class="wrapper heading linkable"
-                  >
-                    placeholder media name
-                  </h2>
-                </a>
-              </span>
+              </div>
               <style>
                 
         .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
         }
         .wrapper::before {
-          padding-top: 0;
+          padding-top: 150%;
         }
       
               </style>
             </div>
-            <div
-              class="wrapper text"
-              role="progressbar"
+          </a>
+          <div
+            class="wrapper body"
+          >
+            <a
+              href="/home"
             >
-              <span
-                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+              <h2
+                class="wrapper heading linkable"
               >
-                <span
-                  class="wrapper description sm"
-                >
-                  9999-99-99
-                  <style>
-                    
+                Sin respiro
+              </h2>
+            </a>
+            <span
+              class="wrapper description sm"
+            >
+              2022-02-25
+              <style>
+                
         wrapper {
           
         }
       
-                  </style>
-                </span>
-              </span>
-              <style>
-                
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
               </style>
-            </div>
+            </span>
             <style>
               
         .wrapper {

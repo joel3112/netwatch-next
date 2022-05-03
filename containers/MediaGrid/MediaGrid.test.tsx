@@ -1,17 +1,25 @@
 import { render, screen } from '@testing-library/react';
-import mockMovies from '@/data/movies';
+import { MediaData } from '@/types';
 import MediaGrid from '@/containers/MediaGrid/MediaGrid';
+import { mediaMapper } from '@/utils/api';
+import mockMovies from '@/data/movies';
 
 describe('Tests MediaGrid component', () => {
+  let medias: Array<MediaData> = [];
+
+  beforeAll(() => {
+    medias = mockMovies.map(mediaMapper);
+  });
+
   test('renders component correctly', () => {
-    const { container } = render(<MediaGrid mediaKey="movie" />);
+    const { container } = render(<MediaGrid items={medias} />);
 
     expect(container).toMatchSnapshot();
   });
 
   test('renders children correctly', () => {
-    render(<MediaGrid mediaKey="movie" />);
+    render(<MediaGrid items={medias} />);
 
-    expect(screen.getByRole('grid').childNodes.length).toBe(mockMovies.length);
+    expect(screen.getByRole('grid').childNodes.length).toBe(medias.length);
   });
 });

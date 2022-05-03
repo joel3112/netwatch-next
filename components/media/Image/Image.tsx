@@ -1,8 +1,16 @@
 import ImageNext from 'next/image';
-import { ElementChildren, ElementHTML, ElementLink, ElementSkeleton, Rectangle } from '@/types';
+import { BsImage } from 'react-icons/bs';
+import {
+  ElementChildren,
+  ElementHTML,
+  ElementLink,
+  ElementSkeleton,
+  RectangleRatio
+} from '@/types';
 import { withSkeleton } from '@/hoc/withSkeleton';
 import { withNavigation } from '@/hoc/withNavigation';
 import { useSizeRatio } from '@/hooks/useSizeRatio';
+import { Space } from '@/components/layout';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/media/Image/Image.module.scss';
 
@@ -11,10 +19,9 @@ export type ImageProps = Partial<typeof defaultProps> &
   ElementChildren<JSX.Element> &
   ElementSkeleton &
   ElementLink &
-  Rectangle & {
+  RectangleRatio & {
     src: string;
     alt?: string;
-    ratio?: number;
     quality?: number;
   };
 
@@ -38,13 +45,19 @@ const Image = ({
 
   return (
     <div role="img" aria-label={alt || 'image'} className={classes(styles.wrapper)}>
-      {!skeleton && (
+      {!skeleton && src && (
         <ImageNext
           src={src}
           layout="fill"
           className={classes(styles.image, className)}
           quality={quality}
         />
+      )}
+
+      {!skeleton && !src && (
+        <Space align="center" justify="center" className={classes(styles.content, styles.empty)}>
+          <BsImage />
+        </Space>
       )}
 
       <div className={classes(className, styles.content)}>{children}</div>
