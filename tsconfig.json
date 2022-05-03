@@ -25,6 +25,7 @@
       "@/containers/*": ["./containers/*"],
       "@/components/*": ["./components/*"],
       "@/utils/*": ["./utils/*"],
+      "@/styles/*": ["./styles/*"],
       "@/data": ["./data/index.js"]
     }
   },
