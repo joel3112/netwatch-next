@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { KeyedMutator } from 'swr';
 import useSWRInfinite, { SWRInfiniteFetcher, SWRInfiniteKeyLoader } from 'swr/infinite';
-import { DataListResponse, DataResponseError } from '@/types/media';
+import { DataListResponse, DataResponseError } from '@/types';
 
 export type UseFetchPagination<T> = {
   size: number;

@@ -1,6 +1,6 @@
 import { IoMdAdd } from 'react-icons/io';
 import { ElementHTML, ElementSkeleton } from '@/types';
-import { MediaData } from '@/types/media';
+import { MediaData } from '@/types';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { Grid } from '@/components/layout';
 import { Card } from '@/components/display';

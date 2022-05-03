@@ -1,8 +1,8 @@
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { MediaType } from '@/types/media';
+import { MediaType } from '@/types';
 import MediaPagination from '@/containers/MediaPagination/MediaPagination';
-import { mockMedias } from '@/data/';
+import { mockMedias } from '@/data';
 
 const mockMediasPerPage = [mockMedias.tv];
 const mockLoadMore = jest.fn();

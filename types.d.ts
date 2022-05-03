@@ -8,7 +8,7 @@ declare module '*module.scss' {
   export default styles;
 }
 
-export * from '@types/index';
+export * from './@types';
 
 export type ElementHTML = {
   className?: string;

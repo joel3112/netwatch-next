@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
-import { MediaType } from '@/types/media';
+import { MediaType } from '@/types';
 import { MediaPagination } from '@/containers/MediaPagination';
 import { Container, Space } from '@/components/layout';
 import { Heading } from '@/components/typography';

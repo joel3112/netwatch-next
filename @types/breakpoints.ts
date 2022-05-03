@@ -9,7 +9,7 @@ export interface BreakpointRules {
   spacing: number;
 }
 
-type BreakpointRule = keyof BreakpointRules;
+export type BreakpointRule = keyof BreakpointRules;
 
 export type BreakpointsRules = {
   [key in Breakpoint]: BreakpointRules;
