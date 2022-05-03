@@ -4,6 +4,7 @@ import { MediaType } from '@/types/media';
 import MediaPagination from '@/containers/MediaPagination/MediaPagination';
 import { mockMedias } from '@/data/';
 
+const mockMediasPerPage = [mockMedias.tv];
 const mockLoadMore = jest.fn();
 
 jest.mock('axios');
@@ -11,7 +12,7 @@ jest.mock('axios');
 jest.mock('@/hooks/useFetchPagination', () => ({
   useFetchPagination: jest.fn().mockImplementation(() => ({
     loading: false,
-    data: mockMedias.tv,
+    data: mockMediasPerPage,
     onLoadMore: mockLoadMore
   }))
 }));
@@ -26,7 +27,6 @@ describe('Tests MediaPagination component', () => {
   test('renders grid correctly', () => {
     render(<MediaPagination mediaKey={MediaType.TV} />);
 
-    expect(screen.getByRole('grid').childNodes.length).toBe(mockMedias.tv.length);
     expect(screen.getByText(mockMedias.tv[0].name)).toBeInTheDocument();
   });
 

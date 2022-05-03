@@ -23,7 +23,7 @@ const MediaGrid = ({ items }: MediaGridProps) => {
     <div className={styles.wrapper}>
       <Grid gap={5} spacing={spacings} className={classes(styles.grid)}>
         {items.map(({ id, image, name, date, type }, index) => (
-          <Grid.Item key={`${id}-${index}`} {...breakpointsItems}>
+          <Grid.Item key={`${index}-${id}`} {...breakpointsItems}>
             <Card href="/home" className={styles.card} skeleton={!type}>
               <Card.Image src={image} width="100%" ratio={1.5}>
                 <Card.Actions>
