@@ -5,7 +5,7 @@ import { ScrollToState } from '@/redux/modules/scrollTo';
 import { useRedux } from '@/hooks/useRedux';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { useFetchPagination } from '@/hooks/useFetchPagination';
-import { MediaGrid } from '@/containers/';
+import { MediaGrid } from '@/containers/MediaGrid';
 import { Grid, Space } from '@/components/layout';
 import { Button } from '@/components/forms';
 import { classes } from '@/utils/helpers';

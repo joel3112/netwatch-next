@@ -4,7 +4,7 @@ import { appWithRedux } from '@/hoc/appWithRedux';
 import { appWithTheme } from '@/hoc/appWithTheme';
 import { appWithBreakpoints } from '@/hoc/appWithBreakpoints';
 import { appWithSWR } from '@/hoc/appWithSWR';
-import { Layout } from '@/containers/';
+import { Layout } from '@/containers/Layout';
 import '@/styles/globals.scss';
 
 const App = ({ Component, pageProps }: AppProps) => {
