@@ -73,7 +73,7 @@ const ToggleButton = ({ className, children, onChange }: ToggleButtonProps) => {
   );
 
   const handleChangeButton = useCallback(
-    (key: string) => {
+    (key: string): void => {
       setActiveButton(key);
       onChange && onChange(key);
     },

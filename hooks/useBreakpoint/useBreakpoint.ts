@@ -4,12 +4,11 @@ import { BreakpointRule, BreakpointRules, BreakpointValues } from '@/types';
 import { mapValuesBy } from '@/utils/helpers';
 import { BREAKPOINTS as breakpointRules } from '@/utils/constants';
 
-type GetBreakpointRuleBy = (key: BreakpointRule) => BreakpointValues;
-
 export type UseBreakpoint = {
   key: Breakpoint;
   breakpoints: Breakpoints;
-  getBreakpointRuleBy: GetBreakpointRuleBy;
+  itemSpacings: BreakpointValues;
+  itemBreakpoints: BreakpointValues;
   isMobile: boolean;
   isTablet: boolean;
   isSmallDesktop: boolean;
@@ -40,7 +39,8 @@ export const useBreakpoint = (): UseBreakpoint => {
     key: Object.keys(breakpointMatches).filter(
       (key) => breakpointMatches[key as Breakpoint]
     )[0] as Breakpoint,
-    getBreakpointRuleBy: getBreakpointRuleBy as GetBreakpointRuleBy,
+    itemSpacings: getBreakpointRuleBy('spacing') as BreakpointValues,
+    itemBreakpoints: getBreakpointRuleBy('items') as BreakpointValues,
     isMobile: breakpointMatches.xs,
     isTablet: breakpointMatches.sm,
     isSmallDesktop: breakpointMatches.md,

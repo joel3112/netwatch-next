@@ -1,8 +1,8 @@
+import { useEffect, useRef } from 'react';
 import axios from 'axios';
 import { useTranslation } from 'next-i18next';
 import { ElementChildren, ElementHTML, MediaData, MediaTypeKey } from '@/types';
-import { ScrollToState } from '@/redux/modules/scrollTo';
-import { useRedux } from '@/hooks/useRedux';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { useFetchPagination } from '@/hooks/useFetchPagination';
 import { MediaGrid } from '@/containers/MediaGrid';
@@ -31,10 +31,7 @@ const fetcher = (url: string) => {
 
 const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
   const { t } = useTranslation();
-  const { state } = useRedux('scrollTo');
-  const { container } = state as ScrollToState;
-  const { getBreakpointRuleBy } = useBreakpoint();
-  const spacings = getBreakpointRuleBy('spacing');
+  const { itemSpacings } = useBreakpoint();
 
   const {
     data: mediasPerPage,
@@ -48,17 +45,22 @@ const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
     itemPlaceholder
   );
 
-  const handleLoadMore = () => {
-    setTimeout(() => {
-      container && container.scrollTo({ top: container.scrollTop + 500, behavior: 'smooth' });
-    }, 500);
-    onLoadMore();
-  };
+  const ref = useRef<HTMLDivElement | null>(null);
+  const entry = useIntersectionObserver(ref, {});
+
+  useEffect(() => {
+    if (entry?.isIntersecting) {
+      if (!loading && !paginationEnd) {
+        onLoadMore();
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [entry]);
 
   return (
     <div className={classes(styles.wrapper)}>
       {mediasPerPage && (
-        <Grid gap={5} spacing={spacings}>
+        <Grid gap={5} spacing={itemSpacings}>
           {mediasPerPage.map((items, index) => (
             <Grid.Item key={index}>
               <MediaGrid items={items} />
@@ -67,9 +69,11 @@ const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
         </Grid>
       )}
 
-      {!loading && !paginationEnd && (
+      <div ref={ref} className={classes(styles.visor)}></div>
+
+      {!loading && !paginationEnd && false && (
         <Space justify="center" className={styles.more}>
-          <Button onClick={handleLoadMore}>{t('list.load.more')}</Button>
+          <Button onClick={onLoadMore}>{t('list.load.more')}</Button>
         </Space>
       )}
     </div>

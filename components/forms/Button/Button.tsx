@@ -35,7 +35,7 @@ const Button = ({
   tooltip,
   onClick
 }: ButtonProps) => {
-  const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
+  const handleClick = (event: MouseEvent<HTMLButtonElement>): void => {
     onClick && onClick(event);
   };
 

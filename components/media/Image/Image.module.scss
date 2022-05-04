@@ -1,5 +1,6 @@
 .wrapper {
   background-color: rgb(var(--rgb-color-skeleton));
+  transition: all 0.2s ease-in;
   overflow: hidden;
   position: relative;
 
@@ -17,4 +18,9 @@
 .empty {
   color: rgb(var(--rgb-background-color-clear-hover) / 20%);
   font-size: rem(90px);
+}
+
+.image {
+  @include box(100%, 100%);
+  @include absolute(top 0 left 0);
 }

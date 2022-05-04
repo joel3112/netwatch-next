@@ -30,10 +30,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -148,10 +149,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -266,10 +268,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -384,10 +387,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -502,10 +506,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -620,10 +625,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -738,10 +744,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -856,10 +863,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -974,10 +982,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -1092,10 +1101,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -1210,10 +1220,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -1328,10 +1339,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -1446,10 +1458,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -1564,10 +1577,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -1682,10 +1696,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -1800,10 +1815,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -1918,10 +1934,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -2036,10 +2053,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -2154,10 +2172,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"
@@ -2272,10 +2291,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   class="image image linkable"
                   data-nimg="fill"
                   decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=3840&q=50"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=3840&q=50 3840w"
                   style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                 />
-                <noscript />
               </span>
               <div
                 class="image linkable content"

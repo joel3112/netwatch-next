@@ -11,7 +11,8 @@ export type VideoProps = typeof defaultProps &
   };
 
 const defaultProps = {
-  ratio: 9 / 16
+  ratio: 9 / 16,
+  autoplay: false
 };
 
 const Video = ({ className, id, autoplay, width, height, ratio }: VideoProps) => {
@@ -21,7 +22,7 @@ const Video = ({ className, id, autoplay, width, height, ratio }: VideoProps) =>
     <div className={classes(styles.wrapper)} aria-label="video">
       <iframe
         className={classes(styles.video, className)}
-        src={id ? `https://www.youtube.com/embed/${id}?autoplay=${Number(autoplay)}` : ''}
+        src={id ? `https://www.youtube.com/embed/${id}?autoplay=${+autoplay}` : ''}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="video"

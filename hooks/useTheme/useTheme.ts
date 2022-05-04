@@ -13,7 +13,7 @@ export const useTheme = (): UseTheme => {
   const { state, dispatch } = useRedux('theme');
   const { keyMode, darkMode } = state as ThemeState;
 
-  const handleChangeTheme = (theme: ThemeMode) => {
+  const handleChangeTheme = (theme: ThemeMode): void => {
     dispatch(actions.change(theme));
   };
 

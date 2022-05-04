@@ -2744,26 +2744,8 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
       </div>
     </div>
     <div
-      class="wrapper more"
-    >
-      <button
-        class="wrapper medium"
-      >
-        list.load.more
-      </button>
-      <style>
-        
-        .wrapper {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          
-          justify-content: center;
-          
-        }
-      
-      </style>
-    </div>
+      class="visor"
+    />
   </div>
 </div>
 `;

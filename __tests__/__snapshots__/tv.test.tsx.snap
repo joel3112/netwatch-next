@@ -3415,6 +3415,9 @@ exports[`Tests tvs page renders page correctly 1`] = `
             </div>
           </div>
         </div>
+        <div
+          class="visor"
+        />
       </div>
       <style>
         

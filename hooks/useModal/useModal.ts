@@ -13,7 +13,7 @@ export const useModal = (opened?: boolean, onChange?: FunctionVoid<boolean>): Us
     setIsOpened(opened);
   }, [opened]);
 
-  const handleChange = (enabled: boolean) => {
+  const handleChange = (enabled: boolean): void => {
     setIsOpened(enabled);
     onChange && onChange(enabled);
   };

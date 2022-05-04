@@ -54,7 +54,7 @@ type CardActionProps = ElementHTML & {
 const CardAction = ({ className, icon: Icon, onClick }: CardActionProps) => {
   useCardContext();
 
-  const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
+  const handleClick = (event: MouseEvent<HTMLButtonElement>): void => {
     onClick && onClick(event);
   };
 

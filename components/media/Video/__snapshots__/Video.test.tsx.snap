@@ -10,7 +10,7 @@ exports[`Tests Video component renders component correctly 1`] = `
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen=""
       class="video"
-      src="https://www.youtube.com/embed/6Cl8PmVm3YE?autoplay=NaN"
+      src="https://www.youtube.com/embed/6Cl8PmVm3YE?autoplay=0"
       title="video"
     />
     <style>

@@ -12,5 +12,5 @@ export interface BreakpointRules {
 export type BreakpointRule = keyof BreakpointRules;
 
 export type BreakpointsRules = {
-  [key in Breakpoint]: BreakpointRules;
+  [key in Breakpoint]?: BreakpointRules;
 };
