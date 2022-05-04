@@ -1,8 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import axios from 'axios';
+import { useInView } from 'react-intersection-observer';
 import { useTranslation } from 'next-i18next';
 import { ElementChildren, ElementHTML, MediaData, MediaTypeKey } from '@/types';
-import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { useFetchPagination } from '@/hooks/useFetchPagination';
 import { MediaGrid } from '@/containers/MediaGrid';
@@ -31,6 +31,7 @@ const fetcher = (url: string) => {
 
 const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
   const { t } = useTranslation();
+  const { ref, inView } = useInView();
   const { itemSpacings } = useBreakpoint();
 
   const {
@@ -45,17 +46,12 @@ const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
     itemPlaceholder
   );
 
-  const ref = useRef<HTMLDivElement | null>(null);
-  const entry = useIntersectionObserver(ref, {});
-
   useEffect(() => {
-    if (entry?.isIntersecting) {
-      if (!loading && !paginationEnd) {
-        onLoadMore();
-      }
+    if (!loading && !paginationEnd) {
+      inView && onLoadMore();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [entry]);
+  }, [inView]);
 
   return (
     <div className={classes(styles.wrapper)}>

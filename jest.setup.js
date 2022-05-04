@@ -4,6 +4,7 @@
 // Used for __tests__/testing-library.js
 // Learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom/extend-expect';
+import 'react-intersection-observer/test-utils';
 import * as mediaQuery from 'css-mediaquery';
 
 // Mock window.matchMedia's impl.
@@ -31,7 +32,7 @@ Object.defineProperty(window, 'matchMedia', {
         height: window.innerHeight
       });
 
-      if (change != instance.matches) {
+      if (change !== instance.matches) {
         instance.matches = change;
         instance.dispatchEvent('change');
       }
