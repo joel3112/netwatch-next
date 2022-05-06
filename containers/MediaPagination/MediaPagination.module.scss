@@ -2,7 +2,12 @@
   display: block;
 }
 
-.more {
+.visor {
   width: 100%;
-  margin: 30px auto;
+  height: 400px;
+  margin-top: -400px;
+}
+
+.more {
+  margin-top: 35px;
 }

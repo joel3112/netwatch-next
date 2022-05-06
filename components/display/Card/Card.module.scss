@@ -32,10 +32,6 @@
     cursor: pointer;
   }
 
-  &.skeleton {
-    pointer-events: none;
-  }
-
   &:not(:empty):hover,
   &.linkable:hover {
     &::before {
@@ -92,11 +88,10 @@
 
 .heading {
   @include max-lines(1);
+  @include box(fit-content, 20px);
 
-  font-size: rem(14px) !important;
-  line-height: 1.3 !important;
+  transition: all 0.2s ease-in;
   font-weight: 500 !important;
-  width: fit-content;
 
   &.linkable {
     cursor: pointer;
@@ -108,6 +103,7 @@
 }
 
 .description {
+  @include box(fit-content, 18px);
+
   font-weight: 300 !important;
-  line-height: 1.3 !important;
 }

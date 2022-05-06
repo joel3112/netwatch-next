@@ -1,7 +1,7 @@
-import type { NextApiRequest } from 'next';
+import { IncomingMessage } from 'http';
 import { APIMediaData, APIMediaDetail, MediaType, MediaTypeKey } from '@/types';
 
-export const nextAPIBaseURL = (req: NextApiRequest): string => {
+export const nextAPIBaseURL = (req: IncomingMessage): string => {
   if (!req) return window.location.origin;
 
   const protocol = req.headers['x-forwarded-proto'] || 'http';

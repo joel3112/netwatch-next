@@ -6,7 +6,7 @@ import { classes } from '@/utils/helpers';
 
 export const appWithTheme = (Component: ComponentType<AppProps>) => (appProps: AppProps) => {
   const { theme: aspectMode } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState<boolean>(false);
 
   useEffect(() => {
     setMounted(true);

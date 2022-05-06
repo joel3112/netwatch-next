@@ -1,8 +1,8 @@
+import { useEffect } from 'react';
 import axios from 'axios';
+import { useInView } from 'react-intersection-observer';
 import { useTranslation } from 'next-i18next';
 import { ElementChildren, ElementHTML, MediaData, MediaTypeKey } from '@/types';
-import { ScrollToState } from '@/redux/modules/scrollTo';
-import { useRedux } from '@/hooks/useRedux';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { useFetchPagination } from '@/hooks/useFetchPagination';
 import { MediaGrid } from '@/containers/MediaGrid';
@@ -14,52 +14,43 @@ import styles from '@/containers/MediaPagination/MediaPagination.module.scss';
 export type MediaPaginationProps = typeof defaultProps &
   ElementHTML &
   ElementChildren & {
-    mediaKey: MediaTypeKey;
+    mediaType: MediaTypeKey;
   };
 
 const defaultProps = {};
-
-const itemPlaceholder = {
-  id: 9999,
-  name: 'placeholder media name',
-  date: '9999-99-99'
-};
 
 const fetcher = (url: string) => {
   return axios.get(url).then((res) => res.data);
 };
 
-const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
+const MediaPagination = ({ mediaType }: MediaPaginationProps) => {
   const { t } = useTranslation();
-  const { state } = useRedux('scrollTo');
-  const { container } = state as ScrollToState;
-  const { getBreakpointRuleBy } = useBreakpoint();
-  const spacings = getBreakpointRuleBy('spacing');
+  const { ref, inView } = useInView();
+  const { itemSpacings } = useBreakpoint();
 
   const {
-    data: mediasPerPage,
+    data: itemsPerPage,
     onLoadMore,
     loading,
     paginationEnd
   } = useFetchPagination<MediaData>(
-    `/api/${mediaKey}`,
+    `/api/${mediaType}`,
     (...args) => fetcher(args[0] as string),
-    20,
-    itemPlaceholder
+    20
   );
 
-  const handleLoadMore = () => {
-    setTimeout(() => {
-      container && container.scrollTo({ top: container.scrollTop + 500, behavior: 'smooth' });
-    }, 500);
-    onLoadMore();
-  };
+  useEffect(() => {
+    if (!loading && !paginationEnd) {
+      inView && onLoadMore();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [inView]);
 
   return (
     <div className={classes(styles.wrapper)}>
-      {mediasPerPage && (
-        <Grid gap={5} spacing={spacings}>
-          {mediasPerPage.map((items, index) => (
+      {itemsPerPage && (
+        <Grid gap={5} spacing={itemSpacings}>
+          {itemsPerPage.map((items, index) => (
             <Grid.Item key={index}>
               <MediaGrid items={items} />
             </Grid.Item>
@@ -67,9 +58,13 @@ const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
         </Grid>
       )}
 
+      <div ref={ref} className={classes(styles.visor)}></div>
+
       {!loading && !paginationEnd && (
         <Space justify="center" className={styles.more}>
-          <Button onClick={handleLoadMore}>{t('list.load.more')}</Button>
+          <Button secondary onClick={onLoadMore}>
+            {t('list.load.more')}
+          </Button>
         </Space>
       )}
     </div>

@@ -132,11 +132,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -162,7 +162,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -191,7 +191,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -301,11 +301,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -331,7 +331,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -360,7 +360,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -470,11 +470,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -500,7 +500,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -529,7 +529,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -639,11 +639,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -669,7 +669,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -698,7 +698,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -808,11 +808,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -838,7 +838,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -867,7 +867,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -977,11 +977,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -1007,7 +1007,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -1036,7 +1036,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1146,11 +1146,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -1176,7 +1176,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -1205,7 +1205,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1315,11 +1315,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -1345,7 +1345,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -1374,7 +1374,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1484,11 +1484,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -1514,7 +1514,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -1543,7 +1543,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1653,11 +1653,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -1683,7 +1683,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -1712,7 +1712,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1822,11 +1822,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -1852,7 +1852,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -1881,7 +1881,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1991,11 +1991,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -2021,7 +2021,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -2050,7 +2050,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2160,11 +2160,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -2190,7 +2190,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -2219,7 +2219,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2329,11 +2329,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -2359,7 +2359,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -2388,7 +2388,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2498,11 +2498,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -2528,7 +2528,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -2557,7 +2557,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2667,11 +2667,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -2697,7 +2697,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -2726,7 +2726,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2836,11 +2836,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -2866,7 +2866,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -2895,7 +2895,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -3005,11 +3005,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -3035,7 +3035,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -3064,7 +3064,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -3174,11 +3174,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -3204,7 +3204,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -3233,7 +3233,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -3343,11 +3343,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <a
                             href="/home"
                           >
-                            <h2
+                            <h4
                               class="wrapper heading linkable"
                             >
-                              placeholder media name
-                            </h2>
+                              placeholder card name
+                            </h4>
                           </a>
                         </span>
                         <style>
@@ -3373,7 +3373,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                           <span
                             class="wrapper description sm"
                           >
-                            9999-99-99
+                            999999999
                             <style>
                               
         wrapper {
@@ -3402,7 +3402,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -3415,6 +3415,9 @@ exports[`Tests tvs page renders page correctly 1`] = `
             </div>
           </div>
         </div>
+        <div
+          class="visor"
+        />
       </div>
       <style>
         

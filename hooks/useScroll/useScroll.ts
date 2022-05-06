@@ -15,7 +15,10 @@ export const useScroll = (container: HTMLDivElement): UseScroll => {
   const { state, dispatch } = useRedux('scrollTo');
   const { scrollPosition, forceTop } = state as ScrollToState;
 
-  const handleReset = useCallback(() => dispatch(actions.reset(container)), [container, dispatch]);
+  const handleReset = useCallback(
+    (): void => dispatch(actions.reset(container)),
+    [container, dispatch]
+  );
 
   useEffect(() => {
     dispatch(actions.scroll(container, 0));
@@ -27,7 +30,7 @@ export const useScroll = (container: HTMLDivElement): UseScroll => {
     });
   }, [container, dispatch, events, handleReset]);
 
-  const handleScroll = (e: UIEvent<HTMLDivElement>) => {
+  const handleScroll = (e: UIEvent<HTMLDivElement>): void => {
     dispatch(actions.scroll(container, e.currentTarget.scrollTop));
   };
 

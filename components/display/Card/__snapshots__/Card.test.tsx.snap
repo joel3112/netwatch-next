@@ -17,10 +17,11 @@ exports[`Tests Card component renders component correctly 1`] = `
           class="image image"
           data-nimg="fill"
           decoding="async"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=3840&q=50"
+          srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fpicsum.photos%2F200%2F300&w=3840&q=50 3840w"
           style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
         />
-        <noscript />
       </span>
       <div
         class="image content"
@@ -41,11 +42,11 @@ exports[`Tests Card component renders component correctly 1`] = `
     <div
       class="wrapper body"
     >
-      <h2
+      <h4
         class="wrapper heading"
       >
         Title
-      </h2>
+      </h4>
       <span
         class="wrapper description sm"
       >
@@ -64,7 +65,7 @@ exports[`Tests Card component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }

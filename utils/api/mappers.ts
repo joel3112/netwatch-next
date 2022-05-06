@@ -17,7 +17,9 @@ export const mediaMapper = (media: APIMovieData | APITVData): MediaCommonData =>
     id,
     type: media_type || typeFromMedia(media),
     description: overview,
-    image: poster_path ? `${process.env.API_IMAGES_URL}${poster_path}` : '',
+    image: poster_path
+      ? `${process.env.API_IMAGES_URL}${poster_path}`
+      : '/assets/images/poster-empty.png',
     backdrop: backdrop_path ? `${process.env.API_BACKDROP_URL}${backdrop_path}` : '',
     popularity,
     vote_count: +vote_count.toFixed(1),

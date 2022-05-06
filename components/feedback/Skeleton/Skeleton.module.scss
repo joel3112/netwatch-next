@@ -4,17 +4,18 @@
   overflow: hidden;
   cursor: default !important;
   position: relative;
+  pointer-events: none;
 
   &.circular {
     border-radius: 50% !important;
   }
 
   &.heading {
-    height: 23px !important;
+    min-height: 20px !important;
   }
 
   &.text {
-    height: 19px !important;
+    min-height: 18px !important;
   }
 
   &::before {

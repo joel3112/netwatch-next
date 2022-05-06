@@ -16,7 +16,7 @@ const defaultProps = {
 const Tooltip = ({ children, text }: TooltipProps) => {
   const [open, setOpen] = useState<boolean>(false);
 
-  const handleTooltipChange = (enabled: boolean) => setOpen(enabled);
+  const handleTooltipChange = (enabled: boolean): void => setOpen(enabled);
 
   return (
     <TooltipMUI

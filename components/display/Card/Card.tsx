@@ -54,7 +54,7 @@ type CardActionProps = ElementHTML & {
 const CardAction = ({ className, icon: Icon, onClick }: CardActionProps) => {
   useCardContext();
 
-  const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
+  const handleClick = (event: MouseEvent<HTMLButtonElement>): void => {
     onClick && onClick(event);
   };
 
@@ -99,18 +99,17 @@ const CardBody = ({ className, title, description, maxLines }: CardBodyProps) =>
   const { href, skeleton } = useCardContext();
 
   return (
-    <Space direction="column" gap={3} className={classes(styles.body, className)}>
+    <Space direction="column" gap={2} className={classes(styles.body, className)}>
       <Heading
+        level={4}
         skeleton={skeleton}
         href={href}
         className={classes(styles.heading, href && styles.linkable)}>
-        {title}
+        {!skeleton ? title : 'placeholder card name'}
       </Heading>
-      {description && (
-        <Text size="sm" skeleton={skeleton} className={styles.description} maxLines={maxLines}>
-          {description}
-        </Text>
-      )}
+      <Text size="sm" skeleton={skeleton} className={styles.description} maxLines={maxLines}>
+        {!skeleton ? description : '999999999'}
+      </Text>
     </Space>
   );
 };
