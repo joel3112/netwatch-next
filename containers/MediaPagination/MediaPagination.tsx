@@ -14,36 +14,29 @@ import styles from '@/containers/MediaPagination/MediaPagination.module.scss';
 export type MediaPaginationProps = typeof defaultProps &
   ElementHTML &
   ElementChildren & {
-    mediaKey: MediaTypeKey;
+    mediaType: MediaTypeKey;
   };
 
 const defaultProps = {};
-
-const itemPlaceholder = {
-  id: 9999,
-  name: 'placeholder media name',
-  date: '9999-99-99'
-};
 
 const fetcher = (url: string) => {
   return axios.get(url).then((res) => res.data);
 };
 
-const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
+const MediaPagination = ({ mediaType }: MediaPaginationProps) => {
   const { t } = useTranslation();
   const { ref, inView } = useInView();
   const { itemSpacings } = useBreakpoint();
 
   const {
-    data: mediasPerPage,
+    data: itemsPerPage,
     onLoadMore,
     loading,
     paginationEnd
   } = useFetchPagination<MediaData>(
-    `/api/${mediaKey}`,
+    `/api/${mediaType}`,
     (...args) => fetcher(args[0] as string),
-    20,
-    itemPlaceholder
+    20
   );
 
   useEffect(() => {
@@ -55,9 +48,9 @@ const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
 
   return (
     <div className={classes(styles.wrapper)}>
-      {mediasPerPage && (
+      {itemsPerPage && (
         <Grid gap={5} spacing={itemSpacings}>
-          {mediasPerPage.map((items, index) => (
+          {itemsPerPage.map((items, index) => (
             <Grid.Item key={index}>
               <MediaGrid items={items} />
             </Grid.Item>
@@ -67,9 +60,11 @@ const MediaPagination = ({ mediaKey }: MediaPaginationProps) => {
 
       <div ref={ref} className={classes(styles.visor)}></div>
 
-      {!loading && !paginationEnd && false && (
+      {!loading && !paginationEnd && (
         <Space justify="center" className={styles.more}>
-          <Button onClick={onLoadMore}>{t('list.load.more')}</Button>
+          <Button secondary onClick={onLoadMore}>
+            {t('list.load.more')}
+          </Button>
         </Space>
       )}
     </div>

@@ -120,12 +120,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Caballero luna
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -146,7 +179,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -256,12 +289,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Pasión de gavilanes
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -282,7 +348,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -392,12 +458,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Pálpito
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -418,7 +517,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -528,12 +627,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Trivia Quest
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -554,7 +686,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -664,12 +796,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Peaky Blinders
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -690,7 +855,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -800,12 +965,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Heartstopper
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -826,7 +1024,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -936,12 +1134,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Anatomía de Grey
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -962,7 +1193,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1072,12 +1303,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          The Walking Dead
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -1098,7 +1362,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1208,12 +1472,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          The Good Doctor
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -1234,7 +1531,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1344,12 +1641,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Élite
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -1370,7 +1700,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1480,12 +1810,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Lucifer
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -1506,7 +1869,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1616,12 +1979,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          The Flash
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -1642,7 +2038,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1752,12 +2148,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Estamos muertos
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -1778,7 +2207,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -1888,12 +2317,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Vikingos: Valhalla
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -1914,7 +2376,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2024,12 +2486,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Conversaciones con asesinos: Las cintas de John Wayne Gacy
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -2050,7 +2545,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2160,12 +2655,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Superman & Lois
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -2186,7 +2714,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2296,12 +2824,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Los Simpson
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -2322,7 +2883,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2432,12 +2993,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Euphoria
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -2458,7 +3052,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2568,12 +3162,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          Crónicas vampíricas
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -2594,7 +3221,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2704,12 +3331,45 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                       <a
                         href="/home"
                       >
-                        <h2
+                        <h4
                           class="wrapper heading linkable"
                         >
-                          S.W.A.T.
-                        </h2>
+                          placeholder card name
+                        </h4>
                       </a>
+                    </span>
+                    <style>
+                      
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper text"
+                    role="progressbar"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                    >
+                      <span
+                        class="wrapper description sm"
+                      >
+                        999999999
+                        <style>
+                          
+        wrapper {
+          
+        }
+      
+                        </style>
+                      </span>
                     </span>
                     <style>
                       
@@ -2730,7 +3390,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
@@ -2746,6 +3406,27 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
     <div
       class="visor"
     />
+    <div
+      class="wrapper more"
+    >
+      <button
+        class="wrapper medium secondary"
+      >
+        list.load.more
+      </button>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          justify-content: center;
+          
+        }
+      
+      </style>
+    </div>
   </div>
 </div>
 `;

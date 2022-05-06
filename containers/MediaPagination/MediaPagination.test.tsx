@@ -17,13 +17,13 @@ jest.mock('@/hooks/useFetchPagination', () => ({
 
 describe('Tests MediaPagination component', () => {
   test('renders component correctly', () => {
-    const { container } = render(<MediaPagination mediaKey={MediaType.TV} />);
+    const { container } = render(<MediaPagination mediaType={MediaType.TV} />);
 
     expect(container).toMatchSnapshot();
   });
 
   test('calls more data correctly', async () => {
-    render(<MediaPagination mediaKey={MediaType.TV} />);
+    render(<MediaPagination mediaType={MediaType.TV} />);
 
     act(() => {
       mockAllIsIntersecting(true);

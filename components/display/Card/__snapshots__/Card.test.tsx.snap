@@ -42,11 +42,11 @@ exports[`Tests Card component renders component correctly 1`] = `
     <div
       class="wrapper body"
     >
-      <h2
+      <h4
         class="wrapper heading"
       >
         Title
-      </h2>
+      </h4>
       <span
         class="wrapper description sm"
       >
@@ -65,7 +65,7 @@ exports[`Tests Card component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 3px;
+          gap: 2px;
           
           
         }
