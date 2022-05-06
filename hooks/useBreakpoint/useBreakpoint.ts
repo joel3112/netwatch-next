@@ -1,23 +1,17 @@
 import { createTheme, useMediaQuery } from '@mui/material';
 import { Breakpoint, Breakpoints } from '@mui/system/createTheme/createBreakpoints';
-import { BreakpointRule, BreakpointRules, BreakpointValues } from '@/types';
-import { mapValuesBy } from '@/utils/helpers';
-import { BREAKPOINTS as breakpointRules } from '@/utils/constants';
+import { BreakpointValues } from '@/types';
+import { getBreakpointRuleBy } from '@/utils/helpers';
 
 export type UseBreakpoint = {
   key: Breakpoint;
   breakpoints: Breakpoints;
-  itemSpacings: BreakpointValues;
-  itemBreakpoints: BreakpointValues;
   isMobile: boolean;
   isTablet: boolean;
   isSmallDesktop: boolean;
   isDesktop: boolean;
   isLargeDesktop: boolean;
 };
-
-const getBreakpointRuleBy = (key: BreakpointRule) =>
-  mapValuesBy(breakpointRules, (value) => (value as BreakpointRules)[key]);
 
 export const useBreakpoint = (): UseBreakpoint => {
   const theme = createTheme({
@@ -39,8 +33,6 @@ export const useBreakpoint = (): UseBreakpoint => {
     key: Object.keys(breakpointMatches).filter(
       (key) => breakpointMatches[key as Breakpoint]
     )[0] as Breakpoint,
-    itemSpacings: getBreakpointRuleBy('spacing') as BreakpointValues,
-    itemBreakpoints: getBreakpointRuleBy('items') as BreakpointValues,
     isMobile: breakpointMatches.xs,
     isTablet: breakpointMatches.sm,
     isSmallDesktop: breakpointMatches.md,

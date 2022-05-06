@@ -2,13 +2,12 @@ import { useEffect } from 'react';
 import axios from 'axios';
 import { useInView } from 'react-intersection-observer';
 import { useTranslation } from 'next-i18next';
-import { ElementChildren, ElementHTML, MediaData, MediaTypeKey } from '@/types';
-import { useBreakpoint } from '@/hooks/useBreakpoint';
+import { BreakpointValues, ElementChildren, ElementHTML, MediaData, MediaTypeKey } from '@/types';
 import { useFetchPagination } from '@/hooks/useFetchPagination';
 import { MediaGrid } from '@/containers/MediaGrid';
 import { Grid, Space } from '@/components/layout';
 import { Button } from '@/components/forms';
-import { classes } from '@/utils/helpers';
+import { classes, getBreakpointRuleBy } from '@/utils/helpers';
 import styles from '@/containers/MediaPagination/MediaPagination.module.scss';
 
 export type MediaPaginationProps = typeof defaultProps &
@@ -26,7 +25,7 @@ const fetcher = (url: string) => {
 const MediaPagination = ({ mediaType }: MediaPaginationProps) => {
   const { t } = useTranslation();
   const { ref, inView } = useInView();
-  const { itemSpacings } = useBreakpoint();
+  const itemSpacings = getBreakpointRuleBy('spacing') as BreakpointValues;
 
   const {
     data: itemsPerPage,

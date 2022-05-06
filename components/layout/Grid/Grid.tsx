@@ -1,17 +1,19 @@
 import { createContext, useContext, useMemo } from 'react';
 import { ResponsiveStyleValue } from '@mui/system';
-import { GridSize, GridSpacing } from '@mui/material/Grid/Grid';
+import { GridSpacing } from '@mui/material/Grid/Grid';
 import GridMUI from '@mui/material/Grid';
-import { ElementChildren, ElementHTML } from '@/types';
+import { Breakpoints, BreakpointSpacing, ElementChildren, ElementHTML } from '@/types';
 import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
-import { classes } from '@/utils/helpers';
+import { classes, mapValuesBy } from '@/utils/helpers';
 import styles from '@/components/layout/Grid/Grid.module.scss';
 
 /* -------------------------------------------------------------------------- */
 /** Context **/
 /* -------------------------------------------------------------------------- */
 
-type GridContextProps = typeof defaultValue;
+type GridContextProps = typeof defaultValue & {
+  breakpoints?: Breakpoints;
+};
 
 const defaultValue = {};
 
@@ -23,27 +25,13 @@ const useGridContext = () => useContext(GridContext);
 /** GridItem (child component) **/
 /* -------------------------------------------------------------------------- */
 
-type GridItemProps = ElementHTML &
-  ElementChildren<JSX.Element> & {
-    xs?: boolean | GridSize;
-    sm?: boolean | GridSize;
-    md?: boolean | GridSize;
-    lg?: boolean | GridSize;
-    xl?: boolean | GridSize;
-  };
+type GridItemProps = ElementHTML & ElementChildren<JSX.Element>;
 
-const GridItem = ({ children, className, xs, sm, md, lg, xl }: GridItemProps) => {
-  useGridContext();
+const GridItem = ({ children, className }: GridItemProps) => {
+  const { breakpoints } = useGridContext();
 
   return (
-    <GridMUI
-      item
-      className={classes(styles.item, className)}
-      xs={xs}
-      sm={sm}
-      md={md}
-      lg={lg}
-      xl={xl}>
+    <GridMUI item className={classes(styles.item, className)} {...breakpoints}>
       {children}
     </GridMUI>
   );
@@ -57,7 +45,8 @@ export type GridProps = typeof defaultProps &
   ElementHTML &
   ElementChildren<Array<JSX.Element>> & {
     itemsPerRow?: number;
-    spacing?: ResponsiveStyleValue<GridSpacing> | Array<ResponsiveStyleValue<GridSpacing>>;
+    spacing?: BreakpointSpacing;
+    breakpoints: Breakpoints;
   };
 
 const defaultProps = {
@@ -66,16 +55,20 @@ const defaultProps = {
   spacing: 0.5
 };
 
-const Grid = ({ children, className, spacing }: GridProps) => {
+const Grid = ({ children, className, spacing, breakpoints }: GridProps) => {
   const rowSpacing = useMemo(() => (Array.isArray(spacing) ? spacing[0] : spacing), [spacing]);
   const columnSpacing = useMemo(() => (Array.isArray(spacing) ? spacing[1] : spacing), [spacing]);
+  const columns = 20;
 
   return (
-    <GridContext.Provider value={{}}>
+    <GridContext.Provider
+      value={{
+        breakpoints: mapValuesBy(breakpoints, (value) => columns / (value as number))
+      }}>
       <GridMUI
         role="grid"
         className={classes(styles.wrapper, className)}
-        columns={20}
+        columns={columns}
         container
         rowSpacing={rowSpacing as ResponsiveStyleValue<GridSpacing>}
         columnSpacing={columnSpacing as ResponsiveStyleValue<GridSpacing>}>

@@ -50,7 +50,7 @@ describe('Object helper methods', () => {
           }
         }
       ].forEach(({ iteratee, result }) => {
-        expect(mapValuesBy(object, iteratee as (value: object) => unknown)).toEqual(result);
+        expect(mapValuesBy(object, iteratee as (value: unknown) => unknown)).toEqual(result);
       });
     });
   });
