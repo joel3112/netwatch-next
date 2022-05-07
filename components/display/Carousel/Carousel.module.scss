@@ -1,0 +1,47 @@
+/** Carousel (main component) **/
+
+.wrapper {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+
+.buttonNavigation {
+  color: var(--color-button-text);
+  background-color: var(--color-secondary);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  z-index: 9;
+  height: 50px !important;
+  padding: 5px 0 !important;
+  font-size: 2rem !important;
+  min-width: 25px;
+  font-weight: 700;
+  opacity: 0.35;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    opacity: 0.7 !important;
+  }
+
+  &.prev {
+    left: 5px;
+  }
+
+  &.next {
+    right: 5px;
+  }
+}
+
+.buttonNavigationDisabled {
+  display: none !important;
+}
+
+/** CarouselItem (child component) **/
+
+.item {
+  width: 100% !important;
+}

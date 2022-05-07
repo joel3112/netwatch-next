@@ -11,13 +11,13 @@ describe('Tests Grid component', () => {
   });
 
   test('renders children correctly', () => {
-    const gap = 5;
-    render(<Grid gap={gap}>{items}</Grid>);
+    const spacing = 5;
+    render(<Grid spacing={spacing}>{items}</Grid>);
 
     expect(screen.getByRole('grid').childNodes.length).toBe(items.length);
   });
 
-  test('renders any children correctly', () => {
+  test('renders no children correctly', () => {
     const spacing = [5, 10];
     render(<Grid spacing={spacing} />);
 

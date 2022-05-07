@@ -7,7 +7,6 @@ export type BreakpointValues = { [key in Breakpoint]: number };
 export interface BreakpointRules {
   name: Breakpoint;
   width: number;
-  next: number;
   items: number;
   spacing: number;
 }

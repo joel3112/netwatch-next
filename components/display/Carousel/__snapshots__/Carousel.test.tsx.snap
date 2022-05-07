@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Carousel component renders component correctly 1`] = `
+<div>
+  <div
+    class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper"
+    role="list"
+  >
+    <div
+      class="swiper-button-prev"
+    />
+    <div
+      class="swiper-button-next"
+    />
+    <div
+      class="swiper-wrapper"
+      style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+    >
+      <div
+        class="swiper-slide"
+      >
+        <div
+          class="item"
+        >
+          item $
+          1
+        </div>
+      </div>
+      <div
+        class="swiper-slide"
+      >
+        <div
+          class="item"
+        >
+          item $
+          2
+        </div>
+      </div>
+      <div
+        class="swiper-slide"
+      >
+        <div
+          class="item"
+        >
+          item $
+          3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
