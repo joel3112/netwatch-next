@@ -58,7 +58,7 @@ const defaultProps = {
 const Grid = ({ children, className, spacing, breakpoints }: GridProps) => {
   const rowSpacing = useMemo(() => (Array.isArray(spacing) ? spacing[0] : spacing), [spacing]);
   const columnSpacing = useMemo(() => (Array.isArray(spacing) ? spacing[1] : spacing), [spacing]);
-  const columns = 20;
+  const columns = 120;
 
   return (
     <GridContext.Provider

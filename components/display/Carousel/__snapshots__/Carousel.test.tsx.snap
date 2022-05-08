@@ -5,6 +5,7 @@ exports[`Tests Carousel component renders component correctly 1`] = `
   <div
     class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper"
     role="list"
+    style="width: calc(100% + 2 * 0px); margin-left: 0px;"
   >
     <div
       class="swiper-button-prev"
@@ -17,30 +18,30 @@ exports[`Tests Carousel component renders component correctly 1`] = `
       style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
     >
       <div
-        class="swiper-slide"
+        class="swiper-slide item"
       >
         <div
-          class="item"
+          class=""
         >
           item $
           1
         </div>
       </div>
       <div
-        class="swiper-slide"
+        class="swiper-slide item"
       >
         <div
-          class="item"
+          class=""
         >
           item $
           2
         </div>
       </div>
       <div
-        class="swiper-slide"
+        class="swiper-slide item"
       >
         <div
-          class="item"
+          class=""
         >
           item $
           3

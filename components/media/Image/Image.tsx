@@ -27,7 +27,7 @@ export type ImageProps = Partial<typeof defaultProps> &
 
 const defaultProps = {
   alt: 'image',
-  quality: 50
+  quality: 80
 };
 
 const Image = ({

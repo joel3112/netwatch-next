@@ -36,10 +36,14 @@ const useCarouselContext = () => useContext(CarouselContext);
 
 type CarouselItemProps = ElementHTML & ElementChildren<JSX.Element>;
 
-const CarouselItem = ({ children, className }: CarouselItemProps) => {
+const CarouselItem = ({ children, className, style }: CarouselItemProps) => {
   useCarouselContext();
 
-  return <div className={classes(styles.item, className)}>{children}</div>;
+  return (
+    <div className={classes(className)} style={style}>
+      {children}
+    </div>
+  );
 };
 
 /* -------------------------------------------------------------------------- */
@@ -52,14 +56,16 @@ export type CarouselProps = typeof defaultProps &
     navigation?: boolean;
     pagination?: boolean;
     autoplay?: boolean;
-    slidesPerView?: number | 'auto';
+    slidesPerView?: number;
     spacing?: number;
     effectFade?: boolean;
+    offset?: number;
   };
 
 const defaultProps = {
   children: [],
-  spacing: 2
+  spacing: 2,
+  offset: 0
 };
 
 const renderNavigationButton = (state: 'prev' | 'next', Icon: IconType) => {
@@ -74,16 +80,18 @@ const Carousel = ({
   className,
   children,
   navigation,
+  pagination,
   slidesPerView,
   spacing,
   autoplay,
-  effectFade
+  effectFade,
+  offset
 }: CarouselProps) => {
   const settings: SwiperOptions = {
     speed: 500,
-    allowTouchMove: false,
-    slidesPerView,
-    slidesPerGroup: slidesPerView === 'auto' ? 1 : slidesPerView,
+    allowTouchMove: true,
+    slidesPerView: 'auto',
+    slidesPerGroup: slidesPerView || 1,
     spaceBetween: spacing,
     navigation: navigation
       ? {
@@ -92,24 +100,40 @@ const Carousel = ({
           disabledClass: styles.buttonNavigationDisabled
         }
       : {},
+    pagination: pagination ? { dynamicBullets: true } : false,
     autoplay: Boolean(autoplay) && {
       delay: 5000,
       pauseOnMouseEnter: true
     },
-    ...(effectFade ? { effect: 'fade' } : {}),
+    ...(effectFade || (slidesPerView === 1 && navigation) ? { effect: 'fade' } : {}),
     watchSlidesProgress: true,
     mousewheel: {
       forceToAxis: true
-    }
+    },
+    slidesOffsetBefore: !pagination ? offset : 0,
+    slidesOffsetAfter: !pagination ? offset : 0
   };
 
   return (
     <CarouselContext.Provider value={{}}>
-      <Swiper role="list" {...settings} className={classes(styles.wrapper, className)}>
+      <Swiper
+        role="list"
+        {...settings}
+        className={classes(styles.wrapper, className)}
+        style={{ width: `calc(100% + 2 * ${offset}px)`, marginLeft: -1 * offset }}>
         {navigation && renderNavigationButton('prev', FiChevronLeft)}
         {navigation && renderNavigationButton('next', FiChevronRight)}
         {children.map((element: JSX.Element, index) => (
-          <SwiperSlide key={index}>{cloneElement(element, { ...element.props })}</SwiperSlide>
+          <SwiperSlide
+            key={index}
+            className={classes(styles.item)}
+            style={{
+              width: pagination
+                ? '100%'
+                : `calc((100% - ${50}px - ${spacing * Number(slidesPerView)}px) / ${slidesPerView})`
+            }}>
+            {cloneElement(element, { ...element.props })}
+          </SwiperSlide>
         ))}
       </Swiper>
     </CarouselContext.Provider>

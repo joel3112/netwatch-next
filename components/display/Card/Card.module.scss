@@ -6,7 +6,6 @@
   position: relative;
   transition: width 0.2s ease-in, height 0.2s ease-in, border 0s;
   width: fit-content;
-  border-radius: var(--border-radius-button);
 
   &:not(:empty) {
     border: 1px solid rgb(var(--rgb-color-border-portal) / 90%);
@@ -25,8 +24,6 @@
 
 .image {
   transition: all 0.2s ease-in;
-  border-top-left-radius: var(--border-radius-button);
-  border-top-right-radius: var(--border-radius-button);
 
   &.linkable {
     cursor: pointer;

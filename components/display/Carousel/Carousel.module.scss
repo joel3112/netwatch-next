@@ -3,7 +3,6 @@
 .wrapper {
   box-sizing: border-box;
   position: relative;
-  width: 100%;
 }
 
 .buttonNavigation {
@@ -43,5 +42,5 @@
 /** CarouselItem (child component) **/
 
 .item {
-  width: 100% !important;
+  width: 300px;
 }
