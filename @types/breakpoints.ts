@@ -8,7 +8,9 @@ export interface BreakpointRules {
   name: Breakpoint;
   width: number;
   items: number;
+  backdrops?: number;
   spacing: number;
+  offset?: number;
 }
 
 export type BreakpointRule = keyof BreakpointRules;

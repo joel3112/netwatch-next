@@ -2,10 +2,11 @@ import { createContext, useContext, cloneElement } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {
   Autoplay,
+  EffectFade,
   Mousewheel,
   Navigation,
   Pagination,
-  EffectFade,
+  Parallax,
   SwiperOptions
 } from 'swiper';
 import { IconType } from 'react-icons';
@@ -16,7 +17,7 @@ import { Button } from '@/components/forms';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/display/Carousel/Carousel.module.scss';
 
-SwiperCore.use([EffectFade, Autoplay, Mousewheel, Navigation, Pagination]);
+SwiperCore.use([EffectFade, Parallax, Autoplay, Mousewheel, Navigation, Pagination]);
 
 /* -------------------------------------------------------------------------- */
 /** Context **/
@@ -59,6 +60,7 @@ export type CarouselProps = typeof defaultProps &
     slidesPerView?: number;
     spacing?: number;
     effectFade?: boolean;
+    loop?: boolean;
     offset?: number;
   };
 
@@ -85,10 +87,14 @@ const Carousel = ({
   spacing,
   autoplay,
   effectFade,
+  loop,
   offset
 }: CarouselProps) => {
   const settings: SwiperOptions = {
     speed: 500,
+    loop,
+    loopedSlides: 1,
+    parallax: true,
     allowTouchMove: true,
     slidesPerView: 'auto',
     slidesPerGroup: slidesPerView || 1,
@@ -99,13 +105,27 @@ const Carousel = ({
           nextEl: `.${styles.next}`,
           disabledClass: styles.buttonNavigationDisabled
         }
-      : {},
-    pagination: pagination ? { dynamicBullets: true } : false,
+      : false,
+    pagination: pagination
+      ? {
+          clickable: true,
+          clickableClass: styles.paginationBulletsClass,
+          bulletClass: styles.paginationBulletClass,
+          bulletActiveClass: styles.paginationBulletActiveClass
+        }
+      : false,
     autoplay: Boolean(autoplay) && {
       delay: 5000,
       pauseOnMouseEnter: true
     },
-    ...(effectFade || (slidesPerView === 1 && navigation) ? { effect: 'fade' } : {}),
+    ...(effectFade || (slidesPerView === 1 && navigation) || pagination
+      ? {
+          effect: 'fade',
+          fadeEffect: {
+            crossFade: true
+          }
+        }
+      : {}),
     watchSlidesProgress: true,
     mousewheel: {
       forceToAxis: true

@@ -1,6 +1,7 @@
 /** Carousel (main component) **/
 
 .wrapper {
+  --swiper-pagination-color: var(--color-primary);
   box-sizing: border-box;
   position: relative;
 }
@@ -37,6 +38,27 @@
 
 .buttonNavigationDisabled {
   display: none !important;
+}
+
+.paginationBulletsClass {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.paginationBulletClass {
+  background-color: var(--color-disabled);
+  opacity: 0.5;
+  border-radius: 0;
+  width: 25px;
+  height: 5px;
+  margin: 0 1px;
+}
+
+.paginationBulletActiveClass {
+  opacity: 1;
+  background-color: var(--color-primary);
 }
 
 /** CarouselItem (child component) **/

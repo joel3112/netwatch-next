@@ -33,7 +33,7 @@ const Text = ({ className, style, children, size, ellipsis, maxLines, truncateTo
       {truncateTo ? children && children.truncate(truncateTo) : children}
 
       <style jsx>{`
-        ${styles.wrapper} {
+        .${styles.wrapper} {
           ${maxLines ? `-webkit-line-clamp: ${maxLines};` : ''}
         }
       `}</style>

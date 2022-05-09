@@ -27,7 +27,7 @@ export type ImageProps = Partial<typeof defaultProps> &
 
 const defaultProps = {
   alt: 'image',
-  quality: 80
+  quality: 50
 };
 
 const Image = ({
@@ -53,6 +53,7 @@ const Image = ({
         <ImageNext
           src={src}
           layout="fill"
+          objectFit="cover"
           loading={(lazy && 'lazy') || 'eager'}
           className={classes(styles.image, className)}
           quality={quality}
