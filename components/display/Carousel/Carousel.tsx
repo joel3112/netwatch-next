@@ -13,6 +13,7 @@ import { IconType } from 'react-icons';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { ElementChildren, ElementHTML } from '@/types';
 import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
+import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { Button } from '@/components/forms';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/display/Carousel/Carousel.module.scss';
@@ -55,7 +56,7 @@ export type CarouselProps = typeof defaultProps &
   ElementHTML &
   ElementChildren & {
     navigation?: boolean;
-    pagination?: boolean;
+    pagination?: 'bullets' | 'progressbar' | undefined;
     autoplay?: boolean;
     slidesPerView?: number;
     spacing?: number;
@@ -90,10 +91,12 @@ const Carousel = ({
   loop,
   offset
 }: CarouselProps) => {
+  const { key } = useBreakpoint();
+
   const settings: SwiperOptions = {
     speed: 500,
     loop,
-    loopedSlides: 1,
+    loopedSlides: children.length || 1,
     parallax: true,
     allowTouchMove: true,
     slidesPerView: 'auto',
@@ -111,12 +114,14 @@ const Carousel = ({
           clickable: true,
           clickableClass: styles.paginationBulletsClass,
           bulletClass: styles.paginationBulletClass,
-          bulletActiveClass: styles.paginationBulletActiveClass
+          bulletActiveClass: styles.paginationBulletActiveClass,
+          renderBullet: (index, className) => {
+            return `<span class="${classes(className)}"></span>`;
+          }
         }
       : false,
     autoplay: Boolean(autoplay) && {
-      delay: 5000,
-      pauseOnMouseEnter: true
+      delay: 4000
     },
     ...(effectFade || (slidesPerView === 1 && navigation) || pagination
       ? {
@@ -136,26 +141,30 @@ const Carousel = ({
 
   return (
     <CarouselContext.Provider value={{}}>
-      <Swiper
-        role="list"
-        {...settings}
-        className={classes(styles.wrapper, className)}
-        style={{ width: `calc(100% + 2 * ${offset}px)`, marginLeft: -1 * offset }}>
-        {navigation && renderNavigationButton('prev', FiChevronLeft)}
-        {navigation && renderNavigationButton('next', FiChevronRight)}
-        {children.map((element: JSX.Element, index) => (
-          <SwiperSlide
-            key={index}
-            className={classes(styles.item)}
-            style={{
-              width: pagination
-                ? '100%'
-                : `calc((100% - ${50}px - ${spacing * Number(slidesPerView)}px) / ${slidesPerView})`
-            }}>
-            {cloneElement(element, { ...element.props })}
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      {settings && (
+        <Swiper
+          role="list"
+          {...settings}
+          className={classes(styles.wrapper, styles[key], className)}
+          style={{ width: `calc(100% + 2 * ${offset}px)`, marginLeft: -1 * offset }}>
+          {navigation && renderNavigationButton('prev', FiChevronLeft)}
+          {navigation && renderNavigationButton('next', FiChevronRight)}
+          {children.map((element: JSX.Element, index) => (
+            <SwiperSlide
+              key={index}
+              className={classes(styles.item)}
+              style={{
+                width: pagination
+                  ? '100%'
+                  : `calc((100% - ${50}px - ${
+                      spacing * Number(slidesPerView)
+                    }px) / ${slidesPerView})`
+              }}>
+              {cloneElement(element, { ...element.props })}
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      )}
     </CarouselContext.Provider>
   );
 };

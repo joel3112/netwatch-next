@@ -6,11 +6,11 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
     class="wrapper"
   >
     <div
-      class="MuiGrid-root MuiGrid-container wrapper grid css-1q1c91r-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-container wrapper grid css-lrun27-MuiGrid-root"
       role="grid"
     >
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -33,7 +33,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FosYbtvqjMUhEXgkuFJOsRYVpq6N.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -89,47 +89,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Spider-Man: No Way Home
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2021-12-16
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -152,7 +115,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FA4jt7Gqa7dRT2ZIo3hNHc4esw3d.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -208,47 +171,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Red
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-03-11
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -271,7 +197,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -327,47 +253,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Sonic 2: La Película
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-04-01
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -390,7 +279,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fnoe4dNuEbqj7xIjgOFkTOohRsNC.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -446,47 +335,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Moonfall
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-02-04
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -509,7 +361,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FhME3AVfVT3dCaHgNSEAeLCORZBm.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -565,47 +417,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                The Batman
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-03-04
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -628,7 +443,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fk5waciRFMN5bwudDrgFLffoAorm.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -684,47 +499,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                El Proyecto Adam
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-03-11
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -747,7 +525,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwDpOsSN8mHL4iIxs9trPRFtekWx.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -803,47 +581,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Cangrejo Negro
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-03-18
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -866,7 +607,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2Fd0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -922,47 +663,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Encanto
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2021-11-26
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -985,7 +689,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F6bis845x7oW3yz0OqgA9cf2JnPf.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1041,47 +745,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                En la tormenta
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-02-25
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1104,7 +771,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F719jSFWaLStziGy17j5vGOWSz1V.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1160,47 +827,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Las aventuras de Pil
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-04-13
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1223,7 +853,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FeOecgHEmiejyBQ5J2CjGmF8sDFF.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1279,47 +909,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                La pasión de Cristo
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2004-04-02
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1342,7 +935,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F19rA9FjhwI4VEfaCXV7648XUInR.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1398,47 +991,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                La abuela
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-01-28
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1461,7 +1017,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuGdm2pPF8V1MDjUvops49kcOk2Y.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1517,47 +1073,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Animales Fantásticos 3: Los Secretos de Dumbledore
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-04-08
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1580,7 +1099,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FiDah4ZcDX3F316LcLlmNNAzsRqF.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1636,47 +1155,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Ice Age: Las aventuras de Buck
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-03-25
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1699,7 +1181,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FrK25c71fYVi0Bv7RrTChK7NAQjC.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1755,47 +1237,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Sonic: La película
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2020-02-14
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1818,7 +1263,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FpwSlzCAynIF6aEP7oxWddo7Kng2.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1874,47 +1319,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Hotel Transilvania: Transformanía
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-01-14
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -1937,7 +1345,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FwPZ5n5LlzFFdO5lFJbi2qmaE6w7.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -1993,47 +1401,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Eternals
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2021-11-05
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -2056,7 +1427,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FlFu7pTdf4gXABogCmPE0cBkVQZu.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -2112,47 +1483,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                The King's Man: La primera misión
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2021-12-29
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -2175,7 +1509,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FuvEwCxrpMbcWO0d4MR4P2Irg5Dk.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -2231,47 +1565,10 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Kimi
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-02-10
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
       >
         <div
           class="wrapper card"
@@ -2294,7 +1591,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
                   sizes="100vw"
                   src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=3840&q=50"
                   srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F1RbvTtVXwmjJqB9cZXBtM5uz5ou.jpg&w=3840&q=50 3840w"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                 />
               </span>
               <div
@@ -2350,43 +1647,6 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
-          <div
-            class="wrapper body"
-          >
-            <a
-              href="/home"
-            >
-              <h4
-                class="wrapper heading linkable"
-              >
-                Sin respiro
-              </h4>
-            </a>
-            <span
-              class="wrapper description sm"
-            >
-              2022-02-25
-              <style>
-                
-        wrapper {
-          
-        }
-      
-              </style>
-            </span>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
-        }
-      
-            </style>
-          </div>
         </div>
       </div>
     </div>

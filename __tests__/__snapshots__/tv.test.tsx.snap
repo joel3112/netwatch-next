@@ -18,7 +18,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
         class="wrapper"
       >
         <div
-          class="MuiGrid-root MuiGrid-container wrapper css-1q1c91r-MuiGrid-root"
+          class="MuiGrid-root MuiGrid-container wrapper css-lrun27-MuiGrid-root"
           role="grid"
         >
           <div
@@ -28,11 +28,11 @@ exports[`Tests tvs page renders page correctly 1`] = `
               class="wrapper"
             >
               <div
-                class="MuiGrid-root MuiGrid-container wrapper grid css-1q1c91r-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-container wrapper grid css-lrun27-MuiGrid-root"
                 role="grid"
               >
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -115,85 +115,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -201,7 +122,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -284,85 +205,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -370,7 +212,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -453,85 +295,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -539,7 +302,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -622,85 +385,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -708,7 +392,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -791,85 +475,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -877,7 +482,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -960,85 +565,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -1046,7 +572,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -1129,85 +655,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -1215,7 +662,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -1298,85 +745,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -1384,7 +752,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -1467,85 +835,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -1553,7 +842,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -1636,85 +925,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -1722,7 +932,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -1805,85 +1015,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -1891,7 +1022,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -1974,85 +1105,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -2060,7 +1112,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -2143,85 +1195,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -2229,7 +1202,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -2312,85 +1285,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -2398,7 +1292,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -2481,85 +1375,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -2567,7 +1382,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -2650,85 +1465,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -2736,7 +1472,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -2819,85 +1555,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -2905,7 +1562,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -2988,85 +1645,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -3074,7 +1652,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -3157,85 +1735,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>
@@ -3243,7 +1742,7 @@ exports[`Tests tvs page renders page correctly 1`] = `
                   </div>
                 </div>
                 <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-5 MuiGrid-grid-lg-4 MuiGrid-grid-xl-4 item css-19rau5k-MuiGrid-root"
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
                 >
                   <div
                     class="wrapper card"
@@ -3326,85 +1825,6 @@ exports[`Tests tvs page renders page correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
-        }
-      
-                      </style>
-                    </div>
-                    <div
-                      class="wrapper body"
-                    >
-                      <div
-                        class="wrapper heading"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <a
-                            href="/home"
-                          >
-                            <h4
-                              class="wrapper heading linkable"
-                            >
-                              placeholder card name
-                            </h4>
-                          </a>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <div
-                        class="wrapper text"
-                        role="progressbar"
-                      >
-                        <span
-                          class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
-                        >
-                          <span
-                            class="wrapper description sm"
-                          >
-                            999999999
-                            <style>
-                              
-        wrapper {
-          
-        }
-      
-                            </style>
-                          </span>
-                        </span>
-                        <style>
-                          
-        .wrapper {
-          width: auto;
-          min-width: auto;
-          height: auto;
-        }
-        .wrapper::before {
-          padding-top: 0;
-        }
-      
-                        </style>
-                      </div>
-                      <style>
-                        
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 2px;
-          
-          
         }
       
                       </style>

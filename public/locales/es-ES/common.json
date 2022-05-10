@@ -5,5 +5,6 @@
   "settings.aspect.option.auto": "Sistema",
   "settings.aspect.option.light": "Claro",
   "settings.aspect.option.dark": "Oscuro",
-  "list.load.more": "Cargar más"
+  "list.load.more": "Cargar más",
+  "item.action.more": "Más información"
 }

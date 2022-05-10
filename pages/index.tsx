@@ -26,7 +26,15 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
         <Space direction="column" gap={20} style={{ marginTop: 30 }}>
           <Heading level={2}>{t('welcome.title')}</Heading>
 
-          <MediaCarousel condensed pagination loop slides={1} backdrop items={trendingWeek} />
+          <MediaCarousel
+            condensed
+            pagination
+            loop
+            autoplay
+            backdrop
+            slides={1}
+            items={trendingWeek}
+          />
           <MediaCarousel backdrop items={trendingDay} />
           <MediaCarousel items={movies} />
           <MediaCarousel items={tvs} />

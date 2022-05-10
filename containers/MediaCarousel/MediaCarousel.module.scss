@@ -1,3 +1,5 @@
+/** Container (main component) **/
+
 .wrapper {
   display: block;
   transition: all 0.2s ease-in;
@@ -6,7 +8,7 @@
 .card {
   width: auto !important;
 
-  &.condensed::before {
+  .wrapper:not(.xs) &.condensed::before {
     @include box(100%, 100%);
     @include absolute(top 0 left 0);
 
@@ -25,6 +27,8 @@
   }
 }
 
+/** CarouselItemInfo (child component) **/
+
 .info {
   @include absolute(top 30% left 3em);
   @include flex($direction: column, $gap: 1rem);
@@ -32,12 +36,33 @@
   color: var(--color-button-text);
   z-index: 5;
   max-width: 50%;
-  //margin: 20px 0 0 2em;
-  flex: 0 0 40%;
+}
+
+.title {
+  font-size: rem(25px) !important;
+  font-weight: 600 !important;
+
+  .sm & {
+    font-size: rem(22px) !important;
+  }
 }
 
 .description {
-  .xs & {
+  .xs &,
+  .sm & {
     display: none !important;
   }
+}
+
+.actionsInfo {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  position: relative;
+  bottom: auto;
+  padding: 0 !important;
+}
+
+.buttonInfo {
+  background-color: var(--color-disabled) !important;
 }

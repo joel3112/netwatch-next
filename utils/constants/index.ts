@@ -16,7 +16,7 @@ export const BREAKPOINTS: BreakpointsRules = {
   sm: {
     name: 'sm',
     width: 600,
-    items: 4,
+    items: 3,
     backdrops: 2,
     spacing: 3
   },

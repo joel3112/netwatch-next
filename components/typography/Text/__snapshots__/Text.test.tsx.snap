@@ -8,7 +8,7 @@ exports[`Tests Text component renders component correctly 1`] = `
     Test
     <style>
       
-        wrapper {
+        .wrapper {
           
         }
       

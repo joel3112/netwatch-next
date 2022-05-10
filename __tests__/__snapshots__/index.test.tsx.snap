@@ -14,36 +14,179 @@ exports[`Index page renders page correctly 1`] = `
       >
         welcome.title
       </h2>
-      <span
+      <div
         class="wrapper md"
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda dolore expedita harum ipsum labore laudantium libero molestias nam numquam odio omnis, quaerat quas rem repellendus similique tempore unde ut.
-        <style>
-          
-        wrapper {
-          
-        }
-      
-        </style>
-      </span>
-      <a
-        href="/movie"
-      >
-        <button
-          class="wrapper medium"
+        <div
+          class="swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
         >
-          movie.title
-        </button>
-      </a>
-      <a
-        href="/tv"
+          <div
+            class="swiper-pagination paginationBulletsClass swiper-pagination-bullets"
+          />
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms;"
+          />
+        </div>
+      </div>
+      <div
+        class="wrapper md"
       >
-        <button
-          class="wrapper medium"
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
         >
-          tv.title
-        </button>
-      </a>
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          />
+          <button
+            class="wrapper medium buttonNavigation prev"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+          </button>
+          <button
+            class="wrapper medium buttonNavigation next"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="wrapper md"
+      >
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
+        >
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          />
+          <button
+            class="wrapper medium buttonNavigation prev"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+          </button>
+          <button
+            class="wrapper medium buttonNavigation next"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="wrapper md"
+      >
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
+        >
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          />
+          <button
+            class="wrapper medium buttonNavigation prev"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+          </button>
+          <button
+            class="wrapper medium buttonNavigation next"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
       <style>
         
         .wrapper {

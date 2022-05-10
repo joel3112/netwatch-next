@@ -50,11 +50,11 @@
 }
 
 .actionIcon {
-  @include font($size: 35px, $color: var(--color-button-text));
+  @include font($size: 30px, $color: var(--color-button-text));
 
   border: 2px solid var(--color-button-text) !important;
   border-radius: 50%;
-  padding: 2px;
+  padding: 5px;
 
   &:hover {
     background-color: rgb(var(--rgb-background-color-action-hover) / 30%) !important;

@@ -1,0 +1,1759 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests MediaCarousel component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper md"
+  >
+    <div
+      class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+      role="list"
+      style="width: calc(100% + 2 * 1px); margin-left: -1px;"
+    >
+      <div
+        class="swiper-wrapper"
+        style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide item"
+        >
+          <div
+            class=""
+          >
+            <div
+              class="wrapper card"
+            >
+              <a
+                href="/home"
+              >
+                <div
+                  aria-label="image"
+                  class="wrapper"
+                  role="img"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                  >
+                    <img
+                      class="image image linkable"
+                      data-nimg="fill"
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                    />
+                    <noscript />
+                  </span>
+                  <div
+                    class="image linkable content"
+                  >
+                    <div
+                      class="wrapper actions"
+                    >
+                      <button
+                        aria-label="action"
+                        class="wrapper medium clear action"
+                      >
+                        <svg
+                          class="actionIcon"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                          />
+                        </svg>
+                      </button>
+                      <style>
+                        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                      </style>
+                    </div>
+                  </div>
+                  <style>
+                    
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+                  </style>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="wrapper medium buttonNavigation prev"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polyline
+            points="15 18 9 12 15 6"
+          />
+        </svg>
+      </button>
+      <button
+        class="wrapper medium buttonNavigation next"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polyline
+            points="9 18 15 12 9 6"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

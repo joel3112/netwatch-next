@@ -5,10 +5,10 @@ describe('Breakpoint helper methods', () => {
     test('returns items in empty object', () => {
       const expected = {
         xs: 2,
-        sm: 2,
+        sm: 3,
         md: 4,
         lg: 5,
-        xl: 5
+        xl: 6
       };
 
       expect(getBreakpointRuleBy('items')).toStrictEqual(expected);

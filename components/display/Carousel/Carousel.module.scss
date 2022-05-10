@@ -2,13 +2,14 @@
 
 .wrapper {
   --swiper-pagination-color: var(--color-primary);
+
   box-sizing: border-box;
   position: relative;
 }
 
 .buttonNavigation {
   color: var(--color-button-text);
-  background-color: var(--color-secondary);
+  background-color: var(--color-dark);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -34,6 +35,10 @@
   &.next {
     right: 5px;
   }
+
+  .xs & {
+    display: none;
+  }
 }
 
 .buttonNavigationDisabled {
@@ -44,16 +49,38 @@
   width: 100% !important;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 0.5em;
+
+  .xs &,
+  .sm & {
+    bottom: 0;
+    margin: 1px;
+  }
 }
 
 .paginationBulletClass {
   background-color: var(--color-disabled);
   opacity: 0.5;
   border-radius: 0;
-  width: 25px;
-  height: 5px;
-  margin: 0 1px;
+  width: 20px;
+  height: 4px;
+  margin: 0 2px;
+  cursor: pointer;
+
+  .xs &,
+  .sm & {
+    flex-grow: 1;
+    margin: 0;
+    background-color: var(--color-primary);
+    opacity: 1;
+    transition: all 0.3s ease-in;
+  }
+
+  .xs .paginationBulletActiveClass ~ &,
+  .sm .paginationBulletActiveClass ~ & {
+    background-color: var(--color-disabled) !important;
+    opacity: 0.5 !important;
+  }
 }
 
 .paginationBulletActiveClass {

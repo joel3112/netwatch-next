@@ -1,13 +1,79 @@
+import Link from 'next/link';
+import { useTranslation } from 'next-i18next';
+import { IconType } from 'react-icons';
 import { IoMdAdd } from 'react-icons/io';
-import { ElementHTML, ElementSkeleton, MediaData } from '@/types';
+import { RiPlayFill } from 'react-icons/ri';
+import { ElementHTML, ElementSkeleton, MediaData, MediaTypeKey } from '@/types';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
+import { Space } from '@/components/layout';
+import { Text } from '@/components/typography';
+import { Button } from '@/components/forms';
 import { Card, Carousel } from '@/components/display';
 import { classes, getBreakpointConfig } from '@/utils/helpers';
 import styles from '@/containers/MediaCarousel/MediaCarousel.module.scss';
-import { Space } from '@/components/layout';
-import { Heading, Text } from '@/components/typography';
-import Link from 'next/link';
-import { Button } from '@/components/forms';
+
+/* -------------------------------------------------------------------------- */
+/** CarouselItemActions (child component) **/
+/* -------------------------------------------------------------------------- */
+
+type ItemActions = { id: string; icon: IconType };
+
+type CarouselItemActionsProps = ElementHTML & {
+  actions?: Array<ItemActions>;
+};
+
+const defaultActions = [{ id: 'list', icon: IoMdAdd }];
+
+const CarouselItemActions = ({ className, actions = defaultActions }: CarouselItemActionsProps) => (
+  <Card.Actions className={className}>
+    {actions.map(({ id, icon }) => (
+      <Card.Actions.Item key={id} icon={icon} />
+    ))}
+  </Card.Actions>
+);
+
+/* -------------------------------------------------------------------------- */
+/** CarouselItemInfo (main component) **/
+/* -------------------------------------------------------------------------- */
+
+type CarouselItemInfoProps = {
+  id?: number;
+  type?: MediaTypeKey;
+  name: string;
+  description?: string;
+};
+
+const CarouselItemInfo = ({ name, description }: CarouselItemInfoProps) => {
+  const { t } = useTranslation();
+
+  const actions: Array<ItemActions> = [...defaultActions, { id: 'watch', icon: RiPlayFill }];
+
+  return (
+    <div className={styles.info} data-swiper-parallax="-300">
+      <Text className={styles.title}>{name}</Text>
+
+      <Text size="sm" maxLines={4} className={styles.description}>
+        {description}
+      </Text>
+
+      <Space align="center" gap={8}>
+        <CarouselItemActions className={styles.actionsInfo} actions={actions} />
+
+        <Link href="/">
+          <a>
+            <Button rounded className={styles.buttonInfo}>
+              {t('item.action.more')}
+            </Button>
+          </a>
+        </Link>
+      </Space>
+    </div>
+  );
+};
+
+/* -------------------------------------------------------------------------- */
+/** Container (main component) **/
+/* -------------------------------------------------------------------------- */
 
 export type MediaCarouselProps = typeof defaultProps &
   ElementHTML &
@@ -51,7 +117,7 @@ const MediaCarousel = ({
   autoplay,
   loop
 }: MediaCarouselProps) => {
-  const { key } = useBreakpoint();
+  const { key, isMobile } = useBreakpoint();
   const { imageKey, configKey, ratio } = imageSizes[backdrop ? 'backdrop' : 'poster'];
   const { [configKey]: slidesPerView, spacing, offset = 0 } = getBreakpointConfig(key) || {};
 
@@ -62,7 +128,7 @@ const MediaCarousel = ({
         spacing={spacing * 4}
         offset={offset + 1}
         navigation={!condensed}
-        pagination={pagination}
+        pagination={pagination ? (isMobile ? 'progressbar' : 'bullets') : false}
         autoplay={autoplay}
         loop={loop}
         className={classes(styles.carousel)}>
@@ -74,31 +140,21 @@ const MediaCarousel = ({
               {condensed ? (
                 <>
                   <Card className={classes(styles.card, styles.condensed)} skeleton={!type}>
-                    <Card.Image classes={styles.image} src={image} width="100%" height="35vh" lazy>
-                      <Card.Actions>
-                        <Card.Actions.Item icon={IoMdAdd} />
-                      </Card.Actions>
-                    </Card.Image>
+                    <Card.Image
+                      classes={styles.image}
+                      src={image}
+                      width="100%"
+                      ratio={isMobile ? 0.55 : 0.4}
+                      lazy
+                    />
                   </Card>
 
-                  <div className={styles.info} data-swiper-parallax="-300">
-                    <Heading level={2}>{name}</Heading>
-                    <Text size="md" maxLines={5} className={styles.description}>
-                      {description}
-                    </Text>
-                    <Link href="/home">
-                      <a>
-                        <Button size="small">Mas info</Button>
-                      </a>
-                    </Link>
-                  </div>
+                  {!isMobile && <CarouselItemInfo name={name} description={description} />}
                 </>
               ) : (
                 <Card href="/home" className={styles.card} skeleton={!type}>
                   <Card.Image src={image} width="100%" ratio={ratio} lazy>
-                    <Card.Actions>
-                      <Card.Actions.Item icon={IoMdAdd} />
-                    </Card.Actions>
+                    <CarouselItemActions />
                   </Card.Image>
                 </Card>
               )}
