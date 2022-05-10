@@ -1,13 +1,14 @@
 import type { GetServerSidePropsContext, NextPage } from 'next';
+import Head from 'next/head';
+import axios from 'axios';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Head from 'next/head';
+import { APIMediaData, APIResponseListSuccess, MediaData } from '@/types';
+import { MediaCarousel } from '@/containers/MediaCarousel';
+import { MediaHeading } from '@/containers/MediaHeading';
 import { Heading } from '@/components/typography';
 import { Container, Space } from '@/components/layout';
 import { nextAPIBaseURL } from '@/utils/api';
-import { MediaCarousel } from '@/containers/MediaCarousel';
-import axios from 'axios';
-import { APIMediaData, APIResponseListSuccess, MediaData } from '@/types';
 
 type HomePageProps = {
   [key in 'trendingWeek' | 'trendingDay' | 'movies' | 'tvs']?: Array<MediaData>;
@@ -35,8 +36,14 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
             slides={1}
             items={trendingWeek}
           />
+
+          <MediaHeading>{t('trending.title')}</MediaHeading>
           <MediaCarousel backdrop items={trendingDay} />
+
+          <MediaHeading href="/movie">{t('movie.title')}</MediaHeading>
           <MediaCarousel items={movies} />
+
+          <MediaHeading href="/tv">{t('tv.title')}</MediaHeading>
           <MediaCarousel items={tvs} />
         </Space>
       </Container>

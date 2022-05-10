@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests MediaHeading component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper wrapper"
+  >
+    <div
+      class="wrapper"
+    >
+      <h3
+        class="wrapper"
+      >
+        Test
+      </h3>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center;
+        }
+      
+      </style>
+    </div>
+    <style>
+      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 20px;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+    </style>
+  </div>
+</div>
+`;
