@@ -6,20 +6,19 @@ import { DataListResponse, DataResponseError } from '@/types';
 export type UseFetchPagination<T> = {
   size: number;
   paginationEnd: boolean;
-  data: Array<Array<T>> | null;
+  data: Array<T> | null;
   loading: boolean;
   error: DataResponseError | null;
   onLoadMore: () => void;
   mutate?: KeyedMutator<Array<T>>;
 };
 
-const initialData = <T>(itemsPerView?: number, placeholder?: T): Array<Array<T>> => {
+const initialData = <T>(itemsPerView?: number, placeholder?: T): Array<T> => {
   if (itemsPerView) {
-    const content = [{} as T].multiply(itemsPerView).map((_, id) => ({
+    return [{} as T].multiply(itemsPerView).map((_, id) => ({
       ...(placeholder || ({} as T)),
       id
     }));
-    return [content];
   }
   return [];
 };
@@ -61,8 +60,8 @@ export const useFetchPagination = <T>(
 
   return {
     data: !isLoadingMore
-      ? ([] as Array<Array<T>>).concat(data || [])
-      : ([] as Array<Array<T>>).concat(data || [], initialData(itemsPerView, placeholder)),
+      ? ([] as Array<T>).concat(...(data || []))
+      : ([] as Array<T>).concat(...(data || []), initialData(itemsPerView, placeholder)),
     loading: Boolean(isLoadingMore),
     error,
     size,

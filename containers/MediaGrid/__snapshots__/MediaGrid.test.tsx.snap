@@ -89,6 +89,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Spider-Man: No Way Home
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -171,6 +192,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Red
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -253,6 +295,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Sonic 2: La Película
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -335,6 +398,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Moonfall
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -417,6 +501,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              The Batman
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -499,6 +604,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              El Proyecto Adam
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -581,6 +707,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Cangrejo Negro
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -663,6 +810,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Encanto
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -745,6 +913,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              En la tormenta
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -827,6 +1016,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Las aventuras de Pil
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -909,6 +1119,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              La pasión de Cristo
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -991,6 +1222,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              La abuela
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -1073,6 +1325,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Animales Fantásticos 3: Los Secretos de Dumbledore
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -1155,6 +1428,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Ice Age: Las aventuras de Buck
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -1237,6 +1531,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Sonic: La película
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -1319,6 +1634,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Hotel Transilvania: Transformanía
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -1401,6 +1737,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Eternals
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -1483,6 +1840,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              The King's Man: La primera misión
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -1565,6 +1943,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Kimi
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
       <div
@@ -1647,6 +2046,27 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
               </style>
             </div>
           </a>
+          <div
+            class="wrapper body"
+          >
+            <h5
+              class="wrapper heading"
+            >
+              Sin respiro
+            </h5>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+            </style>
+          </div>
         </div>
       </div>
     </div>

@@ -36,7 +36,7 @@ describe('Tests useFetchPagination hook', () => {
     );
 
     await waitFor(() => {
-      expect(result.current.data).toStrictEqual([resultPage1]);
+      expect(result.current.data).toStrictEqual(resultPage1);
     });
   });
 
@@ -60,7 +60,7 @@ describe('Tests useFetchPagination hook', () => {
     );
 
     await waitFor(async () => {
-      await expect(result.current.data).toContainEqual([itemPlaceholder]);
+      await expect(result.current.data).toContainEqual(itemPlaceholder);
     });
   });
 

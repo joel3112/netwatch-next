@@ -5,7 +5,7 @@ import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
 import { Space } from '@/components/layout';
 import { Image } from '@/components/media';
 import { Button } from '@/components/forms';
-import { Heading, Text } from '@/components/typography';
+import { Heading } from '@/components/typography';
 import { ImageProps } from '@/components/media/Image/Image';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/display/Card/Card.module.scss';
@@ -95,21 +95,18 @@ type CardBodyProps = ElementHTML & {
   maxLines?: number;
 };
 
-const CardBody = ({ className, title, description, maxLines }: CardBodyProps) => {
-  const { href, skeleton } = useCardContext();
+const CardBody = ({ className, title }: CardBodyProps) => {
+  const { skeleton } = useCardContext();
+
+  if (skeleton) {
+    return null;
+  }
 
   return (
     <Space direction="column" gap={2} className={classes(styles.body, className)}>
-      <Heading
-        level={4}
-        skeleton={skeleton}
-        href={href}
-        className={classes(styles.heading, href && styles.linkable)}>
-        {!skeleton ? title : 'placeholder card name'}
+      <Heading level={5} className={classes(styles.heading)}>
+        {title}
       </Heading>
-      <Text size="sm" skeleton={skeleton} className={styles.description} maxLines={maxLines}>
-        {!skeleton ? description : '999999999'}
-      </Text>
     </Space>
   );
 };

@@ -156,6 +156,7 @@ const MediaCarousel = ({
                   <Card.Image src={image} width="100%" ratio={ratio} lazy>
                     <CarouselItemActions />
                   </Card.Image>
+                  <Card.Body title={name} />
                 </Card>
               )}
             </Carousel.Item>

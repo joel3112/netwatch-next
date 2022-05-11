@@ -19,13 +19,12 @@ describe('Tests Card component', () => {
     render(
       <Card>
         <Card.Image src="https://picsum.photos/200/300" width={50} ratio={1} />
-        <Card.Body title="Title" description="Description" />
+        <Card.Body title="Title" />
       </Card>
     );
 
     expect(screen.getByLabelText('image')).toBeInTheDocument();
     expect(screen.getByText('Title')).toBeInTheDocument();
-    expect(screen.getByText('Description')).toBeInTheDocument();
   });
 
   test('works click on action image ', async () => {

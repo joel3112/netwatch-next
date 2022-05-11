@@ -114,14 +114,12 @@ const Carousel = ({
           clickable: true,
           clickableClass: styles.paginationBulletsClass,
           bulletClass: styles.paginationBulletClass,
-          bulletActiveClass: styles.paginationBulletActiveClass,
-          renderBullet: (index, className) => {
-            return `<span class="${classes(className)}"></span>`;
-          }
+          bulletActiveClass: styles.paginationBulletActiveClass
         }
       : false,
     autoplay: Boolean(autoplay) && {
-      delay: 4000
+      delay: 4000,
+      pauseOnMouseEnter: true
     },
     ...(effectFade || (slidesPerView === 1 && navigation) || pagination
       ? {
