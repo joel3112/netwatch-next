@@ -33,6 +33,7 @@
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.1",
+    "swiper": "^6.8.4",
     "swr": "^1.3.0"
   },
   "devDependencies": {

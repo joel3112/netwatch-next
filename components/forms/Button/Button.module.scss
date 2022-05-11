@@ -86,4 +86,8 @@
       background-color: rgb(var(--rgb-background-color-clear-hover) / 8%);
     }
   }
+
+  &.rounded {
+    border-radius: 30px !important;
+  }
 }

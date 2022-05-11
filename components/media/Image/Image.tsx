@@ -53,6 +53,7 @@ const Image = ({
         <ImageNext
           src={src}
           layout="fill"
+          objectFit="cover"
           loading={(lazy && 'lazy') || 'eager'}
           className={classes(styles.image, className)}
           quality={quality}

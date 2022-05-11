@@ -16,6 +16,7 @@ export type ButtonProps = Partial<typeof defaultProps> &
     clear?: boolean;
     outline?: boolean;
     disabled?: boolean;
+    rounded?: boolean;
     onClick?: MouseEventHandler<HTMLButtonElement>;
   };
 
@@ -33,6 +34,7 @@ const Button = ({
   outline,
   disabled,
   tooltip,
+  rounded,
   onClick
 }: ButtonProps) => {
   const handleClick = (event: MouseEvent<HTMLButtonElement>): void => {
@@ -48,6 +50,7 @@ const Button = ({
         secondary && styles.secondary,
         clear && styles.clear,
         outline && styles.outline,
+        rounded && styles.rounded,
         className
       )}
       disabled={disabled}

@@ -1,13 +1,20 @@
-import type { NextPage } from 'next';
+import type { GetServerSidePropsContext, NextPage } from 'next';
+import Head from 'next/head';
+import axios from 'axios';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Head from 'next/head';
-import Link from 'next/link';
-import { Heading, Text } from '@/components/typography';
+import { APIMediaData, APIResponseListSuccess, MediaData } from '@/types';
+import { MediaCarousel } from '@/containers/MediaCarousel';
+import { MediaHeading } from '@/containers/MediaHeading';
+import { Heading } from '@/components/typography';
 import { Container, Space } from '@/components/layout';
-import { Button } from '@/components/forms';
+import { nextAPIBaseURL } from '@/utils/api';
 
-const HomePage: NextPage = () => {
+type HomePageProps = {
+  [key in 'trendingWeek' | 'trendingDay' | 'movies' | 'tvs']?: Array<MediaData>;
+};
+
+const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, tvs }) => {
   const { t } = useTranslation('home');
 
   return (
@@ -20,33 +27,53 @@ const HomePage: NextPage = () => {
         <Space direction="column" gap={20} style={{ marginTop: 30 }}>
           <Heading level={2}>{t('welcome.title')}</Heading>
 
-          <Text size="md">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda dolore
-            expedita harum ipsum labore laudantium libero molestias nam numquam odio omnis, quaerat
-            quas rem repellendus similique tempore unde ut.
-          </Text>
+          <MediaCarousel
+            condensed
+            pagination
+            loop
+            autoplay
+            backdrop
+            slides={1}
+            items={trendingWeek}
+          />
 
-          <Link href="/movie">
-            <a>
-              <Button>{t('movie.title')}</Button>
-            </a>
-          </Link>
+          <MediaHeading>{t('trending.title')}</MediaHeading>
+          <MediaCarousel backdrop items={trendingDay} />
 
-          <Link href="/tv">
-            <a>
-              <Button>{t('tv.title')}</Button>
-            </a>
-          </Link>
+          <MediaHeading href="/movie">{t('movie.title')}</MediaHeading>
+          <MediaCarousel items={movies} />
+
+          <MediaHeading href="/tv">{t('tv.title')}</MediaHeading>
+          <MediaCarousel items={tvs} />
         </Space>
       </Container>
     </>
   );
 };
 
-export const getStaticProps = async ({ locale }: { locale: string }) => ({
-  props: {
-    ...(await serverSideTranslations(locale, ['common', 'home']))
-  }
-});
+export const getServerSideProps = async ({ locale, req }: GetServerSidePropsContext) => {
+  const trendingWeek = await axios.get<APIResponseListSuccess<APIMediaData>>(
+    nextAPIBaseURL(req) + '/api/trending/all/week'
+  );
+  const trendingDay = await axios.get<APIResponseListSuccess<APIMediaData>>(
+    nextAPIBaseURL(req) + '/api/trending/all/day'
+  );
+  const movies = await axios.get<APIResponseListSuccess<APIMediaData>>(
+    nextAPIBaseURL(req) + '/api/movie'
+  );
+  const tvs = await axios.get<APIResponseListSuccess<APIMediaData>>(
+    nextAPIBaseURL(req) + '/api/tv'
+  );
+
+  return {
+    props: {
+      trendingWeek: trendingWeek.data.results,
+      trendingDay: trendingDay.data.results,
+      movies: movies.data.results,
+      tvs: tvs.data.results,
+      ...(await serverSideTranslations(String(locale), ['common', 'home']))
+    }
+  };
+};
 
 export default HomePage;
