@@ -1,17 +1,20 @@
 import * as _ from 'lodash';
 
-export const getPropValue = (
-  object: object,
+export const getPropValue = <T = object, U = unknown>(
+  object: T,
   path: string,
-  defaultValue: unknown = undefined
-): unknown => {
+  defaultValue?: U
+): U => {
   return _.get(object, path, defaultValue);
 };
 
-export const isEmpty = (object: object): boolean => {
+export const isEmpty = <T = object>(object: T): boolean => {
   return !(object && Object.keys(object).length);
 };
 
-export const mapValuesBy = (object: object, callback: (value: unknown) => unknown): object => {
-  return _.mapValues(object, callback);
+export const mapValuesBy = <T extends object, U extends object>(
+  object: T,
+  callback: (value: unknown) => unknown
+): U => {
+  return _.mapValues(object, callback) as U;
 };

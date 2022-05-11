@@ -9,6 +9,8 @@ export const nextAPIBaseURL = (req: IncomingMessage): string => {
   return `${protocol}://${req.headers.host}`;
 };
 
+export const languageRegion = (language: string, region: string): string => `${language}-${region}`;
+
 export const isMediaPerson = (media: APIMediaData): boolean => 'birthday' in media;
 export const isMediaMovie = (media: APIMediaData): boolean => 'release_date' in media;
 export const isMediaSerie = (media: APIMediaData): boolean => 'first_air_date' in media;

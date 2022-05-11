@@ -8,7 +8,7 @@ export type UseFetch<T> = {
   mutate?: KeyedMutator<DataResponse<T>>;
 };
 
-export const useFetch = <T>(path: string, fetcher: BareFetcher<T>): UseFetch<T> => {
+export const useFetch = <T>(path: string | false | null, fetcher: BareFetcher<T>): UseFetch<T> => {
   const { data, error, mutate } = useSWR<T>(path, fetcher);
   const loading = !error && !data;
 
