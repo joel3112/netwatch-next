@@ -32,41 +32,56 @@ exports[`Index page renders page correctly 1`] = `
         </div>
       </div>
       <div
-        class="wrapper wrapper"
+        class="wrapper md"
       >
         <div
-          class="wrapper"
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
         >
-          <h3
-            class="wrapper"
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          />
+          <button
+            class="wrapper medium buttonNavigation prev"
           >
-            trending.title
-          </h3>
-          <style>
-            
-        .wrapper {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          
-          
-          align-items: center;
-        }
-      
-          </style>
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+          </button>
+          <button
+            class="wrapper medium buttonNavigation next"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+          </button>
         </div>
-        <style>
-          
-        .wrapper {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          gap: 20px;
-          justify-content: space-between;
-          align-items: center;
-        }
-      
-        </style>
       </div>
       <div
         class="wrapper md"
@@ -120,172 +135,6 @@ exports[`Index page renders page correctly 1`] = `
           </button>
         </div>
       </div>
-      <a
-        href="/movie"
-      >
-        <div
-          class="wrapper wrapper"
-        >
-          <div
-            class="wrapper"
-          >
-            <h3
-              class="wrapper"
-            >
-              movie.title
-            </h3>
-            <svg
-              class="icon"
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="9 18 15 12 9 6"
-              />
-            </svg>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          
-          
-          align-items: center;
-        }
-      
-            </style>
-          </div>
-          <style>
-            
-        .wrapper {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          gap: 20px;
-          justify-content: space-between;
-          align-items: center;
-        }
-      
-          </style>
-        </div>
-      </a>
-      <div
-        class="wrapper md"
-      >
-        <div
-          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
-          role="list"
-          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
-        >
-          <div
-            class="swiper-wrapper"
-            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
-          />
-          <button
-            class="wrapper medium buttonNavigation prev"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="15 18 9 12 15 6"
-              />
-            </svg>
-          </button>
-          <button
-            class="wrapper medium buttonNavigation next"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="9 18 15 12 9 6"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-      <a
-        href="/tv"
-      >
-        <div
-          class="wrapper wrapper"
-        >
-          <div
-            class="wrapper"
-          >
-            <h3
-              class="wrapper"
-            >
-              tv.title
-            </h3>
-            <svg
-              class="icon"
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="9 18 15 12 9 6"
-              />
-            </svg>
-            <style>
-              
-        .wrapper {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          
-          
-          align-items: center;
-        }
-      
-            </style>
-          </div>
-          <style>
-            
-        .wrapper {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          gap: 20px;
-          justify-content: space-between;
-          align-items: center;
-        }
-      
-          </style>
-        </div>
-      </a>
       <div
         class="wrapper md"
       >

@@ -5,7 +5,6 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { APIMediaData, APIMediaDataList, MediaData } from '@/types';
 import { useI18n } from '@/hooks/useI18n';
 import { MediaCarousel } from '@/containers/MediaCarousel';
-import { MediaHeading } from '@/containers/MediaHeading';
 import { Heading } from '@/components/typography';
 import { Container, Space } from '@/components/layout';
 import { nextAPIBaseURL } from '@/utils/api';
@@ -37,14 +36,11 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
             items={trendingWeek}
           />
 
-          <MediaHeading>{t('trending.title')}</MediaHeading>
-          <MediaCarousel backdrop items={trendingDay} />
+          <MediaCarousel heading={t('trending.title')} backdrop items={trendingDay} />
 
-          <MediaHeading href="/movie">{t('movie.title')}</MediaHeading>
-          <MediaCarousel items={movies} />
+          <MediaCarousel heading={t('movie.title')} href="/movie" items={movies} />
 
-          <MediaHeading href="/tv">{t('tv.title')}</MediaHeading>
-          <MediaCarousel items={tvs} />
+          <MediaCarousel heading={t('tv.title')} href="/tv" items={tvs} />
         </Space>
       </Container>
     </>

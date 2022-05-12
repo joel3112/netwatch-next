@@ -1,15 +1,18 @@
 import { IoMdAdd } from 'react-icons/io';
-import { ElementHTML, ElementSkeleton, MediaData } from '@/types';
+import { ElementHTML, ElementLink, ElementSkeleton, MediaData } from '@/types';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { Card, Carousel } from '@/components/display';
+import { MediaHeading } from '@/containers/MediaHeading';
 import { MediaCondensed } from '@/containers/MediaCondensed';
 import { classes, getBreakpointConfig } from '@/utils/helpers';
 import styles from '@/containers/MediaCarousel/MediaCarousel.module.scss';
 
 export type MediaCarouselProps = typeof defaultProps &
   ElementHTML &
+  ElementLink &
   ElementSkeleton & {
     items?: Array<MediaData>;
+    heading?: string;
     slides?: number;
     backdrop?: boolean;
     pagination?: boolean;
@@ -40,6 +43,8 @@ const imageSizes: {
 };
 
 const MediaCarousel = ({
+  heading,
+  href,
   items,
   slides,
   backdrop,
@@ -54,6 +59,12 @@ const MediaCarousel = ({
 
   return (
     <div className={classes(styles.wrapper, styles[key])}>
+      {heading && items && items.length && (
+        <MediaHeading href={href} className={styles.heading}>
+          {heading}
+        </MediaHeading>
+      )}
+
       <Carousel
         slidesPerView={slides || slidesPerView}
         spacing={spacing * 4}

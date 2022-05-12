@@ -9,10 +9,10 @@ type Data = MediaVideoList;
 httpInterceptor();
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
-  const { movieId, language, ...params } = req.query;
+  const { tvId, language, ...params } = req.query;
 
   axios
-    .get(`${process.env.API_URL}/movie/${movieId}/videos`, {
+    .get(`${process.env.API_URL}/tv/${tvId}/videos`, {
       params: {
         ...params,
         include_video_language: `${language},null`

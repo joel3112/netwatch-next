@@ -26,6 +26,6 @@
   .outside & {
     top: -38px;
     right: 0;
-    background-color: rgb(var(--rgb-background-color-primary) / 15%);
+    background-color: rgb(var(--rgb-color-skeleton)) !important;
   }
 }
