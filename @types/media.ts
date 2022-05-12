@@ -1,14 +1,10 @@
+import { EmptyObject } from '@/types';
+
 export type DataResponse<T> = T;
-export type DataListResponse<T> = {
-  page: number;
-  results: Array<T>;
-  total_pages: number;
-  total_results: number;
-};
-export type DataResponseError = {
-  status_code: number;
-  status_message: string;
-};
+export type DataListResponse<T, U = EmptyObject> = U & { results: Array<T> };
+export type DataResponseError = { status_code: number; status_message: string };
+
+/** Media **/
 
 export enum MediaType {
   ALL = 'all',
@@ -19,14 +15,23 @@ export enum MediaType {
 
 export type MediaTypeKey = Lowercase<keyof typeof MediaType>;
 
+export type MediaDataList<T = MediaCommonData> = DataListResponse<
+  T,
+  {
+    page: number;
+    total_pages: number;
+    total_results: number;
+  }
+>;
+
 export type MediaCommonData = {
   id: number;
-  type?: MediaTypeKey;
+  type: MediaTypeKey;
+  image: string;
   name: string;
   original_name?: string;
   date?: string;
   description?: string;
-  image?: string;
   backdrop?: string;
   popularity?: number;
   vote_count?: number;
@@ -41,3 +46,21 @@ export type TVData = MediaCommonData & {
 };
 
 export type MediaData = MovieData | TVData;
+
+/** Video **/
+
+export type MediaVideoList = DataListResponse<
+  MediaVideo,
+  {
+    id: number;
+  }
+>;
+
+export type MediaVideo = {
+  name: string;
+  key: string;
+  type: string;
+  site: string;
+  language: string;
+  region: string;
+};

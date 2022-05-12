@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { KeyedMutator } from 'swr';
 import useSWRInfinite, { SWRInfiniteFetcher, SWRInfiniteKeyLoader } from 'swr/infinite';
-import { DataListResponse, DataResponseError } from '@/types';
+import { DataResponseError, MediaDataList } from '@/types';
 
 export type UseFetchPagination<T> = {
   size: number;
@@ -38,7 +38,7 @@ export const useFetchPagination = <T>(
   const { data, error, size, setSize, mutate } = useSWRInfinite<T>(
     getKey,
     (...args: Array<string>) => {
-      return fetcher(args[0]).then((response: DataListResponse<T>) => {
+      return fetcher(args[0]).then((response: MediaDataList<T>) => {
         const { results, total_pages } = response || {};
         setLimit(total_pages);
         return results;

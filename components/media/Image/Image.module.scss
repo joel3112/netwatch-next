@@ -15,11 +15,6 @@
   @include absolute(top 0 left 0);
 }
 
-.empty {
-  color: rgb(var(--rgb-background-color-clear-hover) / 20%);
-  font-size: rem(90px);
-}
-
 .image {
   @include box(100%, 100%);
   @include absolute(top 0 left 0);

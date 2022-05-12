@@ -2,18 +2,9 @@
 html,
 .app {
   scrollbar-width: thin;
-  scrollbar-color: $background-scrollbar-thumb $background-scrollbar-secondary;
 }
 
 /* Other Browser */
 .app::-webkit-scrollbar {
   width: 0.4rem;
-}
-
-.app::-webkit-scrollbar-track {
-  background: $background-scrollbar;
-}
-
-.app::-webkit-scrollbar-thumb {
-  background-color: $background-scrollbar-thumb;
 }

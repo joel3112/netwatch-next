@@ -12,6 +12,7 @@ declare global {
     multiply(size: number): Array<T>;
     truncate(limit: number): Array<T>;
     split<U>(criteria?: number | ((value: T, index: number) => U)): Array<Array<T | U>>;
+    sortObjectsBy(key: keyof T, descending?: boolean): Array<T>;
   }
 }
 

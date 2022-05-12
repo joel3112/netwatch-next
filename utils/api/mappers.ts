@@ -1,7 +1,7 @@
-import { APIMovieData, APITVData, MediaCommonData } from '@/types';
+import { APIMediaData, APIMediaVideo, MediaData, MediaVideo } from '@/types';
 import { dateFromMedia, namesFromMedia, typeFromMedia } from '@/utils/api';
 
-export const mediaMapper = (media: APIMovieData | APITVData): MediaCommonData => {
+export const mediaMapper = (media: APIMediaData): MediaData => {
   const {
     id,
     media_type,
@@ -27,4 +27,10 @@ export const mediaMapper = (media: APIMovieData | APITVData): MediaCommonData =>
     ...namesFromMedia(media),
     ...dateFromMedia(media)
   };
+};
+
+export const videoMapper = (video: APIMediaVideo): MediaVideo => {
+  const { name, key, site, type, iso_639_1, iso_3166_1 } = video;
+
+  return { name, key, type, site, language: iso_639_1, region: iso_3166_1 };
 };

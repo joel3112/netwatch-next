@@ -4,18 +4,24 @@ export type APIResponseError = {
   status_message: string;
 };
 
-export type APIResponseListSuccess<T> = {
-  page: number;
-  results: Array<T>;
-  total_pages: number;
-  total_results: number;
-};
+export type APIResponseListSuccess<T, U> = U & { results: Array<T> };
+
+/** Media **/
 
 enum APIMediaType {
   MOVIE = 'movie',
   TV = 'tv',
   PERSON = 'person'
 }
+
+export type APIMediaDataList<T = APIMediaCommonData> = APIResponseListSuccess<
+  T,
+  {
+    page: number;
+    total_pages: number;
+    total_results: number;
+  }
+>;
 
 export type APIMediaCommonData = {
   media_type?: APIMediaType.MOVIE | APIMediaType.TV | APIMediaType.PERSON;
@@ -47,15 +53,7 @@ export type APITVData = APIMediaCommonData & {
 
 export type APIMediaData = APIMovieData | APITVData;
 
-export type APIMediaStatus =
-  | 'Rumored'
-  | 'Planned'
-  | 'In Production'
-  | 'Post Production'
-  | 'Released'
-  | 'Canceled';
-
-export type APIMediaGenre = { id: number; name: string };
+/** Episode **/
 
 export type APIMediaEpisode = {
   air_date: string;
@@ -70,6 +68,8 @@ export type APIMediaEpisode = {
   vote_count: number;
 };
 
+/** Season **/
+
 export type APIMediaSeason = {
   air_date: string;
   episode_count: number;
@@ -79,12 +79,26 @@ export type APIMediaSeason = {
   season_number: number;
 };
 
+/** Network **/
+
 export type APIMediaNetwork = {
   name: string;
   id: number;
   logo_path: string;
   origin_country: string;
 };
+
+/** Detail **/
+
+export type APIMediaStatus =
+  | 'Rumored'
+  | 'Planned'
+  | 'In Production'
+  | 'Post Production'
+  | 'Released'
+  | 'Canceled';
+
+export type APIMediaGenre = { id: number; name: string };
 
 export type APIMovieDetail = APIMovieData & {
   belongs_to_collection: {
@@ -135,3 +149,25 @@ export type APITVDetail = APITVData & {
 };
 
 export type APIMediaDetail = APIMovieDetail | APITVDetail;
+
+/** Video **/
+
+export type APIMediaVideoList = APIResponseListSuccess<
+  APIMediaVideo,
+  {
+    id: number;
+  }
+>;
+
+export type APIMediaVideo = {
+  id: string;
+  iso_639_1: string;
+  iso_3166_1: string;
+  name: string;
+  key: string;
+  site: string;
+  size: number;
+  type: string;
+  official: boolean;
+  published_at: string;
+};

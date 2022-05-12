@@ -19,8 +19,8 @@ mkdir -p $pathLocales
 # ------------------------------------------------------------- #
 
 echo "import type { NextPage } from 'next';
-import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useI18n } from '@/hooks/useI18n';
 import Head from 'next/head';
 
 const ${namePage}Page: NextPage = () => {

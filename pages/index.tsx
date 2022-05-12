@@ -1,11 +1,10 @@
 import type { GetServerSidePropsContext, NextPage } from 'next';
 import Head from 'next/head';
 import axios from 'axios';
-import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { APIMediaData, APIResponseListSuccess, MediaData } from '@/types';
+import { APIMediaData, APIMediaDataList, MediaData } from '@/types';
+import { useI18n } from '@/hooks/useI18n';
 import { MediaCarousel } from '@/containers/MediaCarousel';
-import { MediaHeading } from '@/containers/MediaHeading';
 import { Heading } from '@/components/typography';
 import { Container, Space } from '@/components/layout';
 import { nextAPIBaseURL } from '@/utils/api';
@@ -15,7 +14,7 @@ type HomePageProps = {
 };
 
 const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, tvs }) => {
-  const { t } = useTranslation('home');
+  const { t } = useI18n('home');
 
   return (
     <>
@@ -37,14 +36,11 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
             items={trendingWeek}
           />
 
-          <MediaHeading>{t('trending.title')}</MediaHeading>
-          <MediaCarousel backdrop items={trendingDay} />
+          <MediaCarousel heading={t('trending.title')} backdrop items={trendingDay} />
 
-          <MediaHeading href="/movie">{t('movie.title')}</MediaHeading>
-          <MediaCarousel items={movies} />
+          <MediaCarousel heading={t('movie.title')} href="/movie" items={movies} />
 
-          <MediaHeading href="/tv">{t('tv.title')}</MediaHeading>
-          <MediaCarousel items={tvs} />
+          <MediaCarousel heading={t('tv.title')} href="/tv" items={tvs} />
         </Space>
       </Container>
     </>
@@ -52,18 +48,16 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
 };
 
 export const getServerSideProps = async ({ locale, req }: GetServerSidePropsContext) => {
-  const trendingWeek = await axios.get<APIResponseListSuccess<APIMediaData>>(
+  const trendingWeek = await axios.get<APIMediaDataList<APIMediaData>>(
     nextAPIBaseURL(req) + '/api/trending/all/week'
   );
-  const trendingDay = await axios.get<APIResponseListSuccess<APIMediaData>>(
+  const trendingDay = await axios.get<APIMediaDataList<APIMediaData>>(
     nextAPIBaseURL(req) + '/api/trending/all/day'
   );
-  const movies = await axios.get<APIResponseListSuccess<APIMediaData>>(
+  const movies = await axios.get<APIMediaDataList<APIMediaData>>(
     nextAPIBaseURL(req) + '/api/movie'
   );
-  const tvs = await axios.get<APIResponseListSuccess<APIMediaData>>(
-    nextAPIBaseURL(req) + '/api/tv'
-  );
+  const tvs = await axios.get<APIMediaDataList<APIMediaData>>(nextAPIBaseURL(req) + '/api/tv');
 
   return {
     props: {
