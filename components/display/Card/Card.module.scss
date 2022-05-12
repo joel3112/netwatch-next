@@ -48,6 +48,11 @@
   box-sizing: border-box;
   padding: 0 !important;
   height: fit-content;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: rgb(var(--rgb-color-white) / 40%) !important;
+  }
 }
 
 .actionIcon {
@@ -57,10 +62,6 @@
   border: 2px solid var(--color-button-text) !important;
   border-radius: 50%;
   padding: 5px;
-
-  &:hover {
-    background-color: rgb(var(--rgb-background-color-action-hover) / 30%) !important;
-  }
 }
 
 /** CardActions (child component) **/

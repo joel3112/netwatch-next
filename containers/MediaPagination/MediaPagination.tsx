@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import axios from 'axios';
 import { useInView } from 'react-intersection-observer';
-import { useTranslation } from 'next-i18next';
 import { ElementChildren, ElementHTML, MediaData, MediaTypeKey } from '@/types';
+import { useI18n } from '@/hooks/useI18n';
 import { useFetchPagination } from '@/hooks/useFetchPagination';
 import { MediaGrid } from '@/containers/MediaGrid';
 import { Space } from '@/components/layout';
@@ -23,7 +23,7 @@ const fetcher = (url: string) => {
 };
 
 const MediaPagination = ({ mediaType }: MediaPaginationProps) => {
-  const { t } = useTranslation();
+  const { t } = useI18n();
   const { ref, inView } = useInView();
 
   const {

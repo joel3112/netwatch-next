@@ -56,7 +56,7 @@ export type CarouselProps = typeof defaultProps &
   ElementHTML &
   ElementChildren & {
     navigation?: boolean;
-    pagination?: 'bullets' | 'progressbar' | undefined;
+    pagination?: boolean;
     autoplay?: boolean;
     slidesPerView?: number;
     spacing?: number;

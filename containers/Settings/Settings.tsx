@@ -1,6 +1,6 @@
-import { useTranslation } from 'next-i18next';
 import { IconType } from 'react-icons';
 import { MdOutlineDarkMode, MdOutlineLightMode, MdSettingsBrightness } from 'react-icons/md';
+import { useI18n } from '@/hooks/useI18n';
 import { useTheme } from '@/hooks/useTheme';
 import { Space } from '@/components/layout';
 import { ToggleButton } from '@/components/forms';
@@ -40,7 +40,7 @@ export const defaultModes: Array<SettingMode> = [
 ];
 
 const SettingsMode = ({ modes = defaultModes }: SettingsModeProps) => {
-  const { t } = useTranslation();
+  const { t } = useI18n();
   const { themeKey, onChangeTheme } = useTheme();
 
   return (
@@ -90,7 +90,7 @@ export const defaultProps = {
 };
 
 const Settings = ({ sections }: SettingsProps) => {
-  const { t } = useTranslation();
+  const { t } = useI18n();
 
   return (
     <Space direction="column" gap={20} className={classes(styles.wrapper)}>

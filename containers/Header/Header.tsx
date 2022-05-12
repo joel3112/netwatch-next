@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { useTranslation } from 'next-i18next';
 import { IconType } from 'react-icons';
 import { FiSettings } from 'react-icons/fi';
 import { ElementHTML } from '@/types';
+import { useI18n } from '@/hooks/useI18n';
 import { Settings } from '@/containers/Settings';
 import { Space } from '@/components/layout';
 import { Button } from '@/components/forms';
@@ -23,7 +23,7 @@ type HeaderActionsProps = {
 const defaultActions = [{ label: 'header.action.settings', Icon: FiSettings }];
 
 const HeaderActions = ({ actions = defaultActions }: HeaderActionsProps) => {
-  const { t } = useTranslation();
+  const { t } = useI18n();
 
   return (
     <Space align="center" gap={20} className={styles.headerActions}>
@@ -54,7 +54,7 @@ export type HeaderProps = typeof defaultProps & ElementHTML;
 const defaultProps = {};
 
 const Header = ({}: HeaderProps) => {
-  const { t } = useTranslation();
+  const { t } = useI18n();
 
   return (
     <Space justify="between" align="center" className={classes(styles.wrapper)}>

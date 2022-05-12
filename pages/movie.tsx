@@ -1,14 +1,14 @@
 import type { GetStaticPropsContext, NextPage } from 'next';
-import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
 import { MediaType } from '@/types';
+import { useI18n } from '@/hooks/useI18n';
 import { MediaPagination } from '@/containers/MediaPagination';
 import { Container, Space } from '@/components/layout';
 import { Heading } from '@/components/typography';
 
 const MoviePage: NextPage = () => {
-  const { t } = useTranslation('movie');
+  const { t } = useI18n('movie');
 
   return (
     <>
