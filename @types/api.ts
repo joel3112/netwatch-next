@@ -53,41 +53,6 @@ export type APITVData = APIMediaCommonData & {
 
 export type APIMediaData = APIMovieData | APITVData;
 
-/** Episode **/
-
-export type APIMediaEpisode = {
-  air_date: string;
-  episode_number: number;
-  id: number;
-  name: string;
-  overview: string;
-  production_code: string;
-  season_number: number;
-  still_path: string;
-  vote_average: number;
-  vote_count: number;
-};
-
-/** Season **/
-
-export type APIMediaSeason = {
-  air_date: string;
-  episode_count: number;
-  id: number;
-  overview: string;
-  poster_path: string;
-  season_number: number;
-};
-
-/** Network **/
-
-export type APIMediaNetwork = {
-  name: string;
-  id: number;
-  logo_path: string;
-  origin_country: string;
-};
-
 /** Detail **/
 
 export type APIMediaStatus =
@@ -118,6 +83,12 @@ export type APIMovieDetail = APIMovieData & {
   spoken_languages: Array<{ iso_639_1: string; name: string }>;
   status: APIMediaStatus;
   tagline: string;
+
+  external_ids?: APIMediaExternalIds;
+  credits?: APIMediaCredits;
+  'watch/providers'?: APIMediaWatchProviderList;
+  videos?: APIMediaVideoList;
+  images?: APIMediaImages;
 };
 
 export type APITVDetail = APITVData & {
@@ -146,18 +117,147 @@ export type APITVDetail = APITVData & {
   status: string;
   tagline: string;
   type: string;
+
+  external_ids?: APIMediaExternalIds;
+  aggregate_credits?: APIMediaCredits;
+  'watch/providers'?: APIMediaWatchProviderList;
+  videos?: APIMediaVideoList;
+  images?: APIMediaImages;
 };
 
 export type APIMediaDetail = APIMovieDetail | APITVDetail;
 
-/** Video **/
+/** External ids **/
 
-export type APIMediaVideoList = APIResponseListSuccess<
-  APIMediaVideo,
-  {
-    id: number;
-  }
->;
+export type APIMediaExternalIds = {
+  id?: number;
+  imdb_id?: string;
+  facebook_id?: string;
+  instagram_id?: string;
+  twitter_id?: string;
+  freebase_id?: string;
+  freebase_mid?: string;
+  tvdb_id?: number;
+  tvrage_id?: number;
+};
+
+/** Watch providers **/
+
+export type APIMediaWatchProvider = {
+  display_priority: number;
+  logo_path: string;
+  provider_id: string;
+  provider_name: string;
+};
+
+export type APIMediaWatchProviderLanguage = {
+  [key: Uppercase<string>]: {
+    link: string;
+    flatrate: APIMediaWatchProvider;
+    rent: APIMediaWatchProvider;
+    buy: APIMediaWatchProvider;
+  };
+};
+
+export type APIMediaWatchProviderList = {
+  id?: number;
+  results: APIMediaWatchProvider;
+};
+
+/** Credits **/
+
+export type APIMediaCommonCredit = {
+  adult: boolean;
+  gender?: number;
+  id: string;
+  known_for_department: string;
+  name: string;
+  original_name: string;
+  popularity: number;
+  profile_path?: string;
+};
+
+export type APIMediaCast = APIMediaCommonCredit & {
+  credit_id: string;
+  cast_id: number;
+  character: string;
+  order: number;
+};
+
+export type APIMediaCrew = APIMediaCommonCredit & {
+  credit_id: string;
+  department: string;
+  job: string;
+};
+
+export type APIMediaCredits = {
+  id?: number;
+  cast: Array<APIMediaCast>;
+  crew: Array<APIMediaCrew>;
+};
+
+export type APIMediaAggregateCast = APIMediaCommonCredit & {
+  roles: Array<{
+    credit_id: string;
+    character: string;
+    episode_count: number;
+  }>;
+  total_episode_count: number;
+  order: number;
+};
+
+export type APIMediaAggregateCrew = APIMediaCommonCredit & {
+  jobs: Array<{
+    credit_id: string;
+    job: string;
+    episode_count: number;
+  }>;
+  department: string;
+  total_episode_count: number;
+};
+
+export type APIMediaAggregateCredits = {
+  id: number;
+  cast: Array<APIMediaAggregateCast>;
+  crew: Array<APIMediaAggregateCrew>;
+};
+
+/** Episodes **/
+
+export type APIMediaEpisode = {
+  air_date: string;
+  episode_number: number;
+  id: number;
+  name: string;
+  overview: string;
+  production_code: string;
+  season_number: number;
+  still_path: string;
+  vote_average: number;
+  vote_count: number;
+};
+
+/** Seasons **/
+
+export type APIMediaSeason = {
+  air_date: string;
+  episode_count: number;
+  id: number;
+  overview: string;
+  poster_path: string;
+  season_number: number;
+};
+
+/** Networks **/
+
+export type APIMediaNetwork = {
+  name: string;
+  id: number;
+  logo_path: string;
+  origin_country: string;
+};
+
+/** Videos **/
 
 export type APIMediaVideo = {
   id: string;
@@ -170,4 +270,30 @@ export type APIMediaVideo = {
   type: string;
   official: boolean;
   published_at: string;
+};
+
+export type APIMediaVideoList = APIResponseListSuccess<
+  APIMediaVideo,
+  {
+    id?: number;
+  }
+>;
+
+/** Images **/
+
+export type APIMediaImage = {
+  aspect_ratio: number;
+  file_path: string;
+  height: number;
+  iso_639_1?: string;
+  vote_average: number;
+  vote_count: number;
+  width: number;
+};
+
+export type APIMediaImages = {
+  id?: number;
+  backdrops: Array<APIMediaImage>;
+  posters: Array<APIMediaImage>;
+  logos: Array<APIMediaImage>;
 };

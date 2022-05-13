@@ -41,7 +41,7 @@ const MediaCondensedInfo = ({ id, type, name, description }: MediaCondensedInfoP
             <Card.Actions.Item icon={RiPlayFill} onClick={() => handleChange(true)} />
           </Card.Actions>
 
-          <Link href="/">
+          <Link href={{ pathname: '/[type]/[id]', query: { type, id } }}>
             <a>
               <Button rounded className={styles.buttonInfo}>
                 {t('item.action.more')}

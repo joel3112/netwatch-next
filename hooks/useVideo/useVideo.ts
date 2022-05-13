@@ -24,7 +24,7 @@ export const useVideo = (mediaId: number, mediaType: MediaTypeKey, videoId?: str
 
   useEffect(() => {
     if (data) {
-      const videos = (data as MediaVideoList).results;
+      const videos = data as MediaVideoList;
       const filteredVideos = [...videos.filter(({ type }) => type === 'Trailer'), videos[0]];
       const localeVideo = filteredVideos.find(({ language }) => language === i18n.language);
       setState(getPropValue<MediaVideo, string>(localeVideo || filteredVideos[0], 'key'));

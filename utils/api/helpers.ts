@@ -15,6 +15,11 @@ export const isMediaPerson = (media: APIMediaData): boolean => 'birthday' in med
 export const isMediaMovie = (media: APIMediaData): boolean => 'release_date' in media;
 export const isMediaSerie = (media: APIMediaData): boolean => 'first_air_date' in media;
 
+export const posterUrl = (poster_path: string) =>
+  poster_path ? `${process.env.API_IMAGES_URL}${poster_path}` : '/assets/images/poster-empty.png';
+export const backdroprUrl = (backdrop_path: string) =>
+  backdrop_path ? `${process.env.API_BACKDROP_URL}${backdrop_path}` : '';
+
 export const typeFromMedia = (media: APIMediaData): MediaTypeKey => {
   if (isMediaPerson(media)) return MediaType.PERSON;
   if (isMediaMovie(media)) return MediaType.MOVIE;

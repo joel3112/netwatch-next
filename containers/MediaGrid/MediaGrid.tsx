@@ -21,9 +21,12 @@ const MediaGrid = ({ items }: MediaGridProps) => {
   return (
     <div className={styles.wrapper}>
       <Grid spacing={spacings} breakpoints={breakpoints} className={classes(styles.grid)}>
-        {(items || []).map(({ image, type, name }, index) => (
+        {(items || []).map(({ id, image, type, name }, index) => (
           <Grid.Item key={index}>
-            <Card href="/home" className={styles.card} skeleton={!type}>
+            <Card
+              href={{ pathname: '/[type]/[id]', query: { type, id } }}
+              className={styles.card}
+              skeleton={!type}>
               <Card.Image src={image} width="100%" ratio={1.5}>
                 <Card.Actions>
                   <Card.Actions.Item icon={IoMdAdd} />
