@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import axios, { AxiosResponse } from 'axios';
 import { APIMediaVideoList, MediaVideoList } from '@/types';
-import { httpInterceptor, videoMapper } from '@/utils/api';
+import { httpInterceptor, videosMapper } from '@/utils/api';
 
 type APIData = APIMediaVideoList;
 type Data = MediaVideoList;
@@ -20,6 +20,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     })
     .then((response: AxiosResponse<APIData>) => {
       const data: APIData = response.data;
-      res.status(200).json({ ...data, results: data.results.map(videoMapper) });
+
+      res.status(200).json(videosMapper(data));
     });
 }

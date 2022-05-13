@@ -49,15 +49,15 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
 
 export const getServerSideProps = async ({ locale, req }: GetServerSidePropsContext) => {
   const trendingWeek = await axios.get<APIMediaDataList<APIMediaData>>(
-    nextAPIBaseURL(req) + '/api/trending/all/week'
+    `${nextAPIBaseURL(req)}/api/trending/all/week`
   );
   const trendingDay = await axios.get<APIMediaDataList<APIMediaData>>(
-    nextAPIBaseURL(req) + '/api/trending/all/day'
+    `${nextAPIBaseURL(req)}/api/trending/all/day`
   );
   const movies = await axios.get<APIMediaDataList<APIMediaData>>(
-    nextAPIBaseURL(req) + '/api/movie'
+    `${nextAPIBaseURL(req)}/api/movie`
   );
-  const tvs = await axios.get<APIMediaDataList<APIMediaData>>(nextAPIBaseURL(req) + '/api/tv');
+  const tvs = await axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/tv`);
 
   return {
     props: {

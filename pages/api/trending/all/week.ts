@@ -11,6 +11,7 @@ httpInterceptor();
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
   axios.get(`${process.env.API_URL}/trending/all/week`).then((response: AxiosResponse<APIData>) => {
     const data: APIData = response.data;
+
     res.status(200).json({ ...data, results: data.results.map(mediaMapper) });
   });
 }
