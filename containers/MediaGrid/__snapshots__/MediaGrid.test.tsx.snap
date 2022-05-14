@@ -16,7 +16,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/634649"
           >
             <div
               aria-label="image"
@@ -119,7 +119,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/508947"
           >
             <div
               aria-label="image"
@@ -222,7 +222,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/675353"
           >
             <div
               aria-label="image"
@@ -325,7 +325,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/406759"
           >
             <div
               aria-label="image"
@@ -428,7 +428,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/414906"
           >
             <div
               aria-label="image"
@@ -531,7 +531,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/696806"
           >
             <div
               aria-label="image"
@@ -634,7 +634,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/760868"
           >
             <div
               aria-label="image"
@@ -737,7 +737,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/568124"
           >
             <div
               aria-label="image"
@@ -840,7 +840,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/833425"
           >
             <div
               aria-label="image"
@@ -943,7 +943,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/676705"
           >
             <div
               aria-label="image"
@@ -1046,7 +1046,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/615"
           >
             <div
               aria-label="image"
@@ -1149,7 +1149,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/661791"
           >
             <div
               aria-label="image"
@@ -1252,7 +1252,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/338953"
           >
             <div
               aria-label="image"
@@ -1355,7 +1355,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/774825"
           >
             <div
               aria-label="image"
@@ -1458,7 +1458,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/454626"
           >
             <div
               aria-label="image"
@@ -1561,7 +1561,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/585083"
           >
             <div
               aria-label="image"
@@ -1664,7 +1664,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/524434"
           >
             <div
               aria-label="image"
@@ -1767,7 +1767,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/476669"
           >
             <div
               aria-label="image"
@@ -1870,7 +1870,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/800510"
           >
             <div
               aria-label="image"
@@ -1973,7 +1973,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/home"
+            href="/movie/928381"
           >
             <div
               aria-label="image"

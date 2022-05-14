@@ -5,16 +5,23 @@ import { useFetch } from '@/hooks/useFetch';
 import { useI18n } from '@/hooks/useI18n';
 import { getPropValue } from '@/utils/helpers';
 
-export type UseVideo = string;
+export type UseVideo = {
+  videoId: string;
+  setVideoId: (videoId: string) => void;
+};
 
-const pathVideo = (type: MediaTypeKey, id: number): string | null => {
+const pathVideo = (type?: MediaTypeKey, id?: number): string | null => {
   if (type && id) return `/api/${type}/${id}/videos`;
   return null;
 };
-const fetcherVideo = (type: MediaTypeKey, id: number, language: string) =>
+const fetcherVideo = (type?: MediaTypeKey, id?: number, language?: string) =>
   axios.get(`/api/${type}/${id}/videos`, { params: { language } }).then((res) => res.data);
 
-export const useVideo = (mediaId: number, mediaType: MediaTypeKey, videoId?: string): UseVideo => {
+export const useVideo = (
+  mediaId?: number,
+  mediaType?: MediaTypeKey,
+  videoId?: string
+): UseVideo => {
   const [state, setState] = useState<string>(videoId || '');
   const i18n = useI18n();
 
@@ -30,7 +37,7 @@ export const useVideo = (mediaId: number, mediaType: MediaTypeKey, videoId?: str
       setState(getPropValue<MediaVideo, string>(localeVideo || filteredVideos[0], 'key'));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
+  }, [data, state]);
 
-  return state;
+  return { videoId: state, setVideoId: setState };
 };

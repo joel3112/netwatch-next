@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import { createContext, useContext, MouseEvent, MouseEventHandler } from 'react';
 import { IconType } from 'react-icons';
 import { ElementChildren, ElementHTML, ElementLink, ElementSkeleton } from '@/types';
@@ -59,8 +61,12 @@ const CardAction = ({ className, icon: Icon, onClick }: CardActionProps) => {
   };
 
   return (
-    <Button clear ariaLabel="action" className={styles.action} onClick={handleClick}>
-      <Icon className={classes(styles.actionIcon, className)} />
+    <Button
+      clear
+      ariaLabel="action"
+      className={classes(styles.action, className)}
+      onClick={handleClick}>
+      <Icon className={styles.actionIcon} />
     </Button>
   );
 };
@@ -119,16 +125,20 @@ export type CardProps = typeof defaultProps &
   ElementHTML &
   ElementChildren<Array<JSX.Element>> &
   ElementSkeleton &
-  ElementLink;
+  ElementLink & {
+    onClick: MouseEventHandler<HTMLDivElement>;
+  };
 
 const defaultProps = {
   children: []
 };
 
-const Card = ({ children, className, skeleton, href }: CardProps) => {
+const Card = ({ children, className, skeleton, href, onClick }: CardProps) => {
   return (
     <CardContext.Provider value={{ href, skeleton }}>
-      <div className={classes(styles.wrapper, className)}>{children}</div>
+      <div className={classes(styles.wrapper, className)} onClick={onClick}>
+        {children}
+      </div>
     </CardContext.Provider>
   );
 };

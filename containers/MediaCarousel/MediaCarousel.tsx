@@ -1,5 +1,5 @@
 import { IoMdAdd } from 'react-icons/io';
-import { ElementHTML, ElementLink, ElementSkeleton, MediaData } from '@/types';
+import { ElementHTML, ElementLink, ElementSkeleton, MediaData, MediaImageRatio } from '@/types';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { Card, Carousel } from '@/components/display';
 import { MediaHeading } from '@/containers/MediaHeading';
@@ -33,12 +33,12 @@ const imageSizes: {
   poster: {
     imageKey: 'image',
     configKey: 'items',
-    ratio: 1.5
+    ratio: MediaImageRatio.POSTER
   },
   backdrop: {
     imageKey: 'backdrop',
     configKey: 'backdrops',
-    ratio: 0.56
+    ratio: MediaImageRatio.BACKDROP
   }
 };
 

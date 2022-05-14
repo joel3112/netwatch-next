@@ -174,6 +174,7 @@ export type MediaVideo = {
   site: string;
   language: string;
   region: string;
+  thumbnail: string;
 };
 
 export type MediaVideoList = Array<MediaVideo> | Array<never>;
@@ -181,12 +182,19 @@ export type MediaVideoList = Array<MediaVideo> | Array<never>;
 /** Images **/
 
 export enum MediaImageType {
-  POSTER = 'posters',
-  BACKDROP = 'backdrops',
-  LOGO = 'logos'
+  POSTER = 'poster',
+  BACKDROP = 'backdrop',
+  LOGO = 'logo'
+}
+
+export enum MediaImageRatio {
+  POSTER = 1.5,
+  BACKDROP = 0.56,
+  LOGO = 0.86
 }
 
 export type MediaImage = {
+  type: Lowercase<keyof typeof MediaImageType>;
   image: string;
   width?: number;
   height?: number;
@@ -197,5 +205,5 @@ export type MediaImage = {
 };
 
 export type MediaImages = {
-  [key in MediaImageType.LOGO | MediaImageType.POSTER | MediaImageType.BACKDROP]: Array<MediaImage>;
+  [key in 'logos' | 'posters' | 'backdrops']: Array<MediaImage>;
 };

@@ -121,7 +121,7 @@ exports[`Tests MediaCondensed component renders component correctly 1`] = `
           </style>
         </div>
         <a
-          href="/"
+          href="/movie/1"
         >
           <button
             class="wrapper medium rounded buttonInfo"

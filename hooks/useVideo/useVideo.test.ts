@@ -8,7 +8,7 @@ describe('Tests useVideo hook', () => {
   test('works hook correctly', () => {
     const { result } = renderHook(() => useVideo(634649, 'movie', 'videoId'));
 
-    expect(result.current).toBe('videoId');
+    expect(result.current.videoId).toBe('videoId');
   });
 
   test('works hook correctly with fetch', async () => {
@@ -22,7 +22,7 @@ describe('Tests useVideo hook', () => {
     const { result } = renderHook(() => useVideo(634649, 'movie'));
 
     await waitFor(() => {
-      expect(result.current).toBe('6Cl8PmVm3YE');
+      expect(result.current.videoId).toBe('6Cl8PmVm3YE');
     });
   });
 });

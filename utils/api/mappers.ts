@@ -1,5 +1,6 @@
 import {
   APIMediaData,
+  APIMediaDetail,
   APIMediaExternalIds,
   APIMediaImage,
   APIMediaImages,
@@ -7,18 +8,32 @@ import {
   APIMediaVideoList,
   APIMediaWatchProvider,
   APIMediaWatchProviderList,
+  APIMovieDetail,
+  APITVDetail,
   MediaData,
+  MediaDetail,
   MediaExternalIds,
   MediaImage,
+  MediaImageRatio,
   MediaImages,
+  MediaImageType,
   MediaType,
   MediaTypeKey,
   MediaVideo,
   MediaVideoList,
   MediaWatchProvider,
-  MediaWatchProviders
+  MediaWatchProviders,
+  MovieDetail,
+  TVDetail
 } from '@/types';
-import { backdroprUrl, dateFromMedia, namesFromMedia, posterUrl, typeFromMedia } from '@/utils/api';
+import {
+  backdroprUrl,
+  dateFromMedia,
+  durationFromMedia,
+  namesFromMedia,
+  posterUrl,
+  typeFromMedia
+} from '@/utils/api';
 import { getPropValue } from '@/utils/helpers';
 
 export const mediaMapper = (media: APIMediaData): MediaData => {
@@ -47,12 +62,44 @@ export const mediaMapper = (media: APIMediaData): MediaData => {
   };
 };
 
+/** Detail **/
+
+export const mediaDetailMapper = (media: APIMediaDetail): MediaDetail => {
+  return {
+    ...mediaMapper(media),
+    ...durationFromMedia(media),
+    genres: getPropValue(media, 'genres', [])
+  };
+};
+
+export const movieDetailMapper = (media: APIMovieDetail): MovieDetail => {
+  return {
+    ...mediaDetailMapper(media)
+  };
+};
+
+export const tvDetailMapper = (media: APITVDetail): TVDetail => {
+  return {
+    ...mediaDetailMapper(media),
+    number_seasons: getPropValue(media, 'number_seasons', 0),
+    number_episodes: getPropValue(media, 'number_episodes', 0)
+  };
+};
+
 /** Videos **/
 
 export const videoMapper = (video: APIMediaVideo): MediaVideo => {
   const { name, key, site, type, iso_639_1, iso_3166_1 } = video;
 
-  return { name, key, type, site, language: iso_639_1, region: iso_3166_1 };
+  return {
+    name,
+    key,
+    type,
+    site,
+    language: iso_639_1,
+    region: iso_3166_1,
+    thumbnail: `https://img.youtube.com/vi/${key}/0.jpg`
+  };
 };
 
 export const videosMapper = (videos: APIMediaVideoList): MediaVideoList => {
@@ -63,15 +110,22 @@ export const videosMapper = (videos: APIMediaVideoList): MediaVideoList => {
 
 /** Images **/
 
-export const imageMapper = (image: APIMediaImage): MediaImage => {
+export const imageMapper = (
+  image: APIMediaImage,
+  type?: MediaImageType.POSTER | MediaImageType.BACKDROP | MediaImageType.LOGO
+): MediaImage => {
   const { file_path, iso_639_1, width, height, aspect_ratio, vote_average, vote_count } = image;
 
   return {
-    image: posterUrl(file_path),
+    type:
+      type || aspect_ratio < MediaImageRatio.POSTER
+        ? MediaImageType.POSTER
+        : MediaImageType.BACKDROP,
+    image: aspect_ratio < MediaImageRatio.POSTER ? posterUrl(file_path) : backdroprUrl(file_path),
     width,
     height,
     language: iso_639_1,
-    ratio: 1 / aspect_ratio,
+    ratio: parseFloat((1 / aspect_ratio).toFixed(2)),
     vote_average,
     vote_count
   };
@@ -79,9 +133,9 @@ export const imageMapper = (image: APIMediaImage): MediaImage => {
 
 export const imagesMapper = (images: APIMediaImages): MediaImages => {
   return {
-    backdrops: getPropValue(images, 'backdrops', []).map(imageMapper),
-    posters: getPropValue(images, 'posters', []).map(imageMapper),
-    logos: getPropValue(images, 'logos', []).map(imageMapper)
+    backdrops: getPropValue(images, 'backdrops', []).map((image) => imageMapper(image)),
+    posters: getPropValue(images, 'posters', []).map((image) => imageMapper(image)),
+    logos: getPropValue(images, 'logos', []).map((image) => imageMapper(image))
   };
 };
 

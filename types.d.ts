@@ -1,5 +1,6 @@
 /* eslint-disable  @typescript-eslint/no-explicit-any */
 import { CSSProperties, ReactNode } from 'react';
+import { UrlObject } from 'url';
 
 declare module '*module.scss' {
   const styles: {
@@ -24,7 +25,7 @@ export type ElementSkeleton = {
 };
 
 export type ElementLink = {
-  href?: string;
+  href?: string | UrlObject;
 };
 
 export type EmptyObject = Record<never, unknown>;
