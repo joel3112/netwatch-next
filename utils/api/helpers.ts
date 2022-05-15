@@ -32,6 +32,8 @@ export const backdroprUrl = (backdrop_path: string) =>
   backdrop_path ? `${process.env.API_BACKDROP_URL}${backdrop_path}` : '';
 
 export const videoTrailerId = (videos: MediaVideoList, locale: string): string => {
+  if (videos.isEmpty()) return '';
+
   const filteredVideos = [...videos.filter(({ type }) => type === 'Trailer'), videos[0]];
   const localeVideo = filteredVideos.find(({ language }) => language === locale);
   return getPropValue<MediaVideo, string>(localeVideo || filteredVideos[0], 'key');

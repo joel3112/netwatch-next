@@ -22,6 +22,7 @@ import {
   MediaCredits,
   MediaData,
   MediaDetail,
+  MediaExternalIdName,
   MediaExternalIds,
   MediaImage,
   MediaImageRatio,
@@ -103,10 +104,10 @@ export const tvDetailMapper = (media: APITVDetail): TVDetail => {
 /** Seasons **/
 
 export const seasonMapper = (season: APIMediaSeason): MediaSeason => {
-  const { id, name, overview, poster_path, season_number, episode_count, air_date } = season;
+  const { name, overview, poster_path, season_number, episode_count, air_date } = season;
 
   return {
-    id,
+    id: season_number,
     key: `T${season_number} - ${name}`,
     season_number,
     name,
@@ -254,11 +255,27 @@ export const externalIdsMapper = (
   const imdbKey = type === MediaType.PERSON ? 'name' : 'title';
 
   return [
-    { id: 'imdb', url: url(`https://www.imdb.com/${imdbKey}/`, imdb_id) },
-    { id: 'facebook', url: url('https://www.facebook.com/', facebook_id) },
-    { id: 'instagram', url: url('https://www.instagram.com/', instagram_id) },
-    { id: 'twitter', url: url('https://twitter.com/', twitter_id) }
-  ];
+    {
+      id: MediaExternalIdName.IMDB,
+      key: imdb_id,
+      url: url(`https://www.imdb.com/${imdbKey}/`, imdb_id)
+    },
+    {
+      id: MediaExternalIdName.FACEBOOK,
+      key: facebook_id,
+      url: url('https://www.facebook.com/', facebook_id)
+    },
+    {
+      id: MediaExternalIdName.INSTAGRAM,
+      key: instagram_id,
+      url: url('https://www.instagram.com/', instagram_id)
+    },
+    {
+      id: MediaExternalIdName.TWITTER,
+      key: twitter_id,
+      url: url('https://twitter.com/', twitter_id)
+    }
+  ].filter(({ key }) => key);
 };
 
 /** Watch providers **/
