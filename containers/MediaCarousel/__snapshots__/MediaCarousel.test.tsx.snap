@@ -99,11 +99,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/634649"
                 >
-                  Spider-Man: No Way Home
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Spider-Man: No Way Home
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -205,11 +209,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/508947"
                 >
-                  Red
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Red
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -311,11 +319,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/675353"
                 >
-                  Sonic 2: La Película
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Sonic 2: La Película
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -417,11 +429,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/406759"
                 >
-                  Moonfall
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Moonfall
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -523,11 +539,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/414906"
                 >
-                  The Batman
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    The Batman
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -629,11 +649,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/696806"
                 >
-                  El Proyecto Adam
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    El Proyecto Adam
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -735,11 +759,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/760868"
                 >
-                  Cangrejo Negro
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Cangrejo Negro
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -841,11 +869,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/568124"
                 >
-                  Encanto
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Encanto
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -947,11 +979,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/833425"
                 >
-                  En la tormenta
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    En la tormenta
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1053,11 +1089,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/676705"
                 >
-                  Las aventuras de Pil
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Las aventuras de Pil
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1159,11 +1199,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/615"
                 >
-                  La pasión de Cristo
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    La pasión de Cristo
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1265,11 +1309,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/661791"
                 >
-                  La abuela
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    La abuela
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1371,11 +1419,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/338953"
                 >
-                  Animales Fantásticos 3: Los Secretos de Dumbledore
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Animales Fantásticos 3: Los Secretos de Dumbledore
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1477,11 +1529,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/774825"
                 >
-                  Ice Age: Las aventuras de Buck
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Ice Age: Las aventuras de Buck
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1583,11 +1639,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/454626"
                 >
-                  Sonic: La película
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Sonic: La película
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1689,11 +1749,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/585083"
                 >
-                  Hotel Transilvania: Transformanía
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Hotel Transilvania: Transformanía
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1795,11 +1859,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/524434"
                 >
-                  Eternals
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Eternals
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -1901,11 +1969,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/476669"
                 >
-                  The King's Man: La primera misión
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    The King's Man: La primera misión
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -2007,11 +2079,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/800510"
                 >
-                  Kimi
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Kimi
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {
@@ -2113,11 +2189,15 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
               <div
                 class="wrapper body"
               >
-                <h5
-                  class="wrapper heading"
+                <a
+                  href="/movie/928381"
                 >
-                  Sin respiro
-                </h5>
+                  <h2
+                    class="wrapper heading linkable"
+                  >
+                    Sin respiro
+                  </h2>
+                </a>
                 <style>
                   
         .wrapper {

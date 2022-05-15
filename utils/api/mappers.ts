@@ -10,6 +10,7 @@ import {
   APIMediaExternalIds,
   APIMediaImage,
   APIMediaImages,
+  APIMediaSeason,
   APIMediaVideo,
   APIMediaVideoList,
   APIMediaWatchProvider,
@@ -26,6 +27,7 @@ import {
   MediaImageRatio,
   MediaImages,
   MediaImageType,
+  MediaSeason,
   MediaType,
   MediaTypeKey,
   MediaVideo,
@@ -93,8 +95,25 @@ export const movieDetailMapper = (media: APIMovieDetail): MovieDetail => {
 export const tvDetailMapper = (media: APITVDetail): TVDetail => {
   return {
     ...mediaDetailMapper(media),
-    number_seasons: getPropValue(media, 'number_seasons', 0),
-    number_episodes: getPropValue(media, 'number_episodes', 0)
+    number_seasons: getPropValue(media, 'number_of_seasons', 0),
+    number_episodes: getPropValue(media, 'number_of_episodes', 0)
+  };
+};
+
+/** Seasons **/
+
+export const seasonMapper = (season: APIMediaSeason): MediaSeason => {
+  const { id, name, overview, poster_path, season_number, episode_count, air_date } = season;
+
+  return {
+    id,
+    key: `T${season_number} - ${name}`,
+    season_number,
+    name,
+    description: overview,
+    date: air_date,
+    episodes: episode_count,
+    image: posterUrl(poster_path)
   };
 };
 

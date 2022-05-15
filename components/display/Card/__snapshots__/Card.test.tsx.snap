@@ -42,11 +42,11 @@ exports[`Tests Card component renders component correctly 1`] = `
     <div
       class="wrapper body"
     >
-      <h5
+      <h2
         class="wrapper heading"
       >
         Title
-      </h5>
+      </h2>
       <style>
         
         .wrapper {

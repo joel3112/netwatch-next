@@ -75,6 +75,7 @@ export type TVDetail = TVData & {
   number_seasons: number;
   number_episodes: number;
 
+  seasons?: Array<MediaSeason>;
   external_ids?: MediaExternalIds;
   credits?: MediaCredits;
   'watch/providers'?: MediaWatchProviders;

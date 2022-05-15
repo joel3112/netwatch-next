@@ -74,9 +74,10 @@ $image-width: 250px;
 .body {
   display: grid;
   grid-gap: 25px 100px;
-  grid-template-columns: auto calc(#{$image-width} + 70px);
+  grid-template-columns: calc(100% - #{$image-width} - 170px) calc(#{$image-width} + 70px);
   grid-template-areas:
     'overview data'
+    'seasons data'
     'videos data'
     'images data'
     'credits data';
@@ -87,6 +88,7 @@ $image-width: 250px;
     grid-template-areas:
       'data'
       'overview'
+      'seasons'
       'videos'
       'images'
       'credits';
@@ -150,6 +152,12 @@ $image-width: 250px;
 
 .genre {
   height: 30px !important;
+}
+
+/** DetailSeasons (child component) **/
+
+.seasons {
+  grid-area: seasons;
 }
 
 /** DetailVideos (child component) **/

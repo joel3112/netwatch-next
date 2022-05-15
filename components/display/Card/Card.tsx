@@ -102,15 +102,15 @@ type CardBodyProps = ElementHTML & {
 };
 
 const CardBody = ({ className, title }: CardBodyProps) => {
-  const { skeleton } = useCardContext();
+  const { href, skeleton } = useCardContext();
 
-  if (skeleton) {
+  if (skeleton || !title) {
     return null;
   }
 
   return (
     <Space direction="column" gap={2} className={classes(styles.body, className)}>
-      <Heading level={5} className={classes(styles.heading)}>
+      <Heading href={href} className={classes(styles.heading, href && styles.linkable)}>
         {title}
       </Heading>
     </Space>

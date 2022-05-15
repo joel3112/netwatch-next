@@ -84,15 +84,21 @@
 .body {
   @include absolute(top 0);
 
-  padding: 10px;
+  padding: 5px 0;
+  width: 100%;
+  background-color: rgb(0 0 0 / 50%) !important;
 }
 
 .heading {
-  @include max-lines(2);
-  @include box(fit-content, auto);
+  @include max-lines(1);
 
   color: var(--color-button-text);
-  background-color: rgb(0 0 0 / 50%) !important;
+  margin: 0 10px;
+  font-size: rem(14px);
+  font-weight: 400;
   transition: all 0.2s ease-in;
-  font-weight: 500;
+
+  &.linkable:hover {
+    color: var(--color-primary);
+  }
 }

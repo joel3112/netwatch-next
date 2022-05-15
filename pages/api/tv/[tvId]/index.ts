@@ -7,6 +7,7 @@ import {
   httpInterceptor,
   imagesMapper,
   regionFromLocale,
+  seasonMapper,
   tvDetailMapper,
   typeFromMedia,
   videosMapper,
@@ -36,6 +37,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 
       res.status(200).json({
         ...tvDetailMapper(data),
+        seasons: getPropValue(data, 'seasons', []).map(seasonMapper),
         external_ids: externalIdsMapper(getPropValue(data, 'external_ids'), typeFromMedia(data)),
         'watch/providers': watchProvidersMapper(
           getPropValue(data, 'watch/providers'),

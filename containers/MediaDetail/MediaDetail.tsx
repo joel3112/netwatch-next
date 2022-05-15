@@ -1,4 +1,5 @@
-import { useState, createContext, useContext, cloneElement, ReactNode } from 'react';
+/* eslint-disable @next/next/no-img-element */
+import { cloneElement, createContext, ReactNode, useContext, useState } from 'react';
 import { Breakpoint } from '@mui/system/createTheme/createBreakpoints';
 import { IconType } from 'react-icons';
 import { IoMdAdd, IoMdExpand } from 'react-icons/io';
@@ -31,9 +32,9 @@ import { Image, Video } from '@/components/media';
 import { Button } from '@/components/forms';
 import { Card, Carousel } from '@/components/display';
 import { Modal, Portal } from '@/components/overlay';
+import { videoTrailerId } from '@/utils/api';
 import { classes, getBreakpointConfig, getPropValue } from '@/utils/helpers';
 import styles from '@/containers/MediaDetail/MediaDetail.module.scss';
-import { videoTrailerId } from '@/utils/api';
 
 /* -------------------------------------------------------------------------- */
 /** Context **/
@@ -43,6 +44,7 @@ type MediaDetailContextProps = Partial<typeof defaultValue> & {
   key: Breakpoint;
   isMobile: boolean;
   isTablet: boolean;
+  isSmallDesktop: boolean;
   id: number;
   type: MediaTypeKey;
   media: MovieDetail | TVDetail;
@@ -99,7 +101,8 @@ const DetailImage = () => {
 
 enum SectionLabel {
   VIDEOS = 'detail.videos.heading',
-  IMAGES = 'detail.images.heading'
+  IMAGES = 'detail.images.heading',
+  SEASONS = 'detail.seasons.heading'
 }
 
 type DetailCarouselProps = ElementChildren<JSX.Element> & {
@@ -107,8 +110,9 @@ type DetailCarouselProps = ElementChildren<JSX.Element> & {
   path: string;
   imageKey?: string;
   numbered?: boolean;
+  backdrop?: boolean;
   action?: {
-    icon: IconType;
+    icon?: IconType;
     onClick?: (item: unknown) => void;
   };
 };
@@ -119,11 +123,21 @@ const DetailCarousel = ({
   path,
   imageKey,
   numbered,
+  backdrop,
   action
 }: DetailCarouselProps) => {
-  const { t, key, media, type, id, isMobile } = useMediaDetailContext();
+  const { t, key, media, type, id, isMobile, isTablet, isSmallDesktop } = useMediaDetailContext();
   const items = getPropValue(media, path, []);
   const { spacing, offset = 0 } = getBreakpointConfig(key) || {};
+
+  const slidesPerView = () => {
+    if (backdrop) {
+      return isMobile ? 1 : 2;
+    }
+    if (isTablet) return 3;
+    if (isSmallDesktop) return 3;
+    return isMobile ? 2 : 4;
+  };
 
   const handleClickAction = (item: Array<unknown>) =>
     action && action.onClick && action.onClick(item);
@@ -139,7 +153,7 @@ const DetailCarousel = ({
       )}
 
       <Carousel
-        slidesPerView={isMobile ? 1 : 2}
+        slidesPerView={slidesPerView()}
         spacing={spacing * 4}
         offset={offset + 1}
         navigation={items.length > (isMobile ? 1 : 2)}
@@ -154,13 +168,16 @@ const DetailCarousel = ({
                   className={styles.image}
                   src={item[imageKey || 'image']}
                   width="100%"
-                  ratio={MediaImageRatio.BACKDROP}
+                  ratio={backdrop ? MediaImageRatio.BACKDROP : MediaImageRatio.POSTER}
                   quality={100}
                   lazy>
                   <Card.Actions className={styles.actions}>
-                    {action && <Card.Actions.Item className={styles.action} icon={action.icon} />}
+                    {action && action.icon && (
+                      <Card.Actions.Item className={styles.action} icon={action.icon} />
+                    )}
                   </Card.Actions>
                 </Card.Image>
+                <Card.Body title={item['name']} />
               </Card>
             )}
           </Carousel.Item>
@@ -255,13 +272,12 @@ const DetailData = () => {
         {!providers.isEmpty() && (
           <a href={watch_link} className="full">
             <DataButton text="watch.now.button">
-              <Image
+              <img
                 className={styles.provider}
                 alt={providers[0].name}
                 src={providers[0].image}
                 width={25}
-                ratio={1}
-                lazy
+                height={25}
               />
             </DataButton>
           </a>
@@ -288,14 +304,13 @@ const DetailData = () => {
           <DataItem heading={t('detail.data.available')}>
             <Space gap={10} className={styles.providers}>
               {providers.map(({ name, image }) => (
-                <Image
+                <img
                   className={styles.provider}
                   key={name}
                   alt={name}
                   src={image}
                   width={45}
-                  ratio={1}
-                  lazy
+                  height={45}
                 />
               ))}
             </Space>
@@ -393,10 +408,13 @@ const DetailBody = () => {
       <DetailData />
       <DetailOverview />
 
+      <DetailCarousel section="seasons" path="seasons" numbered />
+
       <DetailCarousel
         section="videos"
         path="videos"
         imageKey="thumbnail"
+        backdrop
         numbered
         action={{ icon: RiPlayFill, onClick: handleVideo }}
       />
@@ -404,6 +422,7 @@ const DetailBody = () => {
       <DetailCarousel
         section="images"
         path="images.backdrops"
+        backdrop
         numbered
         action={{ icon: IoMdExpand, onClick: handleZoom }}
       />
@@ -436,7 +455,7 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
   const { t, i18n } = useI18n();
   const [modalData, setModalData] = useState<ModalData>({ type: '', value: '' });
   const { isOpened, handleChange } = useModal();
-  const { key, isMobile, isTablet } = useBreakpoint();
+  const { key, isMobile, isTablet, isSmallDesktop } = useBreakpoint();
   const { type, id } = media;
 
   const handleVideo = (item: unknown) => {
@@ -465,6 +484,7 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
         type,
         media,
         isMobile,
+        isSmallDesktop,
         isTablet,
         handleVideo,
         handleZoom
