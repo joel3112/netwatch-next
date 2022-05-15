@@ -10,6 +10,8 @@ export type TextProps = Partial<typeof defaultProps> &
   ElementChildren<string> &
   ElementSkeleton & {
     size?: TextSize;
+    bold?: boolean;
+    disabled?: boolean;
     ellipsis?: boolean;
     maxLines?: number;
     truncateTo?: number;
@@ -19,7 +21,17 @@ const defaultProps = {
   size: 'md'
 };
 
-const Text = ({ className, style, children, size, ellipsis, maxLines, truncateTo }: TextProps) => {
+const Text = ({
+  className,
+  style,
+  children,
+  size,
+  ellipsis,
+  maxLines,
+  truncateTo,
+  bold,
+  disabled
+}: TextProps) => {
   return (
     <span
       className={classes(
@@ -34,6 +46,8 @@ const Text = ({ className, style, children, size, ellipsis, maxLines, truncateTo
 
       <style jsx>{`
         .${styles.wrapper} {
+          ${bold ? 'font-weight: bold;' : ''}
+          ${disabled ? 'opacity: 0.5;' : ''}
           ${maxLines ? `-webkit-line-clamp: ${maxLines};` : ''}
         }
       `}</style>

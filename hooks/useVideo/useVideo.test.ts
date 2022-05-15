@@ -13,10 +13,7 @@ describe('Tests useVideo hook', () => {
 
   test('works hook correctly with fetch', async () => {
     (axios.get as jest.Mock).mockResolvedValueOnce({
-      data: {
-        id: 634649,
-        results: [{ id: 1, key: '6Cl8PmVm3YE', type: 'Trailer' }]
-      }
+      data: [{ id: 1, key: '6Cl8PmVm3YE', type: 'Trailer' }]
     });
 
     const { result } = renderHook(() => useVideo(634649, 'movie'));

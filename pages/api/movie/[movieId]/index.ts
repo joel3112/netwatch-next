@@ -2,6 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import axios, { AxiosResponse } from 'axios';
 import { APIMovieDetail, MovieDetail } from '@/types';
 import {
+  creditsMapper,
   externalIdsMapper,
   httpInterceptor,
   imagesMapper,
@@ -40,7 +41,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
           String(language).toUpperCase()
         ),
         images: imagesMapper(getPropValue(data, 'images')),
-        videos: videosMapper(getPropValue(data, 'videos'))
+        videos: videosMapper(getPropValue(data, 'videos')),
+        credits: creditsMapper(getPropValue(data, 'credits'))
       });
     });
 }

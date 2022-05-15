@@ -1,4 +1,7 @@
 import {
+  APIMediaCast,
+  APIMediaCredits,
+  APIMediaCrew,
   APIMediaData,
   APIMediaDetail,
   APIMediaExternalIds,
@@ -10,6 +13,9 @@ import {
   APIMediaWatchProviderList,
   APIMovieDetail,
   APITVDetail,
+  MediaCredit,
+  MediaCreditRole,
+  MediaCredits,
   MediaData,
   MediaDetail,
   MediaExternalIds,
@@ -30,6 +36,7 @@ import {
   backdroprUrl,
   dateFromMedia,
   durationFromMedia,
+  genderFromMedia,
   namesFromMedia,
   posterUrl,
   typeFromMedia
@@ -68,7 +75,8 @@ export const mediaDetailMapper = (media: APIMediaDetail): MediaDetail => {
   return {
     ...mediaMapper(media),
     ...durationFromMedia(media),
-    genres: getPropValue(media, 'genres', [])
+    genres: getPropValue(media, 'genres', []),
+    homepage: getPropValue(media, 'homepage')
   };
 };
 
@@ -83,6 +91,51 @@ export const tvDetailMapper = (media: APITVDetail): TVDetail => {
     ...mediaDetailMapper(media),
     number_seasons: getPropValue(media, 'number_seasons', 0),
     number_episodes: getPropValue(media, 'number_episodes', 0)
+  };
+};
+
+/** Credits **/
+
+const commonCreditMapper = (cast: APIMediaCast | APIMediaCrew): MediaCredit => {
+  const { id, gender, name, original_name, profile_path } = cast;
+
+  return {
+    id,
+    name,
+    original_name,
+    image: posterUrl(String(profile_path)),
+    gender: genderFromMedia(gender)
+  };
+};
+
+export const castMapper = (cast: APIMediaCast): MediaCredit => {
+  const { character } = cast;
+
+  return {
+    ...commonCreditMapper(cast),
+    role: MediaCreditRole.ACTING,
+    job: ['cast'],
+    characters: character ? character.split(' / ') : []
+  };
+};
+
+export const crewMapper = (crew: APIMediaCrew): MediaCredit => {
+  const { department, job } = crew;
+
+  return {
+    ...commonCreditMapper(crew),
+    role: MediaCreditRole[department.toUpperCase() as keyof typeof MediaCreditRole],
+    job: [job],
+    characters: []
+  };
+};
+
+export const creditsMapper = (credit: APIMediaCredits): MediaCredits => {
+  const { cast, crew } = credit;
+
+  return {
+    cast: cast.map(castMapper),
+    crew: crew.map(crewMapper)
   };
 };
 
@@ -110,10 +163,7 @@ export const videosMapper = (videos: APIMediaVideoList): MediaVideoList => {
 
 /** Images **/
 
-export const imageMapper = (
-  image: APIMediaImage,
-  type?: MediaImageType.POSTER | MediaImageType.BACKDROP | MediaImageType.LOGO
-): MediaImage => {
+export const imageMapper = (image: APIMediaImage, type?: Lowercase<MediaImageType>): MediaImage => {
   const { file_path, iso_639_1, width, height, aspect_ratio, vote_average, vote_count } = image;
 
   return {

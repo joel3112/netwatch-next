@@ -13,6 +13,8 @@ export type ButtonProps = Partial<typeof defaultProps> &
     ariaLabel?: string;
     tooltip?: string;
     secondary?: boolean;
+    light?: boolean;
+    dark?: boolean;
     clear?: boolean;
     outline?: boolean;
     disabled?: boolean;
@@ -35,6 +37,8 @@ const Button = ({
   disabled,
   tooltip,
   rounded,
+  light,
+  dark,
   onClick
 }: ButtonProps) => {
   const handleClick = (event: MouseEvent<HTMLButtonElement>): void => {
@@ -48,6 +52,8 @@ const Button = ({
         styles.wrapper,
         size && styles[size],
         secondary && styles.secondary,
+        light && styles.light,
+        dark && styles.dark,
         clear && styles.clear,
         outline && styles.outline,
         rounded && styles.rounded,

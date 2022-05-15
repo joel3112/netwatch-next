@@ -90,4 +90,12 @@
   &.rounded {
     border-radius: 30px !important;
   }
+
+  &.light {
+    background-color: var(--color-gray) !important;
+  }
+
+  &.dark {
+    background-color: var(--color-dark) !important;
+  }
 }

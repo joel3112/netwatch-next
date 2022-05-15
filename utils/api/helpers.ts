@@ -1,5 +1,5 @@
 import { IncomingMessage } from 'http';
-import { APIMediaData, APIMediaDetail, MediaType, MediaTypeKey } from '@/types';
+import { APIMediaData, APIMediaDetail, MediaCreditGender, MediaType, MediaTypeKey } from '@/types';
 
 export const nextAPIBaseURL = (req: IncomingMessage): string => {
   if (!req) return window.location.origin;
@@ -50,4 +50,10 @@ export const durationFromMedia = (media: APIMediaDetail): { duration: string } =
   if ('episode_run_time' in media) duration = media.episode_run_time[0];
 
   return { duration: String(duration) };
+};
+
+export const genderFromMedia = (gender?: number) => {
+  if (gender === 1) return MediaCreditGender.GENDER1;
+  if (gender === 2) return MediaCreditGender.GENDER2;
+  return MediaCreditGender.GENDER0;
 };

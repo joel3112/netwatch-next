@@ -13,7 +13,7 @@ export enum MediaType {
   PERSON = 'person'
 }
 
-export type MediaTypeKey = Lowercase<keyof typeof MediaType>;
+export type MediaTypeKey = Lowercase<MediaType>;
 
 export type MediaDataList<T = MediaCommonData> = DataListResponse<
   T,
@@ -94,7 +94,7 @@ export enum MediaExternalIdName {
 }
 
 export type MediaExternalId = {
-  id: 'imdb' | 'facebook' | 'instagram' | 'twitter';
+  id: Lowercase<MediaExternalIdName>;
   url: string;
 };
 
@@ -115,6 +115,12 @@ export type MediaWatchProviders = {
 
 /** Credits **/
 
+export enum MediaCreditGender {
+  GENDER0 = '-',
+  GENDER1 = 'female',
+  GENDER2 = 'male'
+}
+
 export enum MediaCreditRole {
   DIRECTING = 'directing',
   WRITING = 'writing',
@@ -126,7 +132,8 @@ export type MediaCredit = {
   id: string;
   name: string;
   original_name: string;
-  role: MediaCreditRole;
+  gender: Lowercase<MediaCreditGender>;
+  role?: Lowercase<MediaCreditRole>;
   characters?: Array<string>;
   job?: Array<string>;
   image: string;

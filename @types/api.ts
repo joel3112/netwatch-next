@@ -24,7 +24,7 @@ export type APIMediaDataList<T = APIMediaCommonData> = APIResponseListSuccess<
 >;
 
 export type APIMediaCommonData = {
-  media_type?: APIMediaType.MOVIE | APIMediaType.TV | APIMediaType.PERSON;
+  media_type?: Lowercase<APIMediaType>;
   backdrop_path: string;
   genre_ids: Array<number>;
   id: number;
@@ -168,7 +168,7 @@ export type APIMediaWatchProviderList = {
 
 export type APIMediaCommonCredit = {
   adult: boolean;
-  gender?: number;
+  gender?: 0 | 1 | 2;
   id: string;
   known_for_department: string;
   name: string;
