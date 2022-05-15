@@ -1,7 +1,7 @@
 import { useState, createContext, useContext, cloneElement, ReactNode } from 'react';
 import { Breakpoint } from '@mui/system/createTheme/createBreakpoints';
 import { IconType } from 'react-icons';
-import { IoMdExpand } from 'react-icons/io';
+import { IoMdAdd, IoMdExpand } from 'react-icons/io';
 import { RiPlayFill } from 'react-icons/ri';
 import { BiGlobe } from 'react-icons/bi';
 import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
@@ -9,6 +9,7 @@ import { SiImdb } from 'react-icons/si';
 import {
   ElementChildren,
   ElementHTML,
+  EmptyObject,
   FunctionVoid,
   MediaImage,
   MediaImageRatio,
@@ -19,6 +20,7 @@ import {
   ObjectGeneric,
   TVDetail
 } from '@/types';
+import { useI18n } from '@/hooks/useI18n';
 import { useModal } from '@/hooks/useModal';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { MediaHeading } from '@/containers/MediaHeading';
@@ -30,6 +32,7 @@ import { Card, Carousel } from '@/components/display';
 import { Modal, Portal } from '@/components/overlay';
 import { classes, getBreakpointConfig, getPropValue } from '@/utils/helpers';
 import styles from '@/containers/MediaDetail/MediaDetail.module.scss';
+import { videoTrailerId } from '@/utils/api';
 
 /* -------------------------------------------------------------------------- */
 /** Context **/
@@ -44,6 +47,8 @@ type MediaDetailContextProps = Partial<typeof defaultValue> & {
   media: MovieDetail | TVDetail;
   handleVideo: FunctionVoid<unknown>;
   handleZoom: FunctionVoid<unknown>;
+  t: (key: string, options?: EmptyObject) => string;
+  language: string;
 };
 
 const defaultValue = {};
@@ -92,8 +97,8 @@ const DetailImage = () => {
 /* -------------------------------------------------------------------------- */
 
 enum SectionLabel {
-  VIDEOS = 'Videos',
-  IMAGES = 'Imágenes'
+  VIDEOS = 'detail.videos.heading',
+  IMAGES = 'detail.images.heading'
 }
 
 type DetailCarouselProps = ElementChildren<JSX.Element> & {
@@ -115,7 +120,7 @@ const DetailCarousel = ({
   numbered,
   action
 }: DetailCarouselProps) => {
-  const { key, media, type, id, isMobile } = useMediaDetailContext();
+  const { t, key, media, type, id, isMobile } = useMediaDetailContext();
   const items = getPropValue(media, path, []);
   const { spacing, offset = 0 } = getBreakpointConfig(key) || {};
 
@@ -126,7 +131,7 @@ const DetailCarousel = ({
     <Space direction="column" gap={10} className={classes(styles[section])}>
       {!items.isEmpty() && (
         <MediaHeading href={{ pathname: '/[type]/[id]/[section]', query: { type, id, section } }}>
-          {`${SectionLabel[section.toUpperCase() as keyof typeof SectionLabel]} ${
+          {`${t(SectionLabel[section.toUpperCase() as keyof typeof SectionLabel])} ${
             numbered ? `(${items.length})` : ''
           }`}
         </MediaHeading>
@@ -208,7 +213,7 @@ const DetailExternalIds = () => {
 /* -------------------------------------------------------------------------- */
 
 const DetailData = () => {
-  const { media } = useMediaDetailContext();
+  const { t, media, handleVideo, language } = useMediaDetailContext();
   const providers = getPropValue(media, 'watch/providers', []);
 
   const DataItem = ({ heading, children }: { heading: string; children: ReactNode }) => {
@@ -220,25 +225,58 @@ const DetailData = () => {
     );
   };
 
-  return (
-    <Space direction="column" gap={10} className={styles.data}>
-      <Button className={styles.button}>Ver trailer</Button>
-      <Button className={styles.button}>Ver ahora</Button>
-      <Button className={styles.button} light>
-        Mi lista
+  const DataButton = ({
+    children,
+    text,
+    onClick,
+    light
+  }: {
+    children?: ReactNode;
+    text: string;
+    onClick?: () => void;
+    light?: boolean;
+  }) => {
+    return (
+      <Button className={styles.button} light={light} onClick={onClick}>
+        {children}
+        <Text>{t(text)}</Text>
       </Button>
+    );
+  };
 
-      <MediaHeading>Datos</MediaHeading>
+  return (
+    <Space direction="column" gap={20} className={styles.data}>
+      <Space direction="column" gap={5} className={styles.buttons}>
+        <DataButton
+          text="watch.trailer.button"
+          onClick={() =>
+            handleVideo({
+              type: 'video',
+              key: videoTrailerId(getPropValue(media, 'videos', []), language)
+            })
+          }>
+          <RiPlayFill />
+        </DataButton>
+        <DataButton text="watch.now.button" />
+        <DataButton text="my.list.button" light>
+          <IoMdAdd />
+        </DataButton>
+      </Space>
+
+      <MediaHeading>{t('detail.data.heading')}</MediaHeading>
 
       <Space gap={20} direction="column">
         {providers.length && (
-          <DataItem heading="Disponible en">
+          <DataItem heading={t('detail.data.available')}>
             <Text disabled>{providers.toString()}</Text>
           </DataItem>
         )}
 
-        <DataItem heading="Nombre original">
+        <DataItem heading={t('detail.data.original.name')}>
           <Text disabled>{media.original_name}</Text>
+        </DataItem>
+        <DataItem heading={t('detail.data.original.language')}>
+          <Text disabled>{t(getPropValue(media, 'original_language', '').toUpperCase())}</Text>
         </DataItem>
       </Space>
 
@@ -252,11 +290,11 @@ const DetailData = () => {
 /* -------------------------------------------------------------------------- */
 
 const DetailOverview = () => {
-  const { media } = useMediaDetailContext();
+  const { t, media } = useMediaDetailContext();
 
   return (
     <Space direction="column" className={styles.overview}>
-      <MediaHeading>Vista general</MediaHeading>
+      <MediaHeading>{t('detail.overview.heading')}</MediaHeading>
 
       <Space gap={5} className={styles.genres}>
         {(media.genres || []).map(({ id, name }) => (
@@ -276,12 +314,12 @@ const DetailOverview = () => {
 /* -------------------------------------------------------------------------- */
 
 const DetailCredits = () => {
-  const { isMobile, media } = useMediaDetailContext();
+  const { t, isMobile, media } = useMediaDetailContext();
   const cast = getPropValue(media, 'credits.cast', []);
 
   return (
     <Space direction="column" gap={10} className={styles.credits}>
-      <MediaHeading>Reparto Principal</MediaHeading>
+      <MediaHeading>{t('detail.credits.heading')}</MediaHeading>
 
       <Grid breakpoints={{ xs: 1, sm: 1, md: 2, lg: 3, xl: 3 }} spacing={4}>
         {cast.truncate(isMobile ? 5 : 10).map(({ id, name, image, characters }) => (
@@ -301,8 +339,8 @@ const DetailCredits = () => {
                 <Text size="sm" bold className={styles.name}>
                   {name}
                 </Text>
-                <Text size="sm" disabled className={styles.character}>
-                  {characters ? `as ${characters}` : ''}
+                <Text size="sm" disabled className={styles.character} maxLines={2}>
+                  {characters ? `${t('detail.credit.character')} ${characters}` : ''}
                 </Text>
               </Space>
             </Space>
@@ -365,6 +403,7 @@ export type MediaDetailProps = typeof defaultProps &
 const defaultProps = {};
 
 const MediaDetail = ({ className, media }: MediaDetailProps) => {
+  const { t, i18n } = useI18n();
   const [modalData, setModalData] = useState<ModalData>({ type: '', value: '' });
   const { isOpened, handleChange } = useModal();
   const { key, isMobile, isTablet } = useBreakpoint();
@@ -388,7 +427,18 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
 
   return (
     <MediaDetailContext.Provider
-      value={{ key, id, type, media, isMobile, isTablet, handleVideo, handleZoom }}>
+      value={{
+        t,
+        language: i18n ? i18n.language : '',
+        key,
+        id,
+        type,
+        media,
+        isMobile,
+        isTablet,
+        handleVideo,
+        handleZoom
+      }}>
       <div className={classes(styles.wrapper, styles[key], className)}>
         <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>
           <Heading level={2}>{media.name}</Heading>

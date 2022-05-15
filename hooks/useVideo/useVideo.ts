@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { MediaTypeKey, MediaVideo, MediaVideoList } from '@/types';
+import { MediaTypeKey, MediaVideoList } from '@/types';
 import { useFetch } from '@/hooks/useFetch';
 import { useI18n } from '@/hooks/useI18n';
-import { getPropValue } from '@/utils/helpers';
+import { videoTrailerId } from '@/utils/api';
 
 export type UseVideo = {
   videoId: string;
@@ -32,9 +32,7 @@ export const useVideo = (
   useEffect(() => {
     if (data) {
       const videos = data as MediaVideoList;
-      const filteredVideos = [...videos.filter(({ type }) => type === 'Trailer'), videos[0]];
-      const localeVideo = filteredVideos.find(({ language }) => language === i18n.language);
-      setState(getPropValue<MediaVideo, string>(localeVideo || filteredVideos[0], 'key'));
+      setState(videoTrailerId(videos, i18n.language));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, state]);

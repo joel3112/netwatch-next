@@ -1,4 +1,7 @@
 import {
+  APIMediaAggregateCast,
+  APIMediaAggregateCredits,
+  APIMediaAggregateCrew,
   APIMediaCast,
   APIMediaCredits,
   APIMediaCrew,
@@ -76,7 +79,8 @@ export const mediaDetailMapper = (media: APIMediaDetail): MediaDetail => {
     ...mediaMapper(media),
     ...durationFromMedia(media),
     genres: getPropValue(media, 'genres', []),
-    homepage: getPropValue(media, 'homepage')
+    homepage: getPropValue(media, 'homepage'),
+    original_language: getPropValue(media, 'original_language', 'en')
   };
 };
 
@@ -96,8 +100,10 @@ export const tvDetailMapper = (media: APITVDetail): TVDetail => {
 
 /** Credits **/
 
-const commonCreditMapper = (cast: APIMediaCast | APIMediaCrew): MediaCredit => {
-  const { id, gender, name, original_name, profile_path } = cast;
+const commonCreditMapper = (
+  credit: APIMediaCast | APIMediaCrew | APIMediaAggregateCast | APIMediaAggregateCrew
+): MediaCredit => {
+  const { id, gender, name, original_name, profile_path } = credit;
 
   return {
     id,
@@ -115,7 +121,7 @@ export const castMapper = (cast: APIMediaCast): MediaCredit => {
     ...commonCreditMapper(cast),
     role: MediaCreditRole.ACTING,
     job: ['cast'],
-    characters: character ? character.split(' / ') : []
+    characters: character
   };
 };
 
@@ -125,8 +131,7 @@ export const crewMapper = (crew: APIMediaCrew): MediaCredit => {
   return {
     ...commonCreditMapper(crew),
     role: MediaCreditRole[department.toUpperCase() as keyof typeof MediaCreditRole],
-    job: [job],
-    characters: []
+    job: [job]
   };
 };
 
@@ -136,6 +141,36 @@ export const creditsMapper = (credit: APIMediaCredits): MediaCredits => {
   return {
     cast: cast.map(castMapper),
     crew: crew.map(crewMapper)
+  };
+};
+
+export const aggregateCastMapper = (cast: APIMediaAggregateCast): MediaCredit => {
+  const { roles } = cast;
+
+  return {
+    ...commonCreditMapper(cast),
+    role: MediaCreditRole.ACTING,
+    job: ['cast'],
+    characters: getPropValue(roles, '[0].character', '')
+  };
+};
+
+export const aggregateCrewMapper = (crew: APIMediaAggregateCrew): MediaCredit => {
+  const { department, jobs } = crew;
+
+  return {
+    ...commonCreditMapper(crew),
+    role: MediaCreditRole[department.toUpperCase() as keyof typeof MediaCreditRole],
+    job: jobs.map((job) => job.job)
+  };
+};
+
+export const aggregateCreditsMapper = (credit: APIMediaAggregateCredits): MediaCredits => {
+  const { cast, crew } = credit;
+
+  return {
+    cast: cast.map(aggregateCastMapper),
+    crew: crew.map(aggregateCrewMapper)
   };
 };
 

@@ -119,10 +119,11 @@ $image-width: 250px;
 }
 
 .button {
+  font-size: rem(20px);
   width: 100%;
   max-width: 350px;
   justify-content: flex-start;
-  padding: 0 30px;
+  padding: 0 20px 0 18px;
 }
 
 /** DetailOverview (child component) **/

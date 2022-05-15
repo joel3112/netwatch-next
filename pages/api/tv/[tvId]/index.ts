@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import axios, { AxiosResponse } from 'axios';
 import { APITVDetail, TVDetail } from '@/types';
 import {
-  creditsMapper,
+  aggregateCreditsMapper,
   externalIdsMapper,
   httpInterceptor,
   imagesMapper,
@@ -42,7 +42,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         ),
         images: imagesMapper(getPropValue(data, 'images')),
         videos: videosMapper(getPropValue(data, 'videos')),
-        credits: creditsMapper(getPropValue(data, 'aggregate_credits'))
+        credits: aggregateCreditsMapper(getPropValue(data, 'aggregate_credits'))
       });
     });
 }

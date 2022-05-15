@@ -205,21 +205,108 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
       <div
         class="wrapper data"
       >
-        <button
-          class="wrapper medium button"
+        <div
+          class="wrapper buttons"
         >
-          Ver trailer
-        </button>
-        <button
-          class="wrapper medium button"
-        >
-          Ver ahora
-        </button>
-        <button
-          class="wrapper medium light button"
-        >
-          Mi lista
-        </button>
+          <button
+            class="wrapper medium button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                />
+              </g>
+            </svg>
+            <span
+              class="wrapper md"
+            >
+              watch.trailer.button
+              <style>
+                
+        .wrapper {
+          
+          
+          
+        }
+      
+              </style>
+            </span>
+          </button>
+          <button
+            class="wrapper medium button"
+          >
+            <span
+              class="wrapper md"
+            >
+              watch.now.button
+              <style>
+                
+        .wrapper {
+          
+          
+          
+        }
+      
+              </style>
+            </span>
+          </button>
+          <button
+            class="wrapper medium light button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+              />
+            </svg>
+            <span
+              class="wrapper md"
+            >
+              my.list.button
+              <style>
+                
+        .wrapper {
+          
+          
+          
+        }
+      
+              </style>
+            </span>
+          </button>
+          <style>
+            
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+          </style>
+        </div>
         <div
           class="wrapper wrapper"
         >
@@ -229,7 +316,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             <h3
               class="wrapper"
             >
-              Datos
+              detail.data.heading
             </h3>
             <style>
               
@@ -266,7 +353,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             <span
               class="wrapper md"
             >
-              Nombre original
+              detail.data.original.name
               <style>
                 
         .wrapper {
@@ -281,6 +368,49 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
               class="wrapper md"
             >
               Sonic the Hedgehog 2
+              <style>
+                
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+              </style>
+            </span>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+            </style>
+          </div>
+          <div
+            class="wrapper dataItem"
+          >
+            <span
+              class="wrapper md"
+            >
+              detail.data.original.language
+              <style>
+                
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+              </style>
+            </span>
+            <span
+              class="wrapper md"
+            >
               <style>
                 
         .wrapper {
@@ -471,7 +601,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 10px;
+          gap: 20px;
           
           
         }
@@ -490,7 +620,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             <h3
               class="wrapper"
             >
-              Vista general
+              detail.overview.heading
             </h3>
             <style>
               
@@ -601,7 +731,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
               <h3
                 class="wrapper"
               >
-                Videos (18)
+                detail.videos.heading (18)
               </h3>
               <svg
                 class="icon"
@@ -2289,7 +2419,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
               <h3
                 class="wrapper"
               >
-                Imágenes (14)
+                detail.images.heading (14)
               </h3>
               <svg
                 class="icon"
@@ -3542,7 +3672,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             <h3
               class="wrapper"
             >
-              Reparto Principal
+              detail.credits.heading
             </h3>
             <style>
               
@@ -3631,15 +3761,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Sonic the Hedgehog (voice)
+                  detail.credit.character Sonic the Hedgehog (voice)
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -3728,15 +3858,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Knuckles the Echidna (voice)
+                  detail.credit.character Knuckles the Echidna (voice)
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -3825,15 +3955,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Miles 'Tails' Prower (voice)
+                  detail.credit.character Miles 'Tails' Prower (voice)
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -3922,15 +4052,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Dr. Ivo Robotnik
+                  detail.credit.character Dr. Ivo Robotnik
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -4019,15 +4149,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Tom Wachowski
+                  detail.credit.character Tom Wachowski
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -4116,15 +4246,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Maddie Wachowski
+                  detail.credit.character Maddie Wachowski
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -4213,15 +4343,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Rachel
+                  detail.credit.character Rachel
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -4310,15 +4440,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Randall
+                  detail.credit.character Randall
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -4407,15 +4537,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Wade Whipple
+                  detail.credit.character Wade Whipple
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>
@@ -4504,15 +4634,15 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                   </style>
                 </span>
                 <span
-                  class="wrapper character sm"
+                  class="wrapper character sm maxLines"
                 >
-                  as Agent Stone
+                  detail.credit.character Agent Stone
                   <style>
                     
         .wrapper {
           
           opacity: 0.5;
-          
+          -webkit-line-clamp: 2;
         }
       
                   </style>

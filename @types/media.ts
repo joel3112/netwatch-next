@@ -56,7 +56,7 @@ export type MovieDetail = MovieData & {
   budget?: number;
   homepage?: string;
   genres?: Array<MediaGenre>;
-  languages?: Array<string>;
+  original_language?: string;
 
   external_ids?: MediaExternalIds;
   credits?: MediaCredits;
@@ -69,7 +69,7 @@ export type TVDetail = TVData & {
   duration?: string;
   homepage?: string;
   genres?: Array<MediaGenre>;
-  languages?: Array<string>;
+  original_language?: string;
   next_episode_to_air?: MediaEpisode;
   origin_country?: string;
   number_seasons: number;
@@ -134,7 +134,7 @@ export type MediaCredit = {
   original_name: string;
   gender: Lowercase<MediaCreditGender>;
   role?: Lowercase<MediaCreditRole>;
-  characters?: Array<string>;
+  characters?: string;
   job?: Array<string>;
   image: string;
 };

@@ -1,5 +1,14 @@
 import { IncomingMessage } from 'http';
-import { APIMediaData, APIMediaDetail, MediaCreditGender, MediaType, MediaTypeKey } from '@/types';
+import {
+  APIMediaData,
+  APIMediaDetail,
+  MediaCreditGender,
+  MediaType,
+  MediaTypeKey,
+  MediaVideo,
+  MediaVideoList
+} from '@/types';
+import { getPropValue } from '@/utils/helpers';
 
 export const nextAPIBaseURL = (req: IncomingMessage): string => {
   if (!req) return window.location.origin;
@@ -19,6 +28,12 @@ export const posterUrl = (poster_path: string) =>
   poster_path ? `${process.env.API_IMAGES_URL}${poster_path}` : '/assets/images/poster-empty.png';
 export const backdroprUrl = (backdrop_path: string) =>
   backdrop_path ? `${process.env.API_BACKDROP_URL}${backdrop_path}` : '';
+
+export const videoTrailerId = (videos: MediaVideoList, locale: string): string => {
+  const filteredVideos = [...videos.filter(({ type }) => type === 'Trailer'), videos[0]];
+  const localeVideo = filteredVideos.find(({ language }) => language === locale);
+  return getPropValue<MediaVideo, string>(localeVideo || filteredVideos[0], 'key');
+};
 
 export const typeFromMedia = (media: APIMediaData): MediaTypeKey => {
   if (isMediaPerson(media)) return MediaType.PERSON;
