@@ -1,20 +1,27 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { MediaTypeKey, MediaVideo, MediaVideoList } from '@/types';
+import { MediaTypeKey, MediaVideoList } from '@/types';
 import { useFetch } from '@/hooks/useFetch';
 import { useI18n } from '@/hooks/useI18n';
-import { getPropValue } from '@/utils/helpers';
+import { videoTrailerId } from '@/utils/api';
 
-export type UseVideo = string;
+export type UseVideo = {
+  videoId: string;
+  setVideoId: (videoId: string) => void;
+};
 
-const pathVideo = (type: MediaTypeKey, id: number): string | null => {
+const pathVideo = (type?: MediaTypeKey, id?: number): string | null => {
   if (type && id) return `/api/${type}/${id}/videos`;
   return null;
 };
-const fetcherVideo = (type: MediaTypeKey, id: number, language: string) =>
+const fetcherVideo = (type?: MediaTypeKey, id?: number, language?: string) =>
   axios.get(`/api/${type}/${id}/videos`, { params: { language } }).then((res) => res.data);
 
-export const useVideo = (mediaId: number, mediaType: MediaTypeKey, videoId?: string): UseVideo => {
+export const useVideo = (
+  mediaId?: number,
+  mediaType?: MediaTypeKey,
+  videoId?: string
+): UseVideo => {
   const [state, setState] = useState<string>(videoId || '');
   const i18n = useI18n();
 
@@ -24,13 +31,11 @@ export const useVideo = (mediaId: number, mediaType: MediaTypeKey, videoId?: str
 
   useEffect(() => {
     if (data) {
-      const videos = (data as MediaVideoList).results;
-      const filteredVideos = [...videos.filter(({ type }) => type === 'Trailer'), videos[0]];
-      const localeVideo = filteredVideos.find(({ language }) => language === i18n.language);
-      setState(getPropValue<MediaVideo, string>(localeVideo || filteredVideos[0], 'key'));
+      const videos = data as MediaVideoList;
+      setState(videoTrailerId(videos, i18n.language));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
+  }, [data, state]);
 
-  return state;
+  return { videoId: state, setVideoId: setState };
 };

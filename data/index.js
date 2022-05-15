@@ -1,7 +1,9 @@
 import mockMovies from './movies';
+import mockDetailMovie from './movie-detail';
 import mockTVs from './tvs';
 
 export const mockMedias = {
-  movie: mockMovies,
-  tv: mockTVs
+  movies: mockMovies,
+  movie: mockDetailMovie,
+  tvs: mockTVs
 };

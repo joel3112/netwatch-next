@@ -14,6 +14,7 @@
   --border-radius-portal: #{$border-radius-portal};
   --background-color-modal-video: #{$background-modal-video};
   --color-primary: #{$color-yellow};
+  --color-gray: #{$color-border-light};
 }
 
 @mixin dark-mode($enabled: false) {

@@ -6,7 +6,7 @@ const nextConfig = {
   i18n,
   reactStrictMode: false,
   images: {
-    domains: ['image.tmdb.org', 'picsum.photos']
+    domains: ['image.tmdb.org', 'img.youtube.com', 'picsum.photos']
   },
   sassOptions: {
     additionalData: `

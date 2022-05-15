@@ -1,0 +1,5083 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests MediaDetail component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper md"
+  >
+    <div
+      class="wrapper header"
+      style="margin-top: 30px;"
+    >
+      <h2
+        class="wrapper"
+      >
+        Sonic 2: La Película
+      </h2>
+      <div
+        class="wrapper images md"
+      >
+        <div
+          class="image"
+        >
+          <div
+            class="wrapper card"
+          >
+            <div
+              aria-label="https://image.tmdb.org/t/p/w500/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg"
+              class="wrapper"
+              role="img"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image"
+                  data-nimg="fill"
+                  decoding="async"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=3840&q=100"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=640&q=100 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=750&q=100 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=828&q=100 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1080&q=100 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1200&q=100 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=1920&q=100 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=2048&q=100 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2FsJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg&w=3840&q=100 3840w"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                />
+              </span>
+              <div
+                class="image content"
+              >
+                <div
+                  class="wrapper actions actions"
+                >
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action action"
+                  >
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+              <style>
+                
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 150%;
+        }
+      
+              </style>
+            </div>
+          </div>
+        </div>
+        <div
+          class="backdrop"
+        >
+          <div
+            class="wrapper card"
+          >
+            <div
+              aria-label="https://image.tmdb.org/t/p/w1280/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg"
+              class="wrapper"
+              role="img"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  class="image image"
+                  data-nimg="fill"
+                  decoding="async"
+                  sizes="100vw"
+                  src="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=3840&q=100"
+                  srcset="/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=640&q=100 640w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=750&q=100 750w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=828&q=100 828w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=1080&q=100 1080w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=1200&q=100 1200w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=1920&q=100 1920w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=2048&q=100 2048w, /_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw1280%2FegoyMDLqCxzjnSrWOz50uLlJWmD.jpg&w=3840&q=100 3840w"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                />
+              </span>
+              <div
+                class="image content"
+              >
+                <div
+                  class="wrapper actions actions"
+                >
+                  <button
+                    aria-label="action"
+                    class="wrapper medium clear action action"
+                  >
+                    <svg
+                      class="actionIcon"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                      />
+                    </svg>
+                  </button>
+                  <style>
+                    
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                  </style>
+                </div>
+              </div>
+              <style>
+                
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+              </style>
+            </div>
+          </div>
+        </div>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+        </style>
+      </div>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+      </style>
+    </div>
+    <div
+      class="body md"
+    >
+      <div
+        class="wrapper data"
+      >
+        <div
+          class="wrapper buttons"
+        >
+          <button
+            class="wrapper medium button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                />
+              </g>
+            </svg>
+            <span
+              class="wrapper md"
+            >
+              watch.trailer.button
+              <style>
+                
+        .wrapper {
+          
+          
+          
+        }
+      
+              </style>
+            </span>
+          </button>
+          <button
+            class="wrapper medium light button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+              />
+            </svg>
+            <span
+              class="wrapper md"
+            >
+              my.list.button
+              <style>
+                
+        .wrapper {
+          
+          
+          
+        }
+      
+              </style>
+            </span>
+          </button>
+          <style>
+            
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+          </style>
+        </div>
+        <div
+          class="wrapper wrapper"
+        >
+          <div
+            class="wrapper"
+          >
+            <h3
+              class="wrapper"
+            >
+              detail.data.heading
+            </h3>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center;
+        }
+      
+            </style>
+          </div>
+          <style>
+            
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 20px;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+          </style>
+        </div>
+        <div
+          class="wrapper"
+        >
+          <div
+            class="wrapper dataItem"
+          >
+            <span
+              class="wrapper md"
+            >
+              detail.data.original.name
+              <style>
+                
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+              </style>
+            </span>
+            <span
+              class="wrapper md"
+            >
+              Sonic the Hedgehog 2
+              <style>
+                
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+              </style>
+            </span>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+            </style>
+          </div>
+          <div
+            class="wrapper dataItem"
+          >
+            <span
+              class="wrapper md"
+            >
+              detail.data.original.language
+              <style>
+                
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+              </style>
+            </span>
+            <span
+              class="wrapper md"
+            >
+              <style>
+                
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+              </style>
+            </span>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+            </style>
+          </div>
+          <style>
+            
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+          </style>
+        </div>
+        <div
+          class="wrapper externalIds"
+        >
+          <a
+            href="https://repelis.nz"
+            target="blank"
+          >
+            <button
+              class="wrapper medium light rounded externalId"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm7.931 9h-2.764a14.67 14.67 0 0 0-1.792-6.243A8.013 8.013 0 0 1 19.931 11zM12.53 4.027c1.035 1.364 2.427 3.78 2.627 6.973H9.03c.139-2.596.994-5.028 2.451-6.974.172-.01.344-.026.519-.026.179 0 .354.016.53.027zm-3.842.7C7.704 6.618 7.136 8.762 7.03 11H4.069a8.013 8.013 0 0 1 4.619-6.273zM4.069 13h2.974c.136 2.379.665 4.478 1.556 6.23A8.01 8.01 0 0 1 4.069 13zm7.381 6.973C10.049 18.275 9.222 15.896 9.041 13h6.113c-.208 2.773-1.117 5.196-2.603 6.972-.182.012-.364.028-.551.028-.186 0-.367-.016-.55-.027zm4.011-.772c.955-1.794 1.538-3.901 1.691-6.201h2.778a8.005 8.005 0 0 1-4.469 6.201z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a
+            href="https://www.imdb.com/title/tt12412888"
+            target="blank"
+          >
+            <button
+              class="wrapper medium light rounded externalId"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M22.3781 0H1.6218C.7411.0583.0587.7437.0018 1.5953l-.001 20.783c.0585.8761.7125 1.543 1.5559 1.6191A.337.337 0 0 0 1.6016 24h20.7971a.4579.4579 0 0 0 .0437-.002c.8727-.0768 1.5568-.8271 1.5568-1.7085V1.7098c0-.8914-.696-1.6416-1.584-1.7078A.3294.3294 0 0 0 22.3781 0zm0 .496a1.2144 1.2144 0 0 1 1.1252 1.2139v20.5797c0 .6377-.4875 1.1602-1.1045 1.2145H1.6016c-.5967-.0543-1.0645-.5297-1.1053-1.1258V1.6284C.5371 1.0185 1.0184.5364 1.6217.496h20.7564zM4.7954 8.2603v7.3636H2.8899V8.2603h1.9055zm6.5367 0v7.3636H9.6707v-4.9704l-.6711 4.9704H7.813l-.6986-4.8618-.0066 4.8618h-1.668V8.2603h2.468c.0748.4476.1492.9694.2307 1.5734l.2712 1.8713.4407-3.4447h2.4817zm2.9772 1.3289c.0742.0404.122.108.1417.2034.0279.0953.0345.3118.0345.6442v2.8548c0 .4881-.0345.7867-.0955.8954-.0609.1152-.2304.1695-.5018.1695V9.5211c.204 0 .3457.0205.4211.0681zm-.0211 6.0347c.4543 0 .8006-.0265 1.0245-.0742.2304-.0477.4204-.1357.5694-.2648.1556-.1218.2642-.298.3251-.5219.0611-.2238.1021-.6648.1021-1.3224v-2.5832c0-.6986-.0271-1.1668-.0742-1.4039-.041-.237-.1431-.4543-.3126-.6437-.1695-.1973-.4198-.3324-.7456-.421-.3191-.0808-.8542-.1285-1.7694-.1285h-1.4244v7.3636h2.3051zm5.14-1.7827c0 .3523-.0199.5762-.0544.6708-.033.0947-.1894.1424-.3046.1424-.1086 0-.19-.0477-.2238-.1351-.041-.0887-.0609-.2986-.0609-.6238v-1.9469c0-.3324.0199-.5423.0543-.6237.0338-.0808.1086-.122.2171-.122.1153 0 .2709.0412.3114.1425.041.0947.0609.2986.0609.6032v1.8926zm-2.4747-5.5809v7.3636h1.7157l.1152-.4675c.1556.1894.3251.3324.5152.4271.1828.0881.4608.1357.678.1357.3047 0 .5629-.0748.7802-.237.2165-.1562.3589-.3462.4198-.5628.0543-.2173.0887-.543.0887-.9841v-2.0675c0-.4409-.0139-.7324-.0344-.8681-.0199-.1357-.0742-.2781-.1695-.4204-.1021-.1425-.2437-.251-.4272-.3325-.1834-.0742-.3999-.1152-.6576-.1152-.2172 0-.4952.0477-.6846.1285-.1835.0887-.353.2238-.5086.4007V8.2603h-1.8309z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a
+            href="https://www.facebook.com/sonicmovie"
+            target="blank"
+          >
+            <button
+              class="wrapper medium light rounded externalId"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a
+            href="https://www.instagram.com/sonicmovie"
+            target="blank"
+          >
+            <button
+              class="wrapper medium light rounded externalId"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  height="20"
+                  rx="5"
+                  ry="5"
+                  width="20"
+                  x="2"
+                  y="2"
+                />
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                />
+                <line
+                  x1="17.5"
+                  x2="17.51"
+                  y1="6.5"
+                  y2="6.5"
+                />
+              </svg>
+            </button>
+          </a>
+          <a
+            href="https://twitter.com/SonicMovie"
+            target="blank"
+          >
+            <button
+              class="wrapper medium light rounded externalId"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                />
+              </svg>
+            </button>
+          </a>
+          <style>
+            
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          
+        }
+      
+          </style>
+        </div>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+        </style>
+      </div>
+      <div
+        class="wrapper overview"
+      >
+        <div
+          class="wrapper wrapper"
+        >
+          <div
+            class="wrapper"
+          >
+            <h3
+              class="wrapper"
+            >
+              detail.overview.heading
+            </h3>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center;
+        }
+      
+            </style>
+          </div>
+          <style>
+            
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 20px;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+          </style>
+        </div>
+        <div
+          class="wrapper genres"
+        >
+          <button
+            class="wrapper small light rounded genre"
+          >
+            Acción
+          </button>
+          <button
+            class="wrapper small light rounded genre"
+          >
+            Ciencia ficción
+          </button>
+          <button
+            class="wrapper small light rounded genre"
+          >
+            Comedia
+          </button>
+          <button
+            class="wrapper small light rounded genre"
+          >
+            Familia
+          </button>
+          <button
+            class="wrapper small light rounded genre"
+          >
+            Aventura
+          </button>
+          <style>
+            
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+          </style>
+        </div>
+        <span
+          class="wrapper md"
+        >
+          Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no esta solo lo ayudara Tails.
+          <style>
+            
+        .wrapper {
+          
+          
+          
+        }
+      
+          </style>
+        </span>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          
+          
+          
+        }
+      
+        </style>
+      </div>
+      <div
+        class="wrapper seasons"
+      >
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
+        >
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          />
+        </div>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          
+        }
+      
+        </style>
+      </div>
+      <div
+        class="wrapper videos"
+      >
+        <a
+          href="/movie/675353/videos"
+        >
+          <div
+            class="wrapper wrapper"
+          >
+            <div
+              class="wrapper"
+            >
+              <h3
+                class="wrapper"
+              >
+                detail.videos.heading (18)
+              </h3>
+              <svg
+                class="icon"
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 18 15 12 9 6"
+                />
+              </svg>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 20px;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+            </style>
+          </div>
+        </a>
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
+        >
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          >
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Knuckle Down Featurette
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Put A Ring On It Clip
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Kid Cudi
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      No Spoilers
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Bigger, Bluer, Better
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Meet Knuckles Clip
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      "I Make This Look Good" Clip
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Final Trailer
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Madness
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Fastest Trailer
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      "Blue Justice"
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Choose Your Team
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Big Game Spot
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Rings
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      "The Real Competition Begins"
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      "Red Quill or Blue Quill"
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Official Trailer
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g>
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                              />
+                            </g>
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                  <div
+                    class="wrapper body"
+                  >
+                    <h2
+                      class="wrapper heading"
+                    >
+                      Title Announcement
+                    </h2>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="wrapper medium buttonNavigation prev"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+          </button>
+          <button
+            class="wrapper medium buttonNavigation next"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+          </button>
+        </div>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          
+        }
+      
+        </style>
+      </div>
+      <div
+        class="wrapper images"
+      >
+        <a
+          href="/movie/675353/images"
+        >
+          <div
+            class="wrapper wrapper"
+          >
+            <div
+              class="wrapper"
+            >
+              <h3
+                class="wrapper"
+              >
+                detail.images.heading (14)
+              </h3>
+              <svg
+                class="icon"
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 18 15 12 9 6"
+                />
+              </svg>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 20px;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+            </style>
+          </div>
+        </a>
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
+        >
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          >
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-slide item"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="wrapper card"
+                >
+                  <div
+                    aria-label="image"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image image image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="image image content"
+                    >
+                      <div
+                        class="wrapper actions actions"
+                      >
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action action"
+                        >
+                          <svg
+                            class="actionIcon"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                            />
+                          </svg>
+                        </button>
+                        <style>
+                          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                        </style>
+                      </div>
+                    </div>
+                    <style>
+                      
+        .wrapper {
+          width: 100%;
+          height: 100%;
+          min-width: 100%;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="wrapper medium buttonNavigation prev"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="15 18 9 12 15 6"
+              />
+            </svg>
+          </button>
+          <button
+            class="wrapper medium buttonNavigation next"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="9 18 15 12 9 6"
+              />
+            </svg>
+          </button>
+        </div>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          
+        }
+      
+        </style>
+      </div>
+      <div
+        class="wrapper credits"
+      >
+        <div
+          class="wrapper wrapper"
+        >
+          <div
+            class="wrapper"
+          >
+            <h3
+              class="wrapper"
+            >
+              detail.credits.heading
+            </h3>
+            <style>
+              
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center;
+        }
+      
+            </style>
+          </div>
+          <style>
+            
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 20px;
+          justify-content: space-between;
+          align-items: center;
+        }
+      
+          </style>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container wrapper css-480o17-MuiGrid-root"
+          role="grid"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/5vV52TSEIhe4ZZLWwv3i7nfv8we.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Ben Schwartz
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Sonic the Hedgehog (voice)
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/be1bVF7qGX91a6c5WeRPs5pKXln.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Idris Elba
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Knuckles the Echidna (voice)
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/y3Kl5tCX1XD6uyL9wefTRbEXTwj.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Colleen O'Shaughnessey
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Miles 'Tails' Prower (voice)
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/u0AqTz6Y7GHPCHINS01P7gPvDSb.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Jim Carrey
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Dr. Ivo Robotnik
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/mk142GG0saiSXALY6V4wWcmPROW.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  James Marsden
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Tom Wachowski
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/6Hb9e7jna7nml58cztAvbKgFAPx.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Tika Sumpter
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Maddie Wachowski
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/x5KdL3QoS4YuozVpfuPsu3MLwwf.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Natasha Rothwell
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Rachel
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/7KgijQtHI0oYpXyAAS35AT20ZHM.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Shemar Moore
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Randall
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/yY13PEaVbPoXT5MkitVxTfdAZnU.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Adam Pally
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Wade Whipple
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
+          >
+            <div
+              class="wrapper cast"
+            >
+              <div
+                aria-label="https://image.tmdb.org/t/p/w500/vpF3R2YRCGHseGevmDAhftmOPkO.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                  <noscript />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: 80px;
+          height: 80px;
+          min-width: 80px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <span
+                  class="wrapper name sm"
+                >
+                  Lee Majdoub
+                  <style>
+                    
+        .wrapper {
+          font-weight: bold;
+          
+          
+        }
+      
+                  </style>
+                </span>
+                <span
+                  class="wrapper character sm maxLines"
+                >
+                  detail.credit.character Agent Stone
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          -webkit-line-clamp: 2;
+        }
+      
+                  </style>
+                </span>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 5px;
+          
+          
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          align-items: center;
+        }
+      
+              </style>
+            </div>
+          </div>
+        </div>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 10px;
+          
+          
+        }
+      
+        </style>
+      </div>
+    </div>
+  </div>
+  <div
+    class="wrapper"
+  />
+</div>
+`;

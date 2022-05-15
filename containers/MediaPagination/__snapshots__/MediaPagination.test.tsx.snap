@@ -26,7 +26,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
                 class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
               >
                 <a
-                  href="/home"
+                  href="//"
                 >
                   <div
                     aria-label="image"

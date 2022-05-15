@@ -10,7 +10,7 @@ jest.mock('@/hooks/useFetchPagination', () => ({
   useFetchPagination: jest.fn().mockImplementation(() => ({
     loading: false,
     paginationEnd: false,
-    data: [mockMedias.tv],
+    data: [mockMedias.tvs],
     onLoadMore: mockLoadMore
   }))
 }));

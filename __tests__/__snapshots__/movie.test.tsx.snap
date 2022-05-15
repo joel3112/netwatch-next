@@ -38,7 +38,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//0"
                     >
                       <div
                         aria-label="image"
@@ -128,7 +128,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//1"
                     >
                       <div
                         aria-label="image"
@@ -218,7 +218,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//2"
                     >
                       <div
                         aria-label="image"
@@ -308,7 +308,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//3"
                     >
                       <div
                         aria-label="image"
@@ -398,7 +398,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//4"
                     >
                       <div
                         aria-label="image"
@@ -488,7 +488,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//5"
                     >
                       <div
                         aria-label="image"
@@ -578,7 +578,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//6"
                     >
                       <div
                         aria-label="image"
@@ -668,7 +668,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//7"
                     >
                       <div
                         aria-label="image"
@@ -758,7 +758,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//8"
                     >
                       <div
                         aria-label="image"
@@ -848,7 +848,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//9"
                     >
                       <div
                         aria-label="image"
@@ -938,7 +938,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//10"
                     >
                       <div
                         aria-label="image"
@@ -1028,7 +1028,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//11"
                     >
                       <div
                         aria-label="image"
@@ -1118,7 +1118,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//12"
                     >
                       <div
                         aria-label="image"
@@ -1208,7 +1208,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//13"
                     >
                       <div
                         aria-label="image"
@@ -1298,7 +1298,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//14"
                     >
                       <div
                         aria-label="image"
@@ -1388,7 +1388,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//15"
                     >
                       <div
                         aria-label="image"
@@ -1478,7 +1478,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//16"
                     >
                       <div
                         aria-label="image"
@@ -1568,7 +1568,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//17"
                     >
                       <div
                         aria-label="image"
@@ -1658,7 +1658,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//18"
                     >
                       <div
                         aria-label="image"
@@ -1748,7 +1748,7 @@ exports[`Tests movies page renders page correctly 1`] = `
                     class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
                   >
                     <a
-                      href="/home"
+                      href="//19"
                     >
                       <div
                         aria-label="image"

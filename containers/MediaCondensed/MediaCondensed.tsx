@@ -1,4 +1,4 @@
-import { ElementHTML, MediaData } from '@/types';
+import { ElementHTML, MediaData, MediaImageRatio } from '@/types';
 import Link from 'next/link';
 import { RiPlayFill } from 'react-icons/ri';
 import { IoMdAdd } from 'react-icons/io';
@@ -24,7 +24,7 @@ type MediaCondensedInfoProps = MediaData;
 const MediaCondensedInfo = ({ id, type, name, description }: MediaCondensedInfoProps) => {
   const { t } = useI18n();
   const { isOpened, handleChange } = useModal();
-  const videoId = useVideo(isOpened ? id : 0, type);
+  const { videoId } = useVideo(isOpened ? id : 0, type);
 
   return (
     <>
@@ -41,7 +41,7 @@ const MediaCondensedInfo = ({ id, type, name, description }: MediaCondensedInfoP
             <Card.Actions.Item icon={RiPlayFill} onClick={() => handleChange(true)} />
           </Card.Actions>
 
-          <Link href="/">
+          <Link href={{ pathname: '/[type]/[id]', query: { type, id } }}>
             <a>
               <Button rounded className={styles.buttonInfo}>
                 {t('item.action.more')}
@@ -80,7 +80,7 @@ const MediaCondensed = (props: MediaCondensedProps) => {
           classes={styles.image}
           src={props.backdrop}
           width="100%"
-          ratio={isMobile ? 0.55 : 0.4}
+          ratio={isMobile ? MediaImageRatio.BACKDROP : MediaImageRatio.BACKDROP * 0.6}
           lazy
         />
       </Card>

@@ -1,5 +1,5 @@
 import { IoMdAdd } from 'react-icons/io';
-import { BreakpointValues, ElementHTML, ElementSkeleton } from '@/types';
+import { BreakpointValues, ElementHTML, ElementSkeleton, MediaImageRatio } from '@/types';
 import { MediaData } from '@/types';
 import { Grid } from '@/components/layout';
 import { Card } from '@/components/display';
@@ -21,10 +21,13 @@ const MediaGrid = ({ items }: MediaGridProps) => {
   return (
     <div className={styles.wrapper}>
       <Grid spacing={spacings} breakpoints={breakpoints} className={classes(styles.grid)}>
-        {(items || []).map(({ image, type, name }, index) => (
+        {(items || []).map(({ id, image, type, name }, index) => (
           <Grid.Item key={index}>
-            <Card href="/home" className={styles.card} skeleton={!type}>
-              <Card.Image src={image} width="100%" ratio={1.5}>
+            <Card
+              href={{ pathname: '/[type]/[id]', query: { type, id } }}
+              className={styles.card}
+              skeleton={!type}>
+              <Card.Image src={image} width="100%" ratio={MediaImageRatio.POSTER}>
                 <Card.Actions>
                   <Card.Actions.Item icon={IoMdAdd} />
                 </Card.Actions>

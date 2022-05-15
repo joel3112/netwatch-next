@@ -1,5 +1,52 @@
-import { APIMediaData, APIMediaVideo, MediaData, MediaVideo } from '@/types';
-import { dateFromMedia, namesFromMedia, typeFromMedia } from '@/utils/api';
+import {
+  APIMediaAggregateCast,
+  APIMediaAggregateCredits,
+  APIMediaAggregateCrew,
+  APIMediaCast,
+  APIMediaCredits,
+  APIMediaCrew,
+  APIMediaData,
+  APIMediaDetail,
+  APIMediaExternalIds,
+  APIMediaImage,
+  APIMediaImages,
+  APIMediaSeason,
+  APIMediaVideo,
+  APIMediaVideoList,
+  APIMediaWatchProvider,
+  APIMediaWatchProviderList,
+  APIMovieDetail,
+  APITVDetail,
+  MediaCredit,
+  MediaCreditRole,
+  MediaCredits,
+  MediaData,
+  MediaDetail,
+  MediaExternalIds,
+  MediaImage,
+  MediaImageRatio,
+  MediaImages,
+  MediaImageType,
+  MediaSeason,
+  MediaType,
+  MediaTypeKey,
+  MediaVideo,
+  MediaVideoList,
+  MediaWatchProvider,
+  MediaWatchProviders,
+  MovieDetail,
+  TVDetail
+} from '@/types';
+import {
+  backdroprUrl,
+  dateFromMedia,
+  durationFromMedia,
+  genderFromMedia,
+  namesFromMedia,
+  posterUrl,
+  typeFromMedia
+} from '@/utils/api';
+import { getPropValue } from '@/utils/helpers';
 
 export const mediaMapper = (media: APIMediaData): MediaData => {
   const {
@@ -17,10 +64,8 @@ export const mediaMapper = (media: APIMediaData): MediaData => {
     id,
     type: media_type || typeFromMedia(media),
     description: overview,
-    image: poster_path
-      ? `${process.env.API_IMAGES_URL}${poster_path}`
-      : '/assets/images/poster-empty.png',
-    backdrop: backdrop_path ? `${process.env.API_BACKDROP_URL}${backdrop_path}` : '',
+    image: posterUrl(poster_path),
+    backdrop: backdroprUrl(backdrop_path),
     popularity,
     vote_count: +vote_count.toFixed(1),
     vote_average: +vote_average.toFixed(1),
@@ -29,8 +74,208 @@ export const mediaMapper = (media: APIMediaData): MediaData => {
   };
 };
 
+/** Detail **/
+
+export const mediaDetailMapper = (media: APIMediaDetail): MediaDetail => {
+  return {
+    ...mediaMapper(media),
+    ...durationFromMedia(media),
+    genres: getPropValue(media, 'genres', []),
+    homepage: getPropValue(media, 'homepage'),
+    original_language: getPropValue(media, 'original_language', 'en')
+  };
+};
+
+export const movieDetailMapper = (media: APIMovieDetail): MovieDetail => {
+  return {
+    ...mediaDetailMapper(media)
+  };
+};
+
+export const tvDetailMapper = (media: APITVDetail): TVDetail => {
+  return {
+    ...mediaDetailMapper(media),
+    number_seasons: getPropValue(media, 'number_of_seasons', 0),
+    number_episodes: getPropValue(media, 'number_of_episodes', 0)
+  };
+};
+
+/** Seasons **/
+
+export const seasonMapper = (season: APIMediaSeason): MediaSeason => {
+  const { id, name, overview, poster_path, season_number, episode_count, air_date } = season;
+
+  return {
+    id,
+    key: `T${season_number} - ${name}`,
+    season_number,
+    name,
+    description: overview,
+    date: air_date,
+    episodes: episode_count,
+    image: posterUrl(poster_path)
+  };
+};
+
+/** Credits **/
+
+const commonCreditMapper = (
+  credit: APIMediaCast | APIMediaCrew | APIMediaAggregateCast | APIMediaAggregateCrew
+): MediaCredit => {
+  const { id, gender, name, original_name, profile_path } = credit;
+
+  return {
+    id,
+    name,
+    original_name,
+    image: posterUrl(String(profile_path)),
+    gender: genderFromMedia(gender)
+  };
+};
+
+export const castMapper = (cast: APIMediaCast): MediaCredit => {
+  const { character } = cast;
+
+  return {
+    ...commonCreditMapper(cast),
+    role: MediaCreditRole.ACTING,
+    job: ['cast'],
+    characters: character
+  };
+};
+
+export const crewMapper = (crew: APIMediaCrew): MediaCredit => {
+  const { department, job } = crew;
+
+  return {
+    ...commonCreditMapper(crew),
+    role: MediaCreditRole[department.toUpperCase() as keyof typeof MediaCreditRole],
+    job: [job]
+  };
+};
+
+export const creditsMapper = (credit: APIMediaCredits): MediaCredits => {
+  const { cast, crew } = credit;
+
+  return {
+    cast: cast.map(castMapper),
+    crew: crew.map(crewMapper)
+  };
+};
+
+export const aggregateCastMapper = (cast: APIMediaAggregateCast): MediaCredit => {
+  const { roles } = cast;
+
+  return {
+    ...commonCreditMapper(cast),
+    role: MediaCreditRole.ACTING,
+    job: ['cast'],
+    characters: getPropValue(roles, '[0].character', '')
+  };
+};
+
+export const aggregateCrewMapper = (crew: APIMediaAggregateCrew): MediaCredit => {
+  const { department, jobs } = crew;
+
+  return {
+    ...commonCreditMapper(crew),
+    role: MediaCreditRole[department.toUpperCase() as keyof typeof MediaCreditRole],
+    job: jobs.map((job) => job.job)
+  };
+};
+
+export const aggregateCreditsMapper = (credit: APIMediaAggregateCredits): MediaCredits => {
+  const { cast, crew } = credit;
+
+  return {
+    cast: cast.map(aggregateCastMapper),
+    crew: crew.map(aggregateCrewMapper)
+  };
+};
+
+/** Videos **/
+
 export const videoMapper = (video: APIMediaVideo): MediaVideo => {
   const { name, key, site, type, iso_639_1, iso_3166_1 } = video;
 
-  return { name, key, type, site, language: iso_639_1, region: iso_3166_1 };
+  return {
+    name,
+    key,
+    type,
+    site,
+    language: iso_639_1,
+    region: iso_3166_1,
+    thumbnail: `https://img.youtube.com/vi/${key}/0.jpg`
+  };
+};
+
+export const videosMapper = (videos: APIMediaVideoList): MediaVideoList => {
+  const { results } = videos || {};
+
+  return results.map(videoMapper);
+};
+
+/** Images **/
+
+export const imageMapper = (image: APIMediaImage, type?: Lowercase<MediaImageType>): MediaImage => {
+  const { file_path, iso_639_1, width, height, aspect_ratio, vote_average, vote_count } = image;
+
+  return {
+    type:
+      type || aspect_ratio < MediaImageRatio.POSTER
+        ? MediaImageType.POSTER
+        : MediaImageType.BACKDROP,
+    image: aspect_ratio < MediaImageRatio.POSTER ? posterUrl(file_path) : backdroprUrl(file_path),
+    width,
+    height,
+    language: iso_639_1,
+    ratio: parseFloat((1 / aspect_ratio).toFixed(2)),
+    vote_average,
+    vote_count
+  };
+};
+
+export const imagesMapper = (images: APIMediaImages): MediaImages => {
+  return {
+    backdrops: getPropValue(images, 'backdrops', []).map((image) => imageMapper(image)),
+    posters: getPropValue(images, 'posters', []).map((image) => imageMapper(image)),
+    logos: getPropValue(images, 'logos', []).map((image) => imageMapper(image))
+  };
+};
+
+/** External ids **/
+
+export const externalIdsMapper = (
+  externalIds: APIMediaExternalIds,
+  type: MediaTypeKey
+): MediaExternalIds => {
+  const url = (path: string, key?: string) => (key ? `${path}${key}` : '');
+  const { imdb_id, facebook_id, instagram_id, twitter_id } = externalIds;
+  const imdbKey = type === MediaType.PERSON ? 'name' : 'title';
+
+  return [
+    { id: 'imdb', url: url(`https://www.imdb.com/${imdbKey}/`, imdb_id) },
+    { id: 'facebook', url: url('https://www.facebook.com/', facebook_id) },
+    { id: 'instagram', url: url('https://www.instagram.com/', instagram_id) },
+    { id: 'twitter', url: url('https://twitter.com/', twitter_id) }
+  ];
+};
+
+/** Watch providers **/
+
+export const watchProviderMapper = (watchProvider: APIMediaWatchProvider): MediaWatchProvider => {
+  const { logo_path, provider_id, provider_name } = watchProvider;
+
+  return { id: provider_id, name: provider_name, image: posterUrl(logo_path) };
+};
+
+export const watchProvidersMapper = (
+  watchProviders: APIMediaWatchProviderList,
+  locale: string
+): MediaWatchProviders => {
+  const { results } = watchProviders || {};
+  const link = getPropValue(results, `${locale}.link`, '');
+  const providers = getPropValue(results, `${locale}.flatrate`, []);
+
+  return { watch_link: link, providers: providers.map(watchProviderMapper) };
 };

@@ -10,6 +10,8 @@ exports[`Tests Text component renders component correctly 1`] = `
       
         .wrapper {
           
+          
+          
         }
       
     </style>
