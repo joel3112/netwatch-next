@@ -16,6 +16,7 @@ import {
   MediaImageType,
   MediaTypeKey,
   MediaVideo,
+  MediaWatchProviders,
   MovieDetail,
   ObjectGeneric,
   TVDetail
@@ -214,7 +215,11 @@ const DetailExternalIds = () => {
 
 const DetailData = () => {
   const { t, media, handleVideo, language } = useMediaDetailContext();
-  const providers = getPropValue(media, 'watch/providers', []);
+  const { watch_link, providers } = getPropValue(
+    media,
+    'watch/providers',
+    {}
+  ) as MediaWatchProviders;
 
   const DataItem = ({ heading, children }: { heading: string; children: ReactNode }) => {
     return (
@@ -247,6 +252,20 @@ const DetailData = () => {
   return (
     <Space direction="column" gap={20} className={styles.data}>
       <Space direction="column" gap={5} className={styles.buttons}>
+        {!providers.isEmpty() && (
+          <a href={watch_link} className="full">
+            <DataButton text="watch.now.button">
+              <Image
+                className={styles.provider}
+                alt={providers[0].name}
+                src={providers[0].image}
+                width={25}
+                ratio={1}
+                lazy
+              />
+            </DataButton>
+          </a>
+        )}
         <DataButton
           text="watch.trailer.button"
           onClick={() =>
@@ -257,7 +276,6 @@ const DetailData = () => {
           }>
           <RiPlayFill />
         </DataButton>
-        <DataButton text="watch.now.button" />
         <DataButton text="my.list.button" light>
           <IoMdAdd />
         </DataButton>
@@ -266,9 +284,21 @@ const DetailData = () => {
       <MediaHeading>{t('detail.data.heading')}</MediaHeading>
 
       <Space gap={20} direction="column">
-        {providers.length && (
+        {!providers.isEmpty() && (
           <DataItem heading={t('detail.data.available')}>
-            <Text disabled>{providers.toString()}</Text>
+            <Space gap={10} className={styles.providers}>
+              {providers.map(({ name, image }) => (
+                <Image
+                  className={styles.provider}
+                  key={name}
+                  alt={name}
+                  src={image}
+                  width={45}
+                  ratio={1}
+                  lazy
+                />
+              ))}
+            </Space>
           </DataItem>
         )}
 

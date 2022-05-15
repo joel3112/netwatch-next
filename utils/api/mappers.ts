@@ -255,8 +255,8 @@ export const watchProvidersMapper = (
   locale: string
 ): MediaWatchProviders => {
   const { results } = watchProviders || {};
-  const link = getPropValue(results, `[${locale}].link`, '');
-  const providers = getPropValue(results, `[${locale}].flatrate`, []);
+  const link = getPropValue(results, `${locale}.link`, '');
+  const providers = getPropValue(results, `${locale}.flatrate`, []);
 
   return { watch_link: link, providers: providers.map(watchProviderMapper) };
 };

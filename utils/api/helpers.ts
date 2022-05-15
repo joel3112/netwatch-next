@@ -19,6 +19,8 @@ export const nextAPIBaseURL = (req: IncomingMessage): string => {
 };
 
 export const languageRegion = (language: string, region: string): string => `${language}-${region}`;
+export const regionFromLocale = (locale: string): string =>
+  locale && locale.includes('-') ? locale.split('-')[1] : '';
 
 export const isMediaPerson = (media: APIMediaData): boolean => 'birthday' in media;
 export const isMediaMovie = (media: APIMediaData): boolean => 'release_date' in media;

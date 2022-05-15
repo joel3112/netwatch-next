@@ -6,6 +6,7 @@ import {
   externalIdsMapper,
   httpInterceptor,
   imagesMapper,
+  regionFromLocale,
   tvDetailMapper,
   typeFromMedia,
   videosMapper,
@@ -38,7 +39,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         external_ids: externalIdsMapper(getPropValue(data, 'external_ids'), typeFromMedia(data)),
         'watch/providers': watchProvidersMapper(
           getPropValue(data, 'watch/providers'),
-          String(language).toUpperCase()
+          regionFromLocale(language as string)
         ),
         images: imagesMapper(getPropValue(data, 'images')),
         videos: videosMapper(getPropValue(data, 'videos')),

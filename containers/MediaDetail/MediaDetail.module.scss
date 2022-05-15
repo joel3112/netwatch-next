@@ -126,6 +126,18 @@ $image-width: 250px;
   padding: 0 20px 0 18px;
 }
 
+.providers {
+  margin-top: 5px;
+}
+
+.provider {
+  border-radius: 5px;
+
+  .providers & {
+    border: 1px solid rgb(var(--rgb-color-border-portal) / 90%);
+  }
+}
+
 /** DetailOverview (child component) **/
 
 .overview {
