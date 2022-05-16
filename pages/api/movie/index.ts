@@ -13,7 +13,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     .get(`${process.env.API_URL}/discover/movie`, { params: req.query })
     .then((response: AxiosResponse<APIData>) => {
       const data: APIData = response.data;
+      const { language } = req.query;
 
-      res.status(200).json({ ...data, results: data.results.map(mediaMapper) });
+      res.status(200).json({
+        ...data,
+        results: data.results.map((item) => mediaMapper(item, language as string))
+      });
     });
 }

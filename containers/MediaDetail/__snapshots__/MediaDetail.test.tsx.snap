@@ -9,11 +9,41 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
       class="wrapper header"
       style="margin-top: 30px;"
     >
-      <h2
+      <div
         class="wrapper"
       >
-        Sonic 2: La Película
-      </h2>
+        <h2
+          class="wrapper"
+        >
+          Sonic 2: La Película
+        </h2>
+        <span
+          class="wrapper sm"
+        >
+          2022-03-30 - 122
+          <style>
+            
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+          </style>
+        </span>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+        </style>
+      </div>
       <div
         class="wrapper images md"
       >
@@ -692,32 +722,6 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           flex-direction: column;
           flex-wrap: nowrap;
           
-          
-          
-        }
-      
-        </style>
-      </div>
-      <div
-        class="wrapper seasons"
-      >
-        <div
-          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
-          role="list"
-          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
-        >
-          <div
-            class="swiper-wrapper"
-            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
-          />
-        </div>
-        <style>
-          
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 10px;
           
           
         }
@@ -4049,19 +4053,38 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
       <div
         class="wrapper credits"
       >
-        <div
-          class="wrapper wrapper"
+        <a
+          href="/movie/675353/credits"
         >
           <div
-            class="wrapper"
+            class="wrapper wrapper"
           >
-            <h3
+            <div
               class="wrapper"
             >
-              detail.credits.heading
-            </h3>
-            <style>
-              
+              <h3
+                class="wrapper"
+              >
+                detail.credits.heading
+              </h3>
+              <svg
+                class="icon"
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polyline
+                  points="9 18 15 12 9 6"
+                />
+              </svg>
+              <style>
+                
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -4071,10 +4094,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-            </style>
-          </div>
-          <style>
-            
+              </style>
+            </div>
+            <style>
+              
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -4084,8 +4107,9 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-          </style>
-        </div>
+            </style>
+          </div>
+        </a>
         <div
           class="MuiGrid-root MuiGrid-container wrapper css-480o17-MuiGrid-root"
           role="grid"
@@ -4166,7 +4190,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -4263,7 +4287,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -4360,7 +4384,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -4457,7 +4481,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -4554,7 +4578,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -4651,7 +4675,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -4748,7 +4772,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -4845,7 +4869,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -4942,7 +4966,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }
@@ -5039,7 +5063,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           display: flex;
           flex-direction: column;
           flex-wrap: nowrap;
-          gap: 5px;
+          gap: 2px;
           
           
         }

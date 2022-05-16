@@ -73,13 +73,15 @@ const DetailImage = () => {
     <Card className={styles.card}>
       <Card.Image src={url} alt={url} width="100%" quality={100} {...(props || {})}>
         <Card.Actions className={styles.actions}>
-          <Card.Actions.Item
-            className={styles.action}
-            icon={IoMdExpand}
-            onClick={() =>
-              handleZoom({ type: MediaImageType[key], image: url, ratio: MediaImageRatio[key] })
-            }
-          />
+          {url && (
+            <Card.Actions.Item
+              className={styles.action}
+              icon={IoMdExpand}
+              onClick={() =>
+                handleZoom({ type: MediaImageType[key], image: url, ratio: MediaImageRatio[key] })
+              }
+            />
+          )}
         </Card.Actions>
       </Card.Image>
     </Card>
@@ -102,8 +104,28 @@ const DetailImage = () => {
 enum SectionLabel {
   VIDEOS = 'detail.videos.heading',
   IMAGES = 'detail.images.heading',
-  SEASONS = 'detail.seasons.heading'
+  SEASONS = 'detail.seasons.heading',
+  RECOMMENDATIONS = 'detail.recommendations.heading'
 }
+
+const sectionHeadingHref = (type: MediaTypeKey, id: number) => ({
+  VIDEOS: { pathname: '/[type]/[id]/videos', query: { type, id } },
+  IMAGES: { pathname: '/[type]/[id]/images', query: { type, id } },
+  SEASONS: { pathname: '/[type]/[id]/seasons', query: { type, id } },
+  RECOMMENDATIONS: ''
+});
+
+const sectionItemHref = (
+  type: MediaTypeKey,
+  id: number,
+  itemType?: MediaTypeKey,
+  itemId?: string
+) => ({
+  VIDEOS: '',
+  IMAGES: '',
+  SEASONS: { pathname: '/[type]/[id]/seasons/[itemId]', query: { type, id, itemId } },
+  RECOMMENDATIONS: { pathname: '/[itemType]/[itemId]', query: { itemType, itemId } }
+});
 
 type DetailCarouselProps = ElementChildren<JSX.Element> & {
   section: Lowercase<keyof typeof SectionLabel>;
@@ -129,6 +151,7 @@ const DetailCarousel = ({
   const { t, key, media, type, id, isMobile, isTablet, isSmallDesktop } = useMediaDetailContext();
   const items = getPropValue(media, path, []);
   const { spacing, offset = 0 } = getBreakpointConfig(key) || {};
+  const sectionKey = section.toUpperCase() as keyof typeof SectionLabel;
 
   const slidesPerView = () => {
     if (backdrop) {
@@ -142,13 +165,12 @@ const DetailCarousel = ({
   const handleClickAction = (item: Array<unknown>) =>
     action && action.onClick && action.onClick(item);
 
+  if (items.isEmpty()) return null;
   return (
     <Space direction="column" gap={10} className={classes(styles[section])}>
       {!items.isEmpty() && (
-        <MediaHeading href={{ pathname: '/[type]/[id]/[section]', query: { type, id, section } }}>
-          {`${t(SectionLabel[section.toUpperCase() as keyof typeof SectionLabel])} ${
-            numbered ? `(${items.length})` : ''
-          }`}
+        <MediaHeading href={sectionHeadingHref(type, id)[sectionKey]}>
+          {`${t(SectionLabel[sectionKey])} ${numbered ? `(${items.length})` : ''}`}
         </MediaHeading>
       )}
 
@@ -163,7 +185,10 @@ const DetailCarousel = ({
             {children ? (
               cloneElement(children, { item })
             ) : (
-              <Card className={styles.card} onClick={() => handleClickAction(item)}>
+              <Card
+                href={sectionItemHref(type, id, item['type'], item['id'])[sectionKey]}
+                className={styles.card}
+                onClick={() => handleClickAction(item)}>
                 <Card.Image
                   className={styles.image}
                   src={item[imageKey || 'image']}
@@ -232,6 +257,7 @@ const DetailExternalIds = () => {
 
 const DetailData = () => {
   const { t, media, handleVideo, language } = useMediaDetailContext();
+  const videos = getPropValue(media, 'videos', []);
   const { watch_link, providers } = getPropValue(
     media,
     'watch/providers',
@@ -282,16 +308,13 @@ const DetailData = () => {
             </DataButton>
           </a>
         )}
-        <DataButton
-          text="watch.trailer.button"
-          onClick={() =>
-            handleVideo({
-              type: 'video',
-              key: videoTrailerId(getPropValue(media, 'videos', []), language)
-            })
-          }>
-          <RiPlayFill />
-        </DataButton>
+        {!videos.isEmpty() && (
+          <DataButton
+            text="watch.trailer.button"
+            onClick={() => handleVideo({ type: 'video', key: videoTrailerId(videos, language) })}>
+            <RiPlayFill />
+          </DataButton>
+        )}
         <DataButton text="my.list.button" light>
           <IoMdAdd />
         </DataButton>
@@ -349,7 +372,7 @@ const DetailOverview = () => {
         ))}
       </Space>
 
-      <Text>{media.description}</Text>
+      <Text>{media.description || media.original_name}</Text>
     </Space>
   );
 };
@@ -359,12 +382,15 @@ const DetailOverview = () => {
 /* -------------------------------------------------------------------------- */
 
 const DetailCredits = () => {
-  const { t, isMobile, media } = useMediaDetailContext();
+  const { t, isMobile, media, type, id } = useMediaDetailContext();
   const cast = getPropValue(media, 'credits.cast', []);
 
+  if (cast.isEmpty()) return null;
   return (
     <Space direction="column" gap={10} className={styles.credits}>
-      <MediaHeading>{t('detail.credits.heading')}</MediaHeading>
+      <MediaHeading href={{ pathname: '/[type]/[id]/credits', query: { type, id } }}>
+        {t('detail.credits.heading')}
+      </MediaHeading>
 
       <Grid breakpoints={{ xs: 1, sm: 1, md: 2, lg: 3, xl: 3 }} spacing={4}>
         {cast.truncate(isMobile ? 5 : 10).map(({ id, name, image, characters }) => (
@@ -380,7 +406,7 @@ const DetailCredits = () => {
                 lazy
               />
 
-              <Space direction="column" gap={5}>
+              <Space direction="column" gap={2}>
                 <Text size="sm" bold className={styles.name}>
                   {name}
                 </Text>
@@ -426,6 +452,8 @@ const DetailBody = () => {
         numbered
         action={{ icon: IoMdExpand, onClick: handleZoom }}
       />
+
+      <DetailCarousel section="recommendations" path="recommendations" />
 
       <DetailCredits />
     </div>
@@ -491,7 +519,11 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
       }}>
       <div className={classes(styles.wrapper, styles[key], className)}>
         <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>
-          <Heading level={2}>{media.name}</Heading>
+          <Space direction="column" gap={2}>
+            <Heading level={2}>{media.name}</Heading>
+            <Text size="sm" disabled>{`${media.date} - ${media.duration}`}</Text>
+          </Space>
+
           <DetailImage />
         </Space>
 

@@ -63,6 +63,7 @@ export type MovieDetail = MovieData & {
   'watch/providers'?: MediaWatchProviders;
   videos?: MediaVideoList;
   images?: MediaImages;
+  recommendations?: Array<MovieData>;
 };
 
 export type TVDetail = TVData & {
@@ -81,6 +82,7 @@ export type TVDetail = TVData & {
   'watch/providers'?: MediaWatchProviders;
   videos?: MediaVideoList;
   images?: MediaImages;
+  recommendations?: Array<TVData>;
 };
 
 export type MediaDetail = MovieDetail | TVDetail;
@@ -96,6 +98,7 @@ export enum MediaExternalIdName {
 
 export type MediaExternalId = {
   id: Lowercase<MediaExternalIdName>;
+  key?: string;
   url: string;
 };
 

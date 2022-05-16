@@ -6,6 +6,7 @@ import {
   externalIdsMapper,
   httpInterceptor,
   imagesMapper,
+  mediaMapper,
   regionFromLocale,
   seasonMapper,
   tvDetailMapper,
@@ -27,7 +28,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     .get(`${process.env.API_URL}/tv/${tvId}`, {
       params: {
         ...params,
-        append_to_response: 'external_ids,aggregate_credits,watch/providers,videos,images',
+        append_to_response:
+          'external_ids,aggregate_credits,watch/providers,videos,images,recommendations',
         include_image_language: `${language},null`,
         include_video_language: `${language},null`
       }
@@ -36,7 +38,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       const data: APIData = response.data;
 
       res.status(200).json({
-        ...tvDetailMapper(data),
+        ...tvDetailMapper(data, language as string),
         seasons: getPropValue(data, 'seasons', []).map(seasonMapper),
         external_ids: externalIdsMapper(getPropValue(data, 'external_ids'), typeFromMedia(data)),
         'watch/providers': watchProvidersMapper(
@@ -45,7 +47,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         ),
         images: imagesMapper(getPropValue(data, 'images')),
         videos: videosMapper(getPropValue(data, 'videos')),
-        credits: aggregateCreditsMapper(getPropValue(data, 'aggregate_credits'))
+        credits: aggregateCreditsMapper(getPropValue(data, 'aggregate_credits')),
+        recommendations: getPropValue(data, 'recommendations.results', []).map((item) =>
+          mediaMapper(item, language as string)
+        )
       });
     });
 }

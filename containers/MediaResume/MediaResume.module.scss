@@ -1,0 +1,20 @@
+$card-height: 240px;
+
+.wrapper {
+  position: relative;
+  display: block;
+  height: $card-height;
+}
+
+.body {
+  @include absolute(top 0 left 0);
+  @include box(100%, $card-height);
+
+  background: linear-gradient(0deg, rgb(20 20 20 / 80%), transparent 1500px);
+  color: var(--color-button-text);
+  z-index: 1;
+}
+
+.buttonBack {
+  padding: 0 10px 0 5px !important;
+}
