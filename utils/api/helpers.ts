@@ -1,4 +1,5 @@
 import { IncomingMessage } from 'http';
+import { DateTime, Duration } from 'luxon';
 import {
   APIMediaData,
   APIMediaDetail,
@@ -53,13 +54,13 @@ export const namesFromMedia = (media: APIMediaData): { name: string; original_na
   return { name: media.name, original_name: media.original_name };
 };
 
-export const dateFromMedia = (media: APIMediaData): { date: string } => {
+export const dateFromMedia = (media: APIMediaData, locale: string): { date: string } => {
   let date = '';
 
   if ('release_date' in media) date = media.release_date;
   if ('first_air_date' in media) date = media.first_air_date;
 
-  return { date };
+  return { date: DateTime.fromISO(date).setLocale(locale).toLocaleString(DateTime.DATE_MED) };
 };
 
 export const durationFromMedia = (media: APIMediaDetail): { duration: string } => {
@@ -68,7 +69,12 @@ export const durationFromMedia = (media: APIMediaDetail): { duration: string } =
   if ('runtime' in media) duration = media.runtime;
   if ('episode_run_time' in media) duration = media.episode_run_time[0];
 
-  return { duration: String(duration) };
+  const { hours, minutes } = Duration.fromObject({ minutes: duration })
+    .shiftTo('hours', 'minutes')
+    .toObject();
+  const formattedDuration = `${hours && hours > 0 ? `${hours}h ` : ''}${minutes}min`;
+
+  return { duration: formattedDuration };
 };
 
 export const genderFromMedia = (gender?: number) => {

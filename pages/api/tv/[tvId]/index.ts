@@ -38,7 +38,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       const data: APIData = response.data;
 
       res.status(200).json({
-        ...tvDetailMapper(data),
+        ...tvDetailMapper(data, language as string),
         seasons: getPropValue(data, 'seasons', []).map(seasonMapper),
         external_ids: externalIdsMapper(getPropValue(data, 'external_ids'), typeFromMedia(data)),
         'watch/providers': watchProvidersMapper(
@@ -48,7 +48,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         images: imagesMapper(getPropValue(data, 'images')),
         videos: videosMapper(getPropValue(data, 'videos')),
         credits: aggregateCreditsMapper(getPropValue(data, 'aggregate_credits')),
-        recommendations: getPropValue(data, 'recommendations.results', []).map(mediaMapper)
+        recommendations: getPropValue(data, 'recommendations.results', []).map((item) =>
+          mediaMapper(item, language as string)
+        )
       });
     });
 }

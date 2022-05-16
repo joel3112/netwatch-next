@@ -5,7 +5,7 @@ import { mockMedias } from '@/data';
 
 describe('Tests MediaGrid component', () => {
   test('renders component correctly', () => {
-    const medias = mockMedias.movies.map(mediaMapper);
+    const medias = mockMedias.movies.map((item) => mediaMapper(item, 'es-ES'));
 
     const { container } = render(<MediaGrid items={medias} />);
 
@@ -13,7 +13,7 @@ describe('Tests MediaGrid component', () => {
   });
 
   test('renders children correctly', () => {
-    const medias = mockMedias.tvs.map(mediaMapper);
+    const medias = mockMedias.tvs.map((item) => mediaMapper(item, 'es-ES'));
 
     render(<MediaGrid items={medias} />);
 

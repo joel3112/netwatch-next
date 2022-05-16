@@ -80,7 +80,8 @@ $image-width: 250px;
     'seasons data'
     'videos data'
     'images data'
-    'credits data';
+    'credits data'
+    'recommendations data';
 
   .xs &,
   .sm & {
@@ -91,7 +92,8 @@ $image-width: 250px;
       'seasons'
       'videos'
       'images'
-      'credits';
+      'credits'
+      'recommendations';
   }
 
   .md & {
@@ -188,6 +190,12 @@ $image-width: 250px;
       }
     }
   }
+}
+
+/** DetailCredits (child component) **/
+
+.recommendations {
+  grid-area: recommendations;
 }
 
 /** DetailCredits (child component) **/

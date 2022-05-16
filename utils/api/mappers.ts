@@ -49,7 +49,7 @@ import {
 } from '@/utils/api';
 import { getPropValue } from '@/utils/helpers';
 
-export const mediaMapper = (media: APIMediaData): MediaData => {
+export const mediaMapper = (media: APIMediaData, locale: string): MediaData => {
   const {
     id,
     media_type,
@@ -71,15 +71,15 @@ export const mediaMapper = (media: APIMediaData): MediaData => {
     vote_count: +vote_count.toFixed(1),
     vote_average: +vote_average.toFixed(1),
     ...namesFromMedia(media),
-    ...dateFromMedia(media)
+    ...dateFromMedia(media, locale)
   };
 };
 
 /** Detail **/
 
-export const mediaDetailMapper = (media: APIMediaDetail): MediaDetail => {
+export const mediaDetailMapper = (media: APIMediaDetail, locale: string): MediaDetail => {
   return {
-    ...mediaMapper(media),
+    ...mediaMapper(media, locale),
     ...durationFromMedia(media),
     genres: getPropValue(media, 'genres', []),
     homepage: getPropValue(media, 'homepage'),
@@ -87,15 +87,15 @@ export const mediaDetailMapper = (media: APIMediaDetail): MediaDetail => {
   };
 };
 
-export const movieDetailMapper = (media: APIMovieDetail): MovieDetail => {
+export const movieDetailMapper = (media: APIMovieDetail, locale: string): MovieDetail => {
   return {
-    ...mediaDetailMapper(media)
+    ...mediaDetailMapper(media, locale)
   };
 };
 
-export const tvDetailMapper = (media: APITVDetail): TVDetail => {
+export const tvDetailMapper = (media: APITVDetail, locale: string): TVDetail => {
   return {
-    ...mediaDetailMapper(media),
+    ...mediaDetailMapper(media, locale),
     number_seasons: getPropValue(media, 'number_of_seasons', 0),
     number_episodes: getPropValue(media, 'number_of_episodes', 0)
   };

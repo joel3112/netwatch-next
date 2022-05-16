@@ -5,7 +5,7 @@ import { mediaMapper } from '@/utils/api';
 
 describe('Tests MediaCarousel component', () => {
   test('renders component correctly', () => {
-    const medias = mockMedias.movies.map(mediaMapper);
+    const medias = mockMedias.movies.map((item) => mediaMapper(item, 'es-ES'));
 
     const { container } = render(<MediaCarousel items={medias} />);
 

@@ -406,7 +406,7 @@ const DetailCredits = () => {
                 lazy
               />
 
-              <Space direction="column" gap={5}>
+              <Space direction="column" gap={2}>
                 <Text size="sm" bold className={styles.name}>
                   {name}
                 </Text>
@@ -519,7 +519,11 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
       }}>
       <div className={classes(styles.wrapper, styles[key], className)}>
         <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>
-          <Heading level={2}>{media.name}</Heading>
+          <Space direction="column" gap={2}>
+            <Heading level={2}>{media.name}</Heading>
+            <Text size="sm" disabled>{`${media.date} - ${media.duration}`}</Text>
+          </Space>
+
           <DetailImage />
         </Space>
 
