@@ -48,5 +48,9 @@
   "detail.credit.character": "como",
   "detail.data.available": "Disponible en",
   "detail.data.original.name": "Nombre original",
-  "detail.data.original.language": "Idioma original"
+  "detail.data.original.language": "Idioma original",
+  "main.go.back.button": "Volver a principal",
+  "detail.images.backdrops.heading": "Imágenes de fondo",
+  "detail.images.logos.heading": "Logos",
+  "detail.seasons.posters.heading": "Pósteres"
 }

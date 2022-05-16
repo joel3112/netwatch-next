@@ -1,0 +1,1203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests MediaSection component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper wrapper"
+  >
+    <div
+      class="wrapper header"
+      style="margin-top: 30px;"
+    >
+      <div
+        class="wrapper"
+      >
+        <h2
+          class="wrapper"
+        >
+          detail.videos.heading
+        </h2>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+        </style>
+      </div>
+      <div
+        class="wrapper"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container wrapper css-zow5z4-MuiGrid-root"
+          role="grid"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/9djAMds545g/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Knuckle Down Featurette
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/RHSU0SJv33A/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Put A Ring On It Clip
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/YkZ1aAPApAc/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Kid Cudi
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/UXWwYfvJ7BA/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  No Spoilers
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/Xr-VlbaJvcA/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Bigger, Bluer, Better
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/LF64NG_NJQw/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Meet Knuckles Clip
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/qdJfgKGgHP4/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  "I Make This Look Good" Clip
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/47r8FXYZWNU/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Final Trailer
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/F5uv5XiNHAs/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Madness
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/HCzqO6SPgnk/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Fastest Trailer
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/sEOrfwBCxYI/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  "Blue Justice"
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/7NVMZWV_vTg/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Choose Your Team
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/uVj6vs-738o/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Big Game Spot
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/9-PbLuusH44/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Rings
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/vxdzRz6gUD4/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  "The Real Competition Begins"
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/S8qRuGm2E_I/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  "Red Quill or Blue Quill"
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/G5kzUpWAusI/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Official Trailer
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-60 MuiGrid-grid-md-40 MuiGrid-grid-lg-30 MuiGrid-grid-xl-30 item css-1qkef4z-MuiGrid-root"
+          >
+            <div
+              class="wrapper card"
+            >
+              <div
+                aria-label="https://img.youtube.com/vi/sQuoffM1y-w/0.jpg"
+                class="wrapper"
+                role="img"
+              >
+                <span
+                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                >
+                  <img
+                    class="image image"
+                    data-nimg="fill"
+                    decoding="async"
+                    sizes="100vw"
+                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=3840&q=50"
+                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=3840&q=50 3840w"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                  />
+                </span>
+                <div
+                  class="image content"
+                />
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          height: auto;
+          min-width: auto;
+        }
+        .wrapper::before {
+          padding-top: 56.00000000000001%;
+        }
+      
+                </style>
+              </div>
+              <div
+                class="wrapper body"
+              >
+                <h2
+                  class="wrapper heading"
+                >
+                  Title Announcement
+                </h2>
+                <style>
+                  
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
+        }
+      
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+        </style>
+      </div>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+      </style>
+    </div>
+  </div>
+</div>
+`;
