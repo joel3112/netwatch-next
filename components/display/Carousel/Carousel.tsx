@@ -1,4 +1,4 @@
-import { createContext, useContext, cloneElement } from 'react';
+import { createContext, useContext, cloneElement, useMemo } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {
   Autoplay,
@@ -93,6 +93,11 @@ const Carousel = ({
 }: CarouselProps) => {
   const { key } = useBreakpoint();
 
+  const hasNavigation = useMemo(
+    () => navigation && children.length > Number(slidesPerView),
+    [navigation, slidesPerView, children]
+  );
+
   const settings: SwiperOptions = {
     speed: 500,
     loop,
@@ -102,7 +107,7 @@ const Carousel = ({
     slidesPerView: 'auto',
     slidesPerGroup: slidesPerView || 1,
     spaceBetween: spacing,
-    navigation: navigation
+    navigation: hasNavigation
       ? {
           prevEl: `.${styles.prev}`,
           nextEl: `.${styles.next}`,
@@ -145,8 +150,8 @@ const Carousel = ({
           {...settings}
           className={classes(styles.wrapper, styles[key], className)}
           style={{ width: `calc(100% + 2 * ${offset}px)`, marginLeft: -1 * offset }}>
-          {navigation && renderNavigationButton('prev', FiChevronLeft)}
-          {navigation && renderNavigationButton('next', FiChevronRight)}
+          {hasNavigation && renderNavigationButton('prev', FiChevronLeft)}
+          {hasNavigation && renderNavigationButton('next', FiChevronRight)}
           {children.map((element: JSX.Element, index) => (
             <SwiperSlide
               key={index}

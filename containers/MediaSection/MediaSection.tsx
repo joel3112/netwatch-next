@@ -1,18 +1,26 @@
+import { useState } from 'react';
+import { IconType } from 'react-icons';
+import { RiPlayFill } from 'react-icons/ri';
+import { IoMdExpand } from 'react-icons/io';
 import { useTranslation } from 'next-i18next';
 import {
   Breakpoints,
   ElementHTML,
   MediaImage,
   MediaImageRatio,
+  MediaImageType,
   MediaVideo,
   MovieDetail,
   ObjectGeneric,
   TVDetail
 } from '@/types';
+import { useModal } from '@/hooks/useModal';
 import { MediaHeading } from '@/containers/MediaHeading';
 import { Container, Grid, Space } from '@/components/layout';
 import { Heading } from '@/components/typography';
 import { Card } from '@/components/display';
+import { Image, Video } from '@/components/media';
+import { Modal, Portal } from '@/components/overlay';
 import { classes } from '@/utils/helpers';
 import styles from '@/containers/MediaSection/MediaSection.module.scss';
 
@@ -23,6 +31,14 @@ export type MediaSectionProps = typeof defaultProps &
     media: MovieDetail | TVDetail;
     section: MediaSection;
   };
+
+type ModalData = {
+  type: 'video' | Lowercase<keyof typeof MediaImageType> | '';
+  value: string;
+  props?: ObjectGeneric & {
+    ratio: number;
+  };
+};
 
 const defaultProps = {
   media: {}
@@ -60,12 +76,17 @@ const configurationBySection = (
   label?: string;
   breakpoints: Breakpoints;
   items: Array<ObjectGeneric>;
+  action: {
+    icon: IconType;
+    onClick?: () => void;
+  };
 }> => {
   const configuration = {
     videos: [
       {
         items: media.videos as Array<MediaVideo>,
-        breakpoints: sectionBreakpoints(MediaImageRatio.BACKDROP)
+        breakpoints: sectionBreakpoints(MediaImageRatio.BACKDROP),
+        action: { icon: RiPlayFill }
       }
     ],
     images: Object.entries(media.images || {}).map(([key, value]) => {
@@ -74,7 +95,8 @@ const configurationBySection = (
         items: value as Array<MediaImage>,
         breakpoints: sectionBreakpoints(
           value && !value.isEmpty() ? value[0].ratio : MediaImageRatio.BACKDROP
-        )
+        ),
+        action: { icon: IoMdExpand }
       };
     })
   };
@@ -87,15 +109,35 @@ const MediaSection = ({ media, section }: MediaSectionProps) => {
   const sectionKey = section.toUpperCase() as keyof typeof SectionLabel;
   const config = configurationBySection(media, section);
 
+  const [modalData, setModalData] = useState<ModalData>({ type: '', value: '' });
+  const { isOpened, handleChange } = useModal();
+
+  const handleClick = (item: unknown) => {
+    if (section === 'videos') {
+      const video = item as MediaVideo;
+      setModalData({ type: 'video', value: video.key });
+      handleChange(true);
+    }
+    if (section === 'images') {
+      const { image, type, ratio } = item as MediaImage;
+      setModalData({
+        type,
+        value: image,
+        props: { ratio }
+      });
+      handleChange(true);
+    }
+  };
+
   return (
-    <Container className={classes(styles.wrapper)}>
+    <Container className={classes(styles.wrapper, styles[section])}>
       <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>
         <Space direction="column" gap={2}>
           {section && <Heading level={2}>{t(SectionLabel[sectionKey])}</Heading>}
         </Space>
 
         {config.map(
-          ({ label, breakpoints, items }, index) =>
+          ({ label, breakpoints, items, action }, index) =>
             !items.isEmpty() && (
               <Space key={index} direction="column" gap={20}>
                 {label && <MediaHeading>{t(label)}</MediaHeading>}
@@ -103,13 +145,20 @@ const MediaSection = ({ media, section }: MediaSectionProps) => {
                 <Grid breakpoints={breakpoints} spacing={3}>
                   {items.map(({ [SectionImageKey[sectionKey]]: image, ...rest }, index) => (
                     <Grid.Item key={index}>
-                      <Card className={styles.card}>
+                      <Card className={styles.card} onClick={() => handleClick(items[index])}>
                         <Card.Image
+                          className={styles.cardImage}
                           src={image}
                           alt={image}
                           ratio={rest['ratio'] || MediaImageRatio.BACKDROP}
-                        />
-                        <Card.Body title={rest['name']} />
+                          lazy>
+                          <Card.Actions className={styles.cardActions}>
+                            {action && action.icon && (
+                              <Card.Actions.Item className={styles.cardAction} icon={action.icon} />
+                            )}
+                          </Card.Actions>
+                        </Card.Image>
+                        <Card.Body title={rest['name']} description={rest['date']} />
                       </Card>
                     </Grid.Item>
                   ))}
@@ -118,6 +167,25 @@ const MediaSection = ({ media, section }: MediaSectionProps) => {
             )
         )}
       </Space>
+
+      <Portal>
+        <Portal.Paper>
+          <Modal
+            className={classes(styles[`${modalData.type}Modal`])}
+            opened={isOpened}
+            onChange={handleChange}>
+            {modalData && modalData.type === 'video' && <Video id={modalData.value} autoplay />}
+            {modalData && modalData.type !== 'video' && (
+              <Image
+                src={modalData.value}
+                alt="image"
+                quality={100}
+                ratio={(modalData.props || {}).ratio}
+              />
+            )}
+          </Modal>
+        </Portal.Paper>
+      </Portal>
     </Container>
   );
 };

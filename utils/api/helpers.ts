@@ -29,8 +29,12 @@ export const isMediaSerie = (media: APIMediaData): boolean => 'first_air_date' i
 
 export const posterUrl = (poster_path: string) =>
   poster_path ? `${process.env.API_IMAGES_URL}${poster_path}` : '/assets/images/poster-empty.png';
-export const backdroprUrl = (backdrop_path: string) =>
+export const backdropUrl = (backdrop_path: string) =>
   backdrop_path ? `${process.env.API_BACKDROP_URL}${backdrop_path}` : '';
+export const profileUrl = (profile_path: string) =>
+  profile_path
+    ? `${process.env.API_IMAGES_URL}${profile_path}`
+    : '/assets/images/profile-empty.png';
 
 export const videoTrailerId = (videos: MediaVideoList, locale: string): string => {
   if (videos.isEmpty()) return '';
@@ -72,9 +76,11 @@ export const durationFromMedia = (media: APIMediaDetail): { duration: string } =
   const { hours, minutes } = Duration.fromObject({ minutes: duration })
     .shiftTo('hours', 'minutes')
     .toObject();
-  const formattedDuration = `${hours && hours > 0 ? `${hours}h ` : ''}${minutes}min`;
+  const formattedDuration = `${hours && hours > 0 ? `${hours}h ` : ''}${
+    minutes && minutes > 0 ? `${minutes}min` : ''
+  }`;
 
-  return { duration: formattedDuration };
+  return { duration: formattedDuration.trim() };
 };
 
 export const genderFromMedia = (gender?: number) => {

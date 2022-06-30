@@ -30,12 +30,18 @@ const MediaResume = ({ media }: MediaResumeProps) => {
         <Container>
           <Space gap={25} direction="row">
             <Card>
-              <Image alt="image" src={media.image} width={110} ratio={MediaImageRatio.POSTER} />
+              <Image
+                alt="image"
+                src={media.image}
+                width={110}
+                ratio={MediaImageRatio.POSTER}
+                lazy
+              />
             </Card>
 
             <Space gap={10} direction="column">
               <Heading level={3}>{media.name}</Heading>
-              <Text size="sm">{`${media.date} - ${media.duration}`}</Text>
+              <Text size="sm">{[media.date, media.duration].compact().join(' - ')}</Text>
 
               <Link
                 href={{

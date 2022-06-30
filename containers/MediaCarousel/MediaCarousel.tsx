@@ -75,7 +75,7 @@ const MediaCarousel = ({
         loop={loop}
         className={classes(styles.carousel)}>
         {(items || []).map((props, index) => {
-          const { [imageKey]: image, id, type, name } = props;
+          const { [imageKey]: image, id, type, name, date } = props;
 
           return (
             <Carousel.Item key={index}>
@@ -91,7 +91,7 @@ const MediaCarousel = ({
                       <Card.Actions.Item icon={IoMdAdd} />
                     </Card.Actions>
                   </Card.Image>
-                  <Card.Body title={name} />
+                  <Card.Body title={name} description={date} />
                 </Card>
               )}
             </Carousel.Item>

@@ -7,14 +7,6 @@
   transition: width 0.2s ease-in, height 0.2s ease-in, border 0s;
   width: fit-content;
 
-  &:not(:empty) {
-    border: 1px solid rgb(var(--rgb-color-border-portal) / 90%);
-  }
-
-  &:hover {
-    box-shadow: var(--box-shadow-card);
-  }
-
   & > a {
     width: auto;
   }
@@ -29,6 +21,10 @@
     cursor: pointer;
   }
 
+  &:hover {
+    box-shadow: var(--box-shadow-card);
+  }
+
   &:not(:empty):hover,
   &.linkable:hover {
     &::before {
@@ -39,6 +35,10 @@
       z-index: 5;
       background-image: linear-gradient(0deg, rgb(20 20 20 / 85%), transparent 200px);
     }
+  }
+
+  .wrapper:not(:empty) & {
+    border: 1px solid rgb(var(--rgb-color-border-portal) / 90%);
   }
 }
 
@@ -82,23 +82,24 @@
 /** CardBody (child component) **/
 
 .body {
-  @include absolute(top 0);
-
   padding: 5px 0;
   width: 100%;
-  background-color: rgb(0 0 0 / 50%) !important;
 }
 
 .heading {
   @include max-lines(1);
 
-  color: var(--color-button-text);
-  margin: 0 10px;
+  color: var(--color-text);
   font-size: rem(14px);
-  font-weight: 400;
+  font-weight: 500;
   transition: all 0.2s ease-in;
+  padding-right: 8px;
 
   &.linkable:hover {
     color: var(--color-primary);
+  }
+
+  .wrapper.skeleton & {
+    width: 120px;
   }
 }

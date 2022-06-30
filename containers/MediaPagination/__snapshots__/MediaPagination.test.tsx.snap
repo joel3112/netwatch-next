@@ -16,7 +16,7 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
           class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-60 MuiGrid-grid-sm-40 MuiGrid-grid-md-30 MuiGrid-grid-lg-24 MuiGrid-grid-xl-20 item css-1vivnjg-MuiGrid-root"
         >
           <div
-            class="wrapper card"
+            class="wrapper card skeleton"
           >
             <div
               class="wrapper default ratio"
@@ -96,6 +96,50 @@ exports[`Tests MediaPagination component renders component correctly 1`] = `
         }
         .wrapper::before {
           padding-top: 150%;
+        }
+      
+              </style>
+            </div>
+            <div
+              class="wrapper body"
+            >
+              <div
+                class="wrapper heading"
+                role="progressbar"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto skeleton css-w8a73i-MuiSkeleton-root"
+                >
+                  <a
+                    href="//"
+                  >
+                    <h2
+                      class="wrapper heading linkable"
+                    />
+                  </a>
+                </span>
+                <style>
+                  
+        .wrapper {
+          width: auto;
+          min-width: auto;
+          height: auto;
+        }
+        .wrapper::before {
+          padding-top: 0;
+        }
+      
+                </style>
+              </div>
+              <style>
+                
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 2px;
+          
+          
         }
       
               </style>

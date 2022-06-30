@@ -43,44 +43,6 @@ exports[`Index page renders page correctly 1`] = `
             class="swiper-wrapper"
             style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
           />
-          <button
-            class="wrapper medium buttonNavigation prev"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="15 18 9 12 15 6"
-              />
-            </svg>
-          </button>
-          <button
-            class="wrapper medium buttonNavigation next"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="9 18 15 12 9 6"
-              />
-            </svg>
-          </button>
         </div>
       </div>
       <div
@@ -95,44 +57,6 @@ exports[`Index page renders page correctly 1`] = `
             class="swiper-wrapper"
             style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
           />
-          <button
-            class="wrapper medium buttonNavigation prev"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="15 18 9 12 15 6"
-              />
-            </svg>
-          </button>
-          <button
-            class="wrapper medium buttonNavigation next"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="9 18 15 12 9 6"
-              />
-            </svg>
-          </button>
         </div>
       </div>
       <div
@@ -147,44 +71,6 @@ exports[`Index page renders page correctly 1`] = `
             class="swiper-wrapper"
             style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
           />
-          <button
-            class="wrapper medium buttonNavigation prev"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="15 18 9 12 15 6"
-              />
-            </svg>
-          </button>
-          <button
-            class="wrapper medium buttonNavigation next"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polyline
-                points="9 18 15 12 9 6"
-              />
-            </svg>
-          </button>
         </div>
       </div>
       <style>
