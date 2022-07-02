@@ -69,7 +69,6 @@ exports[`Tests MediaResume component renders component correctly 1`] = `
             <span
               class="wrapper sm"
             >
-              undefined - undefined
               <style>
                 
         .wrapper {

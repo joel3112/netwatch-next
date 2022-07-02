@@ -69,6 +69,32 @@ $image-width: 250px;
   }
 }
 
+.carousel .card {
+  .actions {
+    @include absolute(top 0 left 0);
+    @include box(100%, 100%);
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0;
+    opacity: 0.4;
+  }
+
+  .image {
+    width: 100%;
+    cursor: pointer;
+
+    &:hover .actions {
+      opacity: 1;
+
+      .action {
+        background-color: rgb(var(--rgb-color-white) / 40%) !important;
+      }
+    }
+  }
+}
+
 /** DetailBody (child component) **/
 
 .body {
@@ -166,30 +192,6 @@ $image-width: 250px;
 
 .videos {
   grid-area: videos;
-
-  .actions {
-    @include absolute(top 0 left 0);
-    @include box(100%, 100%);
-
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    padding: 0;
-    opacity: 0.4;
-  }
-
-  .image {
-    width: 100%;
-    cursor: pointer;
-
-    &:hover .actions {
-      opacity: 1;
-
-      .action {
-        background-color: rgb(var(--rgb-color-white) / 40%) !important;
-      }
-    }
-  }
 }
 
 /** DetailCredits (child component) **/

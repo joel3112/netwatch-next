@@ -37,14 +37,19 @@
   font-size: rem(25px) !important;
   font-weight: 600 !important;
 
+  .xs &,
   .sm & {
-    font-size: rem(22px) !important;
+    @include max-lines(2);
+
+    margin-top: -15px;
+    font-size: rem(18px) !important;
   }
 }
 
 .description {
   .xs &,
-  .sm & {
+  .sm &,
+  .md & {
     display: none !important;
   }
 }

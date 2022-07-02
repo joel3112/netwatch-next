@@ -99,6 +99,7 @@ export enum MediaExternalIdName {
 export type MediaExternalId = {
   id: Lowercase<MediaExternalIdName>;
   key?: string;
+  name?: string;
   url: string;
 };
 

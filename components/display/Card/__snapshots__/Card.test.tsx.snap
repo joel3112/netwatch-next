@@ -47,6 +47,20 @@ exports[`Tests Card component renders component correctly 1`] = `
       >
         Title
       </h2>
+      <span
+        class="wrapper sm"
+      >
+        Description
+        <style>
+          
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+        </style>
+      </span>
       <style>
         
         .wrapper {

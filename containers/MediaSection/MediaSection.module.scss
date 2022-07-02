@@ -4,4 +4,33 @@
 
 .card {
   width: auto !important;
+  cursor: pointer;
+}
+
+.posterModal {
+  width: 350px !important;
+}
+
+.cardActions {
+  @include absolute(top 0 left 0);
+  @include box(100%, 100%);
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0;
+  opacity: 0.4;
+
+  .cardImage:hover & {
+    opacity: 1;
+
+    .cardAction {
+      background-color: rgb(var(--rgb-color-white) / 40%) !important;
+    }
+  }
+}
+
+.cardImage {
+  width: 100%;
+  cursor: pointer;
 }

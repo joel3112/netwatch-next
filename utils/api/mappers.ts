@@ -39,12 +39,13 @@ import {
   TVDetail
 } from '@/types';
 import {
-  backdroprUrl,
+  backdropUrl,
   dateFromMedia,
   durationFromMedia,
   genderFromMedia,
   namesFromMedia,
   posterUrl,
+  profileUrl,
   typeFromMedia
 } from '@/utils/api';
 import { getPropValue } from '@/utils/helpers';
@@ -66,7 +67,7 @@ export const mediaMapper = (media: APIMediaData, locale: string): MediaData => {
     type: media_type || typeFromMedia(media),
     description: overview,
     image: posterUrl(poster_path),
-    backdrop: backdroprUrl(backdrop_path),
+    backdrop: backdropUrl(backdrop_path),
     popularity,
     vote_count: +vote_count.toFixed(1),
     vote_average: +vote_average.toFixed(1),
@@ -123,13 +124,13 @@ export const seasonMapper = (season: APIMediaSeason): MediaSeason => {
 const commonCreditMapper = (
   credit: APIMediaCast | APIMediaCrew | APIMediaAggregateCast | APIMediaAggregateCrew
 ): MediaCredit => {
-  const { id, gender, name, original_name, profile_path } = credit;
+  const { id, gender, name, original_name, profile_path = '' } = credit;
 
   return {
     id,
     name,
     original_name,
-    image: posterUrl(String(profile_path)),
+    image: profileUrl(profile_path),
     gender: genderFromMedia(gender)
   };
 };
@@ -226,7 +227,7 @@ export const imageMapper = (image: APIMediaImage, type?: Lowercase<MediaImageTyp
       type || aspect_ratio < MediaImageRatio.POSTER
         ? MediaImageType.POSTER
         : MediaImageType.BACKDROP,
-    image: aspect_ratio < MediaImageRatio.POSTER ? posterUrl(file_path) : backdroprUrl(file_path),
+    image: aspect_ratio < MediaImageRatio.POSTER ? posterUrl(file_path) : backdropUrl(file_path),
     width,
     height,
     language: iso_639_1,
@@ -258,21 +259,25 @@ export const externalIdsMapper = (
     {
       id: MediaExternalIdName.IMDB,
       key: imdb_id,
+      name: 'IMDb',
       url: url(`https://www.imdb.com/${imdbKey}/`, imdb_id)
     },
     {
       id: MediaExternalIdName.FACEBOOK,
       key: facebook_id,
+      name: 'Facebook',
       url: url('https://www.facebook.com/', facebook_id)
     },
     {
       id: MediaExternalIdName.INSTAGRAM,
       key: instagram_id,
+      name: 'Instagram',
       url: url('https://www.instagram.com/', instagram_id)
     },
     {
       id: MediaExternalIdName.TWITTER,
       key: twitter_id,
+      name: 'Twitter',
       url: url('https://twitter.com/', twitter_id)
     }
   ].filter(({ key }) => key);

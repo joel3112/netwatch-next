@@ -108,6 +108,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Spider-Man: No Way Home
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  16 dic 2021
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -218,6 +232,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Red
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  11 mar 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -328,6 +356,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Sonic 2: La Película
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  1 abr 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -438,6 +480,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Moonfall
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  4 feb 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -548,6 +604,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     The Batman
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  4 mar 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -658,6 +728,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     El Proyecto Adam
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  11 mar 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -768,6 +852,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Cangrejo Negro
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  18 mar 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -878,6 +976,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Encanto
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  26 nov 2021
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -988,6 +1100,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     En la tormenta
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  25 feb 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1098,6 +1224,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Las aventuras de Pil
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  13 abr 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1208,6 +1348,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     La pasión de Cristo
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  2 abr 2004
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1318,6 +1472,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     La abuela
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  28 ene 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1428,6 +1596,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Animales Fantásticos 3: Los Secretos de Dumbledore
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  8 abr 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1538,6 +1720,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Ice Age: Las aventuras de Buck
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  25 mar 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1648,6 +1844,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Sonic: La película
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  14 feb 2020
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1758,6 +1968,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Hotel Transilvania: Transformanía
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  14 ene 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1868,6 +2092,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Eternals
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  5 nov 2021
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -1978,6 +2216,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     The King's Man: La primera misión
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  29 dic 2021
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -2088,6 +2340,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Kimi
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  10 feb 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {
@@ -2198,6 +2464,20 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     Sin respiro
                   </h2>
                 </a>
+                <span
+                  class="wrapper sm"
+                >
+                  25 feb 2022
+                  <style>
+                    
+        .wrapper {
+          
+          opacity: 0.5;
+          
+        }
+      
+                  </style>
+                </span>
                 <style>
                   
         .wrapper {

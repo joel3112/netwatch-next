@@ -3,7 +3,7 @@
 exports[`Tests MediaSection component renders component correctly 1`] = `
 <div>
   <div
-    class="wrapper wrapper"
+    class="wrapper wrapper videos"
   >
     <div
       class="wrapper header"
@@ -52,18 +52,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9djAMds545g%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -115,18 +156,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FRHSU0SJv33A%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -178,18 +260,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FYkZ1aAPApAc%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -241,18 +364,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FUXWwYfvJ7BA%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -304,18 +468,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FXr-VlbaJvcA%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -367,18 +572,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FLF64NG_NJQw%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -430,18 +676,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FqdJfgKGgHP4%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -493,18 +780,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F47r8FXYZWNU%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -556,18 +884,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FF5uv5XiNHAs%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -619,18 +988,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FHCzqO6SPgnk%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -682,18 +1092,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsEOrfwBCxYI%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -745,18 +1196,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7NVMZWV_vTg%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -808,18 +1300,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FuVj6vs-738o%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -871,18 +1404,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9-PbLuusH44%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -934,18 +1508,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvxdzRz6gUD4%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -997,18 +1612,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FS8qRuGm2E_I%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -1060,18 +1716,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FG5kzUpWAusI%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -1123,18 +1820,59 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
-                    class="image image"
+                    class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
-                    sizes="100vw"
-                    src="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=3840&q=50"
-                    srcset="/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=640&q=50 640w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=750&q=50 750w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=828&q=50 828w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=1080&q=50 1080w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=1200&q=50 1200w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=1920&q=50 1920w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=2048&q=50 2048w, /_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQuoffM1y-w%2F0.jpg&w=3840&q=50 3840w"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                     style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
                   />
+                  <noscript />
                 </span>
                 <div
-                  class="image content"
-                />
+                  class="image cardImage content"
+                >
+                  <div
+                    class="wrapper actions cardActions"
+                  >
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action cardAction"
+                    >
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                          />
+                        </g>
+                      </svg>
+                    </button>
+                    <style>
+                      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 8px;
+          justify-content: flex-end;
+          
+        }
+      
+                    </style>
+                  </div>
+                </div>
                 <style>
                   
         .wrapper {
@@ -1198,6 +1936,9 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
       
       </style>
     </div>
+    <div
+      class="wrapper"
+    />
   </div>
 </div>
 `;

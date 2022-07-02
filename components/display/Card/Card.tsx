@@ -7,7 +7,7 @@ import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
 import { Space } from '@/components/layout';
 import { Image } from '@/components/media';
 import { Button } from '@/components/forms';
-import { Heading } from '@/components/typography';
+import { Heading, Text } from '@/components/typography';
 import { ImageProps } from '@/components/media/Image/Image';
 import { classes } from '@/utils/helpers';
 import styles from '@/components/display/Card/Card.module.scss';
@@ -101,18 +101,22 @@ type CardBodyProps = ElementHTML & {
   maxLines?: number;
 };
 
-const CardBody = ({ className, title }: CardBodyProps) => {
+const CardBody = ({ className, title, description }: CardBodyProps) => {
   const { href, skeleton } = useCardContext();
-
-  if (skeleton || !title) {
-    return null;
-  }
 
   return (
     <Space direction="column" gap={2} className={classes(styles.body, className)}>
-      <Heading href={href} className={classes(styles.heading, href && styles.linkable)}>
+      <Heading
+        skeleton={skeleton}
+        href={href}
+        className={classes(styles.heading, href && styles.linkable)}>
         {title}
       </Heading>
+      {description && (
+        <Text size="sm" disabled>
+          {description}
+        </Text>
+      )}
     </Space>
   );
 };
@@ -136,7 +140,9 @@ const defaultProps = {
 const Card = ({ children, className, skeleton, href, onClick }: CardProps) => {
   return (
     <CardContext.Provider value={{ href, skeleton }}>
-      <div className={classes(styles.wrapper, className)} onClick={onClick}>
+      <div
+        className={classes(styles.wrapper, className, skeleton && styles.skeleton)}
+        onClick={onClick}>
         {children}
       </div>
     </CardContext.Provider>

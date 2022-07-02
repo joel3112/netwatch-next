@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { cloneElement, createContext, ReactNode, useContext, useState } from 'react';
+import { useTranslation } from 'next-i18next';
 import { Breakpoint } from '@mui/system/createTheme/createBreakpoints';
 import { IconType } from 'react-icons';
 import { IoMdAdd, IoMdExpand } from 'react-icons/io';
@@ -202,7 +203,7 @@ const DetailCarousel = ({
                     )}
                   </Card.Actions>
                 </Card.Image>
-                <Card.Body title={item['name']} />
+                <Card.Body title={item['name']} description={item['date']} />
               </Card>
             )}
           </Carousel.Item>
@@ -225,6 +226,7 @@ const ExternalLinkIcons = {
 
 const DetailExternalIds = () => {
   const { media } = useMediaDetailContext();
+  const { t } = useTranslation();
   const homepage = getPropValue(media, 'homepage', '');
   const externalIds = getPropValue(media, 'external_ids', []);
   const buttonProps = { rounded: true, light: true, className: styles.externalId };
@@ -233,17 +235,19 @@ const DetailExternalIds = () => {
     <Space gap={10} className={styles.externalIds}>
       {homepage && (
         <a href={homepage} target="blank">
-          <Button {...buttonProps}>
+          <Button tooltip={t('detail.links.website')} {...buttonProps}>
             <BiGlobe />
           </Button>
         </a>
       )}
 
-      {externalIds.map(({ id, url }) => {
+      {externalIds.map(({ id, url, name }) => {
         const Icon = ExternalLinkIcons[id];
         return (
           <a key={id} href={url} target="blank">
-            <Button {...buttonProps}>{Icon}</Button>
+            <Button tooltip={name} {...buttonProps}>
+              {Icon}
+            </Button>
           </a>
         );
       })}
@@ -386,6 +390,7 @@ const DetailCredits = () => {
   const cast = getPropValue(media, 'credits.cast', []);
 
   if (cast.isEmpty()) return null;
+
   return (
     <Space direction="column" gap={10} className={styles.credits}>
       <MediaHeading href={{ pathname: '/[type]/[id]/credits', query: { type, id } }}>
@@ -521,7 +526,9 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
         <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>
           <Space direction="column" gap={2}>
             <Heading level={2}>{media.name}</Heading>
-            <Text size="sm" disabled>{`${media.date} - ${media.duration}`}</Text>
+            <Text size="sm" disabled bold>
+              {[media.date, media.duration].compact().join(' - ')}
+            </Text>
           </Space>
 
           <DetailImage />

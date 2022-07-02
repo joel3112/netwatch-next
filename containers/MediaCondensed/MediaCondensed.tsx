@@ -85,7 +85,7 @@ const MediaCondensed = (props: MediaCondensedProps) => {
         />
       </Card>
 
-      {!isMobile && <MediaCondensedInfo {...props} />}
+      <MediaCondensedInfo {...props} />
     </div>
   );
 };
