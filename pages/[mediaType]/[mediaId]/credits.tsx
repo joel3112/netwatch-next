@@ -1,44 +1,44 @@
 import type { GetServerSidePropsContext, NextPage } from 'next';
+import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
-import DefaultErrorPage from 'next/error';
 import axios from 'axios';
 import { APIMovieDetail, APITVDetail, MovieDetail, TVDetail } from '@/types';
 import { Space } from '@/components/layout';
 import { MediaResume } from '@/containers/MediaResume';
-import { MediaSection } from '@/containers/MediaSection';
+import { MediaSectionCredits } from '@/containers/MediaSectionCredits';
 import { nextAPIBaseURL } from '@/utils/api';
+import { getPropValue } from '@/utils/helpers';
 
-const mediaDetailSections = ['videos', 'images', 'seasons'];
-
-type MediaSectionPageProps = {
+type MediaCreditsPageProps = {
   detail?: MovieDetail | TVDetail;
-  section?: 'videos' | 'images';
 };
 
-const MediaSectionPage: NextPage<MediaSectionPageProps> = ({ detail, section }) => {
+const MediaCreditsPage: NextPage<MediaCreditsPageProps> = ({ detail }) => {
+  const { t } = useTranslation();
   const { name } = detail || {};
+  const title = `${name} - ${t('detail.credits.heading')}`;
+  const cast = getPropValue(detail, 'credits.cast', []);
+  const crew = getPropValue(detail, 'credits.crew', []);
 
-  if (!mediaDetailSections.includes(String(section))) {
-    return <DefaultErrorPage statusCode={404} />;
-  }
+  console.log(detail);
 
   return (
     <>
       <Head>
-        <title>{name}</title>
+        <title>{title}</title>
       </Head>
 
       <Space className="full" direction="column">
         <MediaResume media={detail} />
-        {section && <MediaSection section={section} media={detail} />}
+        {detail && <MediaSectionCredits cast={cast} crew={crew} />}
       </Space>
     </>
   );
 };
 
 export const getServerSideProps = async ({ locale, req, query }: GetServerSidePropsContext) => {
-  const { mediaType, mediaId, sectionId } = query;
+  const { mediaType, mediaId } = query;
   const detail = await axios.get<APIMovieDetail | APITVDetail>(
     `${nextAPIBaseURL(req)}/api/${mediaType}/${mediaId}`
   );
@@ -46,10 +46,9 @@ export const getServerSideProps = async ({ locale, req, query }: GetServerSidePr
   return {
     props: {
       detail: detail.data,
-      section: sectionId,
       ...(await serverSideTranslations(String(locale), ['common', String(mediaType)]))
     }
   };
 };
 
-export default MediaSectionPage;
+export default MediaCreditsPage;

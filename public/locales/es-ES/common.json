@@ -53,5 +53,7 @@
   "main.go.back.button": "Volver a principal",
   "detail.images.backdrops.heading": "Imágenes de fondo",
   "detail.images.logos.heading": "Logos",
-  "detail.seasons.posters.heading": "Pósteres"
+  "detail.seasons.posters.heading": "Pósteres",
+  "detail.credits.cast.heading": "Actores",
+  "detail.credits.crew.heading": "Directores/Personal"
 }
