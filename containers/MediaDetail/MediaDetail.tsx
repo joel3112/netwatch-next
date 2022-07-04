@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { cloneElement, createContext, ReactNode, useContext, useState } from 'react';
+import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { Breakpoint } from '@mui/system/createTheme/createBreakpoints';
 import { IconType } from 'react-icons';
@@ -16,6 +17,7 @@ import {
   MediaImage,
   MediaImageRatio,
   MediaImageType,
+  MediaType,
   MediaTypeKey,
   MediaVideo,
   MediaWatchProviders,
@@ -400,26 +402,24 @@ const DetailCredits = () => {
       <Grid breakpoints={{ xs: 1, sm: 1, md: 2, lg: 3, xl: 3 }} spacing={4}>
         {cast.truncate(isMobile ? 5 : 10).map(({ id, name, image, characters }) => (
           <Grid.Item key={id}>
-            <Space align="center" gap={10} className={styles.cast}>
-              <Image
-                alt={image}
-                className={styles.image}
-                src={image}
-                width={80}
-                ratio={1}
-                quality={100}
-                lazy
-              />
+            <Link href={`/${MediaType.PERSON}/${id}`}>
+              <a>
+                <Space align="center" gap={10} className={styles.cast}>
+                  <div className={styles.image}>
+                    <Image alt={image} src={image} width={80} ratio={1} quality={100} lazy />
+                  </div>
 
-              <Space direction="column" gap={2}>
-                <Text size="sm" bold className={styles.name}>
-                  {name}
-                </Text>
-                <Text size="sm" disabled className={styles.character} maxLines={2}>
-                  {characters ? `${t('detail.credit.character')} ${characters}` : ''}
-                </Text>
-              </Space>
-            </Space>
+                  <Space direction="column" gap={2}>
+                    <Text size="sm" bold className={styles.name}>
+                      {name}
+                    </Text>
+                    <Text size="sm" disabled className={styles.character} maxLines={2}>
+                      {characters ? `${t('detail.credit.character')} ${characters}` : ''}
+                    </Text>
+                  </Space>
+                </Space>
+              </a>
+            </Link>
           </Grid.Item>
         ))}
       </Grid>

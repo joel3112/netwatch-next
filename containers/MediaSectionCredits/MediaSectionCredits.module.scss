@@ -1,0 +1,31 @@
+.wrapper {
+  display: block;
+}
+
+.image {
+  @include box(100px, 100px);
+}
+
+.credit {
+  color: var(--color-text);
+
+  &:hover {
+    .name {
+      color: var(--color-primary);
+    }
+
+    .image {
+      position: relative;
+
+      &::before {
+        @include box(100%, 100%);
+        @include absolute(top 0 left 0);
+
+        content: '';
+        display: block;
+        z-index: 5;
+        background-image: linear-gradient(60deg, rgb(20 20 20 / 35%), transparent 1000px);
+      }
+    }
+  }
+}

@@ -10,9 +10,7 @@ import {
   MediaImageRatio,
   MediaImageType,
   MediaVideo,
-  MovieDetail,
-  ObjectGeneric,
-  TVDetail
+  ObjectGeneric
 } from '@/types';
 import { useModal } from '@/hooks/useModal';
 import { MediaHeading } from '@/containers/MediaHeading';
@@ -24,12 +22,14 @@ import { Modal, Portal } from '@/components/overlay';
 import { classes } from '@/utils/helpers';
 import styles from '@/containers/MediaSection/MediaSection.module.scss';
 
-type MediaSection = 'videos' | 'images';
+export type MediaSectionType = 'videos' | 'images';
+
+export type MediaSectionItems = Array<MediaVideo> | { [key: string]: Array<MediaImage> };
 
 export type MediaSectionProps = typeof defaultProps &
   ElementHTML & {
-    media: MovieDetail | TVDetail;
-    section: MediaSection;
+    items: MediaSectionItems;
+    section: MediaSectionType;
   };
 
 type ModalData = {
@@ -70,8 +70,8 @@ const sectionBreakpoints = (ratio: number) => {
 };
 
 const configurationBySection = (
-  media: MovieDetail | TVDetail,
-  section: MediaSection
+  items: MediaSectionItems,
+  section: MediaSectionType
 ): Array<{
   label?: string;
   breakpoints: Breakpoints;
@@ -81,15 +81,17 @@ const configurationBySection = (
     onClick?: () => void;
   };
 }> => {
-  const configuration = {
-    videos: [
+  if (section === 'videos') {
+    return [
       {
-        items: media.videos as Array<MediaVideo>,
+        items: items as Array<MediaVideo>,
         breakpoints: sectionBreakpoints(MediaImageRatio.BACKDROP),
         action: { icon: RiPlayFill }
       }
-    ],
-    images: Object.entries(media.images || {}).map(([key, value]) => {
+    ];
+  }
+  if (section === 'images') {
+    return Object.entries(items).map(([key, value]) => {
       return {
         label: SectionImageLabel[key.toUpperCase() as keyof typeof SectionImageLabel],
         items: value as Array<MediaImage>,
@@ -98,16 +100,16 @@ const configurationBySection = (
         ),
         action: { icon: IoMdExpand }
       };
-    })
-  };
+    });
+  }
 
-  return configuration[section];
+  return [];
 };
 
-const MediaSection = ({ media, section }: MediaSectionProps) => {
+const MediaSection = ({ items, section }: MediaSectionProps) => {
   const { t } = useTranslation();
   const sectionKey = section.toUpperCase() as keyof typeof SectionLabel;
-  const config = configurationBySection(media, section);
+  const config = configurationBySection(items, section);
 
   const [modalData, setModalData] = useState<ModalData>({ type: '', value: '' });
   const { isOpened, handleChange } = useModal();
