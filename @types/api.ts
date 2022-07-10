@@ -235,6 +235,9 @@ export type APIMediaEpisode = {
   still_path: string;
   vote_average: number;
   vote_count: number;
+  runtime?: number;
+  guest_stars?: Array<APIMediaAggregateCast>;
+  crew?: Array<APIMediaAggregateCrew>;
 };
 
 /** Seasons **/
@@ -247,6 +250,13 @@ export type APIMediaSeason = {
   overview: string;
   poster_path: string;
   season_number: number;
+};
+
+export type APIMediaSeasonDetail = Omit<APIMediaSeason, 'episode_count'> & {
+  _id: string;
+  episodes: Array<APIMediaEpisode>;
+  images?: APIMediaImages;
+  videos?: APIMediaVideoList;
 };
 
 /** Networks **/

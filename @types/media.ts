@@ -160,8 +160,8 @@ export type MediaEpisode = {
   season_number: number;
   episode_number: number;
   image: string;
-  vote_average: number;
-  vote_count: number;
+  vote_average?: number;
+  vote_count?: number;
 };
 
 /** Seasons **/
@@ -175,6 +175,10 @@ export type MediaSeason = {
   season_number: number;
   episodes: number;
   image: string;
+};
+
+export type MediaSeasonDetail = Omit<MediaSeason, 'episodes'> & {
+  episodes: Array<MediaEpisode>;
 };
 
 /** Videos **/

@@ -21,8 +21,6 @@ const MediaCreditsPage: NextPage<MediaCreditsPageProps> = ({ detail }) => {
   const cast = getPropValue(detail, 'credits.cast', []);
   const crew = getPropValue(detail, 'credits.crew', []);
 
-  console.log(detail);
-
   return (
     <>
       <Head>

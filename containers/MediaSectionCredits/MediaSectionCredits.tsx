@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
-import { ElementChildren, ElementHTML, MediaCredit, MediaType } from '@/types';
+import { MediaCredit, MediaType } from '@/types';
 import { Container, Grid, Space } from '@/components/layout';
 import { Heading, Text } from '@/components/typography';
 import { MediaHeading } from '@/containers/MediaHeading';
@@ -8,15 +8,9 @@ import { Image } from '@/components/media';
 import { classes } from '@/utils/helpers';
 import styles from '@/containers/MediaSectionCredits/MediaSectionCredits.module.scss';
 
-export type MediaSectionCreditsProps = typeof defaultProps &
-  ElementHTML &
-  ElementChildren & {
-    cast: Array<MediaCredit>;
-    crew: Array<MediaCredit>;
-  };
-
-const defaultProps = {
-  name: 'MediaSectionCredits'
+export type MediaSectionCreditsProps = {
+  cast: Array<MediaCredit>;
+  crew: Array<MediaCredit>;
 };
 
 const MediaSectionCredits = ({ cast, crew }: MediaSectionCreditsProps) => {
@@ -84,7 +78,5 @@ const MediaSectionCredits = ({ cast, crew }: MediaSectionCreditsProps) => {
     </Container>
   );
 };
-
-MediaSectionCredits.defaultProps = defaultProps;
 
 export default MediaSectionCredits;

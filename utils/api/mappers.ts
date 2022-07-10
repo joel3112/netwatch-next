@@ -11,6 +11,8 @@ import {
   APIMediaImage,
   APIMediaImages,
   APIMediaSeason,
+  APIMediaSeasonDetail,
+  APIMediaEpisode,
   APIMediaVideo,
   APIMediaVideoList,
   APIMediaWatchProvider,
@@ -29,6 +31,8 @@ import {
   MediaImages,
   MediaImageType,
   MediaSeason,
+  MediaSeasonDetail,
+  MediaEpisode,
   MediaType,
   MediaTypeKey,
   MediaVideo,
@@ -102,6 +106,23 @@ export const tvDetailMapper = (media: APITVDetail, locale: string): TVDetail => 
   };
 };
 
+/** Episodes */
+
+export const episodeMapper = (episode: APIMediaEpisode): MediaEpisode => {
+  const { name, overview, still_path, season_number, episode_number, air_date } = episode;
+
+  return {
+    id: episode_number,
+    key: `T${season_number}x${episode_number} - ${name}`,
+    name,
+    description: overview,
+    date: air_date,
+    season_number,
+    episode_number,
+    image: posterUrl(still_path)
+  };
+};
+
 /** Seasons **/
 
 export const seasonMapper = (season: APIMediaSeason): MediaSeason => {
@@ -116,6 +137,21 @@ export const seasonMapper = (season: APIMediaSeason): MediaSeason => {
     date: air_date,
     episodes: episode_count,
     image: posterUrl(poster_path)
+  };
+};
+
+export const seasonDetailMapper = (season: APIMediaSeasonDetail): MediaSeasonDetail => {
+  const { name, overview, poster_path, season_number, air_date } = season;
+
+  return {
+    id: season_number,
+    key: `T${season_number} - ${name}`,
+    season_number,
+    name,
+    description: overview,
+    date: air_date,
+    image: posterUrl(poster_path),
+    episodes: getPropValue(season, 'episodes', []).map(episodeMapper)
   };
 };
 
