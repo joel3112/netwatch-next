@@ -1,6 +1,7 @@
 import { cloneElement, ComponentPropsWithRef, createContext, useContext } from 'react';
 import { PortalProps as PortalPropsMUI } from '@mui/material';
 import { ElementChildren, ElementHTML, FunctionVoid } from '@/types';
+import { useAppContext } from '@/hoc/appWithRef';
 import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
 import { useModal } from '@/hooks/useModal';
 import { classes } from '@/utils/helpers';
@@ -52,9 +53,10 @@ export type PaperModalProps = {
 type PortalPaperProps = ElementHTML & Required<ElementChildren<JSX.Element>>;
 
 const PortalPaper = ({ children: Child }: PortalPaperProps) => {
+  const { appElement } = useAppContext();
   const { opened, onChange } = usePortalContext();
   const modalConfig = {
-    container: document.querySelector('.app'),
+    container: appElement,
     BackdropProps: {
       classes: {
         root: styles.backdrop

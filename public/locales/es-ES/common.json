@@ -42,6 +42,8 @@
   "detail.links.website": "Página web",
   "detail.overview.heading": "Vista general",
   "detail.seasons.heading": "Temporadas",
+  "detail.seasons.selector": "Selecciona temporada",
+  "detail.seasons.selector.all": "Todas las temporadas",
   "detail.episodes.heading": "Episodios",
   "detail.videos.heading": "Vídeos",
   "detail.images.heading": "Imágenes",
