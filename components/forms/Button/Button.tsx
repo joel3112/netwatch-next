@@ -9,6 +9,7 @@ export type ButtonProps = Partial<typeof defaultProps> &
   ElementHTML &
   ElementChildren &
   ElementSkeleton & {
+    id?: string;
     size?: 'small' | 'medium' | 'large' | 'xlarge';
     ariaLabel?: string;
     tooltip?: string;

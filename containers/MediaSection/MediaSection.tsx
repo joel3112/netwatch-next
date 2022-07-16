@@ -5,7 +5,6 @@ import { IoMdExpand } from 'react-icons/io';
 import { useTranslation } from 'next-i18next';
 import {
   Breakpoints,
-  ElementHTML,
   MediaImage,
   MediaImageRatio,
   MediaImageType,
@@ -26,11 +25,10 @@ export type MediaSectionType = 'videos' | 'images';
 
 export type MediaSectionItems = Array<MediaVideo> | { [key: string]: Array<MediaImage> };
 
-export type MediaSectionProps = typeof defaultProps &
-  ElementHTML & {
-    items: MediaSectionItems;
-    section: MediaSectionType;
-  };
+export type MediaSectionProps = {
+  items: MediaSectionItems;
+  section: MediaSectionType;
+};
 
 type ModalData = {
   type: 'video' | Lowercase<keyof typeof MediaImageType> | '';

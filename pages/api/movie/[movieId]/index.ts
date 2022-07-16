@@ -28,8 +28,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       params: {
         ...params,
         append_to_response: 'external_ids,credits,watch/providers,videos,images,recommendations',
-        include_image_language: `${language},null`,
-        include_video_language: `${language},null`
+        ...(language ? { include_image_language: `${language},null` } : {}),
+        ...(language ? { include_video_language: `${language},null` } : {})
       }
     })
     .then((response: AxiosResponse<APIData>) => {

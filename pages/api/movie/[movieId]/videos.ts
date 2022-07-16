@@ -15,7 +15,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     .get(`${process.env.API_URL}/movie/${movieId}/videos`, {
       params: {
         ...params,
-        include_video_language: `${language},null`
+        ...(language ? { include_video_language: `${language},null` } : {})
       }
     })
     .then((response: AxiosResponse<APIData>) => {

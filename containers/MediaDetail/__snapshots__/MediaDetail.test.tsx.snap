@@ -4390,31 +4390,37 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/222121"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/5vV52TSEIhe4ZZLWwv3i7nfv8we.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/5vV52TSEIhe4ZZLWwv3i7nfv8we.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -4424,41 +4430,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Ben Schwartz
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Ben Schwartz
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Sonic the Hedgehog (voice)
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Sonic the Hedgehog (voice)
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -4468,10 +4475,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -4481,37 +4488,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/17605"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/be1bVF7qGX91a6c5WeRPs5pKXln.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/be1bVF7qGX91a6c5WeRPs5pKXln.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -4521,41 +4535,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Idris Elba
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Idris Elba
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Knuckles the Echidna (voice)
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Knuckles the Echidna (voice)
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -4565,10 +4580,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -4578,37 +4593,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/1212864"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/y3Kl5tCX1XD6uyL9wefTRbEXTwj.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/y3Kl5tCX1XD6uyL9wefTRbEXTwj.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -4618,41 +4640,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Colleen O'Shaughnessey
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Colleen O'Shaughnessey
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Miles 'Tails' Prower (voice)
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Miles 'Tails' Prower (voice)
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -4662,10 +4685,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -4675,37 +4698,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/206"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/u0AqTz6Y7GHPCHINS01P7gPvDSb.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/u0AqTz6Y7GHPCHINS01P7gPvDSb.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -4715,41 +4745,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Jim Carrey
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Jim Carrey
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Dr. Ivo Robotnik
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Dr. Ivo Robotnik
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -4759,10 +4790,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -4772,37 +4803,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/11006"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/mk142GG0saiSXALY6V4wWcmPROW.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/mk142GG0saiSXALY6V4wWcmPROW.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -4812,41 +4850,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  James Marsden
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    James Marsden
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Tom Wachowski
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Tom Wachowski
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -4856,10 +4895,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -4869,37 +4908,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/110742"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/6Hb9e7jna7nml58cztAvbKgFAPx.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/6Hb9e7jna7nml58cztAvbKgFAPx.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -4909,41 +4955,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Tika Sumpter
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Tika Sumpter
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Maddie Wachowski
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Maddie Wachowski
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -4953,10 +5000,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -4966,37 +5013,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/1546282"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/x5KdL3QoS4YuozVpfuPsu3MLwwf.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/x5KdL3QoS4YuozVpfuPsu3MLwwf.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -5006,41 +5060,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Natasha Rothwell
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Natasha Rothwell
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Rachel
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Rachel
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -5050,10 +5105,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -5063,37 +5118,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/50266"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/7KgijQtHI0oYpXyAAS35AT20ZHM.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/7KgijQtHI0oYpXyAAS35AT20ZHM.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -5103,41 +5165,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Shemar Moore
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Shemar Moore
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Randall
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Randall
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -5147,10 +5210,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -5160,37 +5223,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/115974"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/yY13PEaVbPoXT5MkitVxTfdAZnU.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/yY13PEaVbPoXT5MkitVxTfdAZnU.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -5200,41 +5270,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Adam Pally
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Adam Pally
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Wade Whipple
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Wade Whipple
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -5244,10 +5315,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -5257,37 +5328,44 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
-            <div
-              class="wrapper cast"
+            <a
+              href="/person/208677"
             >
               <div
-                aria-label="https://image.tmdb.org/t/p/w500/vpF3R2YRCGHseGevmDAhftmOPkO.jpg"
-                class="wrapper"
-                role="img"
+                class="wrapper cast"
               >
-                <span
-                  style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                >
-                  <img
-                    class="image image"
-                    data-nimg="fill"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                  />
-                  <noscript />
-                </span>
                 <div
-                  class="image content"
-                />
-                <style>
-                  
+                  class="image"
+                >
+                  <div
+                    aria-label="https://image.tmdb.org/t/p/w500/vpF3R2YRCGHseGevmDAhftmOPkO.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 80px;
           height: 80px;
@@ -5297,41 +5375,42 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           padding-top: 100%;
         }
       
-                </style>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name sm"
+                    </style>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
                 >
-                  Lee Majdoub
-                  <style>
-                    
+                  <span
+                    class="wrapper name sm"
+                  >
+                    Lee Majdoub
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <span
-                  class="wrapper character sm maxLines"
-                >
-                  detail.credit.character Agent Stone
-                  <style>
-                    
+                    </style>
+                  </span>
+                  <span
+                    class="wrapper character sm maxLines"
+                  >
+                    detail.credit.character Agent Stone
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
           -webkit-line-clamp: 2;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -5341,10 +5420,10 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -5354,8 +5433,9 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
+                </style>
+              </div>
+            </a>
           </div>
         </div>
         <style>
