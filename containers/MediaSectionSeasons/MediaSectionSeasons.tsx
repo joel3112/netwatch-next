@@ -2,10 +2,11 @@ import { useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
+import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { MediaSeason, MediaType, MediaImageRatio, MediaSeasonDetail } from '@/types';
 import { Heading, Text } from '@/components/typography';
 import { Container, Space, Grid } from '@/components/layout';
-import { Select } from '@/components/forms';
+import { Button, Select } from '@/components/forms';
 import { Card } from '@/components/display';
 import { Image } from '@/components/media';
 import { classes, getPropValue } from '@/utils/helpers';
@@ -114,8 +115,14 @@ const SeasonHeading = ({ seasons, season, mediaId }: MediaSectionSeasonsProps) =
     router.push(`/${MediaType.TV}/${mediaId}/seasons/${value}`);
   };
 
+  const hasPrev = useMemo(() => seasons.findIndex((s) => +s.id === +id) > 0, [seasons, id]);
+  const hasNext = useMemo(
+    () => seasons.findIndex((s) => +s.id === +id) < seasons.length - 1,
+    [seasons, id]
+  );
+
   return (
-    <Space justify="between">
+    <Space justify="between" gap={10} wrap>
       <Select
         className={styles.selector}
         value={id}
@@ -127,6 +134,31 @@ const SeasonHeading = ({ seasons, season, mediaId }: MediaSectionSeasonsProps) =
           </Select.Item>
         ))}
       </Select>
+
+      <Space gap={10}>
+        {hasPrev && (
+          <Button
+            secondary
+            rounded
+            size="small"
+            className={classes(styles.navigation, styles.prev)}
+            onClick={() => router.push(`/${MediaType.TV}/${mediaId}/seasons/${+id - 1}`)}>
+            <FiChevronLeft className={styles.icon} />
+            {t('detail.seasons.selector.prev')}
+          </Button>
+        )}
+        {hasNext && (
+          <Button
+            secondary
+            rounded
+            size="small"
+            className={classes(styles.navigation, styles.next)}
+            onClick={() => router.push(`/${MediaType.TV}/${mediaId}/seasons/${+id + 1}`)}>
+            {t('detail.seasons.selector.next')}
+            <FiChevronRight className={styles.icon} />
+          </Button>
+        )}
+      </Space>
     </Space>
   );
 };

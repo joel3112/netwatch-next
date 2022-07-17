@@ -29,6 +29,7 @@
 
   "application.name": "Netwatch",
   "header.action.settings": "Ajustes",
+  "header.action.search": "Búsqueda",
   "settings.aspect.heading": "Aspecto",
   "settings.aspect.option.auto": "Sistema",
   "settings.aspect.option.light": "Claro",
@@ -44,6 +45,8 @@
   "detail.seasons.heading": "Temporadas",
   "detail.seasons.selector": "Selecciona temporada",
   "detail.seasons.selector.all": "Todas las temporadas",
+  "detail.seasons.selector.prev": "Anterior",
+  "detail.seasons.selector.next": "Siguiente",
   "detail.episodes.heading": "Episodios",
   "detail.videos.heading": "Vídeos",
   "detail.images.heading": "Imágenes",

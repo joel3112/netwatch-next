@@ -61,7 +61,7 @@ const MediaSectionCredits = ({ cast, crew }: MediaSectionCreditsProps) => {
                                 {characters
                                   ? `${t('detail.credit.character')} ${characters}`
                                   : job
-                                  ? `${t(job)}`
+                                  ? `${job.join(' / ')}`
                                   : ''}
                               </Text>
                             </Space>

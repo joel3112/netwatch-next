@@ -194,10 +194,23 @@ export const crewMapper = (crew: APIMediaCrew): MediaCredit => {
 
 export const creditsMapper = (credit: APIMediaCredits): MediaCredits => {
   const { cast, crew } = credit;
+  const crewMap = crew.map(crewMapper);
+  let crewList: Array<MediaCredit> = [];
+
+  crewMap.forEach((person: MediaCredit) => {
+    const crewMember = crewList.find((member) => member.id === person.id);
+
+    if (!crewMember) {
+      const jobsCombined = crewMap
+        .filter((member) => member.id === person.id)
+        .flatMap((member: MediaCredit) => member.job);
+      crewList = [...crewList, { ...person, job: jobsCombined.flat() as string[] }];
+    }
+  });
 
   return {
     cast: cast.map(castMapper),
-    crew: crew.map(crewMapper)
+    crew: crewList
   };
 };
 
