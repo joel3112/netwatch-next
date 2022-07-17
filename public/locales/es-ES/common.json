@@ -30,6 +30,7 @@
   "application.name": "Netwatch",
   "header.action.settings": "Ajustes",
   "header.action.search": "Búsqueda",
+  "header.action.search.placeholder": "Busca una película, programa de televisión...",
   "settings.aspect.heading": "Aspecto",
   "settings.aspect.option.auto": "Sistema",
   "settings.aspect.option.light": "Claro",

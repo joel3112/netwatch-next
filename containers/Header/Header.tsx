@@ -1,16 +1,70 @@
+import { useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { IconType } from 'react-icons';
-import { FiSettings } from 'react-icons/fi';
+import { FiSearch, FiSettings } from 'react-icons/fi';
 import { ElementHTML } from '@/types';
 import { useI18n } from '@/hooks/useI18n';
+import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { Settings } from '@/containers/Settings';
+import { MediaAutocomplete } from '@/containers/MediaAutocomplete';
 import { Space } from '@/components/layout';
-import { Button } from '@/components/forms';
+import { Button, Input } from '@/components/forms';
 import { Heading } from '@/components/typography';
-import { Drawer, Portal } from '@/components/overlay';
+import { Drawer, Portal, Modal } from '@/components/overlay';
 import { classes } from '@/utils/helpers';
 import styles from '@/containers/Header/Header.module.scss';
+
+/* -------------------------------------------------------------------------- */
+/** HeaderSearch (child component) **/
+/* -------------------------------------------------------------------------- */
+
+const HeaderSearch = () => {
+  const { t } = useI18n();
+  const { isMobile } = useBreakpoint();
+  const [query, setQuery] = useState<string>('');
+  const searchRef = useRef<HTMLInputElement>(null);
+
+  const handleOpen = () => {
+    setTimeout(() => {
+      searchRef.current?.focus();
+    }, 100);
+  };
+
+  return (
+    <Space align="center" gap={15} className={styles.headerActions}>
+      <Portal>
+        <Portal.Handler>
+          {!isMobile ? (
+            <Button outline className={classes(styles.headerAction, styles.search)}>
+              <FiSearch />
+              <span>Search</span>
+            </Button>
+          ) : (
+            <Button outline tooltip={t('header.action.search')} className={styles.headerAction}>
+              <FiSearch />
+            </Button>
+          )}
+        </Portal.Handler>
+        <Portal.Paper>
+          <Modal className={styles.modalSearch} onOpen={handleOpen}>
+            <Space direction="column">
+              <Input
+                ref={searchRef}
+                name="search"
+                className={styles.inputSearch}
+                icon={FiSearch}
+                placeholder={t('header.action.search.placeholder')}
+                onChange={setQuery}
+              />
+              <MediaAutocomplete query={query} />
+            </Space>
+          </Modal>
+        </Portal.Paper>
+      </Portal>
+    </Space>
+  );
+};
 
 /* -------------------------------------------------------------------------- */
 /** HeaderActions (child component) **/
@@ -73,6 +127,7 @@ const Header = ({}: HeaderProps) => {
       </Link>
 
       <Space align="center" gap={10}>
+        <HeaderSearch />
         <HeaderActions />
       </Space>
     </Space>

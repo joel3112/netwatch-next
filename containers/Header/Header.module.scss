@@ -25,6 +25,34 @@
 
   border-color: var(--color-border) !important;
   min-width: var(--size-header-action);
-  font-size: 20px !important;
+  font-size: 1.4rem !important;
   padding: 0 !important;
+
+  &:hover {
+    border-color: var(--color-primary) !important;
+  }
+
+  &.search {
+    width: var(--size-search-input) !important;
+    justify-content: flex-start;
+    padding: 0 15px !important;
+
+    span {
+      font-size: rem(15px) !important;
+      color: var(--color-text);
+    }
+  }
+}
+
+/** HeaderSearch (child component) **/
+
+.modalSearch {
+  top: 300px !important;
+}
+
+.inputSearch {
+  font-size: rem(17px);
+  font-weight: 500;
+  padding-left: 30px !important;
+  height: 60px;
 }
