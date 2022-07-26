@@ -73,8 +73,8 @@ export const mediaMapper = (media: APIMediaData, locale: string): MediaData => {
     image: posterUrl(poster_path),
     backdrop: backdropUrl(backdrop_path),
     popularity,
-    vote_count: +vote_count.toFixed(1),
-    vote_average: +vote_average.toFixed(1),
+    vote_count: vote_count ? +vote_count.toFixed(1) : 0,
+    vote_average: vote_average ? +vote_average.toFixed(1) : 0,
     ...namesFromMedia(media),
     ...dateFromMedia(media, locale)
   };
@@ -194,6 +194,8 @@ export const crewMapper = (crew: APIMediaCrew): MediaCredit => {
 
 export const creditsMapper = (credit: APIMediaCredits): MediaCredits => {
   const { cast, crew } = credit;
+
+  // Crew
   const crewMap = crew.map(crewMapper);
   let crewList: Array<MediaCredit> = [];
 
@@ -208,8 +210,23 @@ export const creditsMapper = (credit: APIMediaCredits): MediaCredits => {
     }
   });
 
+  // Cast
+  const castMap = cast.map(castMapper);
+  let castList: Array<MediaCredit> = [];
+
+  castMap.forEach((person: MediaCredit) => {
+    const castMember = castList.find((member) => member.id === person.id);
+
+    if (!castMember) {
+      const charactersCombined = castMap
+        .filter((member) => member.id === person.id)
+        .flatMap((member: MediaCredit) => member.characters);
+      castList = [...castList, { ...person, characters: charactersCombined.flat().join(' / ') }];
+    }
+  });
+
   return {
-    cast: cast.map(castMapper),
+    cast: castList,
     crew: crewList
   };
 };

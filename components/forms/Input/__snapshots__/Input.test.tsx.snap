@@ -6,10 +6,10 @@ exports[`Tests Input component renders component correctly 1`] = `
     class="wrapper wrapper"
   >
     <input
-      aria-label=""
+      aria-label="name"
       autocomplete="off"
       class="input"
-      name=""
+      name="name"
       value=""
     />
     <style>

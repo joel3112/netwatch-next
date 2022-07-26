@@ -4,7 +4,7 @@
   border: 1px solid rgb(var(--rgb-color-border-portal) / 90%) !important;
   border-radius: var(--border-radius-portal) !important;
   background-color: var(--background-color-primary) !important;
-  display: block;
+  display: flex;
   width: 850px;
   max-width: 95vw;
   min-height: 200px;
@@ -25,6 +25,6 @@
   background-color: var(--background-color-primary) !important;
   border-radius: var(--border-radius-portal) !important;
   overflow: hidden;
-  height: fit-content;
+  height: 100%;
   width: 100%;
 }

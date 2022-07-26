@@ -39,7 +39,6 @@ exports[`Tests Closable component renders component correctly 1`] = `
         />
       </svg>
     </button>
-    <main />
     <style>
       
         .wrapper {

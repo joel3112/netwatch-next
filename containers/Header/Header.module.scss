@@ -47,12 +47,6 @@
 /** HeaderSearch (child component) **/
 
 .modalSearch {
-  top: 300px !important;
-}
-
-.inputSearch {
-  font-size: rem(17px);
-  font-weight: 500;
-  padding-left: 30px !important;
-  height: 60px;
+  top: var(--top-search-modal);
+  transform: translateX(-50%);
 }

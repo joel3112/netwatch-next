@@ -28,7 +28,7 @@ const Closable = ({ className, children, heading, outside, onClose }: ClosablePr
         <FiX />
       </Button>
 
-      <main>{children}</main>
+      {children}
     </Space>
   );
 };

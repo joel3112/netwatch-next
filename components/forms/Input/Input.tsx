@@ -9,14 +9,30 @@ import styles from '@/components/forms/Input/Input.module.scss';
 export type InputProps = typeof defaultProps &
   ElementHTML & {
     name: string;
+    id?: string;
     value?: string;
-    placeholder?: string;
-    clearable?: boolean;
     readOnly?: boolean;
     disabled?: boolean;
     icon?: IconType;
     hotKey?: string;
-    onChange?: (value: string) => void;
+    autoFocus?: boolean;
+    placeholder?: string;
+    autoComplete?: 'on' | 'off';
+    autoCorrect?: 'on' | 'off';
+    autoCapitalize?: 'on' | 'off';
+    enterKeyHint?: 'go' | 'search';
+    spellCheck?: 'false';
+    maxLength?: number;
+    type?: string;
+    'aria-autocomplete'?: 'none' | 'inline' | 'list' | 'both';
+    'aria-activedescendant'?: string | undefined;
+    'aria-controls'?: string | undefined;
+    'aria-labelledby'?: string;
+    onChange?: (event: ChangeEvent<HTMLInputElement>) => void;
+    onKeyDown?: (event: KeyboardEvent) => void;
+    onFocus?: (event: ChangeEvent<HTMLInputElement>) => void;
+    onBlur?: () => void;
+    onClick?: (event: MouseEvent) => void;
   };
 
 const defaultProps = {
@@ -25,7 +41,7 @@ const defaultProps = {
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   (
-    { className, name, value, placeholder, readOnly, hotKey, disabled, icon: Icon, onChange },
+    { className, type, name, value, placeholder, readOnly, hotKey, disabled, icon: Icon, onChange },
     ref
   ) => {
     const [inputValue, setInputValue] = useState<string>(value || '');
@@ -33,10 +49,8 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
       const { value } = event.target;
 
-      console.log('handleChange', value);
-
       setInputValue(value);
-      onChange && onChange(value);
+      onChange && onChange(event);
     };
 
     const handleClickIcon = () => {
@@ -51,7 +65,8 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         className={classes(
           disabled && styles.disabled,
           inputValue && styles.hasValue,
-          styles.wrapper
+          styles.wrapper,
+          className
         )}>
         {Icon && (
           <Button outline ariaLabel="icon" className={styles.icon} onClick={handleClickIcon}>
@@ -61,8 +76,9 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
 
         <input
           ref={ref}
-          className={classes(styles.input, className)}
+          className={classes(styles.input)}
           name={name}
+          type={type}
           aria-label={name}
           placeholder={placeholder}
           autoComplete="off"
