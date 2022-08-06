@@ -75,7 +75,9 @@ const Select = ({ className, children, value, placeholder, onChange }: SelectPro
 
   useEffect(() => {
     if (children) {
-      setSelected(isUniqueItem ? getPropValue(children, '[0].props.value') : value || '');
+      setSelected(
+        isUniqueItem ? getPropValue(children, '[0].props.value') : value !== undefined ? value : ''
+      );
     }
   }, [children, isUniqueItem, value]);
 

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Box, Fade } from '@mui/material';
 import ModalMUI from '@mui/material/Modal';
 import { ElementChildren, ElementHTML, FunctionVoid } from '@/types';
@@ -13,14 +14,29 @@ export type ModalProps = typeof defaultProps &
     heading?: string;
     opened?: boolean;
     onChange?: FunctionVoid<boolean>;
+    onOpen?: FunctionVoid<void>;
     modalConfig?: PaperModalProps;
   };
 
 const defaultProps = {};
 
-const Modal = ({ className, children, heading, opened, onChange, modalConfig }: ModalProps) => {
+const Modal = ({
+  className,
+  children,
+  heading,
+  opened,
+  onChange,
+  onOpen,
+  modalConfig
+}: ModalProps) => {
   const { isOpened, handleChange } = useModal(opened, onChange);
   const { container, BackdropProps } = modalConfig || {};
+
+  useEffect(() => {
+    if (isOpened) {
+      onOpen && onOpen();
+    }
+  }, [isOpened, onOpen]);
 
   return (
     <ModalMUI

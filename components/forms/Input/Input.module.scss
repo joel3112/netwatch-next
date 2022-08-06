@@ -1,0 +1,77 @@
+.wrapper {
+  position: relative;
+  min-height: 33px;
+  width: 100%;
+  height: inherit;
+  padding: 0 6px;
+  overflow: hidden;
+  background-color: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-button);
+}
+
+.icon {
+  @include absolute(top 50% left -1px);
+  @include font($size: 20px, $color: var(--color-text));
+  @include box(var(--size-header-action), var(--size-header-action) !important);
+
+  border: none !important;
+  background-color: transparent;
+  color: var(--color-primary);
+  cursor: pointer;
+  transform: translateY(-50%);
+  padding: 0 !important;
+  margin-top: -1px;
+
+  .disabled & {
+    opacity: 0.3;
+  }
+}
+
+.input {
+  @include font($size: 15px, $color: var(--color-text), $weight: 400);
+
+  font-family: var(--font-text);
+  font-size: inherit;
+  background-color: transparent;
+  padding: 0 20px 0 4px;
+  border: none;
+  outline: none;
+  width: 100%;
+  min-height: 100%;
+
+  .icon ~ & {
+    padding-left: 25px;
+  }
+
+  .disabled & {
+    color: var(--color-border) !important;
+  }
+
+  .clear ~ &[value]:not([value='']),
+  .clear ~ &:focus {
+    padding-right: 65px;
+  }
+
+  &::placeholder {
+    opacity: 0.6;
+    color: currentcolor;
+  }
+
+  &::-webkit-search-cancel-button {
+    appearance: none;
+    -webkit-user-modify: read-write !important;
+    content: '';
+  }
+}
+
+.hotKey {
+  @include font($size: 13px, $color: var(--color-text), $weight: 600);
+
+  border: 1px solid var(--color-border);
+  background-color: var(--background-color-primary);
+  pointer-events: none;
+  border-radius: 5px;
+  height: 22px;
+  padding: 5px;
+}

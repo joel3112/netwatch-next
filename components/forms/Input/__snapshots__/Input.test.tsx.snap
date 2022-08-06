@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests Input component renders component correctly 1`] = `
+<div>
+  <div
+    class="wrapper wrapper"
+  >
+    <input
+      aria-label="name"
+      autocomplete="off"
+      class="input"
+      name="name"
+      value=""
+    />
+    <style>
+      
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center;
+        }
+      
+    </style>
+  </div>
+</div>
+`;

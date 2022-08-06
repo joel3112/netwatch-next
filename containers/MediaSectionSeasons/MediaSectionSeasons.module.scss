@@ -42,3 +42,19 @@
   font-size: rem(24px);
   padding: 8px !important;
 }
+
+.navigation {
+  padding: 8px !important;
+
+  &.prev {
+    padding-right: 15px !important;
+  }
+
+  &.next {
+    padding-left: 15px !important;
+  }
+
+  .icon {
+    font-size: rem(20px);
+  }
+}

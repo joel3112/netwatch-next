@@ -4,8 +4,9 @@ $img-logo-dark: url('/assets/images/logo-dark.png');
 
 $size-header: 58px;
 $size-max: 1300px;
-$size-header-action: 35px;
+$size-header-action: 38px;
 $size-search-input: 200px;
+$top-search-modal: 15vh;
 
 $padding-aside: 50px;
 $padding-aside-overlay: 20px;
@@ -57,6 +58,7 @@ $background-skeleton-dark: 40 44 45 / 75%;
 // Breakpoint xs
 $size-header-xs: 50px;
 $padding-aside-xs: 20px;
+$size-header-action-xs: 35px;
 
 // Breakpoint sm
 $size-header-sm: 50px;
