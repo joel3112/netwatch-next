@@ -3,7 +3,7 @@
 .card {
   width: auto !important;
 
-  .wrapper:not(.xs) &.condensed::before {
+  &.condensed::before {
     @include box(100%, 100%);
     @include absolute(top 0 left 0);
 
@@ -11,6 +11,10 @@
     display: block;
     z-index: 5;
     background-image: linear-gradient(60deg, rgb(20 20 20 / 85%), transparent 1000px);
+
+    .xs & {
+      background-image: linear-gradient(60deg, rgb(20 20 20 / 85%), transparent 300px);
+    }
   }
 }
 
@@ -31,6 +35,12 @@
   color: var(--color-button-text);
   z-index: 5;
   max-width: 50%;
+
+  .xs & {
+    top: auto;
+    bottom: 30px;
+    left: 2em;
+  }
 }
 
 .title {

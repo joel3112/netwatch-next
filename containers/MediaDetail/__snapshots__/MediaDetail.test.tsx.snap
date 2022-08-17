@@ -62,6 +62,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                 style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
               >
                 <img
+                  alt="https://image.tmdb.org/t/p/w500/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg"
                   class="image image"
                   data-nimg="fill"
                   decoding="async"
@@ -140,6 +141,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                 style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
               >
                 <img
+                  alt="https://image.tmdb.org/t/p/w1280/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg"
                   class="image image"
                   data-nimg="fill"
                   decoding="async"
@@ -822,6 +824,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -930,6 +933,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1038,6 +1042,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1146,6 +1151,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1254,6 +1260,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1362,6 +1369,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1470,6 +1478,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1578,6 +1587,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1686,6 +1696,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1794,6 +1805,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -1902,6 +1914,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2010,6 +2023,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2118,6 +2132,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2226,6 +2241,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2334,6 +2350,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2442,6 +2459,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2550,6 +2568,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2658,6 +2677,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2888,6 +2908,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -2988,6 +3009,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3088,6 +3110,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3188,6 +3211,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3288,6 +3312,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3388,6 +3413,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3488,6 +3514,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3588,6 +3615,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3688,6 +3716,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3788,6 +3817,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3888,6 +3918,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -3988,6 +4019,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -4088,6 +4120,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -4188,6 +4221,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="image"
                         class="image image image"
                         data-nimg="fill"
                         decoding="async"
@@ -4408,6 +4442,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/5vV52TSEIhe4ZZLWwv3i7nfv8we.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -4513,6 +4548,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/be1bVF7qGX91a6c5WeRPs5pKXln.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -4618,6 +4654,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/y3Kl5tCX1XD6uyL9wefTRbEXTwj.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -4723,6 +4760,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/u0AqTz6Y7GHPCHINS01P7gPvDSb.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -4828,6 +4866,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/mk142GG0saiSXALY6V4wWcmPROW.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -4933,6 +4972,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/6Hb9e7jna7nml58cztAvbKgFAPx.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -5038,6 +5078,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/x5KdL3QoS4YuozVpfuPsu3MLwwf.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -5143,6 +5184,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/7KgijQtHI0oYpXyAAS35AT20ZHM.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -5248,6 +5290,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/yY13PEaVbPoXT5MkitVxTfdAZnU.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"
@@ -5353,6 +5396,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                     >
                       <img
+                        alt="https://image.tmdb.org/t/p/w500/vpF3R2YRCGHseGevmDAhftmOPkO.jpg"
                         class="image"
                         data-nimg="fill"
                         decoding="async"

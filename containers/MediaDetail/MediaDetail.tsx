@@ -34,7 +34,7 @@ import { Heading, Text } from '@/components/typography';
 import { Image, Video } from '@/components/media';
 import { Button } from '@/components/forms';
 import { Card, Carousel } from '@/components/display';
-import { Modal, Portal } from '@/components/overlay';
+import { Modal, Portal, Tooltip } from '@/components/overlay';
 import { videoTrailerId } from '@/utils/api';
 import { classes, getBreakpointConfig, getPropValue } from '@/utils/helpers';
 import styles from '@/containers/MediaDetail/MediaDetail.module.scss';
@@ -332,15 +332,22 @@ const DetailData = () => {
         {!providers.isEmpty() && (
           <DataItem heading={t('detail.data.available')}>
             <Space gap={10} className={styles.providers}>
-              {providers.map(({ name, image }) => (
-                <img
-                  className={styles.provider}
-                  key={name}
-                  alt={name}
-                  src={image}
-                  width={45}
-                  height={45}
-                />
+              {providers.map(({ name, image, id }) => (
+                <Link
+                  href={{ pathname: '/watch/providers/[providerId]', query: { providerId: id } }}
+                  key={name}>
+                  <a>
+                    <Tooltip text={name}>
+                      <img
+                        className={styles.provider}
+                        alt={name}
+                        src={image}
+                        width={45}
+                        height={45}
+                      />
+                    </Tooltip>
+                  </a>
+                </Link>
               ))}
             </Space>
           </DataItem>

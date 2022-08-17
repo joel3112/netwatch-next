@@ -48,23 +48,21 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
 };
 
 export const getServerSideProps = async ({ locale, req }: GetServerSidePropsContext) => {
-  const trendingWeek = await axios.get<APIMediaDataList<APIMediaData>>(
-    `${nextAPIBaseURL(req)}/api/trending/all/week`
-  );
-  const trendingDay = await axios.get<APIMediaDataList<APIMediaData>>(
-    `${nextAPIBaseURL(req)}/api/trending/all/day`
-  );
-  const movies = await axios.get<APIMediaDataList<APIMediaData>>(
-    `${nextAPIBaseURL(req)}/api/movie`
-  );
-  const tvs = await axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/tv`);
+  const requests = [
+    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/trending/all/week`),
+    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/trending/all/day`),
+    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/movie`),
+    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/tv`)
+  ];
+  const responses = await Promise.all(requests);
+  const [trendingWeek, trendingDay, movies, tvs] = responses.map(({ data }) => data);
 
   return {
     props: {
-      trendingWeek: trendingWeek.data.results,
-      trendingDay: trendingDay.data.results,
-      movies: movies.data.results,
-      tvs: tvs.data.results,
+      trendingWeek: trendingWeek.results,
+      trendingDay: trendingDay.results,
+      movies: movies.results,
+      tvs: tvs.results,
       ...(await serverSideTranslations(String(locale), ['common', 'home']))
     }
   };

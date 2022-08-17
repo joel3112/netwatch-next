@@ -1,5 +1,4 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { BiSearch } from 'react-icons/bi';
 import Input from '@/components/forms/Input/Input';
 
 const name = 'name';

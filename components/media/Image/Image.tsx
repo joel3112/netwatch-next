@@ -51,6 +51,7 @@ const Image = ({
     <div role="img" aria-label={alt || 'image'} className={classes(styles.wrapper)}>
       {!skeleton && src && (
         <ImageNext
+          alt={alt}
           src={src}
           layout="fill"
           objectFit="cover"

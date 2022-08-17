@@ -11,6 +11,7 @@ exports[`Tests Image component renders component correctly 1`] = `
       style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
     >
       <img
+        alt="img"
         class="image"
         data-nimg="fill"
         decoding="async"
