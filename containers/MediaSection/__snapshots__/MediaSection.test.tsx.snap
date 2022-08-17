@@ -52,6 +52,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/9djAMds545g/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -156,6 +157,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/RHSU0SJv33A/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -260,6 +262,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/YkZ1aAPApAc/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -364,6 +367,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/UXWwYfvJ7BA/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -468,6 +472,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/Xr-VlbaJvcA/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -572,6 +577,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/LF64NG_NJQw/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -676,6 +682,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/qdJfgKGgHP4/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -780,6 +787,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/47r8FXYZWNU/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -884,6 +892,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/F5uv5XiNHAs/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -988,6 +997,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/HCzqO6SPgnk/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -1092,6 +1102,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/sEOrfwBCxYI/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -1196,6 +1207,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/7NVMZWV_vTg/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -1300,6 +1312,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/uVj6vs-738o/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -1404,6 +1417,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/9-PbLuusH44/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -1508,6 +1522,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/vxdzRz6gUD4/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -1612,6 +1627,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/S8qRuGm2E_I/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -1716,6 +1732,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/G5kzUpWAusI/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"
@@ -1820,6 +1837,7 @@ exports[`Tests MediaSection component renders component correctly 1`] = `
                   style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                 >
                   <img
+                    alt="https://img.youtube.com/vi/sQuoffM1y-w/0.jpg"
                     class="image image cardImage"
                     data-nimg="fill"
                     decoding="async"

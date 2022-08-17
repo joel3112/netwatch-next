@@ -39,6 +39,7 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
                     style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                   >
                     <img
+                      alt="https://image.tmdb.org/t/p/w500/cCXG81dSCPXcqYm6gTHlwtXocti.jpg"
                       class="image"
                       data-nimg="fill"
                       decoding="async"
@@ -187,6 +188,7 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
                     style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                   >
                     <img
+                      alt="https://image.tmdb.org/t/p/w500/g3HjUeFCwKOfBxlM97lv016mnol.jpg"
                       class="image"
                       data-nimg="fill"
                       decoding="async"
@@ -336,6 +338,7 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
                     style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                   >
                     <img
+                      alt="https://image.tmdb.org/t/p/w500/rcSXlC1H8Gj7GF6juzeiFhPr9Xv.jpg"
                       class="image"
                       data-nimg="fill"
                       decoding="async"
@@ -485,6 +488,7 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
                     style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
                   >
                     <img
+                      alt="https://image.tmdb.org/t/p/w500/ut4PhX7OP2l2oJhrIUYWnt9pnQU.jpg"
                       class="image"
                       data-nimg="fill"
                       decoding="async"

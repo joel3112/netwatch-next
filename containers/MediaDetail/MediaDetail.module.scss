@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 /** Container (main component) **/
 
 .wrapper {
@@ -25,33 +27,33 @@ $image-width: 250px;
 .images {
   grid-area: images;
   display: flex;
-}
 
-.image {
-  width: $image-width;
+  .image {
+    width: $image-width;
 
-  .md & {
-    $image-width: 220px;
+    .md & {
+      $image-width: 220px;
+    }
+
+    .sm & {
+      $image-width: 200px;
+    }
+
+    .xs & {
+      display: none;
+    }
   }
 
-  .sm & {
-    $image-width: 200px;
-  }
+  .backdrop {
+    width: auto;
+    flex-grow: 1;
 
-  .xs & {
-    display: none;
-  }
-}
-
-.backdrop {
-  width: auto;
-  flex-grow: 1;
-
-  .xs & {
-    min-width: calc(100% + #{var(--padding-aside)} + #{var(--padding-aside)});
-    margin-left: calc(-1 * #{var(--padding-aside)});
-    margin-top: -45px;
-    height: 250px;
+    .xs & {
+      min-width: calc(100% + #{var(--padding-aside)} + #{var(--padding-aside)});
+      margin-left: calc(-1 * #{var(--padding-aside)});
+      margin-top: -45px;
+      height: 250px;
+    }
   }
 }
 
@@ -164,7 +166,11 @@ $image-width: 250px;
   border-radius: 5px;
 
   .providers & {
-    border: 1px solid rgb(var(--rgb-color-border-portal) / 90%);
+    padding: 0 !important;
+
+    img {
+      border: 1px solid rgb(var(--rgb-color-border-portal) / 90%);
+    }
   }
 }
 

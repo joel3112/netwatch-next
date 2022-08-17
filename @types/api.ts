@@ -1,10 +1,12 @@
+import { EmptyObject } from '@/types';
+
 export type APIResponseError = {
   success: false;
   status_code: number;
   status_message: string;
 };
 
-export type APIResponseListSuccess<T, U> = U & { results: Array<T> };
+export type APIResponseListSuccess<T, U = EmptyObject> = U & { results: Array<T> };
 
 /** Media **/
 
