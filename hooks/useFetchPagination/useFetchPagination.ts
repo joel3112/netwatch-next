@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { KeyedMutator } from 'swr';
 import useSWRInfinite, { SWRInfiniteFetcher, SWRInfiniteKeyLoader } from 'swr/infinite';
 import { DataResponseError, MediaDataList } from '@/types';
+import { useI18n } from '@/hooks/useI18n';
 
 export type UseFetchPagination<T> = {
   size: number;
@@ -29,9 +30,10 @@ export const useFetchPagination = <T>(
   itemsPerView?: number,
   placeholder?: T
 ): UseFetchPagination<T> => {
+  const { locale } = useI18n();
   const getKey: SWRInfiniteKeyLoader = (index, previousPageData) => {
     if (previousPageData && !previousPageData.length) return null;
-    return `${path}?page=${index + 1}`;
+    return `${path}?page=${index + 1}&language=${locale}`;
   };
 
   const [limit, setLimit] = useState<number>(1);

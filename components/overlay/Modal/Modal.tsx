@@ -46,7 +46,7 @@ const Modal = ({
       closeAfterTransition
       container={container}
       BackdropProps={BackdropProps as PaperBackdropProps}>
-      <Fade in={isOpened}>
+      <Fade in={isOpened} style={{ outline: 'none' }}>
         <Box className={classes(styles.wrapper, className)}>
           <Closable
             outside
