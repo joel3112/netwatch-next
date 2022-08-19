@@ -65,5 +65,15 @@
   "detail.images.logos.heading": "Logos",
   "detail.seasons.posters.heading": "Pósteres",
   "detail.credits.cast.heading": "Actores",
-  "detail.credits.crew.heading": "Directores/Personal"
+  "detail.credits.crew.heading": "Directores/Personal",
+  "person.place.of.birth": "Lugar de nacimiento",
+  "person.known.by": "Conocido por",
+  "person.also.known": "También conocido por",
+  "person.age": "años",
+  "person.gender": "Sexo",
+  "person.gender.female": "Femenino",
+  "person.gender.male": "Masculino",
+  "person.biography": "Biografía",
+  "person.biography.empty": "No hay biografía disponible para esta persona.",
+  "detail.empty": "Por determinar"
 }

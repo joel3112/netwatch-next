@@ -70,3 +70,7 @@ Array.prototype.split = function (criteria) {
   }
   return this;
 };
+
+Array.prototype.sortObjectsBy = function (key, descending = false) {
+  return _.orderBy(this, key, descending ? 'desc' : 'asc');
+};

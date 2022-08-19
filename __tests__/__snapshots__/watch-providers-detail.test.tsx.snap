@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests watch provider detail page renders page correctly 1`] = `
+<div>
+  <div
+    class="wrapper hasMargins"
+  >
+    <div
+      class="wrapper"
+      style="margin-top: 30px;"
+    >
+      <div
+        class="wrapper"
+      >
+        <div
+          aria-label="image"
+          class="wrapper"
+          role="img"
+        >
+          <div
+            class="content"
+          />
+          <style>
+            
+        .wrapper {
+          width: 50px;
+          height: 50px;
+          min-width: 50px;
+        }
+        .wrapper::before {
+          padding-top: 100%;
+        }
+      
+          </style>
+        </div>
+        <h2
+          class="wrapper"
+        />
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 13px;
+          
+          align-items: center;
+        }
+      
+        </style>
+      </div>
+      <div
+        class="wrapper md"
+      >
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
+        >
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          />
+        </div>
+      </div>
+      <div
+        class="wrapper md"
+      >
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal wrapper md carousel"
+          role="list"
+          style="width: calc(100% + 2 * 1px); margin-left: -1px;"
+        >
+          <div
+            class="swiper-wrapper"
+            style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          />
+        </div>
+      </div>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+      </style>
+    </div>
+  </div>
+</div>
+`;

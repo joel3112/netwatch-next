@@ -18,14 +18,14 @@ import { nextAPIBaseURL } from '@/utils/api';
 import { Image } from '@/components/media';
 
 type WatchProvidersPageProps = {
-  detail: MediaWatchProvider;
-  movies: Array<MediaData>;
-  tvs: Array<MediaData>;
+  detail?: MediaWatchProvider;
+  movies?: Array<MediaData>;
+  tvs?: Array<MediaData>;
 };
 
 const WatchProvidersPage: NextPage<WatchProvidersPageProps> = ({ detail, movies, tvs }) => {
   const { t } = useI18n('home');
-  const { image, name } = detail;
+  const { image, name } = detail || {};
 
   return (
     <>
@@ -36,7 +36,7 @@ const WatchProvidersPage: NextPage<WatchProvidersPageProps> = ({ detail, movies,
       <Container margins>
         <Space direction="column" gap={20} style={{ marginTop: 30 }}>
           <Space align="center" gap={13}>
-            <Image src={image} alt={name} width={50} ratio={1} />
+            <Image src={image || ''} alt={name} width={50} ratio={1} />
             <Heading level={2}>{name}</Heading>
           </Space>
 

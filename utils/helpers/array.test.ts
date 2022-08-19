@@ -131,4 +131,57 @@ describe('Array helper methods', () => {
       expect(arr.split()).toStrictEqual(arr);
     });
   });
+
+  describe('sortObjectsBy', () => {
+    test('returns array object sorted descending', () => {
+      expect(
+        [
+          {
+            name: 'b'
+          },
+          {
+            name: 'c'
+          },
+          {
+            name: 'a'
+          }
+        ].sortObjectsBy('name', true)
+      ).toStrictEqual([
+        {
+          name: 'c'
+        },
+        {
+          name: 'b'
+        },
+        {
+          name: 'a'
+        }
+      ]);
+    });
+  });
+  test('returns array object sorted ascending', () => {
+    expect(
+      [
+        {
+          name: 'b'
+        },
+        {
+          name: 'c'
+        },
+        {
+          name: 'a'
+        }
+      ].sortObjectsBy('name')
+    ).toStrictEqual([
+      {
+        name: 'a'
+      },
+      {
+        name: 'b'
+      },
+      {
+        name: 'c'
+      }
+    ]);
+  });
 });

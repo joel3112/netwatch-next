@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tests tv detail page renders page correctly 1`] = `
+exports[`Tests person detail page renders page correctly 1`] = `
 <div>
   <div
     class="wrapper hasMargins"

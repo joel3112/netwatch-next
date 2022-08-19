@@ -1,0 +1,133 @@
+/* stylelint-disable no-descending-specificity */
+
+/** Container (main component) **/
+
+.wrapper {
+  display: block;
+  margin-top: 20px;
+}
+
+.header {
+  margin-bottom: 30px;
+
+  .xs & {
+    margin-bottom: 0;
+    flex-direction: column-reverse !important;
+  }
+}
+
+.posterModal {
+  width: 350px !important;
+}
+
+.death {
+  font-size: 28px;
+}
+
+/** DetailImage (child component) **/
+
+$image-width: 250px;
+
+.images {
+  grid-area: images;
+  display: flex;
+
+  .image {
+    width: $image-width;
+  }
+}
+
+/** DetailCarousel (child component) **/
+
+.card {
+  width: auto !important;
+
+  .image {
+    width: 100%;
+  }
+}
+
+.carousel .card {
+  .actions {
+    @include absolute(top 0 left 0);
+    @include box(100%, 100%);
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0;
+    opacity: 0.4;
+  }
+
+  .image {
+    width: 100%;
+    cursor: pointer;
+
+    &:hover .actions {
+      opacity: 1;
+
+      .action {
+        background-color: rgb(var(--rgb-color-white) / 40%) !important;
+      }
+    }
+  }
+}
+
+/** DetailBody (child component) **/
+
+.body {
+  display: grid;
+  grid-gap: 25px 100px;
+  grid-template-columns: calc(100% - #{$image-width} - 170px) calc(#{$image-width} + 70px);
+  grid-template-areas:
+    'overview data'
+    'known data'
+    'images data';
+
+  .xs &,
+  .sm & {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      'data'
+      'overview'
+      'known'
+      'images';
+  }
+
+  .md & {
+    grid-gap: 25px 50px;
+    grid-template-columns: calc(100% - #{$image-width} - 70px) calc(#{$image-width} + 20px);
+  }
+}
+
+/** DetailExternalIds (child component) **/
+
+.externalIds {
+  margin-top: 15px;
+}
+
+.externalId {
+  font-size: rem(18px);
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0;
+}
+
+/** DetailData (child component) **/
+
+.data {
+  grid-area: data;
+  margin-top: 15px;
+}
+
+/** DetailKnown (child component) **/
+
+.known {
+  grid-area: known;
+}
+
+/** DetailOverview (child component) **/
+
+.overview {
+  grid-area: overview;
+}

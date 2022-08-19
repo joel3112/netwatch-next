@@ -223,3 +223,31 @@ export type MediaImage = {
 export type MediaImages = {
   [key in 'logos' | 'posters' | 'backdrops']: Array<MediaImage>;
 };
+
+/** Person **/
+
+export type PersonCredits<T = MovieData | TVData> = {
+  cast: Array<T>;
+  crew: Array<T>;
+};
+
+export type PersonDetail = MediaCommonData & {
+  also_known_as?: Array<string>;
+  biography: string | null;
+  age: number | null;
+  birthday: string | null;
+  deathday: string | null;
+  gender: Lowercase<MediaCreditGender>;
+  homepage: string | null;
+  image: string;
+  popularity?: number;
+  place_of_birth: string | null;
+  id: number;
+  images: Array<MediaImage>;
+  tagged_images?: Array<MediaImage>;
+  movie_credits?: PersonCredits<MovieData>;
+  combined_credits?: Array<MediaData>;
+  tv_credits?: PersonCredits<TVData>;
+  external_ids?: MediaExternalIds;
+  imdb_id?: string;
+};
