@@ -19,6 +19,8 @@ import {
   APIMediaWatchProviderList,
   APIMovieDetail,
   APITVDetail,
+  APIPersonDetail,
+  APIPersonCredits,
   MediaCredit,
   MediaCreditRole,
   MediaCredits,
@@ -40,7 +42,9 @@ import {
   MediaWatchProvider,
   MediaWatchProviders,
   MovieDetail,
-  TVDetail
+  TVDetail,
+  PersonCredits,
+  PersonDetail
 } from '@/types';
 import {
   backdropUrl,
@@ -52,7 +56,7 @@ import {
   profileUrl,
   typeFromMedia
 } from '@/utils/api';
-import { getPropValue } from '@/utils/helpers';
+import { formatDate, getPropValue, yearsFromNow } from '@/utils/helpers';
 
 export const mediaMapper = (media: APIMediaData, locale: string): MediaData => {
   const {
@@ -366,4 +370,63 @@ export const watchProvidersMapper = (
   const providers = getPropValue(results, `${locale}.flatrate`, []);
 
   return { watch_link: link, providers: providers.map(watchProviderMapper) };
+};
+
+/** Person **/
+
+export const personCreditsMapper = (
+  credits: APIPersonCredits,
+  locale: string
+): Array<MediaData> => {
+  const combined = [...credits.cast, ...credits.crew] as Array<APIMediaData>;
+  return combined.map((media) => mediaMapper(media, locale));
+};
+
+export const personDetailMapper = (data: APIPersonDetail, locale: string): PersonDetail => {
+  const {
+    id,
+    name,
+    homepage,
+    biography,
+    birthday,
+    deathday,
+    gender,
+    profile_path,
+    popularity,
+    images,
+    tagged_images,
+    external_ids,
+    also_known_as,
+    place_of_birth,
+    combined_credits,
+    movie_credits,
+    tv_credits
+  } = data;
+
+  return {
+    type: MediaType.PERSON,
+    id,
+    name,
+    also_known_as,
+    homepage,
+    place_of_birth,
+    biography,
+    popularity,
+    image: profileUrl(profile_path),
+    age: yearsFromNow(birthday, deathday),
+    birthday: formatDate(birthday, locale),
+    deathday: formatDate(deathday, locale),
+    gender: genderFromMedia(gender),
+    images: getPropValue(images, 'profiles', []).map((image) =>
+      imageMapper(image, MediaImageType.POSTER)
+    ),
+    tagged_images: getPropValue(tagged_images, 'results', []).map((image) =>
+      imageMapper(image, MediaImageType.POSTER)
+    ),
+    external_ids: externalIdsMapper(external_ids, MediaType.PERSON),
+    combined_credits: personCreditsMapper(combined_credits, locale).sortObjectsBy(
+      'popularity',
+      true
+    )
+  };
 };

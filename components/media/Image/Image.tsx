@@ -53,9 +53,10 @@ const Image = ({
         <ImageNext
           alt={alt}
           src={src}
+          priority={!lazy}
           layout="fill"
           objectFit="cover"
-          loading={(lazy && 'lazy') || 'eager'}
+          loading={lazy ? 'lazy' : 'eager'}
           className={classes(styles.image, className)}
           quality={quality}
           lazyBoundary="0px"

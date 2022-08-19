@@ -3,7 +3,7 @@
 exports[`Tests Layout component renders container correctly 1`] = `
 <div>
   <div
-    class="wrapper"
+    class="wrapper md"
   >
     <header
       class="header"

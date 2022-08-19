@@ -7,3 +7,11 @@ exports[`Tests movie detail page renders page correctly 1`] = `
   />
 </div>
 `;
+
+exports[`Tests tv detail page renders page correctly 1`] = `
+<div>
+  <div
+    class="wrapper hasMargins"
+  />
+</div>
+`;

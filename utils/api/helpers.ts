@@ -1,5 +1,4 @@
 import { IncomingMessage } from 'http';
-import { DateTime, Duration } from 'luxon';
 import {
   APIMediaData,
   APIMediaDetail,
@@ -9,7 +8,7 @@ import {
   MediaVideo,
   MediaVideoList
 } from '@/types';
-import { getPropValue } from '@/utils/helpers';
+import { durationFromMinutes, formatDate, getPropValue } from '@/utils/helpers';
 
 export const nextAPIBaseURL = (req: IncomingMessage): string => {
   if (!req) return window.location.origin;
@@ -27,11 +26,11 @@ export const isMediaPerson = (media: APIMediaData): boolean => 'birthday' in med
 export const isMediaMovie = (media: APIMediaData): boolean => 'release_date' in media;
 export const isMediaSerie = (media: APIMediaData): boolean => 'first_air_date' in media;
 
-export const posterUrl = (poster_path: string) =>
+export const posterUrl = (poster_path: string | null) =>
   poster_path ? `${process.env.API_IMAGES_URL}${poster_path}` : '/assets/images/poster-empty.png';
-export const backdropUrl = (backdrop_path: string) =>
+export const backdropUrl = (backdrop_path: string | null) =>
   backdrop_path ? `${process.env.API_BACKDROP_URL}${backdrop_path}` : '';
-export const profileUrl = (profile_path: string) =>
+export const profileUrl = (profile_path: string | null) =>
   profile_path
     ? `${process.env.API_IMAGES_URL}${profile_path}`
     : '/assets/images/profile-empty.png';
@@ -64,7 +63,7 @@ export const dateFromMedia = (media: APIMediaData, locale: string): { date: stri
   if ('release_date' in media) date = media.release_date;
   if ('first_air_date' in media) date = media.first_air_date;
 
-  return { date: DateTime.fromISO(date).setLocale(locale).toLocaleString(DateTime.DATE_MED) };
+  return { date: formatDate(date, locale) };
 };
 
 export const durationFromMedia = (media: APIMediaDetail): { duration: string } => {
@@ -73,9 +72,7 @@ export const durationFromMedia = (media: APIMediaDetail): { duration: string } =
   if ('runtime' in media) duration = media.runtime;
   if ('episode_run_time' in media) duration = media.episode_run_time[0];
 
-  const { hours, minutes } = Duration.fromObject({ minutes: duration })
-    .shiftTo('hours', 'minutes')
-    .toObject();
+  const { hours, minutes } = durationFromMinutes(duration);
   const formattedDuration = `${hours && hours > 0 ? `${hours}h ` : ''}${
     minutes && minutes > 0 ? `${minutes}min` : ''
   }`;

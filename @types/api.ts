@@ -12,8 +12,7 @@ export type APIResponseListSuccess<T, U = EmptyObject> = U & { results: Array<T>
 
 enum APIMediaType {
   MOVIE = 'movie',
-  TV = 'tv',
-  PERSON = 'person'
+  TV = 'tv'
 }
 
 export type APIMediaDataList<T = APIMediaCommonData> = APIResponseListSuccess<
@@ -309,4 +308,36 @@ export type APIMediaImages = {
   backdrops: Array<APIMediaImage>;
   posters: Array<APIMediaImage>;
   logos: Array<APIMediaImage>;
+};
+
+/** Person **/
+
+export type APIPersonCredits<T = APIMediaData> = {
+  cast: Array<T>;
+  crew: Array<T>;
+};
+
+export type APIPersonDetail = {
+  adult: boolean;
+  also_known_as: Array<string>;
+  biography: string | null;
+  birthday: string | null;
+  deathday: string | null;
+  gender: 0 | 1 | 2;
+  homepage: string | null;
+  id: number;
+  imdb_id: string | null;
+  known_for_department: string;
+  name: string;
+  place_of_birth: string | null;
+  popularity: number;
+  profile_path: string | null;
+  movie_credits: APIPersonCredits<APIMovieData>;
+  tv_credits: APIPersonCredits<APITVData>;
+  combined_credits: APIPersonCredits;
+  images: {
+    profiles: Array<APIMediaImage>;
+  };
+  tagged_images: APIResponseListSuccess<APIMediaImage>;
+  external_ids: APIMediaExternalIds;
 };
