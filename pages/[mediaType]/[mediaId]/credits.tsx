@@ -38,7 +38,7 @@ const MediaCreditsPage: NextPage<MediaCreditsPageProps> = ({ detail }) => {
 export const getServerSideProps = async ({ locale, req, query }: GetServerSidePropsContext) => {
   const { mediaType, mediaId } = query;
   const detail = await axios.get<APIMovieDetail | APITVDetail>(
-    `${nextAPIBaseURL(req)}/api/${mediaType}/${mediaId}`
+    `${nextAPIBaseURL(req)}/api/${mediaType}/${mediaId}?language=${locale}`
   );
 
   return {

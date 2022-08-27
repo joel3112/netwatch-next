@@ -49,10 +49,16 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
 
 export const getServerSideProps = async ({ locale, req }: GetServerSidePropsContext) => {
   const requests = [
-    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/trending/all/week`),
-    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/trending/all/day`),
-    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/movie`),
-    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/tv`)
+    axios.get<APIMediaDataList<APIMediaData>>(
+      `${nextAPIBaseURL(req)}/api/trending/all/week?language=${locale}`
+    ),
+    axios.get<APIMediaDataList<APIMediaData>>(
+      `${nextAPIBaseURL(req)}/api/trending/all/day?language=${locale}`
+    ),
+    axios.get<APIMediaDataList<APIMediaData>>(
+      `${nextAPIBaseURL(req)}/api/movie?language=${locale}`
+    ),
+    axios.get<APIMediaDataList<APIMediaData>>(`${nextAPIBaseURL(req)}/api/tv?language=${locale}`)
   ];
   const responses = await Promise.all(requests);
   const [trendingWeek, trendingDay, movies, tvs] = responses.map(({ data }) => data);

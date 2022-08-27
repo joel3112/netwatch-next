@@ -2,8 +2,8 @@ import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 import { APIResponseError } from '@/types';
 
 // Spanish Language - Spain
-const language = 'es-ES'; //  ISO 639-1
-const region = 'ES'; //  ISO 3166-1
+// const language = 'es-ES'; //  ISO 639-1
+// const region = 'ES'; //  ISO 3166-1
 
 export const httpInterceptor = () => {
   // Add a request interceptor
@@ -12,9 +12,6 @@ export const httpInterceptor = () => {
       // Do something before request is sent
       request.params = {
         api_key: process.env.API_KEY,
-        language,
-        region,
-        watch_region: region,
         ...request.params
       };
 

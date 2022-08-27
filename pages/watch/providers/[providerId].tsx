@@ -53,13 +53,13 @@ export const getServerSideProps = async ({ locale, req, query }: GetServerSidePr
   const { providerId } = query;
   const requests = [
     axios.get<APIResponseListSuccess<APIMediaWatchProvider>>(
-      `${nextAPIBaseURL(req)}/api/watch/providers/${providerId}`
+      `${nextAPIBaseURL(req)}/api/watch/providers/${providerId}?language=${locale}`
     ),
     axios.get<APIMediaDataList<APIMediaData>>(
-      `${nextAPIBaseURL(req)}/api/movie?with_watch_providers=${providerId}`
+      `${nextAPIBaseURL(req)}/api/movie?with_watch_providers=${providerId}?language=${locale}`
     ),
     axios.get<APIMediaDataList<APIMediaData>>(
-      `${nextAPIBaseURL(req)}/api/tv?with_watch_providers=${providerId}`
+      `${nextAPIBaseURL(req)}/api/tv?with_watch_providers=${providerId}?language=${locale}`
     )
   ];
   const responses = await Promise.all(requests);

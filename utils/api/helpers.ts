@@ -19,6 +19,8 @@ export const nextAPIBaseURL = (req: IncomingMessage): string => {
 };
 
 export const languageRegion = (language: string, region: string): string => `${language}-${region}`;
+export const languageFromLocale = (locale: string): string =>
+  locale && locale.includes('-') ? locale.split('-')[0] : '';
 export const regionFromLocale = (locale: string): string =>
   locale && locale.includes('-') ? locale.split('-')[1] : '';
 

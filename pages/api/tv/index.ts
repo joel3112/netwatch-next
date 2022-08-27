@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import axios, { AxiosResponse } from 'axios';
 import { APIMediaDataList, APITVData, MediaDataList, TVData } from '@/types';
-import { httpInterceptor, mediaMapper } from '@/utils/api';
+import { httpInterceptor, mediaMapper, regionFromLocale } from '@/utils/api';
 
 type APIData = APIMediaDataList<APITVData>;
 type Data = MediaDataList<TVData>;
@@ -9,11 +9,19 @@ type Data = MediaDataList<TVData>;
 httpInterceptor();
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
+  const { language, ...params } = req.query;
+
   axios
-    .get(`${process.env.API_URL}/discover/tv`, { params: req.query })
+    .get(`${process.env.API_URL}/discover/tv`, {
+      params: {
+        ...params,
+        language,
+        region: regionFromLocale(language as string),
+        watch_region: regionFromLocale(language as string)
+      }
+    })
     .then((response: AxiosResponse<APIData>) => {
       const data: APIData = response.data;
-      const { language } = req.query;
 
       res.status(200).json({
         ...data,

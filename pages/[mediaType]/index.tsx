@@ -21,7 +21,6 @@ const MediaPage: NextPage<MediaPageProps> = ({ type }) => {
       </Head>
 
       <Container margins>
-        Hola
         <Space direction="column" gap={20} style={{ marginTop: 30 }}>
           <Heading level={2}>{t(`${type}.title`)}</Heading>
 

@@ -46,7 +46,7 @@ const MediaSeasonsPage: NextPage<MediaSeasonsPageProps> = ({ detail, season }) =
 export const getServerSideProps = async ({ locale, req, query }: GetServerSidePropsContext) => {
   const { mediaId, params } = query;
   const detail = await axios.get<APITVDetail>(
-    `${nextAPIBaseURL(req)}/api/${MediaType.TV}/${mediaId}`
+    `${nextAPIBaseURL(req)}/api/${MediaType.TV}/${mediaId}?language=${locale}`
   );
   let season = {};
 
@@ -54,7 +54,9 @@ export const getServerSideProps = async ({ locale, req, query }: GetServerSidePr
     const [seasonId] = params as string[];
     if (seasonId) {
       season = await axios.get<APIMediaSeasonDetail>(
-        `${nextAPIBaseURL(req)}/api/${MediaType.TV}/${mediaId}/seasons/${seasonId}`
+        `${nextAPIBaseURL(req)}/api/${
+          MediaType.TV
+        }/${mediaId}/seasons/${seasonId}?language=${locale}`
       );
     }
   }

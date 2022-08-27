@@ -1,7 +1,12 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import axios, { AxiosResponse } from 'axios';
 import { APIPersonDetail, PersonDetail } from '@/types';
-import { httpInterceptor, personDetailMapper } from '@/utils/api';
+import {
+  httpInterceptor,
+  languageFromLocale,
+  personDetailMapper,
+  regionFromLocale
+} from '@/utils/api';
 
 type APIData = APIPersonDetail;
 type Data = PersonDetail;
@@ -17,7 +22,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
         ...params,
         append_to_response:
           'tagged_images,external_ids,images,combined_credits,movie_credits,tv_credits',
-        ...(language ? { include_image_language: `${language},null` } : {})
+        language,
+        region: regionFromLocale(language as string),
+        watch_region: regionFromLocale(language as string),
+        ...(language
+          ? { include_image_language: `${languageFromLocale(language as string)},null` }
+          : {})
       }
     })
     .then((response: AxiosResponse<APIData>) => {

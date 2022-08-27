@@ -6,6 +6,7 @@ import {
   externalIdsMapper,
   httpInterceptor,
   imagesMapper,
+  languageFromLocale,
   mediaMapper,
   movieDetailMapper,
   regionFromLocale,
@@ -28,8 +29,15 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
       params: {
         ...params,
         append_to_response: 'external_ids,credits,watch/providers,videos,images,recommendations',
-        ...(language ? { include_image_language: `${language},null` } : {}),
-        ...(language ? { include_video_language: `${language},null` } : {})
+        language,
+        region: regionFromLocale(language as string),
+        watch_region: regionFromLocale(language as string),
+        ...(language
+          ? { include_image_language: `${languageFromLocale(language as string)},null` }
+          : {}),
+        ...(language
+          ? { include_video_language: `${languageFromLocale(language as string)},null` }
+          : {})
       }
     })
     .then((response: AxiosResponse<APIData>) => {

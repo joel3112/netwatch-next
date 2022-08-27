@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import axios, { AxiosResponse } from 'axios';
 import { APIMediaVideoList, MediaVideoList } from '@/types';
-import { httpInterceptor, videosMapper } from '@/utils/api';
+import { httpInterceptor, languageFromLocale, regionFromLocale, videosMapper } from '@/utils/api';
 
 type APIData = APIMediaVideoList;
 type Data = MediaVideoList;
@@ -15,7 +15,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     .get(`${process.env.API_URL}/tv/${tvId}/videos`, {
       params: {
         ...params,
-        ...(language ? { include_video_language: `${language},null` } : {})
+        language,
+        region: regionFromLocale(language as string),
+        watch_region: regionFromLocale(language as string),
+        ...(language
+          ? { include_video_language: `${languageFromLocale(language as string)},null` }
+          : {})
       }
     })
     .then((response: AxiosResponse<APIData>) => {

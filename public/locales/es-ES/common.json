@@ -12,7 +12,7 @@
   "HE": "Hebreo",
   "ID": "Indonesio",
   "IT": "Italiano",
-  "JP": "Japonés",
+  "JA": "Japonés",
   "KO": "Coreano",
   "NL": "Holandés",
   "NO": "Noruego",
@@ -25,7 +25,7 @@
   "TH": "Tailandés",
   "TR": "Turco",
   "UK": "Ucraniano",
-  "ZH": "Chin",
+  "ZH": "Chino",
 
   "application.name": "Netwatch",
   "header.action.settings": "Ajustes",
