@@ -25,7 +25,7 @@ const MediaSectionCredits = ({ cast, crew }: MediaSectionCreditsProps) => {
 
   return (
     <Container className={classes(styles.wrapper, styles.credits)}>
-      <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>
+      <Space className={styles.header} direction="column" gap={20}>
         <Space direction="column" gap={2}>
           <Heading level={2}>{t('detail.credits.heading')}</Heading>
         </Space>

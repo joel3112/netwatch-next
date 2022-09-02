@@ -1,15 +1,15 @@
 import { useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
+import { useI18n } from '@/hooks/useI18n';
 import { MediaSeason, MediaType, MediaImageRatio, MediaSeasonDetail } from '@/types';
 import { Heading, Text } from '@/components/typography';
 import { Container, Space, Grid } from '@/components/layout';
 import { Button, Select } from '@/components/forms';
 import { Card } from '@/components/display';
 import { Image } from '@/components/media';
-import { classes, getPropValue } from '@/utils/helpers';
+import { classes, formatDate, getPropValue } from '@/utils/helpers';
 import styles from '@/containers/MediaSectionSeasons/MediaSectionSeasons.module.scss';
 
 type MediaSectionSeasonsProps = {
@@ -34,39 +34,46 @@ const SeasonImage = ({ image, width }: { image: string; width: number }) => {
 };
 
 const Seasons = ({ mediaId, seasons }: MediaSectionSeasonsProps) => {
-  const { t } = useTranslation();
+  const { t, locale } = useI18n();
 
   return (
-    <Space direction="column" gap={20} className={styles.seasons}>
+    <Grid
+      className={styles.seasons}
+      spacing={[0, 5]}
+      breakpoints={{
+        md: 2
+      }}>
       {(seasons || []).map(({ id, name, image, description, date, episodes, key }) => (
-        <Link key={key} href={`/${MediaType.TV}/${mediaId}/seasons/${id}`}>
-          <a className={styles.season}>
-            <Space align="center" gap={25}>
-              <SeasonImage image={image} width={130} />
+        <Grid.Item key={key}>
+          <Link href={`/${MediaType.TV}/${mediaId}/seasons/${id}`}>
+            <a className={styles.season}>
+              <Space align="center" gap={25}>
+                <SeasonImage image={image} width={130} />
 
-              <Space direction="column" gap={2}>
-                <Text size="md" bold className={styles.name}>
-                  {name}
-                </Text>
-
-                <Space gap={5}>
-                  <Text size="md" className={styles.date}>
-                    {date}
+                <Space direction="column" gap={2}>
+                  <Text size="md" bold className={styles.name}>
+                    {name}
                   </Text>
-                  <span> - </span>
-                  <Text size="md" className={styles.date}>
-                    {`${episodes} ${t('detail.episodes.heading').toLowerCase()}`}
+
+                  <Space gap={5}>
+                    <Text size="md" className={styles.date}>
+                      {date && formatDate(date, locale)}
+                    </Text>
+                    <span> - </span>
+                    <Text size="md" className={styles.date}>
+                      {`${episodes} ${t('detail.episodes.heading').toLowerCase()}`}
+                    </Text>
+                  </Space>
+                  <Text size="sm" disabled className={styles.description} maxLines={3}>
+                    {description}
                   </Text>
                 </Space>
-                <Text size="sm" disabled className={styles.description} maxLines={5}>
-                  {description}
-                </Text>
               </Space>
-            </Space>
-          </a>
-        </Link>
+            </a>
+          </Link>
+        </Grid.Item>
       ))}
-    </Space>
+    </Grid>
   );
 };
 
@@ -103,7 +110,7 @@ const Season = ({ season }: MediaSectionSeasonsProps) => {
 };
 
 const SeasonHeading = ({ seasons, season, mediaId }: MediaSectionSeasonsProps) => {
-  const { t } = useTranslation();
+  const { t } = useI18n();
   const router = useRouter();
   const id = getPropValue(season, 'id', '');
 
@@ -164,7 +171,7 @@ const SeasonHeading = ({ seasons, season, mediaId }: MediaSectionSeasonsProps) =
 };
 
 const MediaSectionSeasons = ({ mediaId, seasons, season }: MediaSectionSeasonsProps) => {
-  const { t } = useTranslation();
+  const { t } = useI18n();
 
   const type = season && season.episodes ? 'season' : 'seasons';
   const config: {
@@ -188,7 +195,7 @@ const MediaSectionSeasons = ({ mediaId, seasons, season }: MediaSectionSeasonsPr
 
   return (
     <Container className={classes(styles.wrapper)}>
-      <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>
+      <Space className={styles.header} direction="column" gap={20}>
         <Space direction="column" gap={2}>
           {Title && <Title />}
 

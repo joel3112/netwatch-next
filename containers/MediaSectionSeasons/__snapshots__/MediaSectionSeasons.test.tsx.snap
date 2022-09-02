@@ -7,7 +7,6 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
   >
     <div
       class="wrapper header"
-      style="margin-top: 30px;"
     >
       <div
         class="wrapper"
@@ -18,41 +17,45 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           detail.seasons.heading (4)
         </h2>
         <div
-          class="wrapper seasons"
+          class="MuiGrid-root MuiGrid-container wrapper seasons css-acwr6o-MuiGrid-root"
+          role="grid"
         >
-          <a
-            class="season"
-            href="/tv/1/seasons/0"
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-60 item css-1k7sk4d-MuiGrid-root"
           >
-            <div
-              class="wrapper"
+            <a
+              class="season"
+              href="/tv/1/seasons/0"
             >
               <div
-                class="image"
+                class="wrapper"
               >
                 <div
-                  aria-label="https://image.tmdb.org/t/p/w500/cCXG81dSCPXcqYm6gTHlwtXocti.jpg"
-                  class="wrapper"
-                  role="img"
+                  class="image"
                 >
-                  <span
-                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                  >
-                    <img
-                      alt="https://image.tmdb.org/t/p/w500/cCXG81dSCPXcqYm6gTHlwtXocti.jpg"
-                      class="image"
-                      data-nimg="fill"
-                      decoding="async"
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                    />
-                    <noscript />
-                  </span>
                   <div
-                    class="content"
-                  />
-                  <style>
-                    
+                    aria-label="https://image.tmdb.org/t/p/w500/cCXG81dSCPXcqYm6gTHlwtXocti.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        alt="https://image.tmdb.org/t/p/w500/cCXG81dSCPXcqYm6gTHlwtXocti.jpg"
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 130px;
           height: 195px;
@@ -62,62 +65,62 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           padding-top: 150%;
         }
       
-                  </style>
+                    </style>
+                  </div>
                 </div>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name md"
+                <div
+                  class="wrapper"
                 >
-                  Especiales
-                  <style>
-                    
+                  <span
+                    class="wrapper name md"
+                  >
+                    Especiales
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <div
-                  class="wrapper"
-                >
-                  <span
-                    class="wrapper date md"
+                    </style>
+                  </span>
+                  <div
+                    class="wrapper"
                   >
-                    2020-09-10
-                    <style>
-                      
+                    <span
+                      class="wrapper date md"
+                    >
+                      Sep 10, 2020
+                      <style>
+                        
         .wrapper {
           
           
           
         }
       
-                    </style>
-                  </span>
-                  <span>
-                     - 
-                  </span>
-                  <span
-                    class="wrapper date md"
-                  >
-                    19 detail.episodes.heading
-                    <style>
-                      
+                      </style>
+                    </span>
+                    <span>
+                       - 
+                    </span>
+                    <span
+                      class="wrapper date md"
+                    >
+                      19 detail.episodes.heading
+                      <style>
+                        
         .wrapper {
           
           
           
         }
       
-                    </style>
-                  </span>
-                  <style>
-                    
+                      </style>
+                    </span>
+                    <style>
+                      
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -127,23 +130,23 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           
         }
       
-                  </style>
-                </div>
-                <span
-                  class="wrapper description sm maxLines"
-                >
-                  <style>
-                    
+                    </style>
+                  </div>
+                  <span
+                    class="wrapper description sm maxLines"
+                  >
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
-          -webkit-line-clamp: 5;
+          -webkit-line-clamp: 3;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -153,10 +156,10 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -166,42 +169,46 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
-          </a>
-          <a
-            class="season"
-            href="/tv/1/seasons/1"
+                </style>
+              </div>
+            </a>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-60 item css-1k7sk4d-MuiGrid-root"
           >
-            <div
-              class="wrapper"
+            <a
+              class="season"
+              href="/tv/1/seasons/1"
             >
               <div
-                class="image"
+                class="wrapper"
               >
                 <div
-                  aria-label="https://image.tmdb.org/t/p/w500/g3HjUeFCwKOfBxlM97lv016mnol.jpg"
-                  class="wrapper"
-                  role="img"
+                  class="image"
                 >
-                  <span
-                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                  >
-                    <img
-                      alt="https://image.tmdb.org/t/p/w500/g3HjUeFCwKOfBxlM97lv016mnol.jpg"
-                      class="image"
-                      data-nimg="fill"
-                      decoding="async"
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                    />
-                    <noscript />
-                  </span>
                   <div
-                    class="content"
-                  />
-                  <style>
-                    
+                    aria-label="https://image.tmdb.org/t/p/w500/g3HjUeFCwKOfBxlM97lv016mnol.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        alt="https://image.tmdb.org/t/p/w500/g3HjUeFCwKOfBxlM97lv016mnol.jpg"
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 130px;
           height: 195px;
@@ -211,62 +218,62 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           padding-top: 150%;
         }
       
-                  </style>
+                    </style>
+                  </div>
                 </div>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name md"
+                <div
+                  class="wrapper"
                 >
-                  Temporada 1
-                  <style>
-                    
+                  <span
+                    class="wrapper name md"
+                  >
+                    Temporada 1
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <div
-                  class="wrapper"
-                >
-                  <span
-                    class="wrapper date md"
+                    </style>
+                  </span>
+                  <div
+                    class="wrapper"
                   >
-                    2019-07-25
-                    <style>
-                      
+                    <span
+                      class="wrapper date md"
+                    >
+                      Jul 25, 2019
+                      <style>
+                        
         .wrapper {
           
           
           
         }
       
-                    </style>
-                  </span>
-                  <span>
-                     - 
-                  </span>
-                  <span
-                    class="wrapper date md"
-                  >
-                    8 detail.episodes.heading
-                    <style>
-                      
+                      </style>
+                    </span>
+                    <span>
+                       - 
+                    </span>
+                    <span
+                      class="wrapper date md"
+                    >
+                      8 detail.episodes.heading
+                      <style>
+                        
         .wrapper {
           
           
           
         }
       
-                    </style>
-                  </span>
-                  <style>
-                    
+                      </style>
+                    </span>
+                    <style>
+                      
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -276,24 +283,24 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           
         }
       
-                  </style>
-                </div>
-                <span
-                  class="wrapper description sm maxLines"
-                >
-                  THE BOYS es un enfoque irreverente de lo que pasa cuando los superhéroes, tan famosos como las celebridades, tan influyentes como los políticos y tan venerados como los dioses, abusan de sus superpoderes en vez de utilizarlos para hacer el bien. Indefensos contra superpoderosos, esta serie se embarca en una heroica misión para revelar la verdad sobre "Los Siete" y el formidable apoyo de su Vought.
-                  <style>
-                    
+                    </style>
+                  </div>
+                  <span
+                    class="wrapper description sm maxLines"
+                  >
+                    THE BOYS es un enfoque irreverente de lo que pasa cuando los superhéroes, tan famosos como las celebridades, tan influyentes como los políticos y tan venerados como los dioses, abusan de sus superpoderes en vez de utilizarlos para hacer el bien. Indefensos contra superpoderosos, esta serie se embarca en una heroica misión para revelar la verdad sobre "Los Siete" y el formidable apoyo de su Vought.
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
-          -webkit-line-clamp: 5;
+          -webkit-line-clamp: 3;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -303,10 +310,10 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -316,42 +323,46 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
-          </a>
-          <a
-            class="season"
-            href="/tv/1/seasons/2"
+                </style>
+              </div>
+            </a>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-60 item css-1k7sk4d-MuiGrid-root"
           >
-            <div
-              class="wrapper"
+            <a
+              class="season"
+              href="/tv/1/seasons/2"
             >
               <div
-                class="image"
+                class="wrapper"
               >
                 <div
-                  aria-label="https://image.tmdb.org/t/p/w500/rcSXlC1H8Gj7GF6juzeiFhPr9Xv.jpg"
-                  class="wrapper"
-                  role="img"
+                  class="image"
                 >
-                  <span
-                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                  >
-                    <img
-                      alt="https://image.tmdb.org/t/p/w500/rcSXlC1H8Gj7GF6juzeiFhPr9Xv.jpg"
-                      class="image"
-                      data-nimg="fill"
-                      decoding="async"
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                    />
-                    <noscript />
-                  </span>
                   <div
-                    class="content"
-                  />
-                  <style>
-                    
+                    aria-label="https://image.tmdb.org/t/p/w500/rcSXlC1H8Gj7GF6juzeiFhPr9Xv.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        alt="https://image.tmdb.org/t/p/w500/rcSXlC1H8Gj7GF6juzeiFhPr9Xv.jpg"
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 130px;
           height: 195px;
@@ -361,62 +372,62 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           padding-top: 150%;
         }
       
-                  </style>
+                    </style>
+                  </div>
                 </div>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name md"
+                <div
+                  class="wrapper"
                 >
-                  Temporada 2
-                  <style>
-                    
+                  <span
+                    class="wrapper name md"
+                  >
+                    Temporada 2
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <div
-                  class="wrapper"
-                >
-                  <span
-                    class="wrapper date md"
+                    </style>
+                  </span>
+                  <div
+                    class="wrapper"
                   >
-                    2020-09-03
-                    <style>
-                      
+                    <span
+                      class="wrapper date md"
+                    >
+                      Sep 3, 2020
+                      <style>
+                        
         .wrapper {
           
           
           
         }
       
-                    </style>
-                  </span>
-                  <span>
-                     - 
-                  </span>
-                  <span
-                    class="wrapper date md"
-                  >
-                    8 detail.episodes.heading
-                    <style>
-                      
+                      </style>
+                    </span>
+                    <span>
+                       - 
+                    </span>
+                    <span
+                      class="wrapper date md"
+                    >
+                      8 detail.episodes.heading
+                      <style>
+                        
         .wrapper {
           
           
           
         }
       
-                    </style>
-                  </span>
-                  <style>
-                    
+                      </style>
+                    </span>
+                    <style>
+                      
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -426,24 +437,24 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           
         }
       
-                  </style>
-                </div>
-                <span
-                  class="wrapper description sm maxLines"
-                >
-                  En la segunda temporada de THE BOYS, más intensa y al límite, Carnicero, Hughie y el equipo buscan levantar cabeza. Buscados por la justicia, intentan contraatacar a los súpers. Vought, la empresa de los superhéroes, ve caer sus acciones, por el pánico a los Supervillanos, mientras una nueva superheroína, Stormfront, revoluciona la compañía y pone a prueba a Patriota, ya bastante inestable.
-                  <style>
-                    
+                    </style>
+                  </div>
+                  <span
+                    class="wrapper description sm maxLines"
+                  >
+                    En la segunda temporada de THE BOYS, más intensa y al límite, Carnicero, Hughie y el equipo buscan levantar cabeza. Buscados por la justicia, intentan contraatacar a los súpers. Vought, la empresa de los superhéroes, ve caer sus acciones, por el pánico a los Supervillanos, mientras una nueva superheroína, Stormfront, revoluciona la compañía y pone a prueba a Patriota, ya bastante inestable.
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
-          -webkit-line-clamp: 5;
+          -webkit-line-clamp: 3;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -453,10 +464,10 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -466,42 +477,46 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
-          </a>
-          <a
-            class="season"
-            href="/tv/1/seasons/3"
+                </style>
+              </div>
+            </a>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-60 item css-1k7sk4d-MuiGrid-root"
           >
-            <div
-              class="wrapper"
+            <a
+              class="season"
+              href="/tv/1/seasons/3"
             >
               <div
-                class="image"
+                class="wrapper"
               >
                 <div
-                  aria-label="https://image.tmdb.org/t/p/w500/ut4PhX7OP2l2oJhrIUYWnt9pnQU.jpg"
-                  class="wrapper"
-                  role="img"
+                  class="image"
                 >
-                  <span
-                    style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-                  >
-                    <img
-                      alt="https://image.tmdb.org/t/p/w500/ut4PhX7OP2l2oJhrIUYWnt9pnQU.jpg"
-                      class="image"
-                      data-nimg="fill"
-                      decoding="async"
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-                    />
-                    <noscript />
-                  </span>
                   <div
-                    class="content"
-                  />
-                  <style>
-                    
+                    aria-label="https://image.tmdb.org/t/p/w500/ut4PhX7OP2l2oJhrIUYWnt9pnQU.jpg"
+                    class="wrapper"
+                    role="img"
+                  >
+                    <span
+                      style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+                    >
+                      <img
+                        alt="https://image.tmdb.org/t/p/w500/ut4PhX7OP2l2oJhrIUYWnt9pnQU.jpg"
+                        class="image"
+                        data-nimg="fill"
+                        decoding="async"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+                      />
+                      <noscript />
+                    </span>
+                    <div
+                      class="content"
+                    />
+                    <style>
+                      
         .wrapper {
           width: 130px;
           height: 195px;
@@ -511,62 +526,62 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           padding-top: 150%;
         }
       
-                  </style>
+                    </style>
+                  </div>
                 </div>
-              </div>
-              <div
-                class="wrapper"
-              >
-                <span
-                  class="wrapper name md"
+                <div
+                  class="wrapper"
                 >
-                  Temporada 3
-                  <style>
-                    
+                  <span
+                    class="wrapper name md"
+                  >
+                    Temporada 3
+                    <style>
+                      
         .wrapper {
           font-weight: bold;
           
           
         }
       
-                  </style>
-                </span>
-                <div
-                  class="wrapper"
-                >
-                  <span
-                    class="wrapper date md"
+                    </style>
+                  </span>
+                  <div
+                    class="wrapper"
                   >
-                    2022-06-02
-                    <style>
-                      
+                    <span
+                      class="wrapper date md"
+                    >
+                      Jun 2, 2022
+                      <style>
+                        
         .wrapper {
           
           
           
         }
       
-                    </style>
-                  </span>
-                  <span>
-                     - 
-                  </span>
-                  <span
-                    class="wrapper date md"
-                  >
-                    8 detail.episodes.heading
-                    <style>
-                      
+                      </style>
+                    </span>
+                    <span>
+                       - 
+                    </span>
+                    <span
+                      class="wrapper date md"
+                    >
+                      8 detail.episodes.heading
+                      <style>
+                        
         .wrapper {
           
           
           
         }
       
-                    </style>
-                  </span>
-                  <style>
-                    
+                      </style>
+                    </span>
+                    <style>
+                      
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -576,24 +591,24 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           
         }
       
-                  </style>
-                </div>
-                <span
-                  class="wrapper description sm maxLines"
-                >
-                  Ha sido un año tranquilo. El Patriota está contenido y Carnicero trabaja para el gobierno bajo la supervisión de Hughie, nada menos. Pero los dos están deseando que la paz y la calma dejen paso a la sangre. Por eso, cuando The Boys se entera de que existe una superarma misteriosa, van directos a por Los Siete, se ponen en pie de guerra y desempolvan la leyenda del primer superhéroe: Soldier Boy.
-                  <style>
-                    
+                    </style>
+                  </div>
+                  <span
+                    class="wrapper description sm maxLines"
+                  >
+                    Ha sido un año tranquilo. El Patriota está contenido y Carnicero trabaja para el gobierno bajo la supervisión de Hughie, nada menos. Pero los dos están deseando que la paz y la calma dejen paso a la sangre. Por eso, cuando The Boys se entera de que existe una superarma misteriosa, van directos a por Los Siete, se ponen en pie de guerra y desempolvan la leyenda del primer superhéroe: Soldier Boy.
+                    <style>
+                      
         .wrapper {
           
           opacity: 0.5;
-          -webkit-line-clamp: 5;
+          -webkit-line-clamp: 3;
         }
       
-                  </style>
-                </span>
-                <style>
-                  
+                    </style>
+                  </span>
+                  <style>
+                    
         .wrapper {
           display: flex;
           flex-direction: column;
@@ -603,10 +618,10 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           
         }
       
-                </style>
-              </div>
-              <style>
-                
+                  </style>
+                </div>
+                <style>
+                  
         .wrapper {
           display: flex;
           flex-direction: row;
@@ -616,21 +631,10 @@ exports[`Tests MediaSectionSeasons component renders component correctly 1`] = `
           align-items: center;
         }
       
-              </style>
-            </div>
-          </a>
-          <style>
-            
-        .wrapper {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          gap: 20px;
-          
-          
-        }
-      
-          </style>
+                </style>
+              </div>
+            </a>
+          </div>
         </div>
         <style>
           

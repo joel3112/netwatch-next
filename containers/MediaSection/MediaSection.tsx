@@ -131,7 +131,7 @@ const MediaSection = ({ items, section }: MediaSectionProps) => {
 
   return (
     <Container className={classes(styles.wrapper, styles[section])}>
-      <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>
+      <Space className={styles.header} direction="column" gap={20}>
         <Space direction="column" gap={2}>
           {section && <Heading level={2}>{t(SectionLabel[sectionKey])}</Heading>}
         </Space>
