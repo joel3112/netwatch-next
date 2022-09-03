@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { Breakpoint } from '@mui/system/createTheme/createBreakpoints';
 import { IconType } from 'react-icons';
-import { IoMdAdd, IoMdExpand } from 'react-icons/io';
+import { IoMdExpand } from 'react-icons/io';
 import { RiPlayFill } from 'react-icons/ri';
 import { BiGlobe } from 'react-icons/bi';
 import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
@@ -28,6 +28,7 @@ import {
 import { useI18n } from '@/hooks/useI18n';
 import { useModal } from '@/hooks/useModal';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
+import { useFavourite } from '@/hooks/useFavourite';
 import { MediaHeading } from '@/containers/MediaHeading';
 import { Grid, Space } from '@/components/layout';
 import { Heading, Text } from '@/components/typography';
@@ -51,8 +52,11 @@ type MediaDetailContextProps = Partial<typeof defaultValue> & {
   id: number;
   type: MediaTypeKey;
   media: MovieDetail | TVDetail;
+  favouriteAction: string;
+  FavouriteIcon: IconType | null;
   handleVideo: FunctionVoid<unknown>;
   handleZoom: FunctionVoid<unknown>;
+  handleToggleFavourite: FunctionVoid<MovieDetail | TVDetail>;
   t: (key: string, options?: EmptyObject) => string;
   language: string;
 };
@@ -262,7 +266,8 @@ const DetailExternalIds = () => {
 /* -------------------------------------------------------------------------- */
 
 const DetailData = () => {
-  const { t, media, handleVideo, language } = useMediaDetailContext();
+  const { t, media, favouriteAction, FavouriteIcon, handleVideo, handleToggleFavourite, language } =
+    useMediaDetailContext();
   const videos = getPropValue(media, 'videos', []);
   const { watch_link, providers } = getPropValue(
     media,
@@ -321,8 +326,8 @@ const DetailData = () => {
             <RiPlayFill />
           </DataButton>
         )}
-        <DataButton text="my.list.button" light>
-          <IoMdAdd />
+        <DataButton text={favouriteAction} light onClick={() => handleToggleFavourite(media)}>
+          {FavouriteIcon && <FavouriteIcon />}
         </DataButton>
       </Space>
 
@@ -497,6 +502,7 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
   const { isOpened, handleChange } = useModal();
   const { key, isMobile, isTablet, isSmallDesktop } = useBreakpoint();
   const { type, id } = media;
+  const { favouriteAction, FavouriteIcon, onToggle } = useFavourite();
 
   const handleVideo = (item: unknown) => {
     const video = item as MediaVideo;
@@ -526,8 +532,11 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
         isMobile,
         isSmallDesktop,
         isTablet,
+        favouriteAction: favouriteAction(media.id),
+        FavouriteIcon: FavouriteIcon(media.id),
         handleVideo,
-        handleZoom
+        handleZoom,
+        handleToggleFavourite: onToggle
       }}>
       <div className={classes(styles.wrapper, styles[key], className)}>
         <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>

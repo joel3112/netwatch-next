@@ -29,6 +29,8 @@
   "ZH": "Chino",
 
   "application.name": "Netwatch",
+  "favourites.add": "Añadir a Mi Lista",
+  "favourites.remove": "Quitar de Mi Lista",
   "header.action.settings": "Ajustes",
   "header.action.search": "Búsqueda",
   "header.action.search.placeholder": "Busca una película, programa de televisión...",

@@ -1,6 +1,6 @@
-import { IoMdAdd } from 'react-icons/io';
 import { ElementHTML, ElementLink, ElementSkeleton, MediaData, MediaImageRatio } from '@/types';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
+import { useFavourite } from '@/hooks/useFavourite';
 import { Card, Carousel } from '@/components/display';
 import { MediaHeading } from '@/containers/MediaHeading';
 import { MediaCondensed } from '@/containers/MediaCondensed';
@@ -56,10 +56,11 @@ const MediaCarousel = ({
   const { key } = useBreakpoint();
   const { imageKey, configKey, ratio } = imageSizes[backdrop ? 'backdrop' : 'poster'];
   const { [configKey]: slidesPerView, spacing, offset = 0 } = getBreakpointConfig(key) || {};
+  const { favouriteAction, FavouriteIcon, onToggle } = useFavourite();
 
   return (
     <div className={classes(styles.wrapper, styles[key])}>
-      {heading && items && items.length && (
+      {Boolean(heading && items && items.length) && (
         <MediaHeading href={href} className={styles.heading}>
           {heading}
         </MediaHeading>
@@ -88,7 +89,11 @@ const MediaCarousel = ({
                   skeleton={!type}>
                   <Card.Image src={image} width="100%" ratio={ratio} lazy>
                     <Card.Actions>
-                      <Card.Actions.Item icon={IoMdAdd} />
+                      <Card.Actions.Item
+                        icon={FavouriteIcon}
+                        tooltip={favouriteAction(id)}
+                        onClick={() => onToggle(props)}
+                      />
                     </Card.Actions>
                   </Card.Image>
                   <Card.Body title={name} description={date} />

@@ -50,25 +50,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -175,25 +166,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -300,25 +282,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -425,25 +398,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -550,25 +514,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -675,25 +630,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -800,25 +746,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -925,25 +862,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -1050,25 +978,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -1175,25 +1094,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -1300,25 +1210,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -1425,25 +1326,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -1550,25 +1442,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -1675,25 +1558,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -1800,25 +1674,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -1925,25 +1790,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -2050,25 +1906,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -2175,25 +2022,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -2300,25 +2138,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {
@@ -2425,25 +2254,16 @@ exports[`Tests MediaCarousel component renders component correctly 1`] = `
                     <div
                       class="wrapper actions"
                     >
-                      <button
-                        aria-label="action"
-                        class="wrapper medium clear action"
+                      <div
+                        aria-label="favourites.add"
+                        class="content"
+                        data-mui-internal-clone-element="true"
                       >
-                        <svg
-                          class="actionIcon"
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          stroke-width="0"
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-                          />
-                        </svg>
-                      </button>
+                        <button
+                          aria-label="action"
+                          class="wrapper medium clear action"
+                        />
+                      </div>
                       <style>
                         
         .wrapper {

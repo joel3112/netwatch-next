@@ -296,7 +296,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             <span
               class="wrapper md"
             >
-              my.list.button
+              favourites.add
               <style>
                 
         .wrapper {

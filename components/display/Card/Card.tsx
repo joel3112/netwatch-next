@@ -50,10 +50,11 @@ const CardImage = (props: CardImageProps) => {
 
 type CardActionProps = ElementHTML & {
   icon: IconType;
+  tooltip?: string;
   onClick?: MouseEventHandler<HTMLButtonElement>;
 };
 
-const CardAction = ({ className, icon: Icon, onClick }: CardActionProps) => {
+const CardAction = ({ className, icon: Icon, tooltip, onClick }: CardActionProps) => {
   useCardContext();
 
   const handleClick = (event: MouseEvent<HTMLButtonElement>): void => {
@@ -65,6 +66,7 @@ const CardAction = ({ className, icon: Icon, onClick }: CardActionProps) => {
       clear
       ariaLabel="action"
       className={classes(styles.action, className)}
+      tooltip={tooltip}
       onClick={handleClick}>
       <Icon className={styles.actionIcon} />
     </Button>
