@@ -175,7 +175,8 @@ const commonCreditMapper = (
     name,
     original_name,
     image: profileUrl(profile_path),
-    gender: genderFromMedia(gender)
+    gender: genderFromMedia(gender),
+    route: routeFromMedia(credit as unknown as APIPersonDetail, MediaType.PERSON)
   };
 };
 

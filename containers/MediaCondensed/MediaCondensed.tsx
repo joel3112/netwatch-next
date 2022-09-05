@@ -22,7 +22,7 @@ import styles from '@/containers/MediaCondensed/MediaCondensed.module.scss';
 type MediaCondensedInfoProps = MediaData;
 
 const MediaCondensedInfo = (props: MediaCondensedInfoProps) => {
-  const { id, type, name, description } = props;
+  const { id, type, route, name, description } = props;
   const { t } = useI18n('home');
   const { isOpened, handleChange } = useModal();
   const { videoId } = useVideo(isOpened ? id : 0, type);
@@ -51,7 +51,7 @@ const MediaCondensedInfo = (props: MediaCondensedInfoProps) => {
             />
           </Card.Actions>
 
-          <Link href={{ pathname: '/[type]/[id]', query: { type, id } }}>
+          <Link href={route}>
             <a>
               <Button rounded className={styles.buttonInfo}>
                 {t('item.action.more')}

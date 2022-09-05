@@ -24,7 +24,6 @@ import {
   MediaImage,
   MediaImageRatio,
   MediaImageType,
-  MediaType,
   MediaTypeKey,
   MediaVideo,
   MediaWatchProviders,
@@ -129,16 +128,11 @@ const sectionHeadingHref = (type: MediaTypeKey, id: number) => ({
   RECOMMENDATIONS: ''
 });
 
-const sectionItemHref = (
-  type: MediaTypeKey,
-  id: number,
-  itemType?: MediaTypeKey,
-  itemId?: string
-) => ({
+const sectionItemHref = (type: MediaTypeKey, id: number, itemId?: string) => ({
   VIDEOS: '',
   IMAGES: '',
   SEASONS: { pathname: '/[type]/[id]/seasons/[itemId]', query: { type, id, itemId } },
-  RECOMMENDATIONS: { pathname: '/[itemType]/[itemId]', query: { itemType, itemId } }
+  RECOMMENDATIONS: ''
 });
 
 type DetailCarouselProps = ElementChildren<JSX.Element> & {
@@ -200,7 +194,7 @@ const DetailCarousel = ({
               cloneElement(children, { item })
             ) : (
               <Card
-                href={sectionItemHref(type, id, item['type'], item['id'])[sectionKey]}
+                href={item['route'] || sectionItemHref(type, id, item['id'])[sectionKey]}
                 className={styles.card}
                 onClick={() => handleClickAction(item)}>
                 <Card.Image
@@ -425,9 +419,9 @@ const DetailCredits = () => {
       </MediaHeading>
 
       <Grid breakpoints={{ xs: 1, sm: 1, md: 2, lg: 3, xl: 3 }} spacing={4}>
-        {cast.truncate(isMobile ? 5 : 10).map(({ id, name, image, characters }) => (
+        {cast.truncate(isMobile ? 5 : 10).map(({ id, route, name, image, characters }) => (
           <Grid.Item key={id}>
-            <Link href={`/${MediaType.PERSON}/${id}`}>
+            <Link href={String(route)}>
               <a>
                 <Space align="center" gap={10} className={styles.cast}>
                   <div className={styles.image}>

@@ -136,6 +136,7 @@ export enum MediaCreditRole {
 
 export type MediaCredit = {
   id: string;
+  route: string;
   name: string;
   original_name: string;
   gender: Lowercase<MediaCreditGender>;
