@@ -4,6 +4,7 @@ import axios from 'axios';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { APIMediaData, APIMediaDataList, MediaData } from '@/types';
 import { useI18n } from '@/hooks/useI18n';
+import { useFavourite } from '@/hooks/useFavourite';
 import { MediaCarousel } from '@/containers/MediaCarousel';
 import { Heading } from '@/components/typography';
 import { Container, Space } from '@/components/layout';
@@ -15,6 +16,7 @@ type HomePageProps = {
 
 const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, tvs }) => {
   const { t } = useI18n('home');
+  const { items: favourites } = useFavourite();
 
   return (
     <>
@@ -37,6 +39,15 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
           />
 
           <MediaCarousel heading={t('trending.title')} backdrop items={trendingDay} />
+
+          {favourites && !favourites.isEmpty() && typeof window !== 'undefined' && (
+            <MediaCarousel
+              heading={t('favourites.title')}
+              backdrop
+              href="/favourites"
+              items={favourites}
+            />
+          )}
 
           <MediaCarousel heading={t('movie.title')} href="/movie" items={movies} />
 

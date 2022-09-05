@@ -67,50 +67,62 @@ exports[`Tests MediaCondensed component renders component correctly 1`] = `
         <div
           class="wrapper actions actionsInfo"
         >
-          <button
-            aria-label="action"
-            class="wrapper medium clear action"
+          <div
+            aria-label="favourites.add"
+            class="content"
+            data-mui-internal-clone-element="true"
           >
-            <svg
-              class="actionIcon"
-              fill="currentColor"
-              height="1em"
-              stroke="currentColor"
-              stroke-width="0"
-              viewBox="0 0 512 512"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
+            <button
+              aria-label="action"
+              class="wrapper medium clear action"
             >
-              <path
-                d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
-              />
-            </svg>
-          </button>
-          <button
-            aria-label="action"
-            class="wrapper medium clear action"
+              <svg
+                class="actionIcon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            aria-label="item.action.trailer"
+            class="content"
+            data-mui-internal-clone-element="true"
           >
-            <svg
-              class="actionIcon"
-              fill="currentColor"
-              height="1em"
-              stroke="currentColor"
-              stroke-width="0"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
+            <button
+              aria-label="action"
+              class="wrapper medium clear action"
             >
-              <g>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                />
-              </g>
-            </svg>
-          </button>
+              <svg
+                class="actionIcon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
           <style>
             
         .wrapper {
@@ -125,7 +137,7 @@ exports[`Tests MediaCondensed component renders component correctly 1`] = `
           </style>
         </div>
         <a
-          href="/movie/1"
+          href="/movie"
         >
           <button
             class="wrapper medium rounded buttonInfo"

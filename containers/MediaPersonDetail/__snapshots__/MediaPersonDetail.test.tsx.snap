@@ -78,25 +78,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                 <div
                   class="wrapper actions actions"
                 >
-                  <button
-                    aria-label="action"
-                    class="wrapper medium clear action action"
+                  <div
+                    class="content"
                   >
-                    <svg
-                      class="actionIcon"
-                      fill="currentColor"
-                      height="1em"
-                      stroke="currentColor"
-                      stroke-width="0"
-                      viewBox="0 0 512 512"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action action"
                     >
-                      <path
-                        d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                      />
-                    </svg>
-                  </button>
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                   <style>
                     
         .wrapper {
@@ -157,25 +161,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                 <div
                   class="wrapper actions actions"
                 >
-                  <button
-                    aria-label="action"
-                    class="wrapper medium clear action action"
+                  <div
+                    class="content"
                   >
-                    <svg
-                      class="actionIcon"
-                      fill="currentColor"
-                      height="1em"
-                      stroke="currentColor"
-                      stroke-width="0"
-                      viewBox="0 0 512 512"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
+                    <button
+                      aria-label="action"
+                      class="wrapper medium clear action action"
                     >
-                      <path
-                        d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                      />
-                    </svg>
-                  </button>
+                      <svg
+                        class="actionIcon"
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                   <style>
                     
         .wrapper {
@@ -296,7 +304,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             <span
               class="wrapper md"
             >
-              my.list.button
+              favourites.add
               <style>
                 
         .wrapper {
@@ -839,31 +847,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -948,31 +960,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1057,31 +1073,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1166,31 +1186,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1275,31 +1299,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1384,31 +1412,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1493,31 +1525,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1602,31 +1638,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1711,31 +1751,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1820,31 +1864,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -1929,31 +1977,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -2038,31 +2090,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -2147,31 +2203,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -2256,31 +2316,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -2365,31 +2429,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -2474,31 +2542,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -2583,31 +2655,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -2692,31 +2768,35 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 24 24"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <g>
-                              <path
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                              />
-                            </g>
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g>
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                                <path
+                                  d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
+                                />
+                              </g>
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -2770,6 +2850,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             </div>
           </div>
           <button
+            aria-label="prev"
             class="wrapper medium buttonNavigation prev"
           >
             <svg
@@ -2789,6 +2870,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             </svg>
           </button>
           <button
+            aria-label="next"
             class="wrapper medium buttonNavigation next"
           >
             <svg
@@ -2923,25 +3005,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3024,25 +3110,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3125,25 +3215,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3226,25 +3320,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3327,25 +3425,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3428,25 +3530,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3529,25 +3635,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3630,25 +3740,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3731,25 +3845,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3832,25 +3950,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -3933,25 +4055,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -4034,25 +4160,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -4135,25 +4265,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -4236,25 +4370,29 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
                       <div
                         class="wrapper actions actions"
                       >
-                        <button
-                          aria-label="action"
-                          class="wrapper medium clear action action"
+                        <div
+                          class="content"
                         >
-                          <svg
-                            class="actionIcon"
-                            fill="currentColor"
-                            height="1em"
-                            stroke="currentColor"
-                            stroke-width="0"
-                            viewBox="0 0 512 512"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
+                          <button
+                            aria-label="action"
+                            class="wrapper medium clear action action"
                           >
-                            <path
-                              d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
-                            />
-                          </svg>
-                        </button>
+                            <svg
+                              class="actionIcon"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M396.795 396.8H320V448h128V320h-51.205zM396.8 115.205V192H448V64H320v51.205zM115.205 115.2H192V64H64v128h51.205zM115.2 396.795V320H64v128h128v-51.205z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
                         <style>
                           
         .wrapper {
@@ -4306,6 +4444,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             </div>
           </div>
           <button
+            aria-label="prev"
             class="wrapper medium buttonNavigation prev"
           >
             <svg
@@ -4325,6 +4464,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             </svg>
           </button>
           <button
+            aria-label="next"
             class="wrapper medium buttonNavigation next"
           >
             <svg
@@ -4425,7 +4565,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/222121"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -4531,7 +4671,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/17605"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -4637,7 +4777,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/1212864"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -4743,7 +4883,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/206"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -4849,7 +4989,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/11006"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -4955,7 +5095,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/110742"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -5061,7 +5201,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/1546282"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -5167,7 +5307,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/50266"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -5273,7 +5413,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/115974"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"
@@ -5379,7 +5519,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-120 MuiGrid-grid-sm-120 MuiGrid-grid-md-60 MuiGrid-grid-lg-40 MuiGrid-grid-xl-40 item css-1e6jbaj-MuiGrid-root"
           >
             <a
-              href="/person/208677"
+              href="/undefined"
             >
               <div
                 class="wrapper cast"

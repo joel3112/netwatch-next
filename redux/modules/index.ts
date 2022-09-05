@@ -2,24 +2,25 @@ import { combineReducers } from 'redux';
 import { EmptyObject } from '@/types';
 import scrollToReducer, { onChangeScrollToState, ScrollToState } from '@/redux/modules/scrollTo';
 import themeReducer, { onChangeThemeState, ThemeState } from '@/redux/modules/theme';
-import paginationReducer, { PaginationState } from '@/redux/modules/pagination';
+import favouriteReducer, { onChangeFavoriteState, FavouriteState } from './favourite';
 
-export type ReduceSelector = 'scrollTo' | 'theme' | 'pagination';
-export type ReduceSelectorState = ScrollToState | ThemeState | PaginationState | EmptyObject;
+export type ReduceSelector = 'scrollTo' | 'theme' | 'favourite';
+export type ReduceSelectorState = ScrollToState | ThemeState | FavouriteState | EmptyObject;
 
 export type ReduceSelectors = {
   scrollTo?: ScrollToState;
   theme?: ThemeState;
-  pagination?: PaginationState;
+  favourite?: FavouriteState;
 };
 
 export const onChangeState = {
   scrollTo: onChangeScrollToState,
-  theme: onChangeThemeState
+  theme: onChangeThemeState,
+  favourite: onChangeFavoriteState
 };
 
 export default combineReducers({
   scrollTo: scrollToReducer,
   theme: themeReducer,
-  pagination: paginationReducer
+  favourite: favouriteReducer
 });

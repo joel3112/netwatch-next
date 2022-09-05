@@ -1,10 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
-import { cloneElement, createContext, ReactNode, useContext, useState } from 'react';
+import {
+  cloneElement,
+  createContext,
+  MouseEventHandler,
+  ReactNode,
+  useContext,
+  useState
+} from 'react';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { Breakpoint } from '@mui/system/createTheme/createBreakpoints';
 import { IconType } from 'react-icons';
-import { IoMdAdd, IoMdExpand } from 'react-icons/io';
+import { IoMdExpand } from 'react-icons/io';
 import { RiPlayFill } from 'react-icons/ri';
 import { BiGlobe } from 'react-icons/bi';
 import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
@@ -17,7 +24,6 @@ import {
   MediaImage,
   MediaImageRatio,
   MediaImageType,
-  MediaType,
   MediaTypeKey,
   MediaVideo,
   MediaWatchProviders,
@@ -28,6 +34,7 @@ import {
 import { useI18n } from '@/hooks/useI18n';
 import { useModal } from '@/hooks/useModal';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
+import { useFavourite } from '@/hooks/useFavourite';
 import { MediaHeading } from '@/containers/MediaHeading';
 import { Grid, Space } from '@/components/layout';
 import { Heading, Text } from '@/components/typography';
@@ -51,8 +58,11 @@ type MediaDetailContextProps = Partial<typeof defaultValue> & {
   id: number;
   type: MediaTypeKey;
   media: MovieDetail | TVDetail;
+  favouriteAction: string;
+  FavouriteIcon: IconType | null;
   handleVideo: FunctionVoid<unknown>;
   handleZoom: FunctionVoid<unknown>;
+  handleToggleFavourite: (e: UIEvent, item: MovieDetail | TVDetail) => void;
   t: (key: string, options?: EmptyObject) => string;
   language: string;
 };
@@ -118,16 +128,11 @@ const sectionHeadingHref = (type: MediaTypeKey, id: number) => ({
   RECOMMENDATIONS: ''
 });
 
-const sectionItemHref = (
-  type: MediaTypeKey,
-  id: number,
-  itemType?: MediaTypeKey,
-  itemId?: string
-) => ({
+const sectionItemHref = (type: MediaTypeKey, id: number, itemId?: string) => ({
   VIDEOS: '',
   IMAGES: '',
   SEASONS: { pathname: '/[type]/[id]/seasons/[itemId]', query: { type, id, itemId } },
-  RECOMMENDATIONS: { pathname: '/[itemType]/[itemId]', query: { itemType, itemId } }
+  RECOMMENDATIONS: ''
 });
 
 type DetailCarouselProps = ElementChildren<JSX.Element> & {
@@ -189,7 +194,7 @@ const DetailCarousel = ({
               cloneElement(children, { item })
             ) : (
               <Card
-                href={sectionItemHref(type, id, item['type'], item['id'])[sectionKey]}
+                href={item['route'] || sectionItemHref(type, id, item['id'])[sectionKey]}
                 className={styles.card}
                 onClick={() => handleClickAction(item)}>
                 <Card.Image
@@ -262,7 +267,8 @@ const DetailExternalIds = () => {
 /* -------------------------------------------------------------------------- */
 
 const DetailData = () => {
-  const { t, media, handleVideo, language } = useMediaDetailContext();
+  const { t, media, favouriteAction, FavouriteIcon, handleVideo, handleToggleFavourite, language } =
+    useMediaDetailContext();
   const videos = getPropValue(media, 'videos', []);
   const { watch_link, providers } = getPropValue(
     media,
@@ -287,11 +293,14 @@ const DetailData = () => {
   }: {
     children?: ReactNode;
     text: string;
-    onClick?: () => void;
+    onClick?: (e: UIEvent) => void;
     light?: boolean;
   }) => {
     return (
-      <Button className={styles.button} light={light} onClick={onClick}>
+      <Button
+        className={styles.button}
+        light={light}
+        onClick={onClick as unknown as MouseEventHandler<HTMLButtonElement>}>
         {children}
         <Text>{t(text)}</Text>
       </Button>
@@ -321,8 +330,11 @@ const DetailData = () => {
             <RiPlayFill />
           </DataButton>
         )}
-        <DataButton text="my.list.button" light>
-          <IoMdAdd />
+        <DataButton
+          text={favouriteAction}
+          light
+          onClick={(e: UIEvent) => handleToggleFavourite(e, media)}>
+          {FavouriteIcon && <FavouriteIcon />}
         </DataButton>
       </Space>
 
@@ -407,9 +419,9 @@ const DetailCredits = () => {
       </MediaHeading>
 
       <Grid breakpoints={{ xs: 1, sm: 1, md: 2, lg: 3, xl: 3 }} spacing={4}>
-        {cast.truncate(isMobile ? 5 : 10).map(({ id, name, image, characters }) => (
+        {cast.truncate(isMobile ? 5 : 10).map(({ id, route, name, image, characters }) => (
           <Grid.Item key={id}>
-            <Link href={`/${MediaType.PERSON}/${id}`}>
+            <Link href={String(route)}>
               <a>
                 <Space align="center" gap={10} className={styles.cast}>
                   <div className={styles.image}>
@@ -497,6 +509,7 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
   const { isOpened, handleChange } = useModal();
   const { key, isMobile, isTablet, isSmallDesktop } = useBreakpoint();
   const { type, id } = media;
+  const { favouriteAction, FavouriteIcon, onToggle } = useFavourite();
 
   const handleVideo = (item: unknown) => {
     const video = item as MediaVideo;
@@ -526,8 +539,11 @@ const MediaDetail = ({ className, media }: MediaDetailProps) => {
         isMobile,
         isSmallDesktop,
         isTablet,
+        favouriteAction: favouriteAction(media.id),
+        FavouriteIcon: FavouriteIcon(media.id),
         handleVideo,
-        handleZoom
+        handleZoom,
+        handleToggleFavourite: onToggle
       }}>
       <div className={classes(styles.wrapper, styles[key], className)}>
         <Space className={styles.header} direction="column" gap={20} style={{ marginTop: 30 }}>

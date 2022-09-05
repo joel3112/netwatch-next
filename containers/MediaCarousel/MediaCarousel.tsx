@@ -1,6 +1,6 @@
-import { IoMdAdd } from 'react-icons/io';
 import { ElementHTML, ElementLink, ElementSkeleton, MediaData, MediaImageRatio } from '@/types';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
+import { useFavourite } from '@/hooks/useFavourite';
 import { Card, Carousel } from '@/components/display';
 import { MediaHeading } from '@/containers/MediaHeading';
 import { MediaCondensed } from '@/containers/MediaCondensed';
@@ -56,10 +56,11 @@ const MediaCarousel = ({
   const { key } = useBreakpoint();
   const { imageKey, configKey, ratio } = imageSizes[backdrop ? 'backdrop' : 'poster'];
   const { [configKey]: slidesPerView, spacing, offset = 0 } = getBreakpointConfig(key) || {};
+  const { favouriteAction, FavouriteIcon, onToggle } = useFavourite();
 
   return (
     <div className={classes(styles.wrapper, styles[key])}>
-      {heading && items && items.length && (
+      {Boolean(heading && items && items.length) && (
         <MediaHeading href={href} className={styles.heading}>
           {heading}
         </MediaHeading>
@@ -75,20 +76,21 @@ const MediaCarousel = ({
         loop={loop}
         className={classes(styles.carousel)}>
         {(items || []).map((props, index) => {
-          const { [imageKey]: image, id, type, name, date } = props;
+          const { [imageKey]: image, id, route, name, date } = props;
 
           return (
             <Carousel.Item key={index}>
               {condensed ? (
                 <MediaCondensed {...props} />
               ) : (
-                <Card
-                  href={{ pathname: '/[type]/[id]', query: { type, id } }}
-                  className={styles.card}
-                  skeleton={!type}>
+                <Card href={route} className={styles.card} skeleton={!id}>
                   <Card.Image src={image} width="100%" ratio={ratio} lazy>
                     <Card.Actions>
-                      <Card.Actions.Item icon={IoMdAdd} />
+                      <Card.Actions.Item
+                        icon={FavouriteIcon(id)}
+                        tooltip={favouriteAction(id)}
+                        onClick={(e: UIEvent) => onToggle(e, props)}
+                      />
                     </Card.Actions>
                   </Card.Image>
                   <Card.Body title={name} description={date} />

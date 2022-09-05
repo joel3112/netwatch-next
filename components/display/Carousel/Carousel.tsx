@@ -73,7 +73,7 @@ const defaultProps = {
 
 const renderNavigationButton = (state: 'prev' | 'next', Icon: IconType) => {
   return (
-    <Button className={classes(styles.buttonNavigation, styles[state])}>
+    <Button ariaLabel={state} className={classes(styles.buttonNavigation, styles[state])}>
       <Icon />
     </Button>
   );

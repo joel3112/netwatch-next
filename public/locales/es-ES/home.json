@@ -3,5 +3,8 @@
   "welcome.title": "Bienvenid@, películas y programas de televisión para ti",
   "trending.title": "Tendencias",
   "movie.title": "Películas",
-  "tv.title": "Programas de TV"
+  "tv.title": "Programas de TV",
+  "favourites.title": "Mi Lista",
+  "item.action.trailer": "Ver trailer",
+  "item.action.more": "Más información"
 }

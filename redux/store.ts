@@ -13,6 +13,8 @@ store.subscribe(() => {
   onChangeState.scrollTo(storeState);
   // theme module
   onChangeState.theme(storeState);
+  // favourite module
+  onChangeState.favourite(storeState);
 });
 
 if (typeof window !== 'undefined') {

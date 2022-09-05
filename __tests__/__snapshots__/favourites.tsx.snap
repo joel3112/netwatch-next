@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests favourites page renders page correctly 1`] = `
+<div>
+  <div
+    class="wrapper hasMargins"
+  >
+    <div
+      class="wrapper"
+      style="margin-top: 30px;"
+    >
+      <h2
+        class="wrapper"
+      >
+        favourites.title
+      </h2>
+      <div
+        class="wrapper"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container wrapper grid css-lrun27-MuiGrid-root"
+          role="grid"
+        />
+      </div>
+      <style>
+        
+        .wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+          
+          
+        }
+      
+      </style>
+    </div>
+  </div>
+</div>
+`;

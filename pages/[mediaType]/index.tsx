@@ -1,18 +1,23 @@
 import type { GetServerSidePropsContext, NextPage } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Head from 'next/head';
-import { MediaTypeKey } from '@/types';
+import DefaultErrorPage from 'next/error';
+import { MediaType } from '@/types';
 import { useI18n } from '@/hooks/useI18n';
 import { MediaPagination } from '@/containers/MediaPagination';
 import { Container, Space } from '@/components/layout';
 import { Heading } from '@/components/typography';
 
 type MediaPageProps = {
-  type: MediaTypeKey;
+  type: MediaType.MOVIE | MediaType.TV;
 };
 
 const MediaPage: NextPage<MediaPageProps> = ({ type }) => {
   const { t } = useI18n(type);
+
+  if (![MediaType.MOVIE, MediaType.TV].includes(type)) {
+    return <DefaultErrorPage statusCode={404} />;
+  }
 
   return (
     <>

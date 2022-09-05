@@ -27,6 +27,7 @@ export type MediaDataList<T = MediaCommonData> = DataListResponse<
 export type MediaCommonData = {
   id: number;
   type: MediaTypeKey;
+  route: string;
   image: string;
   name: string;
   original_name?: string;
@@ -135,6 +136,7 @@ export enum MediaCreditRole {
 
 export type MediaCredit = {
   id: string;
+  route: string;
   name: string;
   original_name: string;
   gender: Lowercase<MediaCreditGender>;
