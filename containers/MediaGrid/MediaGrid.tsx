@@ -36,7 +36,7 @@ const MediaGrid = ({ items }: MediaGridProps) => {
                     <Card.Actions.Item
                       icon={FavouriteIcon(id)}
                       tooltip={favouriteAction(id)}
-                      onClick={() => onToggle(item)}
+                      onClick={(e: UIEvent) => onToggle(e, item)}
                     />
                   </Card.Actions>
                 </Card.Image>

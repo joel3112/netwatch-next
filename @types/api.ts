@@ -152,7 +152,7 @@ export type APIMediaWatchProvider = {
 };
 
 export type APIMediaWatchProviderLanguage = {
-  [key: Uppercase<string>]: {
+  [key in Uppercase<string>]: {
     link: string;
     flatrate: APIMediaWatchProvider;
     rent: APIMediaWatchProvider;

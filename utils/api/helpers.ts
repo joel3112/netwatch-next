@@ -2,6 +2,7 @@ import { IncomingMessage } from 'http';
 import {
   APIMediaData,
   APIMediaDetail,
+  APIPersonDetail,
   MediaCreditGender,
   MediaType,
   MediaTypeKey,
@@ -86,4 +87,15 @@ export const genderFromMedia = (gender?: number) => {
   if (gender === 1) return MediaCreditGender.GENDER1;
   if (gender === 2) return MediaCreditGender.GENDER2;
   return MediaCreditGender.GENDER0;
+};
+
+export const routeFromMedia = (media: APIMediaData | APIPersonDetail, type: string): string => {
+  const { id } = media;
+  const { original_name } = namesFromMedia(media as APIMediaData);
+  const nameFormatted = (original_name || (media as APIPersonDetail).name || '')
+    .replace(/-/g, ' ')
+    ?.removeSpecialCharacters()
+    ?.trim()
+    ?.replace(/ /g, '-');
+  return (nameFormatted ? `/${type}/${id}-${nameFormatted}` : `/${type}/${id}`).toLowerCase();
 };

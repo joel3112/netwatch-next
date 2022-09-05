@@ -5,6 +5,7 @@ const Document = () => {
     <Html>
       <Head>
         <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <body>

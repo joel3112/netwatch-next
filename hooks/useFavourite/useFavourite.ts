@@ -14,7 +14,7 @@ export type UseFavourite = {
   FavouriteIcon: (id: number) => IconType | null;
   onAdd: (item: MediaData) => void;
   onRemove: (item: MediaData) => void;
-  onToggle: (item: MediaData) => void;
+  onToggle: (e: UIEvent, item: MediaData) => void;
 };
 
 export const useFavourite = (): UseFavourite => {
@@ -35,7 +35,8 @@ export const useFavourite = (): UseFavourite => {
     dispatch(actions.remove(item));
   };
 
-  const handleToggle = (item: MediaData): void => {
+  const handleToggle = (e: UIEvent, item: MediaData): void => {
+    e.preventDefault();
     if (isFavourite(item.id)) {
       handleRemove(item);
     } else {

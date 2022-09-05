@@ -4,5 +4,7 @@
   "trending.title": "Tendencias",
   "movie.title": "Películas",
   "tv.title": "Programas de TV",
-  "favourites.title": "Mi Lista"
+  "favourites.title": "Mi Lista",
+  "item.action.trailer": "Ver trailer",
+  "item.action.more": "Más información"
 }

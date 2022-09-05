@@ -41,7 +41,12 @@ const HomePage: NextPage<HomePageProps> = ({ trendingWeek, trendingDay, movies, 
           <MediaCarousel heading={t('trending.title')} backdrop items={trendingDay} />
 
           {favourites && !favourites.isEmpty() && typeof window !== 'undefined' && (
-            <MediaCarousel heading={t('favourites.title')} backdrop items={favourites} />
+            <MediaCarousel
+              heading={t('favourites.title')}
+              backdrop
+              href="/favourites"
+              items={favourites}
+            />
           )}
 
           <MediaCarousel heading={t('movie.title')} href="/movie" items={movies} />

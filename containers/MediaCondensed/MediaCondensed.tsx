@@ -1,11 +1,11 @@
 import { ElementHTML, MediaData, MediaImageRatio } from '@/types';
 import Link from 'next/link';
 import { RiPlayFill } from 'react-icons/ri';
-import { IoMdAdd } from 'react-icons/io';
 import { useI18n } from '@/hooks/useI18n';
 import { useBreakpoint } from '@/hooks/useBreakpoint';
 import { useModal } from '@/hooks/useModal';
 import { useVideo } from '@/hooks/useVideo';
+import { useFavourite } from '@/hooks/useFavourite';
 import { Space } from '@/components/layout';
 import { Text } from '@/components/typography';
 import { Card } from '@/components/display';
@@ -21,10 +21,12 @@ import styles from '@/containers/MediaCondensed/MediaCondensed.module.scss';
 
 type MediaCondensedInfoProps = MediaData;
 
-const MediaCondensedInfo = ({ id, type, name, description }: MediaCondensedInfoProps) => {
-  const { t } = useI18n();
+const MediaCondensedInfo = (props: MediaCondensedInfoProps) => {
+  const { id, type, name, description } = props;
+  const { t } = useI18n('home');
   const { isOpened, handleChange } = useModal();
   const { videoId } = useVideo(isOpened ? id : 0, type);
+  const { favouriteAction, FavouriteIcon, onToggle } = useFavourite();
 
   return (
     <>
@@ -37,8 +39,16 @@ const MediaCondensedInfo = ({ id, type, name, description }: MediaCondensedInfoP
 
         <Space align="center" gap={8}>
           <Card.Actions className={styles.actionsInfo}>
-            <Card.Actions.Item icon={IoMdAdd} />
-            <Card.Actions.Item icon={RiPlayFill} onClick={() => handleChange(true)} />
+            <Card.Actions.Item
+              icon={FavouriteIcon(id)}
+              tooltip={favouriteAction(id)}
+              onClick={(e: UIEvent) => onToggle(e, props)}
+            />
+            <Card.Actions.Item
+              tooltip={t('item.action.trailer')}
+              icon={RiPlayFill}
+              onClick={() => handleChange(true)}
+            />
           </Card.Actions>
 
           <Link href={{ pathname: '/[type]/[id]', query: { type, id } }}>

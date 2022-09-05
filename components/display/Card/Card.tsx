@@ -7,6 +7,7 @@ import { withChildrenFiltered } from '@/hoc/withChildrenFiltered';
 import { Space } from '@/components/layout';
 import { Image } from '@/components/media';
 import { Button } from '@/components/forms';
+import { Tooltip } from '@/components/overlay';
 import { Heading, Text } from '@/components/typography';
 import { ImageProps } from '@/components/media/Image/Image';
 import { classes } from '@/utils/helpers';
@@ -50,7 +51,7 @@ const CardImage = (props: CardImageProps) => {
 
 type CardActionProps = ElementHTML & {
   icon: IconType;
-  tooltip?: string;
+  tooltip: string;
   onClick?: MouseEventHandler<HTMLButtonElement>;
 };
 
@@ -62,14 +63,15 @@ const CardAction = ({ className, icon: Icon, tooltip, onClick }: CardActionProps
   };
 
   return (
-    <Button
-      clear
-      ariaLabel="action"
-      className={classes(styles.action, className)}
-      tooltip={tooltip}
-      onClick={handleClick}>
-      <Icon className={styles.actionIcon} />
-    </Button>
+    <Tooltip text={tooltip} className={styles.tooltip}>
+      <Button
+        clear
+        ariaLabel="action"
+        className={classes(styles.action, className)}
+        onClick={handleClick}>
+        <Icon className={styles.actionIcon} />
+      </Button>
+    </Tooltip>
   );
 };
 

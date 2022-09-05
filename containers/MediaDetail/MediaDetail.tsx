@@ -1,5 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import { cloneElement, createContext, ReactNode, useContext, useState } from 'react';
+import {
+  cloneElement,
+  createContext,
+  MouseEventHandler,
+  ReactNode,
+  useContext,
+  useState
+} from 'react';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { Breakpoint } from '@mui/system/createTheme/createBreakpoints';
@@ -56,7 +63,7 @@ type MediaDetailContextProps = Partial<typeof defaultValue> & {
   FavouriteIcon: IconType | null;
   handleVideo: FunctionVoid<unknown>;
   handleZoom: FunctionVoid<unknown>;
-  handleToggleFavourite: FunctionVoid<MovieDetail | TVDetail>;
+  handleToggleFavourite: (e: UIEvent, item: MovieDetail | TVDetail) => void;
   t: (key: string, options?: EmptyObject) => string;
   language: string;
 };
@@ -292,11 +299,14 @@ const DetailData = () => {
   }: {
     children?: ReactNode;
     text: string;
-    onClick?: () => void;
+    onClick?: (e: UIEvent) => void;
     light?: boolean;
   }) => {
     return (
-      <Button className={styles.button} light={light} onClick={onClick}>
+      <Button
+        className={styles.button}
+        light={light}
+        onClick={onClick as unknown as MouseEventHandler<HTMLButtonElement>}>
         {children}
         <Text>{t(text)}</Text>
       </Button>
@@ -326,7 +336,10 @@ const DetailData = () => {
             <RiPlayFill />
           </DataButton>
         )}
-        <DataButton text={favouriteAction} light onClick={() => handleToggleFavourite(media)}>
+        <DataButton
+          text={favouriteAction}
+          light
+          onClick={(e: UIEvent) => handleToggleFavourite(e, media)}>
           {FavouriteIcon && <FavouriteIcon />}
         </DataButton>
       </Space>

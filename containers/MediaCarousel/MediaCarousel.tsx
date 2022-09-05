@@ -76,23 +76,20 @@ const MediaCarousel = ({
         loop={loop}
         className={classes(styles.carousel)}>
         {(items || []).map((props, index) => {
-          const { [imageKey]: image, id, type, name, date } = props;
+          const { [imageKey]: image, id, route, name, date } = props;
 
           return (
             <Carousel.Item key={index}>
               {condensed ? (
                 <MediaCondensed {...props} />
               ) : (
-                <Card
-                  href={{ pathname: '/[type]/[id]', query: { type, id } }}
-                  className={styles.card}
-                  skeleton={!type}>
+                <Card href={route} className={styles.card} skeleton={!id}>
                   <Card.Image src={image} width="100%" ratio={ratio} lazy>
                     <Card.Actions>
                       <Card.Actions.Item
-                        icon={FavouriteIcon}
+                        icon={FavouriteIcon(id)}
                         tooltip={favouriteAction(id)}
-                        onClick={() => onToggle(props)}
+                        onClick={(e: UIEvent) => onToggle(e, props)}
                       />
                     </Card.Actions>
                   </Card.Image>

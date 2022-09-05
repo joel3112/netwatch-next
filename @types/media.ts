@@ -27,6 +27,7 @@ export type MediaDataList<T = MediaCommonData> = DataListResponse<
 export type MediaCommonData = {
   id: number;
   type: MediaTypeKey;
+  route: string;
   image: string;
   name: string;
   original_name?: string;

@@ -43,7 +43,6 @@ import {
   MediaWatchProviders,
   MovieDetail,
   TVDetail,
-  PersonCredits,
   PersonDetail
 } from '@/types';
 import {
@@ -54,6 +53,7 @@ import {
   namesFromMedia,
   posterUrl,
   profileUrl,
+  routeFromMedia,
   typeFromMedia
 } from '@/utils/api';
 import { formatDate, getPropValue, yearsFromNow } from '@/utils/helpers';
@@ -69,17 +69,21 @@ export const mediaMapper = (media: APIMediaData, locale: string): MediaData => {
     vote_average,
     vote_count
   } = media;
+  const { name, original_name } = namesFromMedia(media);
+  const type = media_type || typeFromMedia(media);
 
   return {
     id,
-    type: media_type || typeFromMedia(media),
+    route: routeFromMedia(media, type),
+    type,
+    name,
+    original_name,
     description: overview,
     image: posterUrl(poster_path),
     backdrop: backdropUrl(backdrop_path),
     popularity,
     vote_count: vote_count ? +vote_count.toFixed(1) : 0,
     vote_average: vote_average ? +vote_average.toFixed(1) : 0,
-    ...namesFromMedia(media),
     ...dateFromMedia(media, locale)
   };
 };
@@ -405,6 +409,7 @@ export const personDetailMapper = (data: APIPersonDetail, locale: string): Perso
 
   return {
     type: MediaType.PERSON,
+    route: routeFromMedia(data, MediaType.PERSON),
     id,
     name,
     also_known_as,
