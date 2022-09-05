@@ -16,7 +16,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/634649"
+            href="/movie/634649-spider-man-no-way-home"
           >
             <div
               aria-label="image"
@@ -99,7 +99,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/634649"
+              href="/movie/634649-spider-man-no-way-home"
             >
               <h2
                 class="wrapper heading linkable"
@@ -143,7 +143,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/508947"
+            href="/movie/508947-turning-red"
           >
             <div
               aria-label="image"
@@ -226,7 +226,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/508947"
+              href="/movie/508947-turning-red"
             >
               <h2
                 class="wrapper heading linkable"
@@ -270,7 +270,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/675353"
+            href="/movie/675353-sonic-the-hedgehog-2"
           >
             <div
               aria-label="image"
@@ -353,7 +353,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/675353"
+              href="/movie/675353-sonic-the-hedgehog-2"
             >
               <h2
                 class="wrapper heading linkable"
@@ -397,7 +397,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/406759"
+            href="/movie/406759-moonfall"
           >
             <div
               aria-label="image"
@@ -480,7 +480,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/406759"
+              href="/movie/406759-moonfall"
             >
               <h2
                 class="wrapper heading linkable"
@@ -524,7 +524,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/414906"
+            href="/movie/414906-the-batman"
           >
             <div
               aria-label="image"
@@ -607,7 +607,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/414906"
+              href="/movie/414906-the-batman"
             >
               <h2
                 class="wrapper heading linkable"
@@ -651,7 +651,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/696806"
+            href="/movie/696806-the-adam-project"
           >
             <div
               aria-label="image"
@@ -734,7 +734,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/696806"
+              href="/movie/696806-the-adam-project"
             >
               <h2
                 class="wrapper heading linkable"
@@ -778,7 +778,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/760868"
+            href="/movie/760868-svart-krabba"
           >
             <div
               aria-label="image"
@@ -861,7 +861,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/760868"
+              href="/movie/760868-svart-krabba"
             >
               <h2
                 class="wrapper heading linkable"
@@ -905,7 +905,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/568124"
+            href="/movie/568124-encanto"
           >
             <div
               aria-label="image"
@@ -988,7 +988,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/568124"
+              href="/movie/568124-encanto"
             >
               <h2
                 class="wrapper heading linkable"
@@ -1032,7 +1032,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/833425"
+            href="/movie/833425-no-exit"
           >
             <div
               aria-label="image"
@@ -1115,7 +1115,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/833425"
+              href="/movie/833425-no-exit"
             >
               <h2
                 class="wrapper heading linkable"
@@ -1159,7 +1159,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/676705"
+            href="/movie/676705-pil"
           >
             <div
               aria-label="image"
@@ -1242,7 +1242,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/676705"
+              href="/movie/676705-pil"
             >
               <h2
                 class="wrapper heading linkable"
@@ -1286,7 +1286,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/615"
+            href="/movie/615-the-passion-of-the-christ"
           >
             <div
               aria-label="image"
@@ -1369,7 +1369,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/615"
+              href="/movie/615-the-passion-of-the-christ"
             >
               <h2
                 class="wrapper heading linkable"
@@ -1413,7 +1413,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/661791"
+            href="/movie/661791-la-abuela"
           >
             <div
               aria-label="image"
@@ -1496,7 +1496,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/661791"
+              href="/movie/661791-la-abuela"
             >
               <h2
                 class="wrapper heading linkable"
@@ -1540,7 +1540,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/338953"
+            href="/movie/338953-fantastic-beasts-the-secrets-of-dumbledore"
           >
             <div
               aria-label="image"
@@ -1623,7 +1623,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/338953"
+              href="/movie/338953-fantastic-beasts-the-secrets-of-dumbledore"
             >
               <h2
                 class="wrapper heading linkable"
@@ -1667,7 +1667,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/774825"
+            href="/movie/774825-the-ice-age-adventures-of-buck-wild"
           >
             <div
               aria-label="image"
@@ -1750,7 +1750,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/774825"
+              href="/movie/774825-the-ice-age-adventures-of-buck-wild"
             >
               <h2
                 class="wrapper heading linkable"
@@ -1794,7 +1794,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/454626"
+            href="/movie/454626-sonic-the-hedgehog"
           >
             <div
               aria-label="image"
@@ -1877,7 +1877,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/454626"
+              href="/movie/454626-sonic-the-hedgehog"
             >
               <h2
                 class="wrapper heading linkable"
@@ -1921,7 +1921,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/585083"
+            href="/movie/585083-hotel-transylvania-transformania"
           >
             <div
               aria-label="image"
@@ -2004,7 +2004,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/585083"
+              href="/movie/585083-hotel-transylvania-transformania"
             >
               <h2
                 class="wrapper heading linkable"
@@ -2048,7 +2048,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/524434"
+            href="/movie/524434-eternals"
           >
             <div
               aria-label="image"
@@ -2131,7 +2131,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/524434"
+              href="/movie/524434-eternals"
             >
               <h2
                 class="wrapper heading linkable"
@@ -2175,7 +2175,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/476669"
+            href="/movie/476669-the-kings-man"
           >
             <div
               aria-label="image"
@@ -2258,7 +2258,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/476669"
+              href="/movie/476669-the-kings-man"
             >
               <h2
                 class="wrapper heading linkable"
@@ -2302,7 +2302,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/800510"
+            href="/movie/800510-kimi"
           >
             <div
               aria-label="image"
@@ -2385,7 +2385,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/800510"
+              href="/movie/800510-kimi"
             >
               <h2
                 class="wrapper heading linkable"
@@ -2429,7 +2429,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
           class="wrapper card"
         >
           <a
-            href="/movie/928381"
+            href="/movie/928381-sans-repit"
           >
             <div
               aria-label="image"
@@ -2512,7 +2512,7 @@ exports[`Tests MediaGrid component renders component correctly 1`] = `
             class="wrapper body"
           >
             <a
-              href="/movie/928381"
+              href="/movie/928381-sans-repit"
             >
               <h2
                 class="wrapper heading linkable"
