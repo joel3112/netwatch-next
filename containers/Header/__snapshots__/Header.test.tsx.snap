@@ -73,6 +73,40 @@ exports[`Tests Header component renders container correctly 1`] = `
       class="wrapper"
     >
       <div
+        class="wrapper headerNav"
+      >
+        <a
+          href="/movie"
+        >
+          <button
+            class="wrapper small clear headerNavAction"
+          >
+            header.nav.movies
+          </button>
+        </a>
+        <a
+          href="/tv"
+        >
+          <button
+            class="wrapper small clear headerNavAction"
+          >
+            header.nav.tvs
+          </button>
+        </a>
+        <style>
+          
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          
+          
+          align-items: center;
+        }
+      
+        </style>
+      </div>
+      <div
         class="wrapper headerActions"
       >
         <button

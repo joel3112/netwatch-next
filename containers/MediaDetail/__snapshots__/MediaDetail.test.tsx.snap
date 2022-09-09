@@ -710,7 +710,7 @@ exports[`Tests MediaDetail component renders component correctly 1`] = `
         .wrapper {
           display: flex;
           flex-direction: row;
-          flex-wrap: nowrap;
+          flex-wrap: wrap;
           gap: 5px;
           
           

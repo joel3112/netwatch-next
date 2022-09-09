@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { IconType } from 'react-icons';
 import { FiSearch, FiSettings } from 'react-icons/fi';
 import { ElementHTML } from '@/types';
@@ -87,6 +88,41 @@ const HeaderActions = ({ actions = defaultActions }: HeaderActionsProps) => {
 };
 
 /* -------------------------------------------------------------------------- */
+/** HeaderNav (child component) **/
+/* -------------------------------------------------------------------------- */
+
+type HeaderNavProps = {
+  items?: Array<{ label: string; href: string }>;
+};
+
+const defaultItems = [
+  { label: 'header.nav.movies', href: '/movie' },
+  { label: 'header.nav.tvs', href: '/tv' }
+];
+
+const HeaderNav = ({ items = defaultItems }: HeaderNavProps) => {
+  const { t } = useI18n();
+  const { asPath } = useRouter();
+
+  return (
+    <Space align="center" className={styles.headerNav}>
+      {items.map(({ label, href }) => (
+        <Link key={label} href={href}>
+          <a>
+            <Button
+              size="small"
+              clear
+              className={classes(styles.headerNavAction, asPath.includes(href) && styles.active)}>
+              {t(label)}
+            </Button>
+          </a>
+        </Link>
+      ))}
+    </Space>
+  );
+};
+
+/* -------------------------------------------------------------------------- */
 /** Container (main component) **/
 /* -------------------------------------------------------------------------- */
 
@@ -96,6 +132,7 @@ const defaultProps = {};
 
 const Header = ({}: HeaderProps) => {
   const { t } = useI18n();
+  const { isMobile } = useBreakpoint();
 
   return (
     <Space justify="between" align="center" className={classes(styles.wrapper)}>
@@ -114,6 +151,7 @@ const Header = ({}: HeaderProps) => {
       </Link>
 
       <Space align="center" gap={10}>
+        {!isMobile && <HeaderNav />}
         <HeaderSearch />
         <HeaderActions />
       </Space>

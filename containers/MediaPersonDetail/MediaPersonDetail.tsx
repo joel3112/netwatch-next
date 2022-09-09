@@ -240,15 +240,17 @@ const DetailData = () => {
         <DataItem heading={t('person.place.of.birth')}>
           <Text disabled>{person.place_of_birth || t('detail.empty')}</Text>
         </DataItem>
-        <DataItem heading={t('person.also.known')}>
-          <Space direction="column" gap={5}>
-            {(person.also_known_as || []).map((name) => (
-              <Text key={name} disabled>
-                {name}
-              </Text>
-            ))}
-          </Space>
-        </DataItem>
+        {!person.also_known_as?.isEmpty() && (
+          <DataItem heading={t('person.also.known')}>
+            <Space direction="column" gap={5}>
+              {(person.also_known_as || []).map((name) => (
+                <Text key={name} disabled>
+                  {name}
+                </Text>
+              ))}
+            </Space>
+          </DataItem>
+        )}
         <DataItem heading={t('person.gender')}>
           <Text disabled>
             {person.gender ? t(`person.gender.${person.gender}`) : t('detail.empty')}
@@ -356,12 +358,14 @@ const MediaDetailPerson = ({ className, person }: MediaDetailProps) => {
               <Heading level={2}>{person.name}</Heading>
               {person.deathday && <CgCross className={styles.death} />}
             </Space>
-            <Text size="sm" disabled bold>
-              {[person.birthday, person.deathday]
-                .compact()
-                .join(' - ')
-                .concat(` (${person.age} ${t('person.age')})`)}
-            </Text>
+            {!!person.age && (
+              <Text size="sm" disabled bold>
+                {[person.birthday, person.deathday]
+                  .compact()
+                  .join(' - ')
+                  .concat(` (${person.age} ${t('person.age')})`)}
+              </Text>
+            )}
           </Space>
 
           <DetailImage />

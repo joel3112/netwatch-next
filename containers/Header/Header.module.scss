@@ -45,6 +45,20 @@
   }
 }
 
+/** HeaderNav (child component) **/
+
+.headerNav {
+  margin-right: 10px;
+}
+
+.headerNavAction {
+  color: var(--color-text) !important;
+
+  &.active {
+    color: var(--color-primary) !important;
+  }
+}
+
 /** HeaderSearch (child component) **/
 
 .modalSearch {

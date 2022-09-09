@@ -31,6 +31,8 @@
   "application.name": "Netwatch",
   "favourites.add": "Añadir a Mi Lista",
   "favourites.remove": "Quitar de Mi Lista",
+  "header.nav.movies": "Películas",
+  "header.nav.tvs": "Programas de TV",
   "header.action.settings": "Ajustes",
   "header.action.search": "Búsqueda",
   "header.action.search.placeholder": "Busca una película, programa de televisión...",

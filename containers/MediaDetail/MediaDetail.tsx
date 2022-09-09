@@ -389,7 +389,7 @@ const DetailOverview = () => {
     <Space direction="column" className={styles.overview}>
       <MediaHeading>{t('detail.overview.heading')}</MediaHeading>
 
-      <Space gap={5} className={styles.genres}>
+      <Space gap={5} wrap className={styles.genres}>
         {(media.genres || []).map(({ id, name }) => (
           <Button rounded light size="small" key={id} className={styles.genre}>
             {name}

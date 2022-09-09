@@ -19,10 +19,4 @@ describe('Tests Header component', () => {
 
     expect(screen.getByAltText('logo')).toBeInTheDocument();
   });
-
-  test('renders logo href link correctly', () => {
-    render(<Header />);
-
-    expect(screen.getByRole('link')).toHaveAttribute('href', '/');
-  });
 });
