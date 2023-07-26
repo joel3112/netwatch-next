@@ -61,6 +61,7 @@ const Image = ({
           quality={quality}
           lazyBoundary="0px"
           onLoadingComplete={handleLoad}
+          unoptimized
         />
       )}
 
