@@ -27,7 +27,10 @@ describe('Date helper methods', () => {
       expect(yearsFromNow(null)).toBe(0);
     });
     test('returns years from date', () => {
-      expect(yearsFromNow('2019-08-01')).toBe(3);
+      const currentYear = new Date().getFullYear();
+      const date = '2019-08-01';
+      const year = new Date(date).getFullYear();
+      expect(yearsFromNow('2019-08-01')).toBe(currentYear - year);
     });
   });
 });
